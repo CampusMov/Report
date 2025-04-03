@@ -43,6 +43,9 @@
 
 # Project Report Collaboration Insights
 
+* URL del repositorio del Project Report en la organización de GitHub del equipo:
+* [https://github.com/CampusMov/Report](https://github.com/CampusMov/Report)
+
 <div style="page-break-before: always"></div>
 
 # Contenido
@@ -148,6 +151,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <div style="page-break-before: always"></div>
 
 # Objetivos SMART
+
+En el siguiente cuadro se presentan los objetivos SMART de cada integrante del equipo ; donde cada objetivo debe ser específico, medible, alcanzable, relevante y con un tiempo definido.
+
+| Estudiante                        | Objetivos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gutiérrez Soto, Jhosepmyr Orlando | <p> **Objetivo 1**: Obtener una certificación oficial en AWS Certified Cloud Practitioner – Associate dentro de los 4 meses del ciclo académico 2025-1, estudiando al menos 5 horas semanales a través de cursos en línea (como Coursera o AWS Academy), para fortalecer mis competencias en la nube y aumentar mis posibilidades de inserción laboral en empresas tecnológicas. </p>  <p> **Objetivo 2**: Conseguir una posición como Desarrollador Backend Junior en una empresa de tecnología o startup en el plazo máximo de 9 meses antes de terminar el año, enviando al menos 5 postulaciones semanales, mejorando mi portafolio con 2 proyectos personales usando Java y Spring Boot, y optimizando mi perfil de LinkedIn con recomendaciones de docentes o compañeros de ciclos superiores que ya estan laborando. </p> |
+
 
 <div style="page-break-before: always"></div>
 
