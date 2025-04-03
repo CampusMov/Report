@@ -52,6 +52,7 @@
 * [Project Report Collaboration Insights](#project-report-collaboration-insights)
 * [Contenido](#contenido)
 * [Student Outcome](#student-outcome)
+  * [**ABET - EAC - Student Outcome 7**](#abet---eac---student-outcome-7)
 * [Objetivos SMART](#objetivos-smart)
 * [Capítulo I: Presentación](#capítulo-i-presentación)
   * [1.1. Startup Profile](#11-startup-profile)
@@ -130,6 +131,19 @@
 <div style="page-break-before: always"></div>
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+## **ABET - EAC - Student Outcome 7**
+
+* Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
+
+| Criterio específico                                                                                                                     | Acciones realizadas | Conclusiones |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------|--------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. |                     |              |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.  |                     |              |
 
 <div style="page-break-before: always"></div>
 
