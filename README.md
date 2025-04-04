@@ -178,6 +178,31 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ### 1.2.1. Antecedentes y problemática
 
+Lima es reconocida como una de las ciudades más congestionadas del mundo, lo que genera pérdidas significativas de tiempo y afecta la calidad de vida de sus habitantes. La congestión vehicular en Lima también tiene un impacto económico considerable. El Banco Mundial estima que los costos asociados representan aproximadamente el 1.8% del Producto Interno Bruto (PIB) de la ciudad. Además, la flota vehicular es responsable del 40% de las emisiones de gases de efecto invernadero en Lima. Esta situación es causada por la ineficiencia del sistema de transporte público, la falta de planificación urbana y el uso excesivo de vehículos privados. Quienes sufren más las consecuencias del tráfico son los estudiantes que no cuentan con vehículos particulares. Muchos deben recurrir diariamente a taxis informales, buses sin horarios fijos o paraderos establecidos, o incluso caminar largas distancias para llegar a tiempo a sus centros de estudios. Esto no solo implica un gasto económico adicional, sino también altos niveles de estrés, cansancio y pérdida de horas de estudio. Según el Ministerio de Educación del Perú, los estudiantes que enfrentan largos tiempos de traslado tienden a tener menor rendimiento académico y mayor ausentismo escolar.
+
+
+- ¿Quienes se ven más afectados?(Who?)
+Los estudiantes quienes todavía no tienen un sustento económico para solventar los gastos completos de tener un vehiculo
+
+- ¿Qué sucede?(What?)
+Lima enfrenta una de las peores congestiones vehiculares del mundo, lo que ocasiona pérdidas significativas de tiempo, afecta la calidad de vida de sus habitantes y limita el acceso a servicios esenciales como la educación.
+
+- ¿Dónde sucede?(Where?)
+En la ciudad de Lima metropolitana, especificamente en avenidas de alta congestión
+
+- ¿Cuando se manifiestan las consecuencias?(When?)
+Las consecuencias se manifiestan diariamente, especialmente durante las horas pico
+
+- ¿Por qué ocurre?(Why?)
+Debido a la pobre planificación urbana, el pésimo servicio de transporte público y el abuso de vehiculos privados
+
+- ¿Cómo afecta el tráfico?(How?)
+Los estudiantes se ven obligados a usar taxis informales, buses sin horarios fijos o caminar largas distancias, lo que implica un gasto económico adicional, altos niveles de estrés, cansancio y menor rendimiento académico.
+
+- ¿Cúanto impacta en la actualidad?(How Much?)
+El Banco Mundial estima que la congestión vehicular en Lima representa una pérdida equivalente al 1.8% del Producto Interno Bruto (PIB) de la ciudad.
+
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
