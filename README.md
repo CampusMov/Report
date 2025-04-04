@@ -167,7 +167,26 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ### 1.1.1. Descripción de la Startup
 
+CampusMov es una startup creada por estudiantes de la carrera de Ingeniería de Software. Nuestro objetivo es mejorar y optimizar la movilización de alumnos universitarios mediante la creación de software.
+
+**Misión**  
+
+Desarrollar soluciones tecnológicas innovadoras que mejoren la experiencia de movilidad de los estudiantes universitarios, reduciendo el impacto del tráfico en su vida diaria y facilitando desplazamientos más eficientes, conectados y sostenibles dentro del entorno urbano.
+
+**Visión** 
+
+Llegar a los universitarios de todo el país para mejorar su movilidad en ciudades con alto tráfico y ser reconocida como una empresa importante en el tráfico urbano en 5 años.
+
 ### 1.1.2. Perfiles de los integrantes del equipo
+
+| Foto del participante | Nombres y apellidos | Código de estudiante | Carrera | Conocimientos técnicos y habilidades |
+| - | - | - | - | - |
+| - | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | - | 
+| - |  Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | - | 
+| - | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | - | 
+| - | - | - | Ingeniería de Software | - | 
+| - | - | - | Ingeniería de Software | - | 
+| - | - | - | Ingeniería de Software | - | 
 
 ## 1.2. Solution Profile
 
