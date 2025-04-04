@@ -175,7 +175,19 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ### 1.2.2. Lean UX Process
 
+Se describe en los siguientes apartados el proceso de Lean UX que se ha seguido para la solución propuesta.
+
 #### 1.2.2.1. Lean UX Problem Statements
+
+El estado actual de **la movilidad de estudiantes universitarios en Lima** se ha centrado principalmente en **el uso individual de autos, transporte público congestionado y servicios de taxi costosos.**
+
+Lo que los productos/servicios existentes no logran abordar es **la falta de una solución específica para coordinar viajes compartidos dentro de comunidades universitarias, lo que genera altos costos personales, tiempos de traslado excesivos y contribuye al tráfico urbano.**
+
+Nuestro producto/servicio abordará esta brecha mediante **una plataforma que permita a estudiantes universitarios coordinar viajes compartidos seguros y confiables según sus rutas, horarios y preferencias.**
+
+Nuestro enfoque inicial serán **estudiantes de universidades privadas con horarios definidos y largas distancias de traslado, empezando por Lima Metropolitana.**
+
+Sabremos que hemos tenido éxito cuando veamos **una reducción promedio del 30% en costos de traslado por estudiante, un 25% de incremento en la ocupación vehicular y un aumento mensual en la retención de usuarios activos del 50%.**
 
 #### 1.2.2.2. Lean UX Assumptions
 
