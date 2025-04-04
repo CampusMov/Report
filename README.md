@@ -185,6 +185,26 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ## 1.3. Segmentos objetivo
 
+Nuestra aplicación de carpooling universitario está dirigida a dos segmentos principales de usuarios dentro de la comunidad estudiantil de la Universidad Peruana de Ciencias Aplicadas (UPC), ubicada en Lima, Perú. Ambos comparten características demográficas similares, pero cumplen roles distintos dentro del servicio: estudiante conductor y estudiante pasajero.
+
+### *Estudiante conductor*
+
+- Género: Masculino y femenino
+- Edad: 18 a 27 años
+- Ubicación: Lima, Perú
+- Nivel educativo: Universitario (pregrado)
+- Estado civil: Soltero
+- Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+- Medio de transporte: Vehículo propio o familiar
+
+#### Perfil y necesidades:
+
+- Se moviliza diariamente hacia la universidad en auto propio, generalmente solo.
+- Busca reducir gastos de movilidad (combustible, mantenimiento).
+- Tiene disposición a compartir su ruta con otros estudiantes.
+- Le motiva la posibilidad de socializar.
+
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
