@@ -204,6 +204,22 @@ Nuestra aplicación de carpooling universitario está dirigida a dos segmentos p
 - Tiene disposición a compartir su ruta con otros estudiantes.
 - Le motiva la posibilidad de socializar.
 
+### *Estudiante pasajero*
+
+- Género: Masculino y femenino
+- Edad: 18 a 25 años
+- Ubicación: Lima, Perú
+- Nivel educativo: Universitario (pregrado)
+- Estado civil: Soltero
+- Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+- Medio de transporte: Transporte público, taxi, o movilidad por app
+
+#### Perfil y necesidades:
+
+- Enfrenta demoras, incomodidad e inseguridad en el transporte público.
+- Busca una alternativa más rápida, económica y segura para llegar a la universidad.
+- Valora compartir viajes con otros estudiantes.
+- Está dispuesto a contribuir con un monto a cambio del servicio.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
