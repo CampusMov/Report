@@ -27,6 +27,10 @@
                 <td>Riva Rodríguez, Elmer Augusto</td>
                 <td>202220829</td>
             </tr>
+            <tr>
+              <td>Morales Quispe, Brayan Smith</td>
+              <td>20211f984</td>
+            </tr>
         </table>
     </div>
     <p style="text-align: center">Marzo 2025</p>
@@ -184,7 +188,7 @@ Llegar a los universitarios de todo el país para mejorar su movilidad en ciudad
 | - | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | - | 
 | - |  Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | - | 
 | - | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | - | 
-| - | - | - | Ingeniería de Software | - | 
+| - | Brayan Smith Morales Quispe | 20211f984 | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite, Vue | 
 | - | - | - | Ingeniería de Software | - | 
 | - | - | - | Ingeniería de Software | - | 
 
