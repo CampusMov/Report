@@ -334,6 +334,60 @@ Acorde a los problemas y necesidades de los usuarios, se han definido las siguie
     * Reglas claras en caso de cancelaciones de último minuto, no pagos, retrasos frecuentes, etc. 
     * Comunicación post-viaje para recopilar feedback rápido sobre puntualidad y comodidad.
 
+* **Riesgos**
+
+Recuerda que los riesgos son eventos inciertos que pueden afectar el éxito del proyecto. Se han identificado los siguientes riesgos por cada hipótesis:
+
+  * H1:
+    * Deseabilidad y confianza:
+      * Es posible que las pasajeras sigan sin confiar en “desconocidos” aunque sean estudiantes; la validación institucional puede no ser suficiente para romper barreras culturales.
+      * El chat y las calificaciones podrían no bastar para generar la seguridad esperada (p. ej. necesitan ver reseñas de viajes reales, fotos, etc.).
+      
+  * H2:
+    * Viabilidad económica:
+      * El ahorro del 30% podría no ser real si la tarifa propuesta (o el aporte al conductor) termina siendo igual o mayor que el transporte público debido a comisiones o altos costos de gasolina.
+    * Disponibilidad de conductores:
+      * El factor más fuerte en reducir costos es encontrar conductores suficientes. Sin masa crítica de conductores, la oferta será limitada y tal vez no se logre el ahorro deseado.
+  
+  * H3:
+    * Complejidad de penalizaciones:
+      * Implementar y gestionar correctamente un sistema de penalizaciones puede ser conflictivo; si es muy severo, los usuarios se van, si es muy laxo, pierde eficacia.
+
+  * H4:
+    * Evasión de la plataforma:
+      * Conductor y pasajero podrían acordar pagar en efectivo o por otro medio fuera de la app, evitando la comisión.
+    * Integración técnica con Yape:
+      * El desarrollo y la coordinación con el servicio de pago podría presentar problemas o limitaciones.
+
+  * H5:
+    * Deseabilidad:
+      * Diego podría no encontrar suficiente valor en la plataforma para organizar sus viajes; tal vez use canales informales (WhatsApp, Facebook).
+      * No haya suficientes pasajeros interesados en la misma ruta/horario, lo cual desincentive a Diego a hacer su primer viaje.
+    * Factibilidad técnica:
+      * Implementar el “panel de sugerencias” y el “calendario semanal” puede requerir un algoritmo de coincidencia robusto, y podría ser más complejo de lo previsto.
+    * Viabilidad de negocio:
+      * Incluso si se ofrece la herramienta de coordinación, ¿la tasa de adopción será la suficiente para sostener la plataforma en el primer mes?
+
+  * H6:
+    * Exactitud de los cálculos:
+      * La estimación de ahorro de S/8–12 podría no ser realista si la app no logra captar la cantidad de viajes o pasajeros necesarios.
+    * Volumen de pasajeros y viajes:
+      * La plataforma podría no captar suficientes pasajeros o viajes para que Diego vea un ahorro significativo en gasolina.
+     
+  * H7:
+    * Atracción del incentivo:
+      * La recompensa puede no ser suficiente para motivar a la gente a invitar amigos.
+    * Visibilidad y usabilidad del programa:
+      * Si el programa de referidos no está bien integrado en la app, pocos lo usarán.
+
+  * H8:
+    * Onboarding efectivo:
+      * El proceso inicial podría ser confuso, largo o poco atractivo, generando abandono temprano.
+    * Disponibilidad real de grupos o viajes:
+      * Si la persona se registra, pero no ve ningún viaje o grupo al que unirse, simplemente no se activa.
+    * Expectativas incumplidas:
+      * El usuario podría llegar con altas expectativas tras ser invitado, pero la oferta de rutas o la experiencia no cumple sus necesidades, y se da de baja rápido.
+     
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
