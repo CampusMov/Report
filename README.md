@@ -262,6 +262,18 @@ Usando el User Journey Type - Pirate Metrics, se han definido los siguientes obj
   * Incentivar que entre el 15% y 25% de los usuarios inviten a nuevos compañeros
   * Lograr que entre el 10% y 15% de esos referidos se conviertan en usuarios activos.
 
+**User Outcomes & Benefits**
+
+* **Estudiante Universitaria Pasajera**
+  * Funcional: Reducir su tiempo de viaje y el costo mensual de transporte.
+  * Emocional: Sentirse segura, acompañada y tranquila en sus traslados matutinos. 
+  * Aspiracional: Sentirse en control de su rutina diaria y más enfocada en su desarrollo académico.
+
+* **Estudiante Universitario Conductor**
+  * Funcional: Disminuir su gasto mensual en combustible y evita desvíos innecesarios.
+  * Emocional: Sentirse valorado, seguro y en control al compartir su auto con confianza. 
+  * Aspiracional: Posicionarse como alguien práctico, solidario y que cuida su economía sin sacrificar comodidad.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
