@@ -459,6 +459,13 @@ Asímismo, se clasifican según los 4 cuadrantes del Hypothesis Prioritization C
 
 #### 1.2.2.4. Lean UX Canvas
 
+Una vez definidos los usuarios, supuestos y las hipótesis, se ha elaborado el Lean UX Canvas, que resume la información recopilada y las decisiones tomadas hasta el momento. 
+A continuación se presenta el Lean UX Canvas:
+
+<div style="width: 100%; display: grid; place-content: center">
+  <img src="./assets/chapter-1/1.2.2.lean-ux/lean-ux-canvas.png" style="width: 90%; margin: auto" alt="logo of UPC"/>
+</div>
+
 ## 1.3. Segmentos objetivo
 
 Lima continúa siendo la ciudad con mayores niveles de congestión vehicular en América Latina. De acuerdo con el Índice de Congestión Vehicular 2023 de la firma TomTom, la capital peruana se ubicó en el primer lugar regional y el quinto a nivel mundial. En promedio, recorrer una distancia de 10 km en Lima toma 28 minutos con 30 segundos, representando un incremento de 1 minuto con 20 segundos respecto al 2022 (Asociación automotriz del Perú, 2024). Este aumento coloca a Lima entre las tres ciudades del mundo con mayor deterioro en tiempo de desplazamiento. Asimismo, este contexto urbano representa un reto cotidiano para los estudiantes universitarios, quienes enfrentan:
