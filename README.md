@@ -242,6 +242,26 @@ Se describe los siguientes perfiles de usuarios mediante Proto-Personas:
     * No confía en la seguridad de compartir su auto.
     * No tiene un método integrado para cobrar a los pasajeros ni visualizar de manera clara cuánto está ahorrando por viaje.
 
+**Business Outcomes**
+
+Usando el User Journey Type - Pirate Metrics, se han definido los siguientes objetivos de negocio:
+
+* **Acquisition**:
+  * Lograr que entre el 15% y 25% de los visitantes se registren en la plataforma.
+  * Asegurar que al menos el 60% completen su perfil con zona, horario y rol.
+* **Activation**: 
+  * Conseguir que entre el 40% y 60% de los nuevos usuarios conductores realicen su primer viaje dentro del primer mes.
+  * Lograr que entre el 50% y 70% de usuarios pasajeros se unan a un grupo de carpool.
+* **Retention**: 
+  * Mantener una retención semanal entre el 50% y 60% de los usuarios activos.
+  * Alcanzar una retención mensual sostenida entre el 30% y 40%.
+* **Revenue**: 
+  * Lograr que entre el 40% y 50% de los viajes generen comisión efectiva.
+  * Alcanzar un ingreso promedio mensual por conductor activo entre S/8 y S/12 en la etapa inicial.
+* **Referral**: 
+  * Incentivar que entre el 15% y 25% de los usuarios inviten a nuevos compañeros
+  * Lograr que entre el 10% y 15% de esos referidos se conviertan en usuarios activos.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
