@@ -274,6 +274,66 @@ Usando el User Journey Type - Pirate Metrics, se han definido los siguientes obj
   * Emocional: Sentirse valorado, seguro y en control al compartir su auto con confianza. 
   * Aspiracional: Posicionarse como alguien práctico, solidario y que cuida su economía sin sacrificar comodidad.
 
+**Solutions**
+
+Acorde a los problemas y necesidades de los usuarios, se han definido las siguientes soluciones:
+
+* **Estudiante Universitaria Pasajera**
+  * Problema 1: No tiene rutas claras de quiénes van cerca
+    * Algoritmo de coincidencia de rutas y horarios. 
+    * Filtro por facultad/zona para mostrar solo estudiantes de trayectos similares. 
+    * Mapa interactivo en tiempo real de conductores que estén pasando cerca si aun no se unió a un grupo preformado.
+  * Problema 2: No se atreve a coordinar con desconocidos
+    * Sistema de calificaciones y comentarios por viaje.
+    * Validación con correo institucional y perfil completo con foto y facultad.
+    * Chat interno con opción de ver perfiles antes de unirse al grupo.
+  * Problema 3: El transporte público es impredecible en tiempos y seguridad
+    * Seguimiento en tiempo real del viaje.
+    * Botón de emergencia con ubicación compartida.
+    * Notificaciones automáticas: “Tu conductor está en camino” o “Viaje confirmado”.
+  * Problema 4: No tiene claridad para compensar al conductor ni confirmar viaje
+    * Integración con Yape u otro método de pago para aportar el costo compartido.
+    * Confirmación automática de viaje completado para que tanto conductor como pasajera validen la transacción.
+    * Resumen de aportes realizados por semana o mes para controlar sus gastos.
+    * Ofrecer un precio sugerido basado en la distancia y el combustible, con posibilidad de ajuste por parte del conductor, pero con un tope para no desincentivar a los pasajeros.
+    * Panel de gastos para el pasajero que muestra resumen de aportes realizados por semana o mes para controlar sus gastos.
+  * Problema 5: Teme que el conductor cancele o no cumpla el viaje acordado
+    * Penalizaciones para los conductores que no cumplan con el viaje acordado o cancelen sin previo aviso.
+    * Chat interno para coordinar cambios de último momento y reducir cancelaciones sorpresivas.
+
+* **Estudiante Universitario Conductor**
+  * Problema 1: No tiene claro cómo coordinar con otros estudiantes
+    * Panel con sugerencias de pasajeros compatibles
+    * Calendario semanal para agendar viajes con un solo clic.
+    * Historial de viajes con opción de invitar a los mismos pasajeros.
+    * Grupos preformados y búsqueda individual para sincronizar horarios con mayor anticipación.
+  * Problema 2: No sabe si los pasajeros serán puntuales
+    * Reputación visible: puntualidad y asistencia previa.
+    * Notificaciones automáticas a pasajeros: “Tu conductor sale en 10 minutos”.
+    * Penalización/reporte por inasistencia o retraso frecuente.
+    * Comunicación post-viaje para calificar la puntualidad del pasajero.
+  * Problema 3: No confía en la seguridad de compartir su auto
+    * Configuración de privacidad: solo permitir pasajeros verificados o conocidos.
+    * Información visible del perfil del pasajero (foto, carrera, historial).
+    * Botón de bloqueo/reportar usuario desde el grupo de carpool.
+  * Problema 4: No tiene un método integrado para cobrar a los pasajeros ni visualizar sus ahorros
+    * Integración con Yape para solicitar aportes directamente desde la app.
+    * Confirmación de viaje completado que registre automáticamente la contribución de cada pasajero.
+    * Panel o dashboard que muestre cuántos viajes ha hecho, cuánta gasolina ha compensado y su comisión acumulada.
+    * Manejo de la comisión: se define un porcentaje (por ejemplo, 10%) que la plataforma retiene. Puede ser cobro quincenal o mensual al conductor, o retención inmediata.
+    * Mostrar cuántos pasajeros va llevando y cuánto ahorra con 1, 2 o 3 pasajeros, incentivando así llenar el carro.
+    * Bonus por carro lleno: si hay 3 (o más) pasajeros confirmados, el conductor recibe un pequeño incentivo adicional que sale de la comisión recaudada.
+
+* **Soluciones transversales**
+  * Sistema de referidos y recompensas:
+    *  Ganar puntos o descuentos al invitar amigos, mayor probabilidad de coincidir con gente confiable.
+    *  Distintivos (badges) por cantidad de viajes compartidos, calificaciones positivas o referencias exitosas.
+  * Gamificación:
+    * Otorgar insignias o niveles (Bronce, Plata, Oro) dependiendo del número de viajes, buena reputación y puntualidad.
+  * Penalizaciones y reputación:
+    * Reglas claras en caso de cancelaciones de último minuto, no pagos, retrasos frecuentes, etc. 
+    * Comunicación post-viaje para recopilar feedback rápido sobre puntualidad y comodidad.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
