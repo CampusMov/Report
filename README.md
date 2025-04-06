@@ -197,6 +197,51 @@ Sabremos que hemos tenido éxito cuando veamos **una reducción promedio del 30%
 
 #### 1.2.2.2. Lean UX Assumptions
 
+Se han definido las siguientes suposiciones para el desarrollo de la solución:
+
+**Users**
+
+Se describe los siguientes perfiles de usuarios mediante Proto-Personas:
+
+* **Valeria** - **La Estudiante Madrugadora**
+  * **Role**: Estudiante Universitaria Pasajera
+  * **Datos Relevantes**:
+    * Vive en Surquillo, estudia en Monterrico.
+    * Sale a la U a las 6:00 am.
+    * Gasta S/ 10 diarios en transporte público.
+    * Gasta 1h50 en transporte público.
+    * Usa Android, Google Maps, Youtube y Yape.
+  * **Objetivos y necesidades**:
+    * Llegar puntual a clases sin gastar demasiado.
+    * Viajar más tranquila y segura en la mañana.
+    * Evitar el estrés del transporte público.
+    * Reducir su tiempo promedio de viaje (actualmente 1h50).
+    * Ahorrar al menos S/50 mensuales.
+  * **Obstáculos**:
+    * No tiene rutas claras de quiénes van cerca.
+    * No se atreve a coordinar con desconocidos.
+    * El transporte público es impredecible en tiempos y seguridad.
+    * No tiene claridad para compensar al conductor de forma segura y confiable, ni sabe cómo confirmar que el viaje se completó
+    * Teme que el conductor cancele o no cumpla el viaje acordado
+
+* **Diego** - **El Conductor Buena Onda**
+  * **Role**: Estudiante Universitario Conductor
+  * **Datos Relevantes**:
+    * Vive en San Isidro, maneja su auto al campus universitario de la UPC en Monterrico.
+    * Sale a la U a las 6:30 am.
+    * Gasta S/ 20 diarios en combustible.
+    * Gasta 30 minutos en el tráfico.
+    * Usa iPhone, Waze, Spotify y Yape.
+  * **Objetivos y necesidades**:
+    * Optimizar sus gastos en gasolina.
+    * Aprovechar los asientos vacíos de su carro.
+    * Ahorrar al menos S/100 mensuales.
+  * **Obstáculos**:
+    * No tiene claro cómo coordinar con otros estudiantes.
+    * No sabe si los pasajeros serán puntuales.
+    * No confía en la seguridad de compartir su auto.
+    * No tiene un método integrado para cobrar a los pasajeros ni visualizar de manera clara cuánto está ahorrando por viaje.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas
