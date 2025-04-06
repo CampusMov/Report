@@ -183,14 +183,14 @@ Llegar a los universitarios de todo el país para mejorar su movilidad en ciudad
 
 ### 1.1.2. Perfiles de los integrantes del equipo
 
-| Foto del participante | Nombres y apellidos | Código de estudiante | Carrera | Conocimientos técnicos y habilidades |
-| - | - | - | - | - |
-| - | Eric Ernesto Hernández Tuiro | 20221C857 | Ingeniería de Software | - | 
-| - |  Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | - | 
-| - | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | - | 
-| - | Brayan Smith Morales Quispe | 20211f984 | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite, Vue | 
-| - | Daniel Mateo del Castillo Bueno | 202211212 | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core, SpringBoot, Flas | 
-| - | - | - | Ingeniería de Software | - | 
+| Foto del participante | Nombres y apellidos              | Código de estudiante | Carrera                | Conocimientos técnicos y habilidades                                                                                                                             |
+|-----------------------|----------------------------------|----------------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -                     | Eric Ernesto Hernández Tuiro     | 20221C857            | Ingeniería de Software |                                                                                                                                                                  | 
+| -                     | Elmer Augusto Riva Rodríguez     | 202220829            | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core y SpringBoot.                                                                                                | 
+| -                     | Jhosepmyr Orlando Gutiérrez Soto | 202317638            | Ingeniería de Software | Conocimientos en Micro servicios, Spring boot, ASP .NetCore, Angular, Vue.js, DDD, TDD, BDD, GitOps, Git Actions, Docker, Kubernetes y Google Kubernetes Engine. | 
+| -                     | Brayan Smith Morales Quispe      | 20211f984            | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite y Vue.                                                                                    | 
+| -                     | Daniel Mateo del Castillo Bueno  | 202211212            | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core, SpringBoot y Flask.                                                                                         | 
+| -                     | -                                | -                    | Ingeniería de Software | -                                                                                                                                                                | 
 
 ## 1.2. Solution Profile
 
