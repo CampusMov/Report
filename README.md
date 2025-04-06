@@ -189,7 +189,7 @@ Llegar a los universitarios de todo el país para mejorar su movilidad en ciudad
 | - |  Elmer Augusto Riva Rodríguez | 202220829 | Ingeniería de Software | - | 
 | - | Jhosepmyr Orlando Gutiérrez Soto | 202317638 | Ingeniería de Software | - | 
 | - | Brayan Smith Morales Quispe | 20211f984 | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite, Vue | 
-| - | - | - | Ingeniería de Software | - | 
+| - | Daniel Mateo del Castillo Bueno | 202211212 | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core, SpringBoot, Flas | 
 | - | - | - | Ingeniería de Software | - | 
 
 ## 1.2. Solution Profile
