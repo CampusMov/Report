@@ -1,7 +1,7 @@
 <body>
     <div style="text-align: center; font-weight: bolder">
         <p>Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 6 Ciclo</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="logo of UPC"/>
+        <img src="./assets/cover/logo-upc.png" alt="logo of UPC"/>
         <p>1ACC0238 - Aplicaciones para Dispositivos Móviles</p>
         <p>Docente: Ing. Jorge Luis Mayta Guillermo</p>   
         <p>Informe de Trabajo Final<p>
