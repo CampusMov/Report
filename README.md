@@ -185,6 +185,52 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ## 1.3. Segmentos objetivo
 
+Lima continúa siendo la ciudad con mayores niveles de congestión vehicular en América Latina. De acuerdo con el Índice de Congestión Vehicular 2023 de la firma TomTom, la capital peruana se ubicó en el primer lugar regional y el quinto a nivel mundial. En promedio, recorrer una distancia de 10 km en Lima toma 28 minutos con 30 segundos, representando un incremento de 1 minuto con 20 segundos respecto al 2022 (Asociación automotriz del Perú, 2024). Este aumento coloca a Lima entre las tres ciudades del mundo con mayor deterioro en tiempo de desplazamiento. Asimismo, este contexto urbano representa un reto cotidiano para los estudiantes universitarios, quienes enfrentan:
+- Largas demoras en el tráfico.
+- Transporte público ineficiente, inseguro y poco cómodo.
+- Altos costos de movilidad.
+- Pérdida de tiempo que afecta su productividad.
+
+Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a dos segmentos principales de usuarios dentro de la comunidad estudiantil de la Universidad Peruana de Ciencias Aplicadas, ubicada en Lima, Perú. Ambos comparten características demográficas similares, pero cumplen roles distintos dentro del servicio: estudiante conductor y estudiante pasajero. A continuación se describen sus perfiles y necesidades:
+
+### *Estudiante conductor*
+
+#### Perfil:
+
+- Género: Masculino y femenino
+- Edad: 18 a 27 años
+- Ubicación: Lima, Perú
+- Nivel educativo: Universitario (pregrado)
+- Estado civil: Soltero
+- Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+- Medio de transporte: Vehículo propio o familiar
+
+#### Necesidades:
+
+- Se moviliza diariamente hacia la universidad en auto propio, generalmente solo.
+- Busca reducir gastos de movilidad (combustible, mantenimiento).
+- Tiene disposición a compartir su ruta con otros estudiantes.
+- Le motiva la posibilidad de socializar.
+
+### *Estudiante pasajero*
+
+#### Perfil:
+
+- Género: Masculino y femenino
+- Edad: 18 a 25 años
+- Ubicación: Lima, Perú
+- Nivel educativo: Universitario (pregrado)
+- Estado civil: Soltero
+- Universidad: Universidad Peruana de Ciencias Aplicadas (UPC)
+- Medio de transporte: Transporte público, taxi, o movilidad por app
+
+#### Necesidades:
+
+- Enfrenta demoras, incomodidad e inseguridad en el transporte público.
+- Busca una alternativa más rápida, económica y segura para llegar a la universidad.
+- Valora compartir viajes con otros estudiantes.
+- Está dispuesto a contribuir con un monto a cambio del servicio.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
