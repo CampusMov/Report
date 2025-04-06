@@ -420,6 +420,43 @@ A continuación, se describen los experimentos y las métricas asociadas a cada 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+De ese modo, se junta la información de los usuarios, los resultados de negocio y los beneficios de la solución para crear las hipótesis.
+Asímismo, se clasifican según los 4 cuadrantes del Hypothesis Prioritization Canvas.
+
+* Test (Alto valor, alto riesgo)
+  * H1: Creemos que entre el 50% y 70% de los usuarios pasajeros se unirán a un grupo de carpool
+    si Valeria obtiene mayor confianza al compartir ruta con estudiantes verificados
+    con la validación institucional, sistema de calificaciones y chat previo al viaje.
+  * H2: Creemos que reduciremos en un 30% el costo de traslado
+    si Valeria obtiene una alternativa confiable al transporte público
+    con un algoritmo de coincidencia de rutas, posibilidad de “viaje en curso” y el seguimiento en tiempo real del conductor.
+  * H3: Creemos que mantendremos una retención semanal de 50–60%
+    si Valeria y Diego obtienen seguridad y previsibilidad en sus viajes
+    con notificaciones automáticas, reputación visible y penalización de impuntuales.
+  * H4: Creemos que entre el 40% y 50% de los viajes generarán comisión efectiva
+    si los conductores obtienen un método integrado de cobro y confirmación
+    con una integración de Yape dentro de la app y notificaciones de viaje completado.
+
+* Ship & Measure (Alto valor, bajo riesgo)
+  * H5: Creemos que lograremos que entre el 40% y 60% de los nuevos usuarios conductores realicen su primer viaje dentro del primer mes
+    si Diego obtiene una forma clara de coordinar con otros estudiantes
+    con un panel de sugerencias de pasajeros, calendario semanal y grupos preformados. 
+  * H6: Creemos que alcanzaremos un ingreso promedio mensual de S/8–12 por conductor 
+    si Diego obtiene visibilidad de cuántos pasajeros lleva y cuánto ahorra en gasolina 
+    con un panel de comisiones, registro de viajes y aportes recibidos.
+  * H7: Creemos que incentivaremos que entre el 15% y 25% de los usuarios inviten a nuevos compañeros
+    si tanto pasajeros como conductores obtienen recompensas al referir contactos confiables
+    con un sistema de invitaciones, seguimiento de referidos y badges por referencias exitosas.
+  * H8: Creemos que entre el 10% y 15% de los referidos se convertirán en usuarios activos
+    si los usuarios invitados obtienen una experiencia de onboarding clara
+    con completar su perfil, zona/horario y unirse a un grupo de carpool (o “viaje en curso”) desde el primer ingreso.
+  
+* Don't test. Usually Don't Build (Bajo valor, bajo riesgo)
+  * Actualmente, no se han identificado hipótesis que aporten poco valor y tengan bajo riesgo.
+
+* Discard 
+  * Tampoco se ha identificado ninguna hipótesis con riesgo alto y valor bajo dentro de la información actual.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
