@@ -26,6 +26,9 @@
             <tr>
                 <td>Riva Rodríguez, Elmer Augusto</td>
                 <td>202220829</td>
+            </tr><tr>
+                <td>Sanchez Montero, Carlos</td>
+                <td>202015274</td>
             </tr>
         </table>
     </div>
