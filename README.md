@@ -190,7 +190,7 @@ Llegar a los universitarios de todo el país para mejorar su movilidad en ciudad
 | -                     | Jhosepmyr Orlando Gutiérrez Soto | 202317638            | Ingeniería de Software | Conocimientos en Micro servicios, Spring boot, ASP .NetCore, Angular, Vue.js, DDD, TDD, BDD, GitOps, Git Actions, Docker, Kubernetes y Google Kubernetes Engine. | 
 | -                     | Brayan Smith Morales Quispe      | 20211f984            | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite y Vue.                                                                                    | 
 | -                     | Daniel Mateo del Castillo Bueno  | 202211212            | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core, SpringBoot y Flask.                                                                                         | 
-| -                     | -                                | -                    | Ingeniería de Software | -                                                                                                                                                                | 
+| -                     | Carlos Sanchez Montero                                | 202015274                   | Ingeniería de Software | Conocimientos en JavaScript, Python, C++, Java, C#, Angular, Vue, SQL.                                                                                                                                                                  | 
 
 ## 1.2. Solution Profile
 
