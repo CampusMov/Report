@@ -437,15 +437,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         <p>Gabriel Gamboa, un joven de 23 años recién graduado en Administración por la UPC, expone cómo una aplicación de carpooling podría mejorar su experiencia diaria al ir a la universidad. Actualmente utiliza Google Maps para sus rutas y WhatsApp para coordinarse, pero ve claro el beneficio de una app que integre un calendario de viajes, selección de pasajeros basada en la cercanía y calificaciones, y un chat interno que respete la privacidad. La posibilidad de generar ingresos adicionales al compartir su vehículo y optimizar el uso del combustible, junto a la reducción del estrés al manejar acompañado, hacen que considere esta solución como una opción práctica, confiable y atractiva para su rutina.</p>
         </td>
         <td><img src="./assets/interviews/GabrielGamboa.png"></td>
-    </tr>
-</table>
-<table>
-    <tr>
-    <th scope="col">Segmento</th>
-        <th scope="col">Datos y resumen de entrevista</th>
-        <th scope="col">Evidencia fotográfica</th>
-    <tr>
-        <th rowspan="3" scope="row">Estudiantes conductores</th>
+        </tr>
         <td>
         <strong>Piero Alonso Espinoza Bohorquez</strong><br>
         Edad: 21 años<br>
@@ -467,15 +459,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         <td><img src="./assets/interviews/PieroEspinoza.png"></td>
     </tr>
     </tr>
-</table>
-
-<table>
     <tr>
-    <th scope="col">Segmento</th>
-        <th scope="col">Datos y resumen de entrevista</th>
-        <th scope="col">Evidencia fotográfica</th>
-    <tr>
-        <th rowspan="3" scope="row">Estudiantes conductores:</th>
         <td>
         <strong>Gabriel Jesus Chipana Dionicio</strong><br>
         Edad: 22 años<br>
