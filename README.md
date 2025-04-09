@@ -263,7 +263,38 @@ El análisis competitivo es una herramienta fundamental para entender el entorno
         <td>- App móvil y web.<br>- Foro comunitario.<br>- Centro de ayuda.</td>
         <td>- App móvil de Uber.<br>- Centro de ayuda interno.<br>- Soporte automatizado.</td>
     </tr>
-
+    <tr>
+        <th scope="row" rowspan="5">Análisis SWOT</th>
+        <td colspan="5">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+    </tr>
+    <tr>
+        <th scope="row">Fortalezas</th>
+        <td>- Foco en estudiantes.<br>- Confianza entre usuarios.<br>- Modelo económico colaborativo.<br>- Alta frecuencia de uso.<br>- Adaptación al entorno universitario.</td>
+        <td>- Alta flexibilidad.<br>- Amplia cobertura.<br>- Modelo simple.</td>
+        <td>- Fuerte reputación.<br>- Base sólida de usuarios.<br>- Ideal para viajes largos.</td>
+        <td>- Plataforma establecida.<br>- Automatización completa.<br>- Base de usuarios masiva.</td>
+    </tr>
+    <tr>
+        <th scope="row">Debilidades</th>
+        <td>- Necesita masa crítica inicial.<br>- Limitado a estudiantes.<br>- Requiere fuerte difusión en el inicio.</td>
+        <td>- Poca personalización.<br>- Control limitado de calidad entre usuarios.</td>
+        <td>- Poco útil en trayectos urbanos.<br>- Foco en rutas largas.</td>
+        <td>- Solo en zonas activas.<br>- Comunidad poco conectada.</td>
+    </tr>
+    <tr>
+        <th scope="row">Oportunidades</th>
+        <td>- Escalabilidad a más universidades.<br>- Integración con apps académicas.<br>- Alianzas con marcas jóvenes.<br>- Eventos estudiantiles.</td>
+        <td>- Expansión urbana.<br>- Integración con transporte público.<br>- Nuevas funciones.</td>
+        <td>- Ampliar a rutas cortas.<br>- Alianzas universitarias.<br>- Extensión regional.</td>
+        <td>- Reactivar UberPool en LATAM.<br>- Segmentación más precisa.</td>
+    </tr>
+    <tr>
+        <th scope="row">Amenazas</th>
+        <td>- Apps grandes imitando el modelo.<br>- Alternativas informales (colectivos, taxis piratas).<br>- Adopción lenta sin red inicial.</td>
+        <td>- Regulación del sector.<br>- Competencia informal.</td>
+        <td>- Nuevos competidores.<br>- Uso limitado diario.</td>
+        <td>- Canibalización de UberX.<br>- Baja escalabilidad.</td>
+    </tr>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
