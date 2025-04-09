@@ -191,6 +191,81 @@ En el siguiente cuadro se presentan los objetivos SMART de cada integrante del e
 
 ### 2.1.1. Análisis competitivo
 
+El análisis competitivo es una herramienta fundamental para entender el entorno en el que se desarrollará la startup. A través de este análisis, se busca identificar las fortalezas y debilidades de los competidores, así como las oportunidades y amenazas que presenta el mercado. Esto permitirá definir una propuesta de valor única y construir una identidad distintiva para la plataforma dirigida a estudiantes universitarios. A continuación, se presenta un análisis detallado de los principales competidores en el mercado de aplicaciones de carpooling.
+
+<table>
+    <tr>
+        <th colspan="6">Competitive Analysis Landscape</th>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">Competitive Analysis Landscape</td>
+        <td colspan="4">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+    </tr>
+    <tr>
+        <td colspan="4">El objetivo de este análisis es evaluar el estado actual del mercado de aplicaciones de carpooling, identificando el alcance, las características y las limitaciones de las soluciones existentes. Esto permitirá definir una propuesta de valor única, construir una identidad distintiva para nuestra plataforma dirigida a estudiantes universitarios, diferenciarla claramente en el mercado y satisfacer necesidades específicas que actualmente no están siendo plenamente abordadas por la competencia.</td>
+    </tr>
+    <tr>
+        <td colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</td>
+        <th scope="col">UniRide <img src="img/uniride.png"></th>
+        <th scope="col">InDrive <img src="img/indrive.png"></th>
+        <th scope="col">BlaBlaCar <img src="img/blablacar.png"></th>
+        <th scope="col">UberPool <img src="img/uberpool.png"></th>
+    </tr>
+    <tr>
+        <th scope="row" rowspan="2">Perfil</th>
+        <th scope="row">Overview</th>
+        <td>App de carpooling enfocada en estudiantes universitarios. Permite compartir viajes diarios casa-universidad. Inicia en Lima (UPC) como piloto. Seguridad, comunidad y eficiencia como pilares clave.</td>
+        <td>App de movilidad con enfoque en la negociación directa entre conductor y pasajero. Permite viajes urbanos e interurbanos con flexibilidad.</td>
+        <td>Plataforma europea de carpooling interprovincial. Fuerte enfoque en comunidad, reputación del conductor y planificación anticipada.</td>
+        <td>Funcionalidad dentro de Uber para compartir rutas similares entre pasajeros. Reduce costos. Se activa en ciudades seleccionadas.</td>
+    </tr>
+    <tr>
+        <th scope="row">Ventaja competitiva ¿Qué valor ofrece a los clientes?</th>
+        <td>Verificación institucional, ahorro económico, rutas frecuentes optimizadas, comunidad segura y comunicación directa entre estudiantes.</td>
+        <td>Tarifas flexibles, opción de pago en efectivo, libertad para elegir conductor y ruta.</td>
+        <td>Planificación previa, usuarios verificados, reputación sólida y opción de múltiples paradas.</td>
+        <td>Interfaz familiar, automatización del emparejamiento, integración con sistema de pagos digitales.</td>
+    </tr>
+    <tr>
+        <th scope="row" rowspan="2">Perfil de Marketing</th>
+        <th scope="row">Mercado Objetivo</th>
+        <td>Estudiantes universitarios (18–25 años) sin vehículo propio o con disposición a compartir viajes.</td>
+        <td>Jóvenes urbanos, trabajadores sin auto, usuarios con presupuesto limitado.</td>
+        <td>Viajeros frecuentes entre ciudades, estudiantes de intercambio, mochileros.</td>
+        <td>Usuarios de Uber que buscan reducir costos compartiendo rutas urbanas similares.</td>
+    </tr>
+    <tr>
+        <th scope="row">Estrategias de Marketing</th>
+        <td>Activaciones en campus, embajadores estudiantiles, redes sociales universitarias, convenios con asociaciones estudiantiles.</td>
+        <td>Promociones por invitación, posicionamiento digital en redes sociales, marketing de boca a boca.</td>
+        <td>Campañas de referidos, presencia en blogs de viajes, alianzas estratégicas con servicios de transporte.</td>
+        <td>Publicidad dentro de la app, campañas con descuentos, promociones grupales.</td>
+    </tr>
+ <tr>
+        <th scope="row" rowspan="3">Perfil de Producto</th>
+        <th scope="row">Productos y Servicios</th>
+        <td>- App móvil exclusiva para estudiantes.<br>- Verificación con correo institucional.<br>- Match por horarios y ubicación.<br>- Chat interno y soporte.</td>
+        <td>- App móvil y web.<br>- Negociación directa de tarifas.<br>- Soporte en tiempo real.</td>
+        <td>- BlaBlaCar Daily / Long Distance.<br>- Reseñas y filtros de preferencia.<br>- Planificación de viajes.</td>
+        <td>- UberPool dentro de Uber.<br>- Emparejamiento automatizado.<br>- Pago digital.</td>
+    </tr>
+    <tr>
+        <th scope="row">Precios y costos</th>
+        <td>- Costo de gasolina compartido.<br>- Sin comisiones en piloto.<br>- Modelo transparente y colaborativo.</td>
+        <td>- Precios negociables.<br>- Sin tarifas ocultas.<br>- Libre acuerdo entre usuarios.</td>
+        <td>- Tarifa fija según distancia.<br>- Más barato que el transporte público.</td>
+        <td>- Tarifa dinámica.<br>- Ahorro del 30% promedio sobre UberX.</td>
+    </tr>
+    <tr>
+        <th scope="row">Canales de distribución (Web y/o Móvil)</th>
+        <td>- App Android/iOS.<br>- Acceso con correo .edu.<br>- Soporte por WhatsApp y correo.</td>
+        <td>- App Android/iOS y web.<br>- Soporte por correo.<br>- Multilenguaje.</td>
+        <td>- App móvil y web.<br>- Foro comunitario.<br>- Centro de ayuda.</td>
+        <td>- App móvil de Uber.<br>- Centro de ayuda interno.<br>- Soporte automatizado.</td>
+    </tr>
+
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
