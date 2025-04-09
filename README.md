@@ -336,7 +336,8 @@ Acorde a los problemas y necesidades de los usuarios, se han definido las siguie
 
 * **Riesgos**
 
-Recuerda que los riesgos son eventos inciertos que pueden afectar el éxito del proyecto. Se han identificado los siguientes riesgos por cada hipótesis:
+De ese modo, los riesgos son eventos inciertos que pueden afectar el éxito del proyecto. 
+Ante ello, se han identificado los siguientes riesgos por cada hipótesis:
 
   * H1:
     * Deseabilidad y confianza:
