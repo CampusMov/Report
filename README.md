@@ -414,7 +414,33 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
 
 ### 2.2.1. Diseño de entrevistas
 
+
 ### 2.2.2. Registro de entrevistas
+<table>
+    <tr>
+        <th scope="col">Segmento</th>
+        <th scope="col">Datos y resumen de entrevista</th>
+        <th scope="col">Evidencia fotográfica</th>
+    </tr>
+    <tr>
+        <th rowspan="3" scope="row">Estudiantes conductores</th>
+        <td>
+        <strong>Gabriel Jesus Gamboa Diaz</strong><br>
+        Edad: 23 años<br>
+        Distrito: Chorrillos<br>
+        Nivel de educación: Superior<br>
+        Estado civil: Soltero<br>
+        Familia: No tiene hijis<br>
+        Dispositivo preferido: celular<br>
+        Tiempo de la entrevista: <a href="">0:00</a> <br>
+        <br>
+        <p>Gabriel Gamboa, un joven de 23 años recién graduado en Administración por la UPC, expone cómo una aplicación de carpooling podría mejorar su experiencia diaria al ir a la universidad. Actualmente utiliza Google Maps para sus rutas y WhatsApp para coordinarse, pero ve claro el beneficio de una app que integre un calendario de viajes, selección de pasajeros basada en la cercanía y calificaciones, y un chat interno que respete la privacidad. La posibilidad de generar ingresos adicionales al compartir su vehículo y optimizar el uso del combustible, junto a la reducción del estrés al manejar acompañado, hacen que considere esta solución como una opción práctica, confiable y atractiva para su rutina.</p>
+        </td>
+        <td><img src="./assets/interviews/GabrielGamboa.png"></td>
+    </tr>
+</table>
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
