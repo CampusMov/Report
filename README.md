@@ -266,10 +266,10 @@ El análisis competitivo es una herramienta fundamental para entender el entorno
     </tr>
     <tr>
         <td colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</td>
-        <th scope="col">UniRide <img src="img/uniride.png"></th>
-        <th scope="col">InDrive <img src="img/indrive.png"></th>
-        <th scope="col">BlaBlaCar <img src="img/blablacar.png"></th>
-        <th scope="col">UberPool <img src="img/uberpool.png"></th>
+        <th scope="col"><img src="assets/competitors/uniride.png"></th>
+        <th scope="col"><img src="assets/competitors/indrive.png"></th>
+        <th scope="col"><img src="assets/competitors/blablacar.png"></th>
+        <th scope="col"><img src="assets/competitors/uberpool.png"></th>
     </tr>
     <tr>
         <th scope="row" rowspan="2">Perfil</th>
