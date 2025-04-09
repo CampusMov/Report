@@ -522,15 +522,50 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
     <td><img src="./assets/interviews/HazielSolis.png"></td>
     </tr>
 </tr>
-
 </table>
 
-
-
-
-
-
 ### 2.2.3. Análisis de entrevistas
+Una vez finalizada la recopilación de información por parte del equipo, procedemos a analizar dichos datos con el fin de enfocar y contrastar la información específica de interés. Este proceso nos permitirá extraer información relevante y fundamentar nuestras conclusiones de manera rigurosa y profesional. A continuación documentaremos dicho proceso por cada segmento objetivo.
+
+ ## Segmento Objetivo 1 (Estudiante Conductor):
+  ### Perfil Demografico
+  
+  - Edades: 22 
+  - Estado civil: Soltero
+  - Ubicación Geográfica: Lima metropolitana
+  - Uso de tecnología y Dispositivos: Predomina el uso de Yape, Whatsaapp Google Maps en dispositivos moviles android
+
+  ![Placeholder](./assets/interviews/analytics/)
+  ### Frustraciones
+  - 
+  - 
+  - 
+
+  ### Puntos de interés
+  -
+  -
+  -
+
+
+ ## Segmento Objetivo 2 (Estudiante Pasajero):
+  
+  ### Perfil Demografico
+  
+  - Edades: 22 años
+  - Estado civil: Soltero
+  - Ubicación Geográfica: Lima metropolitana
+    - Dada la dispersión de datos, decidimos colocar 
+  ![Ubicación](./assets/interviews/analytics/passenger/Distritos.jpg)
+  - Uso de tecnología y Dispositivos:
+  ### Frustraciones
+  Podemos ver que nuestros entrevistados se ven más preocupados por la demora y congestión vehicular en lima metropolitana, esto nos dice que un 75% de nuestros entrevistados se ven insatisfechos por el sistema de transporte público y taxis de nuestra ciudad.
+  ![Frustración Pasajero](./assets/interviews/analytics/passenger/Frustraciones.jpg)
+
+
+  ### Puntos de interés
+  Podemos ver que los usuarios se ven interesados en conseguir beneficios que no se pueden satisfacer de manera regular, los taxis no pueden brindar comodidad económica y los buses no pueden ser más rapidos. Por ello nuestra iniciativa podrá ser más adecuada para ellos.
+  ![Motivaciones](./assets/interviews/analytics/passenger/Motivaciones.jpg)
+
 
 ## 2.3. Needfinding
 
