@@ -359,6 +359,57 @@ El análisis competitivo es una herramienta fundamental para entender el entorno
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Para que UniRide logre posicionarse como la opción preferida de carpooling entre estudiantes universitarios, es fundamental implementar estrategias que aborden tanto los retos iniciales como las oportunidades de crecimiento sostenido. A continuación, se presentan cinco ejes estratégicos que responden a las principales fortalezas, debilidades, oportunidades y amenazas identificadas en el análisis anterior.
+
+Cada eje incluye una estrategia central orientada a un objetivo clave (confianza, adopción, diferenciación, expansión o recurrencia) y un conjunto de tácticas concretas diseñadas para generar impacto real dentro del entorno universitario. Estas acciones buscan aprovechar el contexto diario del estudiante, construir comunidad, activar la participación desde el primer contacto y proteger la propuesta de valor frente a competidores más grandes.
+
+### **Fortalecimiento de la Confianza en la Comunidad Estudiantil**
+#### Estrategia:
+Combatir la desconfianza inicial de los usuarios hacia una app nueva mediante un enfoque centrado en comunidad, seguridad y visibilidad dentro del entorno universitario.
+
+#### Tácticas:
+- Verificación obligatoria mediante correo institucional (.edu) y validación de identidad con DNI. 
+- Campaña “Viajes seguros entre compañeros” con testimonios de estudiantes y microinfluencers universitarios. 
+- Convenios con asociaciones estudiantiles para promover la app como solución comunitaria. 
+- Sistema de calificaciones y alertas ante comportamiento inapropiado.
+
+### **Aprovechamiento de la Rutina Diaria Estudiantil (Fortaleza)**
+#### Estrategia:
+Basarse en la recurrencia y predictibilidad de los trayectos casa-universidad para crear una experiencia optimizada y funcional.
+
+#### Tácticas:
+- Programación de viajes semanales con recordatorios automáticos.
+- Rutas frecuentes sugeridas con base en historial del usuario. 
+- Recompensas por consistencia de uso (puntos, descuentos, insignias).
+- Match automático por horario, facultad y ubicación.
+
+### **Crecimiento a Través de Alianzas Educativas (Oportunidad)**
+#### Estrategia:
+Expandir el alcance de UniRide mediante alianzas con universidades, centros de estudiantes y marcas juveniles.
+
+#### Tácticas:
+- Inclusión de UniRide como app recomendada en canales institucionales (redes, web, correo). 
+- Embajadores de marca en cada facultad para onboarding y soporte. 
+- Beneficios exclusivos con cafés, librerías o marcas juveniles aliadas.
+
+### **Mitigación del Riesgo de Copia por Grandes Apps (Amenaza)**
+#### Estrategia:
+Consolidar el posicionamiento de UniRide como solución hiper-especializada en estudiantes antes de que otras plataformas repliquen el modelo.
+
+#### Tácticas:
+- Branding universitario fuerte y experiencia centrada en vida académica. 
+- Gamificación con rankings por facultad, retos entre carreras y logros sostenibles. 
+- Registro de marca y diseño para proteger elementos clave del producto.
+
+### **Activación Rápida para Generar Masa Crítica (Debilidad)**
+#### Estrategia:
+Acelerar la adopción en campus piloto mediante campañas de activación intensiva y uso incentivado.
+
+#### Tácticas:
+- Programa de referidos con recompensas por usuarios activos. 
+- “Semanas UniRide” con sorteos, retos y eventos en campus. 
+- Metas comunitarias (ej. “500 viajes esta semana”) con premios colectivos (eventos, conciertos, vales).
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
