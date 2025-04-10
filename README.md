@@ -265,6 +265,12 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
 
 ### 2.3.1. User Personas
 
+ * Estudiante Pasajero
+ ![UserPersonPajaero](/assets/needfinding/user-person-pasajero.png)
+
+ * Estudiante Conductor
+ ![UserPersonConductor](/assets/needfinding/user-person-conducto.png)
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
