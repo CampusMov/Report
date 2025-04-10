@@ -273,6 +273,13 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
 
 ### 2.3.2. User Task Matrix
 
+![taskMatrix](/assets/needfinding/task-matrix.png)
+
+ * __Frecuencia e importancia:__ Las tareas con mayor frecuencia e impotancia se enfocan en el ahorro de tiempo y dinero tanto como pasajero y conductor al dirigirse a clases. 
+* __Diferencias:__ La diferencia mas notoria es al momento de coordinar viajes a la universidad con un amigo o compañeros. Teniendo diferentes puntos de vistas respecto al ambito social al momento de viajar a la universidad.
+
+* **Coincidencias:** La coincidencias que destacan entrelos diferentes usuarios. Tanto como el pasajero como el conductor buscan  ahorrar dinero, tiempo y controlar sus gastos al momento de viajar a la universidad. Estas necesidades en comun refelajan una busqueda de una solucion respecto a los gastos de viajara a la universidad.
+
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
