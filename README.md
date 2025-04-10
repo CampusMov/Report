@@ -281,8 +281,24 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
 * **Coincidencias:** La coincidencias que destacan entrelos diferentes usuarios. Tanto como el pasajero como el conductor buscan  ahorrar dinero, tiempo y controlar sus gastos al momento de viajar a la universidad. Estas necesidades en comun refelajan una busqueda de una solucion respecto a los gastos de viajara a la universidad.
 
 ### 2.3.3. User Journey Mapping
+* **Pasajero**
+![userJorningMap](/assets/needfinding/user-jorning-map-pasajero.png)
+
+Se presenta el User Journey Map para el segmento objetivo de pasajeros mostrandonos el recorrido del usuario en el transporte publico.
+
+* **Conductor**
 
 ### 2.3.4. Empathy Mapping
+
+* **Pasajero**
+![EmpathyMapPasajero](/assets/needfinding/Passenger-empathyMap.png)
+
+Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de pasajeros que buscan ahorrar tiempo y dinero al movilizarse a la universidad, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
+
+* **Conductor**
+![EmpathyMapConductor](/assets/needfinding/Driver%20-%20empathy%20map.png)
+
+Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de conductor que buscan ahorrar tiempo y dinero al movilizarse a la universidad tratando de compartir su veihculo, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
 
 ### 2.3.5. As-is Scenario Mapping
 
