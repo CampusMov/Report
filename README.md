@@ -302,6 +302,11 @@ Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el r
 
 ### 2.3.5. As-is Scenario Mapping
 
+* **Conductor**
+![asisConductor](/assets/needfinding/Driver%20-%20As-Is.png)
+
+* **Pasajero**
+![asisPassenger](/assets/needfinding/Passenger%20-%20As-Is.png)
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements specification
