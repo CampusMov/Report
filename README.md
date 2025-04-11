@@ -269,7 +269,7 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
  ![UserPersonPajaero](/assets/needfinding/user-person-pasajero.png)
 
  * Estudiante Conductor
- ![UserPersonConductor](/assets/needfinding/user-person-conducto.png)
+ ![UserPersonConductor](/assets/needfinding/user-persona-conductor.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -288,6 +288,11 @@ Se presenta el User Journey Map para el segmento objetivo de pasajeros mostrando
 
 * **Conductor**
 
+![userJourneyMapConductor](/assets/needfinding/user-journey-map-conductor.png)
+
+Se presenta el User Journey Map para el segmento objetivo de conductor mostrandonos el recorrido su viaje a la universidad.
+
+
 ### 2.3.4. Empathy Mapping
 
 * **Pasajero**
@@ -296,7 +301,7 @@ Se presenta el User Journey Map para el segmento objetivo de pasajeros mostrando
 Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de pasajeros que buscan ahorrar tiempo y dinero al movilizarse a la universidad, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
 
 * **Conductor**
-![EmpathyMapConductor](/assets/needfinding/Driver%20-%20empathy%20map.png)
+![EmpathyMapConductor](/assets/needfinding/Driver-empathyMap.png)
 
 Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de conductor que buscan ahorrar tiempo y dinero al movilizarse a la universidad tratando de compartir su veihculo, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
 
