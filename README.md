@@ -684,6 +684,8 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 ### 4.1.2. Context Mapping
 
+![Placeholder](./assets/eventstorming/context-mapping.png)
+
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
