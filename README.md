@@ -671,6 +671,11 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 #### 4.1.1.1. Candidate Context Discovery
 
+![Placeholder](./assets/eventstorming/CCD-1.png)
+![Placeholder](./assets/eventstorming/CCD-2.png)
+![Placeholder](./assets/eventstorming/CCD-3.png)
+![Placeholder](./assets/eventstorming/CCD-4.png)
+
 #### 4.1.1.2. Domain Message Flows Modeling
 
 #### 4.1.1.3. Bounded Context Canvases
