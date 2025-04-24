@@ -665,6 +665,10 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 ### 4.1.1. EventStorming
 
+![Placeholder](./assets/eventstorming/eventstorming-1.png)
+
+![Placeholder](./assets/eventstorming/eventstorming-2.png)
+
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
