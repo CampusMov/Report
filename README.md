@@ -676,11 +676,23 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
+En esta seccion se presentara nuestro diagrama de contexto para nuestro software, este diagrama nos muestro como nuestro sistema interactua con sus alrededor y usuarios.
+![context](/assets/c4/structurizr-SystemContext-001%20(1).png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+En esta seccion se presenta nuestro diagrama de contenedores consta de componentes de tecnicos de alto nivel, como se muestra el broker un componente que permite gestionar los eventos entre los bounded context
+![container](/assets/c4/structurizr-Container-001%20(4).png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
+#### 4.1.3.4 Software Architecture Components Diagrams
+En esta seccion se presenta nuestro diagrama de componentes de las principales microservicios, todos siguen el patron CQRS que permite separar la funcionalidad de los comandos y consultas a la base de datos.Ademas de mostrar mas a detalle donde se implementara los servicios externos.
+
+![](/assets/c4/structurizr-Component-004.png)
+**Diagrama de componentes de Payments & fees**
+
+![](/assets/c4/structurizr-Component-007.png)
+**Diagrama de componentes de Comunication**
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context:
