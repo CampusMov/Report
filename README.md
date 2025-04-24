@@ -680,6 +680,8 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 #### 4.1.1.3. Bounded Context Canvases
 
+![Placeholder](./assets/eventstorming/BCcanvas-routing-matching.png)
+
 ### 4.1.2. Context Mapping
 
 ### 4.1.3. Software Architecture
