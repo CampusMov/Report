@@ -685,6 +685,8 @@ En esta seccion se presenta nuestro diagrama de contenedores consta de component
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
+![](/assets/c4/structurizr-ProductionDeployment.png)
+
 #### 4.1.3.4 Software Architecture Components Diagrams
 En esta seccion se presenta nuestro diagrama de componentes de las principales microservicios, todos siguen el patron CQRS que permite separar la funcionalidad de los comandos y consultas a la base de datos.Ademas de mostrar mas a detalle donde se implementara los servicios externos.
 
