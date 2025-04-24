@@ -569,18 +569,24 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
   - Estado civil: Soltero
   - Ubicación Geográfica: Lima metropolitana
   - Uso de tecnología y Dispositivos: Predomina el uso de Yape, Whatsaapp Google Maps en dispositivos moviles android
+ ![Placeholder](./assets/interviews/analytics/driver/Perfil.jpg)
+ 
+  #### Frustraciones
+  - **Costo elevado de gasolina** (≈ S/ 340 – 400 mensuales) y mantenimiento del auto.  
+  - **Tráfico limeño intenso**, trayectos largos y estrés al conducir en solitario.  
+  - **Coordinación dispersa**: tener que alternar entre Maps, WhatsApp y Yape para organizar rutas, pagos y comunicación.
+ ![Placeholder](./assets/interviews/analytics/driver/placeholder.jpg)
 
-  ![Placeholder](./assets/interviews/analytics/)
-  ### Frustraciones
-  - 
-  - 
-  - 
-
-  ### Puntos de interés
-  -
-  -
-  -
-
+  #### Puntos de interés / Motivadores
+  - **Ahorro y monetización**: reducir gasto en combustible y ganar S/ 5 – 10 por pasajero.  
+  - **Planificación eficiente** mediante un **calendario semanal** para programar ida y retorno y prever demanda.  
+  - **Seguridad y confianza**: pasajeros verificados de la misma universidad, con calificaciones visibles.  
+  - **Algoritmo de “match”** por cercanía geográfica y coincidencia de horarios.  
+  - **Pagos integrados** tipo Yape dentro de la app, con comisión baja y panel de ingresos/ahorros.  
+  - **Compañía y comunidad**: viajar acompañado reduce la monotonía y aumenta seguridad.  
+  - **Flexibilidad** para aceptar pasajeros espontáneos verificados o formar grupos fijos.  
+  - **Recompensas** (vales/descuentos) por reputación alta o referir nuevos usuarios.
+ ![Placeholder](./assets/interviews/analytics/driver/Interes.jpg)
 
  ## Segmento Objetivo 2 (Estudiante Pasajero):
   
