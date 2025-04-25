@@ -684,7 +684,7 @@ En esta seccion se presenta nuestro diagrama de contenedores consta de component
 ![container](/assets/c4/structurizr-Container-001%20(4).png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
-
+En esta seccion se mostrara nuestro diagram de despliege donde hacemos mencion en los servicios adesplegar nuestro aplicativo y tecnologias a usar.
 ![](/assets/c4/structurizr-ProductionDeployment.png)
 
 #### 4.1.3.4 Software Architecture Components Diagrams
