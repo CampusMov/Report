@@ -665,26 +665,38 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 ### 4.1.1. EventStorming
 
-![Placeholder](./assets/eventstorming/eventstorming-1.png)
+![EventStorming](./assets/eventstorming/eventstorming-1.png)
 
-![Placeholder](./assets/eventstorming/eventstorming-2.png)
+![EventStorming](./assets/eventstorming/eventstorming-2.png)
 
 #### 4.1.1.1. Candidate Context Discovery
 
-![Placeholder](./assets/eventstorming/CCD-1.png)
-![Placeholder](./assets/eventstorming/CCD-2.png)
-![Placeholder](./assets/eventstorming/CCD-3.png)
-![Placeholder](./assets/eventstorming/CCD-4.png)
+![CandidateContextDiscovery](./assets/eventstorming/CCD-1.png)
+![CandidateContextDiscovery](./assets/eventstorming/CCD-2.png)
+![CandidateContextDiscovery](./assets/eventstorming/CCD-3.png)
+![CandidateContextDiscovery](./assets/eventstorming/CCD-4.png)
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+Flujo de participación en carpool:
+
+![FlujoAceptarPasajero](./assets/eventstorming/MessageFlowModelling1.jpg)
+
+Flujo de cancelación tardía de participación en carpool:
+
+![FlujoRechazarViaje](./assets/eventstorming/MessageFlowModelling2.jpg)
+
+Flujo de finalización de carpool:
+
+![FlujoFinalizarCarpool](./assets/eventstorming/MessageFlowModelling3.jpg)
+
 #### 4.1.1.3. Bounded Context Canvases
 
-![Placeholder](./assets/eventstorming/BCcanvas-routing-matching.png)
+![BCCanvas](./assets/eventstorming/BCcanvas-routing-matching.png)
 
 ### 4.1.2. Context Mapping
 
-![Placeholder](./assets/eventstorming/context-mapping.png)
+![ContextMap](./assets/eventstorming/context-mapping.png)
 
 ### 4.1.3. Software Architecture
 
