@@ -150,7 +150,7 @@
       * [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
       * [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
   * [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    * [4.2.1. Bounded Context:](#421-bounded-context)
+    * [4.2.1. Bounded Context: Matching & Routing Management](#421-bounded-context-matching--routing-management)
       * [4.2.1.1. Domain Layer](#4211-domain-layer)
       * [4.2.1.2. Interface Layer](#4212-interface-layer)
       * [4.2.1.3. Application Layer](#4213-application-layer)
@@ -159,6 +159,69 @@
       * [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         * [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
         * [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+    * [4.2.2. Bounded Context: Payment & Fees Management](#422-bounded-context-payment--fees-management)
+      * [4.2.2.1. Domain Layer](#4221-domain-layer)
+      * [4.2.2.2. Interface Layer](#4222-interface-layer)
+      * [4.2.2.3. Application Layer](#4223-application-layer)
+      * [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      * [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+        * [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+    * [4.2.3. Bounded Context: Profile Management](#423-bounded-context-profile-management)
+      * [4.2.3.1. Domain Layer](#4231-domain-layer)
+      * [4.2.3.2. Interface Layer](#4232-interface-layer)
+      * [4.2.3.3. Application Layer](#4233-application-layer)
+      * [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      * [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+        * [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+    * [4.2.4. Bounded Context: IAM](#424-bounded-context-iam)
+      * [4.2.4.1. Domain Layer](#4241-domain-layer)
+      * [4.2.4.2. Interface Layer](#4242-interface-layer)
+      * [4.2.4.3. Application Layer](#4243-application-layer)
+      * [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      * [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+        * [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+    * [4.2.5. Bounded Context: Reputation & Incentives Management](#425-bounded-context-reputation--incentives-management)
+      * [4.2.5.1. Domain Layer](#4251-domain-layer)
+      * [4.2.5.2. Interface Layer](#4252-interface-layer)
+      * [4.2.5.3. Application Layer](#4253-application-layer)
+      * [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+      * [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+        * [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+    * [4.2.6. Bounded Context: In Trip Communication Management](#426-bounded-context-in-trip-communication-management)
+      * [4.2.6.1. Domain Layer](#4261-domain-layer)
+      * [4.2.6.2. Interface Layer](#4262-interface-layer)
+      * [4.2.6.3. Application Layer](#4263-application-layer)
+      * [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+      * [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+        * [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+    * [4.2.7. Bounded Context: Analytics Management](#427-bounded-context-analytics-management)
+      * [4.2.7.1. Domain Layer](#4271-domain-layer)
+      * [4.2.7.2. Interface Layer](#4272-interface-layer)
+      * [4.2.7.3. Application Layer](#4273-application-layer)
+      * [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
+      * [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
+        * [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
+    * [4.2.8. Bounded Context: Communication Management](#428-bounded-context-communication-management)
+      * [4.2.8.1. Domain Layer](#4281-domain-layer)
+      * [4.2.8.2. Interface Layer](#4282-interface-layer)
+      * [4.2.8.3. Application Layer](#4283-application-layer)
+      * [4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)
+      * [4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)
+      * [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
+        * [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
+        * [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
 * [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   * [5.1. Product Design](#51-product-design)
     * [5.1.1. Style Guidelines](#511-style-guidelines)
@@ -1412,23 +1475,592 @@ En esta seccion se presenta nuestro diagrama de componentes de las principales m
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context:
+En esta sección se desarrolla la perspectiva táctica del enfoque Domain-Driven Design (DDD)
+, centrada en cómo se representa el dominio del negocio mediante elementos concretos de software. 
+A partir de los límites establecidos en el diseño estratégico, se definen los componentes clave que modelan las reglas del dominio, 
+gestionan los flujos de aplicación, y permiten la interacción con sistemas externos.
+
+### 4.2.1. Bounded Context: Matching & Routing Management
+
+Este bounded context tiene como propósito gestionar la creación, actualización y coordinación de viajes compartidos (carpools) dentro de la aplicación. Abarca tanto la lógica para vincular pasajeros a rutas disponibles como la definición estructurada de los trayectos a realizar, optimizando el proceso de emparejamiento entre conductores y pasajeros según ubicación, horarios y disponibilidad de asientos.
+Se incluyen las siguientes clases y estructuras dentro de las distintas capas del diseño táctico:
 
 #### 4.2.1.1. Domain Layer
 
+En esta capa se modela la lógica central y las reglas del dominio para carpools, rutas y solicitudes de pasajeros:
+
+| Clase              | Tipo                    | Propósito                                                                                                                                              |
+|--------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Carpool`          | Aggregate Root (Entity) | Representa un viaje compartido. Gestiona estado, asientos, ruta, pasajeros vinculados y operaciones clave como iniciar, cancelar, o aceptar pasajeros. |
+| `LinkedPassenger`  | Entity                  | Representa a un pasajero vinculado a un carpool, con su punto de recogida, estado y hora de recogida.                                                  |
+| `PassengerRequest` | Entity                  | Encapsula la solicitud de un usuario para unirse a un carpool. Incluye su estado, cantidad de asientos solicitados y fecha de solicitud.               |
+| `Route`            | Aggregate               | Contiene detalles de la ruta: distancia, duración estimada, puntos intermedios y tiempo de llegada. Asociada a un `Carpool`.                           |
+| `WayPoint`         | Value Object            | Punto intermedio en una ruta, con localización, tipo, orden y hora estimada de llegada.                                                                |
+| `Location`         | Value Object            | Información geográfica con nombre, dirección y coordenadas. Reutilizable para puntos de recogida, destino, etc.                                        |
+| `CarpoolStatus`    | Enum                    | Estados posibles de un carpool: Created, Scheduled, InProgress, Completed, Cancelled.                                                                  |
+| `RequestStatus`    | Enum                    | Estados de una solicitud: Pending, Approved, Rejected, Cancelled.                                                                                      |
+| `LocationType`     | Enum                    | Tipo de ubicación: Origin, Destination, Pickup, Dropoff, Waypoint.                                                                                     |
+
 #### 4.2.1.2. Interface Layer
+
+Aquí se describen las clases que exponen la funcionalidad del contexto a través de controladores o consumidores de eventos:
+
+| Clase               | Tipo       | Propósito                                                                                                                       |
+|---------------------|------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `CarpoolController` | Controller | Expone endpoints para crear, iniciar, finalizar y cancelar un viaje, así como aceptar o rechazar solicitudes de pasajeros.      |
+| `RequestController` | Controller | Permite a los usuarios enviar, cancelar y consultar el estado de sus solicitudes de emparejamiento.                             |
+| `RouteConsumer`     | Consumer   | Escucha eventos para actualizar rutas, reordenar puntos o recalcular duración. Puede usarse con arquitectura basada en eventos. |
 
 #### 4.2.1.3. Application Layer
 
+Esta capa orquesta los flujos de negocio mediante handlers de comandos y eventos:
+
+| Clase                          | Tipo                  | Propósito                                                                         |
+|--------------------------------|-----------------------|-----------------------------------------------------------------------------------|
+| `StartCarpoolCommandHandler`   | Command Handler       | Inicia un viaje cambiando su estado a `InProgress` si hay pasajeros suficientes.  |
+| `UpdateRouteCommandHandler`    | Command Handler       | Permite actualizar la ruta de un viaje ya creado.                                 |
+| `MatchPassengerCommandHandler` | Command Handler       | Procesa una solicitud pendiente, revisa asientos y aprueba o rechaza.             |
+| `PassengerRequestHandler`      | Command/Event Handler | Aprueba o rechaza solicitudes según reglas de negocio, y genera eventos internos. |
+
 #### 4.2.1.4. Infrastructure Layer
+
+En esta capa se implementan los repositorios y adaptadores a servicios externos para persistencia y mensajería:
+
+| Clase                        | Tipo             | Propósito                                                                                                                      |
+|------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| `CarpoolRepository`          | Repository Impl. | Implementa la interfaz de persistencia para la entidad `Carpool`, con funciones como save, findById y findAvailableCarpools(). |
+| `RouteRepository`            | Repository Impl. | Permite almacenar y recuperar rutas, con operaciones para agregar puntos o recalcular rutas.                                   |
+| `PassengerRequestRepository` | Repository Impl. | Persiste solicitudes de pasajeros, incluyendo búsquedas por estado, usuario o carpool.                                         |
+| `GeoServiceAdapter`          | External Service | Servicio externo para calcular distancias y duración estimada entre puntos.                                                    |
+| `NotificationService`        | External Service | Envía notificaciones push o correos sobre el estado de solicitudes y viajes.                                                   |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+En esta sección profundizamos en los detalles de implementación interna del contexto, presentando diagramas que ilustran cómo se materializan los componentes a nivel de código. Se incluyen dos partes clave: los diagramas de clases del Domain Layer y el diagrama de base de datos relacional.
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+<img src="./assets/bounded-contexts/class-diagrams/matching-routing.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![matchingAndRouting.png](assets/database-diagrams/matchingAndRouting.png)
+
+### 4.2.2. Bounded Context: Payment & Fees Management
+
+Este bounded context se encarga de calcular, registrar y procesar las tarifas (“fares”) de los viajes compartidos, así como de generar y gestionar las comisiones de los conductores en períodos definidos.
+
+#### 4.2.2.1. Domain Layer
+En esta capa se modela la lógica central para tarifación y comisiones:
+
+| Clase                       | Tipo                    | Propósito                                                                                                                               |
+|-----------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| `Fare`                      | Aggregate Root (Entity) | Representa la tarifa de un pasajero en un viaje. Contiene referencia a carpool y pasajero, el importe (con desglose) y su estado final. |
+| `FareAmount`                | Value Object            | Desglosa el importe de la tarifa: `baseAmount`, `discountAmount` y `finalAmount`, todos de tipo `Money`.                                |
+| `Money`                     | Value Object            | Representa un valor monetario con `amount: Double` y `currency: Currency`.                                                              |
+| `Currency`                  | Value Object            | Define el código y símbolo de la divisa (`code: String`, `symbol: String`).                                                             |
+| `Commission`                | Aggregate Root (Entity) | Agrupa las comisiones de un conductor en un período: total de carpools, total de fares y estado de pago.                                |
+| `DriverCommissionStatement` | Value Object            | Detalla la declaración de comisiones: `totalCarpools: Integer`, `totalFares: Money`, `totalCommission: Money`.                          |
+| `CommissionStatus`          | Enum                    | Estado de la comisión: `Active`, `PendingPayment`, `Paid`, `Overdue`.                                                                   |
+| `PassengerId`               | Value Object            | Identificador de pasajero.                                                                                                              |
+| `CarpoolId`                 | Value Object            | Identificador de carpool.                                                                                                               |
+| `DriverId`                  | Value Object            | Identificador de conductor.                                                                                                             |
+
+#### 4.2.2.2. Interface Layer
+
+Clases que exponen los servicios de tarifa y comisiones:
+
+| Clase                     | Tipo       | Propósito                                                                                                            |
+|---------------------------|------------|----------------------------------------------------------------------------------------------------------------------|
+| `FareController`          | Controller | Endpoints para calcular, consultar y finalizar tarifas (`calculateFare()`, `finalizeFare()`).                        |
+| `CommissionController`    | Controller | Endpoints para generar períodos de comisión, consultar estados y marcar como pagadas (`generateCommission()`, etc.). |
+| `PaymentCallbackConsumer` | Consumer   | Escucha notificaciones de pasarelas de pago para actualizar el estado de `Fare` o `Commission`.                      |
+
+#### 4.2.2.3. Application Layer
+
+Handlers que orquestan los procesos de negocio:
+
+| Clase                               | Tipo            | Propósito                                                                                   |
+|-------------------------------------|-----------------|---------------------------------------------------------------------------------------------|
+| `CalculateFareCommandHandler`       | Command Handler | Recibe detalles de un viaje y crea un `Fare` con importe base y estructura de `FareAmount`. |
+| `ApplyDiscountToFareCommandHandler` | Command Handler | Aplica un descuento a un `Fare` existente y recalcula su `FareAmount`.                      |
+| `FinalizeFareCommandHandler`        | Command Handler | Marca el `Fare` como final y no modificable, lista para cobro.                              |
+| `GenerateCommissionCommandHandler`  | Command Handler | Agrupa todas las `Fare` de un conductor en un `Commission` para un período dado.            |
+| `MarkCommissionPaidCommandHandler`  | Command Handler | Cambia el estado de una `Commission` a `Paid` y dispara eventos de notificación.            |
+
+#### 4.2.2.4. Infrastructure Layer
+
+Implementaciones de repositorios y adaptadores a servicios externos:
+
+| Clase                        | Tipo             | Propósito                                                                                                |
+|------------------------------|------------------|----------------------------------------------------------------------------------------------------------|
+| `FareRepository`             | Repository Impl. | Persiste y consulta objetos `Fare`, con métodos como `save()`, `findByPassenger()`, `findUnfinalized()`. |
+| `CommissionRepository`       | Repository Impl. | Persiste `Commission` y facilita búsquedas por conductor o período.                                      |
+| `PaymentGatewayAdapter`      | External Service | Integra con pasarela de pago para procesar cobros y notificaciones (callbacks).                          |
+| `NotificationService`        | External Service | Envía correos o push sobre estados de tarifas y comisiones.                                              |
+| `DatabaseTransactionManager` | Infrastructure   | Maneja transacciones atómicas para operaciones de tarifas y generación de comisiones.                    |
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/payment-fees.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![paymentsAndFees.png](assets/database-diagrams/paymentsAndFees.png)
+
+### 4.2.3. Bounded Context: Profile Management
+
+Este bounded context se encarga de la creación, consulta y actualización de los perfiles de usuario, incluyendo datos personales, académicos, de contacto, paraderos favoritos y vehículos registrados.
+
+#### 4.2.3.1. Domain Layer
+
+Modela las entidades y objetos de valor que representan el perfil y sus componentes:
+
+| Clase                   | Tipo                    | Propósito                                                                                                              |
+|-------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------------|
+| `Profile`               | Aggregate Root (Entity) | Representa el perfil completo del usuario, agregando datos personales, académicos, de contacto, paraderos y vehículos. |
+| `PersonInfo`            | Value Object            | Contiene nombre, apellido, fecha de nacimiento y género.                                                               |
+| `ContactInformation`    | Value Object            | Agrupa email, teléfono y dirección.                                                                                    |
+| `AcademicInformation`   | Value Object            | Detalla facultad, programa académico y horarios de clases.                                                             |
+| `ClassSchedule`         | Entity                  | Define un horario de clase con curso, ubicación, hora de inicio/fin y día de la semana.                                |
+| `FavoriteStop`          | Entity                  | Punto favorito de recogida con nombre, ubicación, dirección y descripción.                                             |
+| `Vehicle`               | Entity / Aggregate      | Representa un vehículo del usuario con especificaciones, estado, imagen y propietario.                                 |
+| `VehicleIdentification` | Value Object            | Identifica un vehículo por VIN y placa.                                                                                |
+| `BasicVehicleSpecs`     | Value Object            | Especificaciones: marca, modelo y año.                                                                                 |
+| `Money`                 | Value Object            | Valor monetario reutilizable (`amount: Double`, `currency: Currency`). (p.ej. para pagos de imagen en futuro)          |
+| `Currency`              | Value Object            | Divisa con código y símbolo.                                                                                           |
+| `Field`                 | Value Object            | Identificador genérico (usado para IDs de archivo, paradero, etc.).                                                    |
+| `OwnerId`               | Value Object            | Identificador de propietario de vehículo.                                                                              |
+| `Email`                 | Value Object            | Dirección de correo y estado de verificación.                                                                          |
+| `PhoneNumber`           | Value Object            | Teléfono con código de país y número.                                                                                  |
+| `Address`               | Value Object            | Calle, ciudad, código postal y país.                                                                                   |
+| `Gender`                | Enum                    | Género: `MALE`, `FEMALE`.                                                                                              |
+| `EDay`                  | Enum                    | Día de la semana: `Monday`…`Sunday`.                                                                                   |
+| `VehicleStatus`         | Enum                    | Estado del vehículo: `Active`, `Inactive`, `Retired`.                                                                  |
+
+#### 4.2.3.2. Interface Layer
+
+Expone la funcionalidad del perfil a través de controladores REST:
+
+| Clase                    | Tipo       | Propósito                                                        |
+|--------------------------|------------|------------------------------------------------------------------|
+| `ProfileController`      | Controller | CRUD de perfil y secciones: personal, académico, contacto, foto. |
+| `FavoriteStopController` | Controller | Gestiona paraderos favoritos: alta, edición, baja y listado.     |
+| `VehicleController`      | Controller | Registra, actualiza y elimina vehículos vinculados al perfil.    |
+
+#### 4.2.3.3. Application Layer
+
+Orquesta flujos de negocio con handlers de comandos y eventos:
+
+| Clase                              | Tipo               | Propósito                                                                                         |
+|------------------------------------|--------------------|---------------------------------------------------------------------------------------------------|
+| `UpdateProfileCommandHandler`      | Command Handler    | Actualiza uno o varios apartados del perfil del usuario.                                          |
+| `AddFavoriteStopCommandHandler`    | Command Handler    | Añade un nuevo paradero favorito al perfil.                                                       |
+| `RemoveFavoriteStopCommandHandler` | Command Handler    | Elimina un paradero favorito existente.                                                           |
+| `AddVehicleCommandHandler`         | Command Handler    | Registra un nuevo vehículo en el perfil.                                                          |
+| `UpdateVehicleCommandHandler`      | Command Handler    | Modifica datos de un vehículo existente.                                                          |
+| `RemoveVehicleCommandHandler`      | Command Handler    | Elimina un vehículo del perfil.                                                                   |
+
+#### 4.2.3.4. Infrastructure Layer
+Implementa persistencia y adaptadores a servicios externos:
+
+| Clase                    | Tipo             | Propósito                                                              |
+|--------------------------|------------------|------------------------------------------------------------------------|
+| `ProfileRepository`      | Repository Impl. | Persiste y consulta perfiles (`save()`, `findById()`, `findByUser()`). |
+| `FavoriteStopRepository` | Repository Impl. | Persiste paraderos favoritos.                                          |
+| `VehicleRepository`      | Repository Impl. | Persiste vehículos y sus especificaciones.                             |
+| `FileStorageAdapter`     | External Service | Almacena y recupera imágenes de perfil y fotos de vehículos.           |
+| `GeoServiceAdapter`      | External Service | Valida y geocodifica direcciones para paraderos favoritos.             |
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/profile.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![Profile.png](assets/database-diagrams/Profile.png)
+
+### 4.2.4. Bounded Context: IAM
+
+Este bounded context se encarga de la gestión de usuarios, autenticación y autorización, incluyendo la administración de roles y estados de cuenta.
+
+#### 4.2.4.1. Domain Layer
+
+Aquí se modela el núcleo de usuarios y roles, así como las reglas de negocio para el registro, estado y asignación de permisos:
+
+| Clase              | Tipo                          | Propósito                                                                                               |
+|--------------------|-------------------------------|---------------------------------------------------------------------------------------------------------|
+| `User`             | Aggregate Root (Entity)       | Representa la cuenta de un usuario, con credenciales, estado y roles asignados.                         |
+| `Role`             | Entity                        | Define un rol de autorización que agrupa permisos o capacidades dentro del sistema.                     |
+| `UserId`           | Value Object                  | Identificador único de usuario.                                                                         |
+| `RoleId`           | Value Object                  | Identificador único de rol.                                                                             |
+| `Email`            | Value Object                  | Dirección de correo y flag de verificación.                                                             |
+| `PasswordHash`     | Value Object                  | Contraseña cifrada.                                                                                     |
+| `UserStatus`       | Enum                          | Estados posibles de usuario: `Active`, `Blocked`, `Deleted`.                                            |
+| `PasswordEncoder`  | Interface (Domain Service)    | Abstracción para cifrar y validar contraseñas (`encode()`, `matches()`).                                |
+
+#### 4.2.4.2. Interface Layer
+
+Expone la funcionalidad de IAM a través de APIs REST o consumidores de eventos:
+
+| Clase                | Tipo       | Propósito                                                                       |
+|----------------------|------------|---------------------------------------------------------------------------------|
+| `AuthController`     | Controller | Endpoints para registro, login, logout y refresh de tokens.                     |
+| `UserController`     | Controller | CRUD de usuarios: consulta, actualización de perfil y estado.                   |
+| `RoleController`     | Controller | CRUD de roles y asignación de permisos.                                         |
+| `TokenEventConsumer` | Consumer   | Escucha eventos de expiración o revocación de tokens para limpieza de sesiones. |
+
+#### 4.2.4.3. Application Layer
+
+Orquesta los flujos de registro, autenticación y gestión de roles con handlers de comandos y eventos:
+
+| Clase                            | Tipo            | Propósito                                                                            |
+|----------------------------------|-----------------|--------------------------------------------------------------------------------------|
+| `RegisterUserCommandHandler`     | Command Handler | Valida datos, crea un `User`, cifra la contraseña y dispara evento `UserRegistered`. |
+| `AuthenticateUserCommandHandler` | Command Handler | Verifica credenciales, genera JWT y refresh token.                                   |
+| `RefreshTokenCommandHandler`     | Command Handler | Valida refresh token y emite nuevo access token.                                     |
+| `AssignRoleCommandHandler`       | Command Handler | Asigna un `Role` a un `User` según reglas de negocio.                                |
+| `ChangePasswordCommandHandler`   | Command Handler | Valida contraseña actual, aplica cifrado y actualiza `PasswordHash`.                 |
+| `DeactivateUserCommandHandler`   | Command Handler | Cambia `UserStatus` a `Blocked` o `Deleted` y dispara evento `UserDeactivated`.      |
+
+#### 4.2.4.4. Infrastructure 
+
+Implementa la persistencia, el cifrado y la emisión de tokens o correos:
+
+| Clase                        | Tipo                   | Propósito                                                                                |
+|------------------------------|------------------------|------------------------------------------------------------------------------------------|
+| `UserRepository`             | Repository Impl.       | Persiste y consulta objetos `User` (`save()`, `findById()`, `findByEmail()`).            |
+| `RoleRepository`             | Repository Impl.       | Persiste y consulta objetos `Role` (`save()`, `findAll()`).                              |
+| `PasswordEncoderAdapter`     | External Service       | Implementa `PasswordEncoder` usando Bcrypt u otro algoritmo.                             |
+| `JwtTokenProvider`           | External Service       | Genera y valida JWT y refresh tokens.                                                    |
+| `EmailServiceAdapter`        | External Service       | Envía correos de confirmación, recuperación de contraseña y notificaciones de seguridad. |
+| `DatabaseTransactionManager` | Infrastructure Utility | Garantiza transacciones atómicas en operaciones críticas de IAM.                         |
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/iam.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![IAM.png](assets/database-diagrams/IAM.png)
+
+### 4.2.5. Bounded Context: Reputation & Incentives Management
+
+Este bounded context agrupa la lógica de cálculo y seguimiento del puntaje de reputación de los usuarios, así como la gestión de incentivos, recompensas e infracciones asociadas.
+
+#### 4.2.5.1. Domain Layer
+
+En esta capa se modela el núcleo de reputación e incentivos, con entidades, objetos de valor y enumeraciones:
+
+| Clase               | Tipo                    | Propósito                                                                                                                               |
+|---------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| `ReputationProfile` | Aggregate Root (Entity) | Representa el perfil de reputación de un usuario, centralizando su puntaje y operaciones de actualización, penalización o bonificación. |
+| `ReputationScore`   | Value Object            | Desglosa el puntaje con `value: Integer` y `category: ScoreCategory`.                                                                   |
+| `InfractionTracker` | Entity                  | Lleva el registro de infracciones en un período, contando tipos y ocurrencias consecutivas.                                             |
+| `Penalty`           | Entity                  | Aplica sanciones al usuario según infracciones, con estado, tipo y motivo.                                                              |
+| `Incentive`         | Aggregate Root (Entity) | Define un incentivo disponible: tipo, período de vigencia, y operaciones para activarlo o aplicarlo a usuarios elegibles.               |
+| `IncentiveReward`   | Entity                  | Representa una recompensa concreta otorgada a un usuario por un incentivo. Incluye estado de canje.                                     |
+| `IncentiveType`     | Enum                    | Tipos de incentivo: FullCapacityBonus, ReferralReward, LoyaltyDiscount, SpecialPromotion.                                               |
+| `RewardStatus`      | Enum                    | Estado de la recompensa: Issued, Pending, Redeemed, Expired.                                                                            |
+| `InfractionType`    | Enum                    | Tipos de infracción: LateCancellation, PassengerRejection, LateCommissionPayment, NoShow.                                               |
+| `PenaltyType`       | Enum                    | Tipos de sanción: Warning, Fine, TemporarySuspension, PermanentBan.                                                                     |
+| `PenaltyStatus`     | Enum                    | Estado de la sanción: Active, Dismissed, Expired, Completed.                                                                            |
+| `ScoreCategory`     | Enum                    | Categorías de puntaje: Excellent, Good, Average, Poor, Critical.                                                                        |
+| `UserId`            | Value Object            | Identificador único de usuario.                                                                                                         |
+| `IncentiveId`       | Value Object            | Identificador único de incentivo.                                                                                                       |
+
+#### 4.2.5.2. Interface Layer
+
+Aquí se exponen los servicios REST o consumidores de eventos para interactuar con reputación e incentivos:
+
+| Clase                  | Tipo       | Propósito                                                                              |
+|------------------------|------------|----------------------------------------------------------------------------------------|
+| `ReputationController` | Controller | Endpoints para consultar y actualizar el perfil de reputación de un usuario.           |
+| `InfractionController` | Controller | Permite registrar infracciones y obtener historial de sanciones.                       |
+| `PenaltyController`    | Controller | CRUD y gestión de sanciones aplicadas a los usuarios.                                  |
+| `IncentiveController`  | Controller | Endpoints para listar, activar y desactivar incentivos.                                |
+| `RewardController`     | Controller | Permite reclamar o consultar el estado de las recompensas de incentivos.               |
+| `EventConsumer`        | Consumer   | Escucha eventos de sistema (p.ej. viaje completado) para generar o revocar incentivos. |
+
+#### 4.2.5.3. Application Layer
+
+Orquesta los flujos de reputación, infracciones e incentivos mediante handlers:
+
+| Clase                                         | Tipo            | Propósito                                                                                 |
+|-----------------------------------------------|-----------------|-------------------------------------------------------------------------------------------|
+| `RecordInfractionCommandHandler`              | Command Handler | Procesa y registra una infracción, actualiza el contador en `InfractionTracker`.          |
+| `IssuePenaltyCommandHandler`                  | Command Handler | Emite una sanción basada en reglas de negocio al exceder umbrales de infracciones.        |
+| `UpdateReputationCommandHandler`              | Command Handler | Recalcula y actualiza el `ReputationScore` tras eventos de infracciones o recompensas.    |
+| `ActivateIncentiveCommandHandler`             | Command Handler | Activa un incentivo en el período definido.                                               |
+| `DeactivateIncentiveCommandHandler`           | Command Handler | Desactiva incentivos caducados o revocados.                                               |
+| `ApplyIncentiveToEligibleUsersCommandHandler` | Command Handler | Recorre perfiles elegibles y crea instancias de `IncentiveReward`.                        |
+| `RedeemRewardCommandHandler`                  | Command Handler | Marca una recompensa como canjeada y genera efectos asociados (descuento, crédito, etc.). |
+
+#### 4.2.5.4. Infrastructure Layer
+
+Implementaciones de persistencia y adaptadores a servicios externos:
+
+| Clase                          | Tipo               | Propósito                                                                               |
+|--------------------------------|--------------------|-----------------------------------------------------------------------------------------|
+| `ReputationProfileRepository`  | Repository Impl.   | Persiste y consulta `ReputationProfile` y sus `ReputationScore`.                        |
+| `InfractionTrackerRepository`  | Repository Impl.   | Almacena los trackers de infracciones por usuario.                                      |
+| `PenaltyRepository`            | Repository Impl.   | Persiste y consulta sanciones aplicadas.                                                |
+| `IncentiveRepository`          | Repository Impl.   | Gestiona incentivos activos e históricos.                                               |
+| `RewardRepository`             | Repository Impl.   | Persiste las recompensas emitidas y su estado.                                          |
+| `NotificationServiceAdapter`   | External Service   | Envía notificaciones de sanciones, recompensas y cambios de reputación a los usuarios.  |
+| `SchedulerAdapter`             | Infrastructure     | Planifica tareas periódicas para desactivar incentivos o recalcular puntajes.           |
+| `DatabaseTransactionManager`   | Utility            | Maneja transacciones atómicas en operaciones críticas de reputación e incentivos.       |
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/reputation-incentives.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![reputationAndIncentives.png](assets/database-diagrams/reputationAndIncentives.png)
+
+### 4.2.6. Bounded Context: In Trip Communication Management
+
+Este bounded context gestiona el intercambio de mensajes entre conductor y pasajeros durante el trayecto, facilitando la comunicación en tiempo real.
+
+#### 4.2.6.1. Domain Layer
+
+Define las entidades y objetos de valor que modelan chats y mensajes:
+
+| Clase       | Tipo                    | Propósito                                                                                     |
+|-------------|-------------------------|-----------------------------------------------------------------------------------------------|
+| `Chat`      | Aggregate Root (Entity) | Representa la conversación de un carpool, relacionando conductor, pasajeros y sus mensajes.   |
+| `Message`   | Entity                  | Modelo de un mensaje individual con contenido, remitente, marca temporal y estado de lectura. |
+| `UserId`    | Value Object            | Identificador único de un usuario.                                                            |
+| `CarpoolId` | Value Object            | Identificador único de un viaje compartido.                                                   |
+
+#### 4.2.6.2. Interface Layer
+
+Expone APIs o consumidores para interactuar con el sistema de mensajería:
+
+| Clase               | Tipo       | Propósito                                                                                                    |
+|---------------------|------------|--------------------------------------------------------------------------------------------------------------|
+| `ChatController`    | Controller | Endpoints para crear o recuperar chats y enviar/listar mensajes dentro de un carpool.                        |
+| `MessageController` | Controller | Endpoints para marcar mensajes como leídos y consultar detalles de un mensaje específico.                    |
+| `ChatEventConsumer` | Consumer   | (Opcional) Escucha eventos de sistema para notificar en tiempo real (p.ej. WebSocket) sobre nuevos mensajes. |
+
+#### 4.2.6.3. Application Layer
+
+Orquesta los comandos y eventos relacionados con la mensajería:
+
+| Clase                              | Tipo               | Propósito                                                                                |
+|------------------------------------|--------------------|------------------------------------------------------------------------------------------|
+| `SendMessageCommandHandler`        | Command Handler    | Procesa el envío de un mensaje, lo agrega al `Chat` y dispara el evento `MessageSent`.   |
+| `MarkMessageReadCommandHandler`    | Command Handler    | Marca un `Message` como leído y dispara el evento `MessageRead`.                         |
+| `ReceiveMessageEventHandler`       | Event Handler      | Gestiona eventos de `MessageSent` para enrutar notificaciones a los usuarios conectados. |
+
+#### 4.2.6.4. Infrastructure Layer
+
+Implementa persistencia y adaptadores a servicios de notificación:
+
+| Clase                          | Tipo               | Propósito                                                                                 |
+|--------------------------------|--------------------|-------------------------------------------------------------------------------------------|
+| `ChatRepository`               | Repository Impl.   | Persiste y consulta `Chat`, con métodos como `findByCarpoolId()`.                         |
+| `MessageRepository`            | Repository Impl.   | Persiste y consulta `Message`, con métodos como `findByChatId()` o `findUnreadByUser()`.  |
+| `NotificationServiceAdapter`   | External Service   | Envía notificaciones en tiempo real (p.ej. WebSocket, push) a los participantes del chat. |
+| `DatabaseTransactionManager`   | Utility            | Gestiona transacciones atómicas en el envío y marcado de mensajes.                        |
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/in-trip-communication.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![inTripComunication.png](assets/database-diagrams/inTripComunication.png)
+
+### 4.2.7. Bounded Context: Analytics Management
+
+Este bounded context se encarga de recopilar, calcular y exponer métricas clave de comportamiento y desempeño de usuarios (pasajeros y conductores), facilitando el análisis y la toma de decisiones basada en datos.
+
+#### 4.2.7.1. Domain Layer
+
+Modela el núcleo de las métricas como agregados y objetos de valor:
+
+| Clase             | Tipo                    | Propósito                                                                                                                                                                        |
+|-------------------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `UserAnalytics`   | Aggregate Root (Entity) | Centraliza todas las métricas de un usuario (`carpoolMetrics`, `ratingMetrics`, `timeMetrics`, `economicMetrics`) y provee operaciones para actualizarlas.                       |
+| `CarpoolMetrics`  | Value Object            | Métricas de uso de viajes: `totalCarpoolsCompleted: Integer`, `totalCarpoolsCancelled: Integer`, `totalDistanceKm: Double`, `totalTimeMinutes: Integer`, `totalPayments: Money`. |
+| `RatingMetrics`   | Value Object            | Métricas de calificaciones: `averageRating: Double`, `totalRatingReceived: Integer`.                                                                                             |
+| `TimeMetrics`     | Value Object            | Ahorro y eficiencia de tiempo: `estimatedTimeSavingMinutes: Integer`, `totalTravelMinutes: Integer`, `efficiencyPercentage: Double`.                                             |
+| `EconomicMetrics` | Value Object            | Métricas económicas: `totalEarnings: Money`, `totalCommissionPaid: Money`, `estimatedFuelSaving: Money`.                                                                         |
+| `Money`           | Value Object            | Valor monetario con `amount: Double` y `currency: Currency`.                                                                                                                     |
+| `Currency`        | Value Object            | Define la moneda (`code: String`, `symbol: String`).                                                                                                                             |
+| `UserType`        | Enum                    | Tipo de usuario: `Passenger`, `Driver`.                                                                                                                                          |
+| `UserId`          | Value Object            | Identificador único de usuario.                                                                                                                                                  |
+
+#### 4.2.7.2. Interface Layer
+
+Exposición de APIs y/o consumidores para interactuar con las métricas:
+
+| Clase                  | Tipo       | Propósito                                                                                                         |
+|------------------------|------------|-------------------------------------------------------------------------------------------------------------------|
+| `AnalyticsController`  | Controller | Endpoints para consultar métricas agregadas o por tipo de usuario (`GET /analytics/{userId}`).                    |
+| `MetricsEventConsumer` | Consumer   | Escucha eventos de dominio (e.g., `CarpoolCompleted`, `FareFinalized`, `RatingReceived`) y lanza actualizaciones. |
+
+#### 4.2.7.3. Application Layer
+
+Orquesta la actualización y el cálculo de métricas mediante handlers:
+
+| Clase                             | Tipo            | Propósito                                                                                          |
+|-----------------------------------|-----------------|----------------------------------------------------------------------------------------------------|
+| `UserMetricsUpdateCommandHandler` | Command Handler | Dispara la recomputación completa de todas las métricas de un usuario invocando `updateMetrics()`. |
+| `CarpoolCompletedEventHandler`    | Event Handler   | Actualiza `CarpoolMetrics` y `TimeMetrics` al completarse un viaje.                                |
+| `FareFinalizedEventHandler`       | Event Handler   | Ajusta `EconomicMetrics` cuando se finaliza el cobro de una tarifa.                                |
+| `RatingReceivedEventHandler`      | Event Handler   | Recalcula `RatingMetrics` al registrarse una nueva calificación.                                   |
+
+#### 4.2.7.4. Infrastructure Layer
+
+Implementaciones de persistencia y adaptadores para apoyo a métricas:
+
+| Clase                        | Tipo             | Propósito                                                                                    |
+|------------------------------|------------------|----------------------------------------------------------------------------------------------|
+| `UserAnalyticsRepository`    | Repository Impl. | Persiste y recupera objetos `UserAnalytics` (`save()`, `findByUserId()`, `findAllByType()`). |
+| `EventBusAdapter`            | Infrastructure   | Suscribe y publica eventos de métricas en el bus de dominio.                                 |
+| `DatabaseTransactionManager` | Utility          | Maneja transacciones atómicas en las operaciones de cálculo y persistencia de métricas.      |
+
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/analytics.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.7.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![ANALYTICS.png](assets/database-diagrams/ANALYTICS.png)
+
+### 4.2.8. Bounded Context: Communication Management
+
+Este bounded context gestiona la generación, entrega y seguimiento de notificaciones a los usuarios, ya sea de forma sincrónica o basada en eventos de dominio.
+
+#### 4.2.8.1. Domain Layer
+
+En esta capa se modela la lógica central de las notificaciones:
+
+| Clase                 | Tipo                    | Propósito                                                                                                                          |
+|-----------------------|-------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `Notification`        | Aggregate Root (Entity) | Representa una notificación dirigida a un usuario, con tipo, contenido y estados de entrega/lectura.                               |
+| `NotificationContent` | Value Object            | Contiene el título, cuerpo y datos adicionales de la notificación, con validación interna.                                         |
+| `NotificationType`    | Enum                    | Define los tipos de notificación: `CarpoolAccepted`, `CarpoolCancelled`, `DriverApproaching`, `PaymentDue`, `CarpoolStartingSoon`. |
+| `UserId`              | Value Object            | Identificador único de usuario.                                                                                                    |
+
+#### 4.2.8.2. Interface Layer
+
+Expone la funcionalidad de notificaciones a través de controladores y consumidores:
+
+| Clase                       | Tipo       | Propósito                                                                                 |
+|-----------------------------|------------|-------------------------------------------------------------------------------------------|
+| `NotificationController`    | Controller | Endpoints para enviar notificaciones, marcar como leídas, entregadas o reenviar.          |
+| `NotificationEventConsumer` | Consumer   | Escucha eventos de dominio (p.ej. `CarpoolAccepted`) y genera notificaciones automáticas. |
+
+#### 4.2.8.3. Application Layer
+
+Orquesta los flujos de negocio de notificaciones mediante handlers:
+
+| Clase                              | Tipo            | Propósito                                                          |
+|------------------------------------|-----------------|--------------------------------------------------------------------|
+| `SendNotificationCommandHandler`   | Command Handler | Crea y envía una nueva `Notification` a un usuario.                |
+| `MarkDeliveredCommandHandler`      | Command Handler | Actualiza el estado de entrega de una notificación.                |
+| `MarkReadCommandHandler`           | Command Handler | Marca una notificación como leída.                                 |
+| `ResendNotificationCommandHandler` | Command Handler | Reenvía notificaciones pendientes o fallidas.                      |
+| `NotificationEventHandler`         | Event Handler   | Traduce eventos de dominio en comandos de envío de notificaciones. |
+
+#### 4.2.8.4. Infrastructure Layer
+
+Implementa la persistencia y los adaptadores a sistemas de mensajería:
+
+| Clase                        | Tipo             | Propósito                                                                                      |
+|------------------------------|------------------|------------------------------------------------------------------------------------------------|
+| `NotificationRepository`     | Repository Impl. | Persiste y consulta objetos `Notification`.                                                    |
+| `NotificationGatewayAdapter` | External Service | Integra con servicios de mensajería (push, email, SMS) para la entrega real de notificaciones. |
+| `EventBusAdapter`            | Infrastructure   | Publica y suscribe eventos de notificación en el bus de dominio.                               |
+| `DatabaseTransactionManager` | Utility          | Asegura transacciones atómicas al crear y actualizar notificaciones.                           |
+
+#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
+##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/communication.png" alt="Domain Layer Class Diagram"/>
+
+##### 4.2.8.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+![Comunication.png](assets/database-diagrams/Comunication.png)
 
 # Capítulo V: Solution UI/UX Design
 
