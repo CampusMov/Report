@@ -975,6 +975,8 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![Profile.png](assets/database-diagrams/Profile.png)
+
 ### 4.2.4. Bounded Context: IAM
 
 Este bounded context se encarga de la gestión de usuarios, autenticación y autorización, incluyendo la administración de roles y estados de cuenta.
