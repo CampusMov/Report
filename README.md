@@ -1256,21 +1256,66 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ### 4.2.8. Bounded Context: Communication Management
 
+Este bounded context gestiona la generación, entrega y seguimiento de notificaciones a los usuarios, ya sea de forma sincrónica o basada en eventos de dominio.
+
 #### 4.2.8.1. Domain Layer
+
+En esta capa se modela la lógica central de las notificaciones:
+
+| Clase                 | Tipo                    | Propósito                                                                                                                          |
+|-----------------------|-------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `Notification`        | Aggregate Root (Entity) | Representa una notificación dirigida a un usuario, con tipo, contenido y estados de entrega/lectura.                               |
+| `NotificationContent` | Value Object            | Contiene el título, cuerpo y datos adicionales de la notificación, con validación interna.                                         |
+| `NotificationType`    | Enum                    | Define los tipos de notificación: `CarpoolAccepted`, `CarpoolCancelled`, `DriverApproaching`, `PaymentDue`, `CarpoolStartingSoon`. |
+| `UserId`              | Value Object            | Identificador único de usuario.                                                                                                    |
 
 #### 4.2.8.2. Interface Layer
 
+Expone la funcionalidad de notificaciones a través de controladores y consumidores:
+
+| Clase                       | Tipo       | Propósito                                                                                 |
+|-----------------------------|------------|-------------------------------------------------------------------------------------------|
+| `NotificationController`    | Controller | Endpoints para enviar notificaciones, marcar como leídas, entregadas o reenviar.          |
+| `NotificationEventConsumer` | Consumer   | Escucha eventos de dominio (p.ej. `CarpoolAccepted`) y genera notificaciones automáticas. |
+
 #### 4.2.8.3. Application Layer
 
+Orquesta los flujos de negocio de notificaciones mediante handlers:
+
+| Clase                              | Tipo            | Propósito                                                          |
+|------------------------------------|-----------------|--------------------------------------------------------------------|
+| `SendNotificationCommandHandler`   | Command Handler | Crea y envía una nueva `Notification` a un usuario.                |
+| `MarkDeliveredCommandHandler`      | Command Handler | Actualiza el estado de entrega de una notificación.                |
+| `MarkReadCommandHandler`           | Command Handler | Marca una notificación como leída.                                 |
+| `ResendNotificationCommandHandler` | Command Handler | Reenvía notificaciones pendientes o fallidas.                      |
+| `NotificationEventHandler`         | Event Handler   | Traduce eventos de dominio en comandos de envío de notificaciones. |
+
 #### 4.2.8.4. Infrastructure Layer
+
+Implementa la persistencia y los adaptadores a sistemas de mensajería:
+
+| Clase                        | Tipo             | Propósito                                                                                      |
+|------------------------------|------------------|------------------------------------------------------------------------------------------------|
+| `NotificationRepository`     | Repository Impl. | Persiste y consulta objetos `Notification`.                                                    |
+| `NotificationGatewayAdapter` | External Service | Integra con servicios de mensajería (push, email, SMS) para la entrega real de notificaciones. |
+| `EventBusAdapter`            | Infrastructure   | Publica y suscribe eventos de notificación en el bus de dominio.                               |
+| `DatabaseTransactionManager` | Utility          | Asegura transacciones atómicas al crear y actualizar notificaciones.                           |
 
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/communication.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
 # Capítulo V: Solution UI/UX Design
 
