@@ -1128,21 +1128,65 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ### 4.2.6. Bounded Context: In Trip Communication Management
 
+Este bounded context gestiona el intercambio de mensajes entre conductor y pasajeros durante el trayecto, facilitando la comunicación en tiempo real.
+
 #### 4.2.6.1. Domain Layer
+
+Define las entidades y objetos de valor que modelan chats y mensajes:
+
+| Clase       | Tipo                    | Propósito                                                                                     |
+|-------------|-------------------------|-----------------------------------------------------------------------------------------------|
+| `Chat`      | Aggregate Root (Entity) | Representa la conversación de un carpool, relacionando conductor, pasajeros y sus mensajes.   |
+| `Message`   | Entity                  | Modelo de un mensaje individual con contenido, remitente, marca temporal y estado de lectura. |
+| `UserId`    | Value Object            | Identificador único de un usuario.                                                            |
+| `CarpoolId` | Value Object            | Identificador único de un viaje compartido.                                                   |
 
 #### 4.2.6.2. Interface Layer
 
+Expone APIs o consumidores para interactuar con el sistema de mensajería:
+
+| Clase               | Tipo       | Propósito                                                                                                    |
+|---------------------|------------|--------------------------------------------------------------------------------------------------------------|
+| `ChatController`    | Controller | Endpoints para crear o recuperar chats y enviar/listar mensajes dentro de un carpool.                        |
+| `MessageController` | Controller | Endpoints para marcar mensajes como leídos y consultar detalles de un mensaje específico.                    |
+| `ChatEventConsumer` | Consumer   | (Opcional) Escucha eventos de sistema para notificar en tiempo real (p.ej. WebSocket) sobre nuevos mensajes. |
+
 #### 4.2.6.3. Application Layer
 
+Orquesta los comandos y eventos relacionados con la mensajería:
+
+| Clase                              | Tipo               | Propósito                                                                                |
+|------------------------------------|--------------------|------------------------------------------------------------------------------------------|
+| `SendMessageCommandHandler`        | Command Handler    | Procesa el envío de un mensaje, lo agrega al `Chat` y dispara el evento `MessageSent`.   |
+| `MarkMessageReadCommandHandler`    | Command Handler    | Marca un `Message` como leído y dispara el evento `MessageRead`.                         |
+| `ReceiveMessageEventHandler`       | Event Handler      | Gestiona eventos de `MessageSent` para enrutar notificaciones a los usuarios conectados. |
+
 #### 4.2.6.4. Infrastructure Layer
+
+Implementa persistencia y adaptadores a servicios de notificación:
+
+| Clase                          | Tipo               | Propósito                                                                                 |
+|--------------------------------|--------------------|-------------------------------------------------------------------------------------------|
+| `ChatRepository`               | Repository Impl.   | Persiste y consulta `Chat`, con métodos como `findByCarpoolId()`.                         |
+| `MessageRepository`            | Repository Impl.   | Persiste y consulta `Message`, con métodos como `findByChatId()` o `findUnreadByUser()`.  |
+| `NotificationServiceAdapter`   | External Service   | Envía notificaciones en tiempo real (p.ej. WebSocket, push) a los participantes del chat. |
+| `DatabaseTransactionManager`   | Utility            | Gestiona transacciones atómicas en el envío y marcado de mensajes.                        |
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/in-trip-communication.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
 ### 4.2.7. Bounded Context: Analytics Management
 
