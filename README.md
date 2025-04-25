@@ -34,6 +34,10 @@
                 <td>Moraloes Quispe, Brayan Smith</td>
                 <td>20211f984</td>
             </tr>
+            <tr>
+              <td>Morales Quispe, Brayan Smith</td>
+              <td>20211f984</td>
+            </tr>
         </table>
     </div>
     <p style="text-align: center">Marzo 2025</p>
@@ -187,7 +191,26 @@ Brayan Smith Morales Quispe   | <p> **Objetivo 1**: Desarrollarme como freelance
 
 ### 1.1.1. Descripción de la Startup
 
+CampusMov es una startup creada por estudiantes de la carrera de Ingeniería de Software. Nuestro objetivo es mejorar y optimizar la movilización de alumnos universitarios mediante la creación de software. 
+
+**Misión**  
+
+Desarrollar soluciones tecnológicas innovadoras que mejoren la experiencia de movilidad de los estudiantes universitarios, reduciendo el impacto del tráfico en su vida diaria y facilitando desplazamientos más eficientes, conectados y sostenibles dentro del entorno urbano.
+
+**Visión** 
+
+Llegar a los universitarios de todo el país para mejorar su movilidad en ciudades con alto tráfico y ser reconocida como una empresa importante en el tráfico urbano en 5 años.
+
 ### 1.1.2. Perfiles de los integrantes del equipo
+
+| Foto del participante                               | Nombres y apellidos              | Código de estudiante   | Carrera                | Conocimientos técnicos y habilidades                                                                                                                               |
+|-----------------------------------------------------|----------------------------------|------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![erick.png](assets/team-members/erick.png)         | Eric Ernesto Hernández Tuiro     | 20221C857              | Ingeniería de Software | Conocimientos en Java, C++, C#, Python, SQL, Angular, Vue.js, React y ASP .Net Core.                                                                               |
+| ![elmer.png](assets/team-members/elmer.png)         | Elmer Augusto Riva Rodríguez     | 202220829              | Ingeniería de Software | Conocimientos en Angular, Vue, React, ASP .Net Core, Spring Boot y desarrollo de APIs RESTful. Experiencia en integración frontend-backend y metodologías ágiles.  | 
+| ![jhosepmyr.png](assets/team-members/jhosepmyr.png) | Jhosepmyr Orlando Gutiérrez Soto | 202317638              | Ingeniería de Software | Conocimientos en Micro servicios, Spring boot, ASP .NetCore, Angular, Vue.js, DDD, TDD, BDD, GitOps, Git Actions, Docker, Kubernetes y Google Kubernetes Engine.   | 
+| ![brayan.png](assets/team-members/brayan.png)       | Brayan Smith Morales Quispe      | 20211f984              | Ingeniería de Software | Conocimientos en javascript, phaser, sql, java, c++, c#, Angular, Vite y Vue.                                                                                      | 
+| ![mateo.png](assets/team-members/mateo.png)         | Daniel Mateo del Castillo Bueno  | 202211212              | Ingeniería de Software | Conocimientos en Angular, vue, React, ASP .Net Core, SpringBoot y Flask.                                                                                           | 
+| ![carlos.png](assets/team-members/carlos.png)       | Carlos Sanchez Montero           | 202015274              | Ingeniería de Software | Conocimientos en JavaScript, Python, C++, Java, C#, Angular, Vue, SQL.                                                                                             | 
 
 ## 1.2. Solution Profile
 
