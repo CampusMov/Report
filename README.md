@@ -926,13 +926,15 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
   - Estado civil: Soltero
   - Ubicación Geográfica: Lima metropolitana
   - Uso de tecnología y Dispositivos: Predomina el uso de Yape, Whatsaapp Google Maps en dispositivos moviles android
- ![Placeholder](./assets/interviews/analytics/driver/Perfil.jpg)
+
+![Placeholder](./assets/interviews/analytics/driver/Perfil.jpg)
  
   #### Frustraciones
   - **Costo elevado de gasolina** (≈ S/ 340 – 400 mensuales) y mantenimiento del auto.  
   - **Tráfico limeño intenso**, trayectos largos y estrés al conducir en solitario.  
   - **Coordinación dispersa**: tener que alternar entre Maps, WhatsApp y Yape para organizar rutas, pagos y comunicación.
- ![Placeholder](./assets/interviews/analytics/driver/placeholder.jpg)
+
+![Placeholder](./assets/interviews/analytics/driver/placeholder.jpg)
 
   #### Puntos de interés / Motivadores
   - **Ahorro y monetización**: reducir gasto en combustible y ganar S/ 5 – 10 por pasajero.  
@@ -943,7 +945,38 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
   - **Compañía y comunidad**: viajar acompañado reduce la monotonía y aumenta seguridad.  
   - **Flexibilidad** para aceptar pasajeros espontáneos verificados o formar grupos fijos.  
   - **Recompensas** (vales/descuentos) por reputación alta o referir nuevos usuarios.
- ![Placeholder](./assets/interviews/analytics/driver/Interes.jpg)
+
+![Placeholder](./assets/interviews/analytics/driver/Interes.jpg)
+
+#### Análisis de insights sobre carpooling en conductores universitarios
+
+En el contexto universitario actual, donde el tiempo, el presupuesto y la eficiencia son recursos prioritarios, emergen nuevas soluciones de movilidad colaborativa como el carpooling entre estudiantes. Esta encuesta ofrece un panorama claro de los intereses, resistencias y disposiciones de los conductores que podrían hacer parte de este sistema.
+
+Una de las motivaciones más potentes para compartir el auto es el ahorro económico, específicamente en gasolina. Esto no solo sugiere una conciencia sobre los gastos cotidianos, sino también una apertura a compartir recursos cuando existe un beneficio tangible. Como evidencia de ello, se puede observar en el siguiente gráfico que el ahorro supera ampliamente otras motivaciones como el aspecto social o ambiental:
+
+![grafico1.png](assets/interviews/analytics/driver/grafico1.png)
+
+Sin embargo, aunque la disposición es alta, el principal freno identificado no está en la desconfianza hacia extraños, como se podría suponer, sino en la falta de una herramienta que facilite y regule estas interacciones. Los encuestados expresan que la ausencia de un sistema organizado que controle horarios, ubicaciones y reputaciones limita su participación. Este punto se ilustra en la imagen siguiente, donde dicha barrera supera incluso el miedo a la inseguridad:
+
+![grafico2.png](assets/interviews/analytics/driver/grafico2.png)
+
+El deseo de orden y predictibilidad también se refleja en la clara preferencia por formar grupos fijos de pasajeros para toda la semana, reduciendo así la carga de coordinación diaria. Esta funcionalidad no solo es viable, sino que aparece como una expectativa básica entre los encuestados:
+
+![grafico3.png](assets/interviews/analytics/driver/grafico3.png)
+
+En cuanto a la flexibilidad durante los trayectos, los resultados muestran una apertura condicionada: muchos estarían dispuestos a aceptar a alguien "en ruta", siempre y cuando hayan leído reseñas previas y no implique desviarse. Esto refuerza la necesidad de perfiles validados y herramientas de reputación confiables, que puedan generar un entorno de seguridad sin comprometer la comodidad del conductor:
+
+![grafico4.png](assets/interviews/analytics/driver/grafico4.png)
+
+Desde el punto de vista económico, la propuesta de integrar métodos de pago digitales como Yape fue recibida con buena disposición, siempre que la retención por comisión sea razonable y esté justificada por beneficios concretos. Esta respuesta refleja una mentalidad práctica y evaluadora por parte de los usuarios, que valoran la comodidad, pero no a cualquier costo.
+
+Además, se detecta una necesidad emocional: sentirse respetados como conductores. La mayoría considera importante aplicar penalizaciones a pasajeros que no avisen su ausencia, lo cual no solo preserva la eficiencia, sino también la percepción de justicia en la dinámica. Implementar sanciones automatizadas sería una respuesta directa a esta demanda:
+
+![grafico5.png](assets/interviews/analytics/driver/grafico5.png)
+
+Por último, uno de los datos más relevantes en términos de crecimiento es el potencial efecto viral de la app: muchos encuestados afirman que invitarían a sus amigos si reciben recompensas como descuentos. Esta disposición ofrece un camino claro para estrategias de marketing basadas en referidos y promociones cruzadas:
+
+![grafico6.png](assets/interviews/analytics/driver/grafico6.png)
 
  ## Segmento Objetivo 2 (Estudiante Pasajero):
   
@@ -953,16 +986,53 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
   - Estado civil: Soltero
   - Ubicación Geográfica: Lima metropolitana
     - Dada la dispersión de datos, decidimos colocar 
+  
   ![Ubicación](./assets/interviews/analytics/passenger/Distritos.jpg)
   - Uso de tecnología y Dispositivos:
   ### Frustraciones
   Podemos ver que nuestros entrevistados se ven más preocupados por la demora y congestión vehicular en lima metropolitana, esto nos dice que un 75% de nuestros entrevistados se ven insatisfechos por el sistema de transporte público y taxis de nuestra ciudad.
-  ![Frustración Pasajero](./assets/interviews/analytics/passenger/Frustraciones.jpg)
+  
+![Frustración Pasajero](./assets/interviews/analytics/passenger/Frustraciones.jpg)
 
 
   ### Puntos de interés
   Podemos ver que los usuarios se ven interesados en conseguir beneficios que no se pueden satisfacer de manera regular, los taxis no pueden brindar comodidad económica y los buses no pueden ser más rapidos. Por ello nuestra iniciativa podrá ser más adecuada para ellos.
-  ![Motivaciones](./assets/interviews/analytics/passenger/Motivaciones.jpg)
+  
+![Motivaciones](./assets/interviews/analytics/passenger/Motivaciones.jpg)
+
+### Perfil del pasajero universitario: motivaciones, expectativas y confianza
+
+La visión de los pasajeros universitarios sobre el transporte revela una combinación clara de insatisfacción moderada con el sistema actual y un fuerte entusiasmo por nuevas propuestas que les brinden mayor control, ahorro y seguridad. En una escala de satisfacción del 1 al 7 respecto a su transporte habitual, la mayoría se ubica en el rango medio. Esto refleja no una insatisfacción profunda, pero sí una predisposición clara a migrar hacia alternativas más eficientes.
+
+![grafico1.png](assets/interviews/analytics/passenger/grafico1.png)
+
+Esta apertura se traduce en una respuesta contundente hacia la idea de un sistema de carpool entre estudiantes. Una amplia mayoría considera la propuesta como muy atractiva, especialmente cuando se estructura con claridad y se ofrecen mecanismos de confianza, lo que valida el concepto mismo del producto.
+
+![grafico2.png](assets/interviews/analytics/passenger/grafico2.png)
+
+Los estudiantes no solo buscan movilidad compartida, sino también previsibilidad. Valoran enormemente la posibilidad de planificar con anticipación su semana, lo que sugiere que la funcionalidad de “grupos preformados” no es un plus, sino una expectativa clave. Contar con un grupo fijo no solo ahorra tiempo, sino que también reduce el estrés de la coordinación diaria.
+
+![grafico3.png](assets/interviews/analytics/passenger/grafico3.png)
+
+En situaciones de última hora, como cuando un conductor pasa cerca de su ubicación, los pasajeros están abiertos a integrarse al viaje, siempre que se les garantice seguridad. Este tipo de flexibilidad exige un sistema con validación de perfiles, rutas verificables y notificaciones en tiempo real.
+
+![grafico4.png](assets/interviews/analytics/passenger/grafico4.png)
+
+En cuanto al proceso de pago, la aceptación del cobro digital a través de Yape u otras plataformas es total. Sin embargo, no se trata solo de automatizar el pago: los estudiantes desean ver con claridad el costo sugerido antes de comprometerse, reflejando una necesidad de transparencia financiera.
+
+![grafico5.png](assets/interviews/analytics/passenger/grafico5.png)
+
+De hecho, la dimensión económica emerge con más fuerza cuando se plantea una herramienta que les muestre comparativas de ahorro frente al transporte tradicional. Ver cuánto gastan menos cada semana refuerza su percepción de valor, ayudando a fidelizar usuarios más allá de la experiencia puntual del viaje.
+
+![grafico6.png](assets/interviews/analytics/passenger/grafico6.png)
+
+El interés de los pasajeros no se limita a ser usuarios: pueden convertirse en promotores activos del servicio. Muchos afirmaron que estarían dispuestos a invitar a amigas a la plataforma si reciben recompensas como descuentos. Este dato sugiere un fuerte potencial de crecimiento orgánico vía referidos.
+
+![grafico7.png](assets/interviews/analytics/passenger/grafico7.png)
+
+Finalmente, se identifica un aspecto emocional muy potente: la necesidad de protección ante fallas del sistema. Los pasajeros desean garantías en caso de que un conductor cancele. Las alertas anticipadas y penalizaciones no son vistas como sanciones punitivas, sino como mecanismos para asegurar la continuidad y confiabilidad del servicio.
+
+![grafico8.png](assets/interviews/analytics/passenger/grafico8.png)
 
 
 ## 2.3. Needfinding
