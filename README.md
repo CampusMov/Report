@@ -1114,6 +1114,45 @@ Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el r
 ![asisPassenger](/assets/needfinding/as-is-driver.png)
 ## 2.4. Ubiquitous Language
 
+En el siguiente glosario se definen los términos del dominio de UniRide, en inglés con su equivalente en español entre paréntesis, para asegurar un lenguaje común y sin ambigüedad:
+
+* Carpool (viaje compartido): servicio por el cual un conductor ofrece asientos en su vehículo a uno o varios pasajeros que comparten ruta y horario.
+* Driver (conductor): usuario que pone a disposición su vehículo y coordina un viaje compartido.
+* Passenger (pasajero): usuario que solicita y ocupa uno o varios asientos en un carpool.
+* Campus Parking (estacionamiento en campus): área designada donde los conductores inician o finalizan sus viajes.
+* Live Tracking (seguimiento en vivo): funcionalidad que muestra en tiempo real la ubicación del vehículo durante un carpool.
+* Route (ruta): secuencia de puntos geográficos (origen, destinos intermedios y final) que sigue un carpool.
+* Trip Mapping (mapa de viaje): representación gráfica de una ruta con sus waypoints y horarios estimados.
+* Destination (destino): punto final al que se dirige un carpool.
+* Pickup Point (punto de recogida): ubicación acordada donde el conductor recoge a un pasajero.
+* Schedule (horario): fecha y hora programadas para el inicio o fin de un carpool.
+* Schedule Match (coincidencia de horarios): criterio de emparejamiento que compara disponibilidades temporales de conductor y pasajeros.
+* Route Match (coincidencia de ruta): criterio de emparejamiento que asegura que la ruta del conductor pase cerca de la ubicación del pasajero.
+* On-the-Go Ride (viaje en curso): estado de un carpool una vez iniciado y en tránsito.
+* Trip Registration (registro de viajes): histórico de todos los carpools completados o cancelados por un usuario.
+* Fare (tarifa): importe que debe pagar cada pasajero por su asiento en un carpool.
+* Commission (comisión): porcentaje o monto que retiene la plataforma por cada pago de pasajero al conductor.
+* Penalty (penalización): sanción aplicada a un usuario por incumplir reglas (cancelaciones tardías, rechazos reiterados, etc.).
+* Incentive (incentivo): recompensa o bono que la plataforma otorga a conductores o pasajeros por comportamientos deseables.
+* Infraction (infracción): registro de un incumplimiento que puede generar penalizaciones o reducción de reputación.
+* Trip Confirmation (confirmación de viaje): acto de validar que un asiento ha sido reservado y aceptado por el conductor.
+* Waiting Time Limit (tiempo máximo de espera): margen de tiempo que un pasajero debe esperar en un pickup point antes de considerarse cancelado.
+* Last-Minute Cancellation (cancelación de último momento): cancelación realizada después de iniciado el período permitido, sujeta a penalización.
+* Academic Verification (verificación académica): proceso de validar que un usuario pertenece a la comunidad universitaria.
+* University ID (identificación universitaria): credencial oficial usada para la verificación académica.
+* User Rating (calificación de usuario): puntuación otorgada por conductores o pasajeros tras completar un carpool.
+* Reputation (reputación): historial agregado de calificaciones, infracciones e incentivos que refleja la confiabilidad de un usuario.
+* Fee (cargo): monto fijo o variable que aplica la plataforma por el uso de ciertos servicios (p. ej. tarifa mínima).
+* Bonus (bono): tipo de incentivo económico adicional, como recompensa por completar un carpool con todos los asientos ocupados.
+* Tip (propina): monto voluntario que un pasajero puede añadir al pago de su tarifa para agradecer al conductor.
+* Price Suggestion (precio sugerido): estimación de tarifa calculada según distancia, tiempo y demanda.
+* Fuel Consumption (consumo de combustible): estimación del gasto de gasolina para cumplir la ruta planificada.
+* Fuel Saving (ahorro de gasolina): cálculo de combustible y costos evitados al compartir un carpool versus viaje individual.
+* Payment Methods (métodos de pago): canales o instrumentos aceptados para abonar la tarifa (efectivo, tarjeta, apps de pago).
+* Referral (referido): código o enlace que un usuario comparte para invitar a otros y obtener puntos o descuentos.
+* Badge (insignia): distintivo otorgado a usuarios por logros (p. ej. “100 viajes completados”).
+* Reward Points (puntos de recompensa): crédito acumulado que puede canjearse por descuentos o beneficios en la plataforma.
+
 # Capítulo III: Requirements specification
 
 ## 3.1. To-Be Scenario Mapping
