@@ -216,29 +216,54 @@ Llegar a los universitarios de todo el país para mejorar su movilidad en ciudad
 
 ### 1.2.1. Antecedentes y problemática
 
-Lima es reconocida como una de las ciudades más congestionadas del mundo, lo que genera pérdidas significativas de tiempo y afecta la calidad de vida de sus habitantes. La congestión vehicular en Lima también tiene un impacto económico considerable. De acuerdo con la Gerencia de Estudios Económicos y Estadística, el peruano promedio gasta 2268 soles en combustible anualmente. Además, la flota vehicular es responsable del 40% de las emisiones de gases de efecto invernadero en Lima. Esta situación es causada por la ineficiencia del sistema de transporte público, la falta de planificación urbana y el uso excesivo de vehículos privados. Quienes sufren más las consecuencias del tráfico son los estudiantes que no cuentan con vehículos particulares. Muchos deben recurrir diariamente a taxis informales, buses sin horarios fijos o paraderos establecidos, o incluso caminar largas distancias para llegar a tiempo a sus centros de estudios. Esto no solo implica un gasto económico adicional, sino también altos niveles de estrés, cansancio y pérdida de horas de estudio. Según el Ministerio de Educación del Perú, los estudiantes que enfrentan largos tiempos de traslado tienden a tener menor rendimiento académico y mayor ausentismo escolar.
+### Contexto del Transporte en Lima y su Impacto en Estudiantes Universitarios
 
+En Lima, una de las ciudades más congestionadas del mundo, el tráfico vehicular representa un desafío crítico para la vida diaria de sus habitantes. Este problema afecta de manera significativa a los estudiantes universitarios, quienes, a menudo, no tienen acceso a vehículos privados y dependen del transporte público o soluciones informales para movilizarse, lo que conlleva a un aumento en los tiempos de traslado, un mayor gasto económico y altos niveles de estrés.
 
-- ¿Quienes se ven más afectados?(Who?)
-Los estudiantes quienes todavía no tienen un sustento económico para solventar los gastos completos de tener un vehiculo.
+---
 
-- ¿Qué sucede?(What?)
-Lima enfrenta una de las peores congestiones vehiculares del mundo, lo que ocasiona pérdidas significativas de tiempo, afecta la calidad de vida de sus habitantes y limita el acceso a servicios esenciales como la educación.
+### Antecedentes
 
-- ¿Dónde sucede?(Where?)
-En la ciudad de Lima metropolitana, especificamente en avenidas de alta congestión.
+Lima enfrenta una grave congestión vehicular que afecta directamente la productividad, la calidad de vida de sus habitantes y la sostenibilidad ambiental. Según el Banco Central de Reserva del Perú (2023), la congestión vehicular le cuesta a la economía nacional aproximadamente **S/ 23.300 millones anuales**, lo que representa el 2,4% del Producto Bruto Interno (PBI) del país. Esta cifra refleja el costo directo del tráfico, pero también destaca cómo la congestión interrumpe la eficiencia de los sistemas de transporte, especialmente en un contexto urbano desorganizado.
 
-- ¿Cuando se manifiestan las consecuencias?(When?)
-Las consecuencias se manifiestan diariamente, especialmente durante las horas pico.
+Aparte de la congestión, uno de los factores más críticos que motivan la adopción de un sistema de carpool entre los estudiantes universitarios es el alto costo económico del transporte. La Asociación Automotriz del Perú (AAP, 2023) estima que cada peruano propietario de un vehículo gasta, en promedio, **S/ 2.368 anuales en combustible**, de los cuales **S/ 652** corresponden al tiempo perdido en el tráfico. Este gasto adicional tiene un impacto significativo en los estudiantes, quienes generalmente carecen de los recursos financieros para sostener el uso diario de un vehículo particular. Para estos estudiantes, el carpool representa una solución directa para compartir costos, reduciendo así el gasto mensual en transporte.
 
-- ¿Por qué ocurre?(Why?)
-Debido a la pobre planificación urbana, el pésimo servicio de transporte público y el abuso de vehiculos privados.
+El impacto ambiental también es un factor clave que justifica la necesidad de soluciones como el carpool. Según la Autoridad de Transporte Urbano (ATU, 2023), la flota vehicular es responsable del **58% de las emisiones de material particulado en Lima Metropolitana**, lo que no solo contribuye a la contaminación del aire, sino que afecta la salud pública.
 
-- ¿Cómo afecta el tráfico?(How?)
-Los estudiantes se ven obligados a usar taxis informales, buses sin horarios fijos o caminar largas distancias, lo que implica un gasto económico adicional, altos niveles de estrés, cansancio y menor rendimiento académico.
+Además, la seguridad vial es otra preocupación importante. La Policía Nacional del Perú (2023) reporta que la falta de orden y la conducción imprudente en Lima han contribuido al aumento de accidentes de tránsito. El uso de vehículos compartidos entre estudiantes no solo puede reducir la cantidad de autos en circulación, sino también contribuir a un tráfico más ordenado y seguro.
 
-- ¿Cúanto impacta en la actualidad?(How Much?)
-El peruano promedio dueño de un vehiculo gasta alrededor de 2,268 soles anuales en combustible. Esta cifra es inalcanzable para un estudiante que no trabaja todavía.
+La inseguridad en las calles de Lima, especialmente durante las horas tempranas y nocturnas, es una preocupación creciente para los estudiantes universitarios. La PUCP (2024) destaca que los estudiantes enfrentan altos riesgos durante sus desplazamientos debido a la escasez de transporte público eficiente y la alta criminalidad. En el periodo julio-agosto de 2023, Lima Metropolitana registró **39,479 denuncias por delitos**, representando el 35.6% del total nacional. En este contexto, el uso de un sistema de carpool universitario se presenta como una alternativa que no solo reduce costos y emisiones, sino que también ofrece una mayor seguridad.
+
+---
+
+### Problemática
+
+El sistema de transporte público ineficiente, la falta de planificación urbana y el uso excesivo de vehículos privados agravan esta situación. Los estudiantes, especialmente aquellos sin acceso a vehículos privados, se ven obligados a recurrir a taxis informales, buses sin horarios fijos o caminar largas distancias, lo que genera un aumento en los costos, el estrés y la fatiga. Esta situación también afecta su rendimiento académico, ya que el tiempo perdido en traslados reduce las horas de estudio, como lo indica el Ministerio de Educación del Perú.
+
+---
+
+### Análisis 5W2H
+
+- **WHAT (Qué)**  
+  Lima enfrenta una de las peores congestiones vehiculares a nivel mundial, lo que causa pérdidas de tiempo, afecta la calidad de vida y limita el acceso a servicios esenciales como la educación.
+
+- **WHEN (Cuándo)**  
+  Las consecuencias se manifiestan constantemente, especialmente durante las horas pico.
+
+- **WHERE (Dónde)**  
+  En Lima Metropolitana, particularmente en avenidas como Av. Javier Prado, Av. Paseo de la República y Av. Universitaria.
+
+- **WHO (Quién)**  
+  Los estudiantes universitarios, especialmente aquellos sin acceso a vehículos privados.
+
+- **WHY (Por qué)**  
+  Debido a un sistema de transporte público deficiente, una planificación urbana inadecuada y alta dependencia de vehículos privados.
+
+- **HOW (Cómo)**  
+  El tráfico incrementa los costos de transporte (S/ 2,368 anuales por combustible). Para los estudiantes, este gasto es insostenible, obligándolos a optar por medios informales o caminar largas distancias (TomTom, 2023; Trading Economics, 2023).
+
+- **HOW MUCH (Cuánto)**  
+  Según la PUCP (2024), muchos estudiantes deben recorrer hasta dos horas para llegar a sus universidades, lo que afecta su descanso y rendimiento académico. Además, el 30% de los limeños tarda más de una hora en llegar a su destino.
 
 
 ### 1.2.2. Lean UX Process
