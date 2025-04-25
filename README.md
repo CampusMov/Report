@@ -629,16 +629,53 @@ Por último, uno de los datos más relevantes en términos de crecimiento es el 
   - Estado civil: Soltero
   - Ubicación Geográfica: Lima metropolitana
     - Dada la dispersión de datos, decidimos colocar 
+  
   ![Ubicación](./assets/interviews/analytics/passenger/Distritos.jpg)
   - Uso de tecnología y Dispositivos:
   ### Frustraciones
   Podemos ver que nuestros entrevistados se ven más preocupados por la demora y congestión vehicular en lima metropolitana, esto nos dice que un 75% de nuestros entrevistados se ven insatisfechos por el sistema de transporte público y taxis de nuestra ciudad.
-  ![Frustración Pasajero](./assets/interviews/analytics/passenger/Frustraciones.jpg)
+  
+![Frustración Pasajero](./assets/interviews/analytics/passenger/Frustraciones.jpg)
 
 
   ### Puntos de interés
   Podemos ver que los usuarios se ven interesados en conseguir beneficios que no se pueden satisfacer de manera regular, los taxis no pueden brindar comodidad económica y los buses no pueden ser más rapidos. Por ello nuestra iniciativa podrá ser más adecuada para ellos.
-  ![Motivaciones](./assets/interviews/analytics/passenger/Motivaciones.jpg)
+  
+![Motivaciones](./assets/interviews/analytics/passenger/Motivaciones.jpg)
+
+### Perfil del pasajero universitario: motivaciones, expectativas y confianza
+
+La visión de los pasajeros universitarios sobre el transporte revela una combinación clara de insatisfacción moderada con el sistema actual y un fuerte entusiasmo por nuevas propuestas que les brinden mayor control, ahorro y seguridad. En una escala de satisfacción del 1 al 7 respecto a su transporte habitual, la mayoría se ubica en el rango medio. Esto refleja no una insatisfacción profunda, pero sí una predisposición clara a migrar hacia alternativas más eficientes.
+
+![grafico1.png](assets/interviews/analytics/passenger/grafico1.png)
+
+Esta apertura se traduce en una respuesta contundente hacia la idea de un sistema de carpool entre estudiantes. Una amplia mayoría considera la propuesta como muy atractiva, especialmente cuando se estructura con claridad y se ofrecen mecanismos de confianza, lo que valida el concepto mismo del producto.
+
+![grafico2.png](assets/interviews/analytics/passenger/grafico2.png)
+
+Los estudiantes no solo buscan movilidad compartida, sino también previsibilidad. Valoran enormemente la posibilidad de planificar con anticipación su semana, lo que sugiere que la funcionalidad de “grupos preformados” no es un plus, sino una expectativa clave. Contar con un grupo fijo no solo ahorra tiempo, sino que también reduce el estrés de la coordinación diaria.
+
+![grafico3.png](assets/interviews/analytics/passenger/grafico3.png)
+
+En situaciones de última hora, como cuando un conductor pasa cerca de su ubicación, los pasajeros están abiertos a integrarse al viaje, siempre que se les garantice seguridad. Este tipo de flexibilidad exige un sistema con validación de perfiles, rutas verificables y notificaciones en tiempo real.
+
+![grafico4.png](assets/interviews/analytics/passenger/grafico4.png)
+
+En cuanto al proceso de pago, la aceptación del cobro digital a través de Yape u otras plataformas es total. Sin embargo, no se trata solo de automatizar el pago: los estudiantes desean ver con claridad el costo sugerido antes de comprometerse, reflejando una necesidad de transparencia financiera.
+
+![grafico5.png](assets/interviews/analytics/passenger/grafico5.png)
+
+De hecho, la dimensión económica emerge con más fuerza cuando se plantea una herramienta que les muestre comparativas de ahorro frente al transporte tradicional. Ver cuánto gastan menos cada semana refuerza su percepción de valor, ayudando a fidelizar usuarios más allá de la experiencia puntual del viaje.
+
+![grafico6.png](assets/interviews/analytics/passenger/grafico6.png)
+
+El interés de los pasajeros no se limita a ser usuarios: pueden convertirse en promotores activos del servicio. Muchos afirmaron que estarían dispuestos a invitar a amigas a la plataforma si reciben recompensas como descuentos. Este dato sugiere un fuerte potencial de crecimiento orgánico vía referidos.
+
+![grafico7.png](assets/interviews/analytics/passenger/grafico7.png)
+
+Finalmente, se identifica un aspecto emocional muy potente: la necesidad de protección ante fallas del sistema. Los pasajeros desean garantías en caso de que un conductor cancele. Las alertas anticipadas y penalizaciones no son vistas como sanciones punitivas, sino como mecanismos para asegurar la continuidad y confiabilidad del servicio.
+
+![grafico8.png](assets/interviews/analytics/passenger/grafico8.png)
 
 
 ## 2.3. Needfinding
