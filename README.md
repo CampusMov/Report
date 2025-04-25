@@ -366,6 +366,7 @@ Conductor:
 
 ## 3.3. Impact Mapping
 
+![ImpactMap](assets/requirements/ImpactMap1.png)
 
 ## 3.4. Product Backlog
 
