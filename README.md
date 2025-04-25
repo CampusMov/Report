@@ -31,10 +31,6 @@
                 <td>202015274</td>
             </tr>
             <tr>
-                <td>Moraloes Quispe, Brayan Smith</td>
-                <td>20211f984</td>
-            </tr>
-            <tr>
               <td>Morales Quispe, Brayan Smith</td>
               <td>20211f984</td>
             </tr>
@@ -47,18 +43,36 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                             | Descripción de la modificación                               |
-|---------|------------|-----------------------------------|--------------------------------------------------------------|
-| 1.0     | 2025-03-01 | Gutiérrez Soto, Jhosepmyr Orlando | Versión inicial del informe.                                 |
-| 1.1     | 2025-03-02 | Todos los integrantes             | Se agregó los objetivos SMART de cada integrante del equipo. |
-
+| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                        |
+|---------|------------|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                    |
+| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                         |
+| 1.2.0   | 2025-04-03 | Jhosepmyr Orlando, Eric    | Capítulo I completo: Descripción de la Startup y Perfiles del equipo (1.1), Problemática y Lean UX (1.2). |
+| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                       |
+| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                 |
+| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                             |
+| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                 |
+| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                         |
+| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                               |
+| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                    |
 
 <div style="page-break-before: always"></div>
 
 # Project Report Collaboration Insights
 
+En esta sección se documenta la colaboración del equipo en la elaboración del informe, mostrando evidencias gráficas de la actividad en GitHub y su coherencia con el registro de versiones.
+
 * URL del repositorio del Project Report en la organización de GitHub del equipo:
 * [https://github.com/CampusMov/Report](https://github.com/CampusMov/Report)
+
+**Figura 1: Contributors** 
+
+Muestra el número de commits por miembro a lo largo del tiempo. 
+Por ejemplo, Jhosepmyr realizó 32 commits, Elmer 25, Brayan 16, Carlos 15, Eric 13 y Mateo 12, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
+
+![commits.png](assets/insights/commits.png)
+
+Ante lo observado, las métricas confirman que **todos** los miembros contribuyeron activamente: redacción de secciones, creación de diagramas, revisiones de contenido y coordinación de entregas. Se recomienda mantener la práctica de PRs y revisiones cruzadas en las siguientes iteraciones para asegurar calidad y trazabilidad.
 
 <div style="page-break-before: always"></div>
 
@@ -223,25 +237,9 @@
       * [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
         * [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
         * [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
-* [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-  * [5.1. Product Design](#51-product-design)
-    * [5.1.1. Style Guidelines](#511-style-guidelines)
-      * [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
-    * [5.1.2. Information Architecture](#512-information-architecture)
-      * [5.1.2.1. Organization Systems](#5121-organization-systems)
-      * [5.1.2.2. Labelling Systems](#5122-labelling-systems)
-      * [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
-      * [5.1.2.4. Searching Systems](#5124-searching-systems)
-      * [5.1.2.5. Navigation Systems](#5125-navigation-systems)
-    * [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
-      * [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
-      * [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
-    * [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
-      * [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
-      * [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
-      * [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
-      * [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
-      * [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+* [Conclusiones](#conclusiones)
+* [Bibliografía](#bibliografía)
+* [Anexos](#anexos)
 <!-- TOC -->
 
 <div style="page-break-before: always"></div>
@@ -2063,42 +2061,21 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ![Comunication.png](assets/database-diagrams/Comunication.png)
 
-# Capítulo V: Solution UI/UX Design
-
-## 5.1. Product Design
-
-### 5.1.1. Style Guidelines
-
-#### 5.1.1.1. General Style Guidelines
-
-### 5.1.2. Information Architecture
-
-#### 5.1.2.1. Organization Systems
-
-#### 5.1.2.2. Labelling Systems
-
-#### 5.1.2.3. SEO Tags and Meta Tags
-
-#### 5.1.2.4. Searching Systems
-
-#### 5.1.2.5. Navigation Systems
-
-### 5.1.3. Landing Page UI Design
-
-#### 5.1.3.1. Landing Page Wireframe
-
-#### 5.1.3.2. Landing Page Mock-up
-
-### 5.1.4. Mobile Applications UX/UI Design
-
-#### 5.1.4.1. Mobile Applications Wireframes
-
-#### 5.1.4.2. Mobile Applications Wireflow Diagrams
-
-#### 5.1.4.3. Mobile Applications Mock-ups
-
-#### 5.1.4.4. Mobile Applications User Flow Diagrams
-
-#### 5.1.4.5. Mobile Applications Prototyping
-
 <div style="page-break-before: always"></div>
+
+# Conclusiones
+
+Validación de Supuestos y Resultados: La validación de las hipótesis iniciales, como la preferencia por una app móvil fácil de usar, se confirmó en gran medida. Sin embargo, aspectos como la seguridad en el proceso de asignación y la transparencia del sistema de pagos requirieron ajustes para mejorar la confianza del usuario.
+
+Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.
+
+# Bibliografía
+
+Asociación Automotriz del Perú. (2023). Estudio sobre el gasto adicional por congestión vehicular en Lima. Recuperado de https://rpp.pe/economia/economia/peruanos-gastan-s-652-mas-en-combustible-al-ano-debido-a-congestion-vehicular-noticia-1539340?utm_source=chatgpt.com
+Autoridad de Transporte Urbano (ATU). (2023). Informe sobre las emisiones de material particulado en Lima. Recuperado de https://transparencia.atu.gob.pe/transparencia_atu/CalidadAmbiental/Boletin02.pdf?utm_source=chatgpt.com
+Banco Central de Reserva del Perú. (2023). Impacto económico de la congestión vehicular en Lima. Recuperado de https://indice.pe/bcr-congestion-vehicular-en-lima-hace-que-economia-pierda-s-23-300-millones-por-ano/?utm_source=chatgpt.com
+Pontificia Universidad Católica del Perú. (2024, 12 de noviembre). El desafío de todo estudiante PUCP: la congestión vehicular de Lima. Facultad de Ciencias e Ingeniería. Recuperado de https://facultad-ciencias-ingenieria.pucp.edu.pe/2024/11/12/el-desafio-de-todo-estudiante-pucp-la-congestion-vehicular-de-lima/
+Redaccion EC. (2024, 17 de febrero) ¿Cuánto dinero gastaron los peruanos en gasolina durante 2023 debido a la congestión vehicular?. El Comercio. https://elcomercio.pe/respuestas/trends/cuanto-dinero-gastaron-los-peruanos-en-gasolina-durante-2023-debido-a-la-congestion-vehicular-tdpe-noticia/
+TomTom. (2023). Traffic Index 2023. Retrieved from https://www.tomtom.com/traffic-index/lima-traffic
+
+# Anexos
