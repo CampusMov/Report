@@ -665,11 +665,15 @@ Una vez finalizada la recopilación de información por parte del equipo, proced
 
 ### 4.1.1. EventStorming
 
+En esta sección nos reunimos todo el equipo para realizar una lluvia de ideas sobre los eventos que ocurrirían en la aplicación. Primero se empezó por poner en una pizarra todos los eventos del dominio que se nos ocurrieran que podría tener la aplicación. Despúes empezamos a agregar los commandos que desencadenan los eventos. Finalmente ya se agregaron los demás elementos como actores, políticas, aggregates, sistemas externos, y modelos de lectura. Poco a poco al hacer esto se empezaron a formar pequeños flujos de eventos que nos serviriían para el siguiente punto.
+
 ![EventStorming](./assets/eventstorming/eventstorming-1.png)
 
 ![EventStorming](./assets/eventstorming/eventstorming-2.png)
 
 #### 4.1.1.1. Candidate Context Discovery
+
+En esta sección el equipo se puso a organizar los elementos resultantes el event storming. Primero nos pusimos a identificar los eventos y flujos que consideramos eran os mas importantes, para separarlos que sean el core del dominio. Despues estuvimos descomponiendo los eventos en steps secuenciales y buscando eventos clave que provoquen cambios de estado en el sistema. Finalmente, con todos estos pasos pudimos segmentar los eventos para que se adequen a las necesidades del negocio, dando como resultado nuestros Bounded Context
 
 ![CandidateContextDiscovery](./assets/eventstorming/CCD-1.png)
 ![CandidateContextDiscovery](./assets/eventstorming/CCD-2.png)
@@ -692,9 +696,15 @@ Flujo de finalización de carpool:
 
 #### 4.1.1.3. Bounded Context Canvases
 
+En esta sección sección se ha realizado Canvas para los bounded context. La finalidad es obtener un diagrama informativo sobre cada bounded context con información clave de este en el negocio.
+
+Routing and Matching Canvas
+
 ![BCCanvas](./assets/eventstorming/BCcanvas-routing-matching.png)
 
 ### 4.1.2. Context Mapping
+
+En esta sección se realizó un mapa con los bounded context conectados según los patrones de contexto y relación que tienen.
 
 ![ContextMap](./assets/eventstorming/context-mapping.png)
 
