@@ -1266,6 +1266,8 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![ANALYTICS.png](assets/database-diagrams/ANALYTICS.png)
+
 ### 4.2.8. Bounded Context: Communication Management
 
 Este bounded context gestiona la generación, entrega y seguimiento de notificaciones a los usuarios, ya sea de forma sincrónica o basada en eventos de dominio.
