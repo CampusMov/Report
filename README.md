@@ -43,8 +43,11 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de la modificación |
-|---------|-------|-------|--------------------------------|
+| Versión | Fecha      | Autor                             | Descripción de la modificación                               |
+|---------|------------|-----------------------------------|--------------------------------------------------------------|
+| 1.0     | 2025-03-01 | Gutiérrez Soto, Jhosepmyr Orlando | Versión inicial del informe.                                 |
+| 1.1     | 2025-03-02 | Todos los integrantes             | Se agregó los objetivos SMART de cada integrante del equipo. |
+
 
 <div style="page-break-before: always"></div>
 
