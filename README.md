@@ -1134,6 +1134,8 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![reputationAndIncentives.png](assets/database-diagrams/reputationAndIncentives.png)
+
 ### 4.2.6. Bounded Context: In Trip Communication Management
 
 Este bounded context gestiona el intercambio de mensajes entre conductor y pasajeros durante el trayecto, facilitando la comunicación en tiempo real.
