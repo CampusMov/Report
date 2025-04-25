@@ -776,11 +776,11 @@ En esta capa se modela la lógica central y las reglas del dominio para carpools
 
 Aquí se describen las clases que exponen la funcionalidad del contexto a través de controladores o consumidores de eventos:
 
-| Clase               | Tipo       | Propósito                                                                                                                                  |
-|---------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| `CarpoolController` | Controller | Expone endpoints para crear, iniciar, finalizar y cancelar un viaje, así como aceptar o rechazar solicitudes de pasajeros.                 |
-| `RequestController` | Controller | Permite a los usuarios enviar, cancelar y consultar el estado de sus solicitudes de emparejamiento.                                        |
-| `RouteConsumer`     | Consumer   | (Opcional) Escucha eventos para actualizar rutas, reordenar puntos o recalcular duración. Puede usarse con arquitectura basada en eventos. |
+| Clase               | Tipo       | Propósito                                                                                                                       |
+|---------------------|------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `CarpoolController` | Controller | Expone endpoints para crear, iniciar, finalizar y cancelar un viaje, así como aceptar o rechazar solicitudes de pasajeros.      |
+| `RequestController` | Controller | Permite a los usuarios enviar, cancelar y consultar el estado de sus solicitudes de emparejamiento.                             |
+| `RouteConsumer`     | Consumer   | Escucha eventos para actualizar rutas, reordenar puntos o recalcular duración. Puede usarse con arquitectura basada en eventos. |
 
 #### 4.2.1.3. Application Layer
 
@@ -849,7 +849,7 @@ Clases que exponen los servicios de tarifa y comisiones:
 |---------------------------|------------|----------------------------------------------------------------------------------------------------------------------|
 | `FareController`          | Controller | Endpoints para calcular, consultar y finalizar tarifas (`calculateFare()`, `finalizeFare()`).                        |
 | `CommissionController`    | Controller | Endpoints para generar períodos de comisión, consultar estados y marcar como pagadas (`generateCommission()`, etc.). |
-| `PaymentCallbackConsumer` | Consumer   | (Opcional) Escucha notificaciones de pasarelas de pago para actualizar el estado de `Fare` o `Commission`.           |
+| `PaymentCallbackConsumer` | Consumer   | Escucha notificaciones de pasarelas de pago para actualizar el estado de `Fare` o `Commission`.                      |
 
 #### 4.2.2.3. Application Layer
 
@@ -994,12 +994,12 @@ Aquí se modela el núcleo de usuarios y roles, así como las reglas de negocio 
 
 Expone la funcionalidad de IAM a través de APIs REST o consumidores de eventos:
 
-| Clase                    | Tipo        | Propósito                                                                                     |
-|--------------------------|-------------|-----------------------------------------------------------------------------------------------|
-| `AuthController`         | Controller  | Endpoints para registro, login, logout y refresh de tokens.                                   |
-| `UserController`         | Controller  | CRUD de usuarios: consulta, actualización de perfil y estado.                                 |
-| `RoleController`         | Controller  | CRUD de roles y asignación de permisos.                                                       |
-| `TokenEventConsumer`     | Consumer    | (Opcional) Escucha eventos de expiración o revocación de tokens para limpieza de sesiones.    |
+| Clase                | Tipo       | Propósito                                                                       |
+|----------------------|------------|---------------------------------------------------------------------------------|
+| `AuthController`     | Controller | Endpoints para registro, login, logout y refresh de tokens.                     |
+| `UserController`     | Controller | CRUD de usuarios: consulta, actualización de perfil y estado.                   |
+| `RoleController`     | Controller | CRUD de roles y asignación de permisos.                                         |
+| `TokenEventConsumer` | Consumer   | Escucha eventos de expiración o revocación de tokens para limpieza de sesiones. |
 
 #### 4.2.4.3. Application Layer
 
@@ -1072,14 +1072,14 @@ En esta capa se modela el núcleo de reputación e incentivos, con entidades, ob
 
 Aquí se exponen los servicios REST o consumidores de eventos para interactuar con reputación e incentivos:
 
-| Clase                  | Tipo       | Propósito                                                                                         |
-|------------------------|------------|---------------------------------------------------------------------------------------------------|
-| `ReputationController` | Controller | Endpoints para consultar y actualizar el perfil de reputación de un usuario.                      |
-| `InfractionController` | Controller | Permite registrar infracciones y obtener historial de sanciones.                                  |
-| `PenaltyController`    | Controller | CRUD y gestión de sanciones aplicadas a los usuarios.                                             |
-| `IncentiveController`  | Controller | Endpoints para listar, activar y desactivar incentivos.                                           |
-| `RewardController`     | Controller | Permite reclamar o consultar el estado de las recompensas de incentivos.                          |
-| `EventConsumer`        | Consumer   | (Opcional) Escucha eventos de sistema (p.ej. viaje completado) para generar o revocar incentivos. |
+| Clase                  | Tipo       | Propósito                                                                              |
+|------------------------|------------|----------------------------------------------------------------------------------------|
+| `ReputationController` | Controller | Endpoints para consultar y actualizar el perfil de reputación de un usuario.           |
+| `InfractionController` | Controller | Permite registrar infracciones y obtener historial de sanciones.                       |
+| `PenaltyController`    | Controller | CRUD y gestión de sanciones aplicadas a los usuarios.                                  |
+| `IncentiveController`  | Controller | Endpoints para listar, activar y desactivar incentivos.                                |
+| `RewardController`     | Controller | Permite reclamar o consultar el estado de las recompensas de incentivos.               |
+| `EventConsumer`        | Consumer   | Escucha eventos de sistema (p.ej. viaje completado) para generar o revocar incentivos. |
 
 #### 4.2.5.3. Application Layer
 
@@ -1190,21 +1190,69 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ### 4.2.7. Bounded Context: Analytics Management
 
+Este bounded context se encarga de recopilar, calcular y exponer métricas clave de comportamiento y desempeño de usuarios (pasajeros y conductores), facilitando el análisis y la toma de decisiones basada en datos.
+
 #### 4.2.7.1. Domain Layer
+
+Modela el núcleo de las métricas como agregados y objetos de valor:
+
+| Clase             | Tipo                    | Propósito                                                                                                                                                                        |
+|-------------------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `UserAnalytics`   | Aggregate Root (Entity) | Centraliza todas las métricas de un usuario (`carpoolMetrics`, `ratingMetrics`, `timeMetrics`, `economicMetrics`) y provee operaciones para actualizarlas.                       |
+| `CarpoolMetrics`  | Value Object            | Métricas de uso de viajes: `totalCarpoolsCompleted: Integer`, `totalCarpoolsCancelled: Integer`, `totalDistanceKm: Double`, `totalTimeMinutes: Integer`, `totalPayments: Money`. |
+| `RatingMetrics`   | Value Object            | Métricas de calificaciones: `averageRating: Double`, `totalRatingReceived: Integer`.                                                                                             |
+| `TimeMetrics`     | Value Object            | Ahorro y eficiencia de tiempo: `estimatedTimeSavingMinutes: Integer`, `totalTravelMinutes: Integer`, `efficiencyPercentage: Double`.                                             |
+| `EconomicMetrics` | Value Object            | Métricas económicas: `totalEarnings: Money`, `totalCommissionPaid: Money`, `estimatedFuelSaving: Money`.                                                                         |
+| `Money`           | Value Object            | Valor monetario con `amount: Double` y `currency: Currency`.                                                                                                                     |
+| `Currency`        | Value Object            | Define la moneda (`code: String`, `symbol: String`).                                                                                                                             |
+| `UserType`        | Enum                    | Tipo de usuario: `Passenger`, `Driver`.                                                                                                                                          |
+| `UserId`          | Value Object            | Identificador único de usuario.                                                                                                                                                  |
 
 #### 4.2.7.2. Interface Layer
 
+Exposición de APIs y/o consumidores para interactuar con las métricas:
+
+| Clase                  | Tipo       | Propósito                                                                                                         |
+|------------------------|------------|-------------------------------------------------------------------------------------------------------------------|
+| `AnalyticsController`  | Controller | Endpoints para consultar métricas agregadas o por tipo de usuario (`GET /analytics/{userId}`).                    |
+| `MetricsEventConsumer` | Consumer   | Escucha eventos de dominio (e.g., `CarpoolCompleted`, `FareFinalized`, `RatingReceived`) y lanza actualizaciones. |
+
 #### 4.2.7.3. Application Layer
 
+Orquesta la actualización y el cálculo de métricas mediante handlers:
+
+| Clase                             | Tipo            | Propósito                                                                                          |
+|-----------------------------------|-----------------|----------------------------------------------------------------------------------------------------|
+| `UserMetricsUpdateCommandHandler` | Command Handler | Dispara la recomputación completa de todas las métricas de un usuario invocando `updateMetrics()`. |
+| `CarpoolCompletedEventHandler`    | Event Handler   | Actualiza `CarpoolMetrics` y `TimeMetrics` al completarse un viaje.                                |
+| `FareFinalizedEventHandler`       | Event Handler   | Ajusta `EconomicMetrics` cuando se finaliza el cobro de una tarifa.                                |
+| `RatingReceivedEventHandler`      | Event Handler   | Recalcula `RatingMetrics` al registrarse una nueva calificación.                                   |
+
 #### 4.2.7.4. Infrastructure Layer
+
+Implementaciones de persistencia y adaptadores para apoyo a métricas:
+
+| Clase                        | Tipo             | Propósito                                                                                    |
+|------------------------------|------------------|----------------------------------------------------------------------------------------------|
+| `UserAnalyticsRepository`    | Repository Impl. | Persiste y recupera objetos `UserAnalytics` (`save()`, `findByUserId()`, `findAllByType()`). |
+| `EventBusAdapter`            | Infrastructure   | Suscribe y publica eventos de métricas en el bus de dominio.                                 |
+| `DatabaseTransactionManager` | Utility          | Maneja transacciones atómicas en las operaciones de cálculo y persistencia de métricas.      |
 
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/analytics.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
 ### 4.2.8. Bounded Context: Communication Management
 
