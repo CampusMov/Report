@@ -821,6 +821,8 @@ Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo enti
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![matchingAndRouting.png](assets/database-diagrams/matchingAndRouting.png)
+
 ### 4.2.2. Bounded Context: Payment & Fees Management
 
 Este bounded context se encarga de calcular, registrar y procesar las tarifas (“fares”) de los viajes compartidos, así como de generar y gestionar las comisiones de los conductores en períodos definidos.
