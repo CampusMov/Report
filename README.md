@@ -279,6 +279,15 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
 
 ## 3.1. To-Be Scenario Mapping
 
+Pasajero:
+
+![ToBePassenger](assets/requirements/to-be-passenger.png)
+
+
+Conductor:
+
+![ToBeDriver](assets/requirements/to-be-driver.png)
+
 ## 3.2. User Stories
 
 | Epic / Story ID   | Título                                                                                | Descripción                                                                                                                                                                                                                                                                | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -356,6 +365,7 @@ Por lo tanto, nuestra aplicación de carpooling universitario está dirigida a d
 
 
 ## 3.3. Impact Mapping
+
 
 ## 3.4. Product Backlog
 
