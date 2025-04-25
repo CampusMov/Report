@@ -861,6 +861,99 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
 
 ### 2.2.1. Diseño de entrevistas
 
+## Entrevista a Pasajeros
+
+### Contexto Inicial
+- ¿Cómo es tu rutina para ir a la universidad? ¿Cuánto tiempo te toma, qué pasos sigues y cómo decides el medio de transporte?
+- ¿Qué aplicaciones o herramientas usas para orientarte (bus, taxi, Google Maps, chats con amigos)?
+
+### Sentimientos y Frustraciones
+- ¿Qué situaciones en tu trayecto te generan mayor frustración, cansancio o inseguridad?
+- ¿Has tenido experiencias en las que te sientas estresado, con miedo o ansioso al viajar?
+
+### Motivaciones y Deseos
+- ¿Qué tan importante es para ti ahorrar dinero o tiempo en tus viajes matutinos?
+- ¿Qué seguros y lugares tú encontrarías una alternativa distinta a tu rutina actual?
+
+### Presentación de la Solución – Grupos Preformados y Calendario Compartido
+- ¿Cómo percibes la idea de unirte a un grupo fijo de estudiantes para toda la semana?
+- ¿En qué crees que te beneficiaría o perjudicaría coordinar así?
+- Si tuvieras un calendario compartido con conductores y demás pasajeros, ¿en qué momentos o situaciones verías útil planificar tus viajes con antelación?
+
+### Búsqueda Individual y Viaje en Curso
+- ¿Qué te parecería ver conductores que están pasando cerca en el mismo momento y unirte al 'viaje en curso' sin planear?
+- ¿Qué información necesitarías antes de subirte?
+- ¿Suelen tener cambios de horario de último minuto?
+- ¿Cómo crees que esta opción encajaría cuando cambias tus planes repentinamente?
+
+### Validación, Chat Previo y Reputación
+- ¿En qué te fijarías para sentirte seguro con un conductor desconocido?
+- ¿Cómo crees que un chat previo te ayudaría a resolver dudas o confirmar detalles del viaje?
+- ¿Te interesaría un método de pago integrado, como Yape?
+- Si el conductor cancela o no cumple, ¿te daría más confianza un sistema de penalización o notificaciones?
+
+### Sistema de Recompensas
+- ¿Te animarías a invitar a tus amigos a usar la app si obtuvieras recompensas (descuentos, puntos, niveles)?
+- ¿Qué te motivaría más?
+- ¿Qué tan cómoda fue tu experiencia con otras personas para que se sumen?
+
+### Cierre y Visión Futura
+- De todo lo que acabas de ver y escuchar, ¿qué aspecto te parece más decisivo para que adoptes esta solución sin pensarlo dos veces?
+- Imagina que usas este sistema a diario: ¿qué cambio notarías más en tu rutina a 6 meses?
+- ¿Qué situaciones crees que quedarían solucionadas y cuáles seguirían siendo un reto?
+
+---
+
+## Entrevista a Conductores
+
+### Contexto Inicial – Perfil y Motivaciones
+- ¿Cómo organizas tu ruta a la universidad cuando manejas?
+- ¿Qué pasos sigues y qué herramientas usas para coordinar con alguien?
+
+### Problemas Actuales
+- ¿Qué costos o problemas te generan más frustración al ir solo en tu auto?
+
+### Motivaciones y Deseos
+- ¿Qué esperas obtener (aparte de llegar a tiempo) al compartir tu auto con otros estudiantes?
+
+### Presentación de la Idea – Grupos Preformados y Calendario Compartido
+- ¿Qué beneficios ves en crear un grupo constante para los viajes?
+- ¿Crees que te ahorraría tiempo de coordinación o temes que alguno no aparezca?
+- ¿Qué te parece esta pantalla con un calendario semanal?
+- ¿Te facilitaría planificar con anticipación?
+
+### Sugerencias de Pasajeros y Viaje en Curso
+- ¿Cómo preferirías que se te sugieran pasajeros? ¿Por cercanía, por horario, por calificación?
+- ¿Aceptarías pasajeros espontáneos en pleno viaje?
+- ¿Consideras que esta dinámica puede ser caótica o conflictiva?
+- ¿Qué problemas crees que causaría?
+
+### Reputación de Pasajeros y Puntualidad
+- ¿Qué datos específicos de un pasajero te ayudarían a sentirte seguro para aceptarlo?
+- ¿Observarías la reputación de cada pasajero?
+- ¿Qué otra información te gustaría ver?
+
+### Sistema de Recompensas
+- ¿Te ves hablándole a tus conocidos para que usen la app o necesitarías un incentivo más fuerte?
+- ¿Qué te motivaría a compartir tu auto con amigos a cambio de recompensas?
+- ¿Qué tipo de recompensas te gustaría? (descuentos en comisión, insignias, etc.)
+
+### Panel de Ahorro y Cobro Integrado
+- ¿Cómo te gustaría ver reflejados tus ingresos o ahorros (por ejemplo, gasolina, compensación)?
+- ¿Qué te motivaría más: ver un número claro al fin de mes?
+- ¿Estarías dispuesto a que la app entregue un pequeño porcentaje como forma de gestionar los pagos y penalizaciones?
+- ¿Prefieres cobro inmediato por viaje o balance quincenal?
+- ¿Qué opinas de penalizar a pasajeros que falten sin avisar?
+- ¿Crees que eso te daría más seguridad?
+
+### Chat Previo y Notificaciones
+- ¿Crees que un chat entre el pasajero y tú ayudaría a planificar bien el horario?
+- ¿Te gustaría recibir recordatorios de que alguien no se presentó o avisos de impuntualidad?
+
+### Cierre y Visión Futura
+- ¿De todo lo que hemos visto, qué función consideras fundamental para animarte a llevar pasajeros con confianza?
+- ¿Cómo imaginas tus viajes dentro de 6 meses si adoptaras esta app?
+- ¿Qué problemas quedarían resueltos y qué retos crees que seguirían?
 
 ### 2.2.2. Registro de entrevistas
 <table>
