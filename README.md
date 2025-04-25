@@ -690,11 +690,15 @@ En esta seccion se mostrara nuestro diagram de despliege donde hacemos mencion e
 #### 4.1.3.4 Software Architecture Components Diagrams
 En esta seccion se presenta nuestro diagrama de componentes de las principales microservicios, todos siguen el patron CQRS que permite separar la funcionalidad de los comandos y consultas a la base de datos.Ademas de mostrar mas a detalle donde se implementara los servicios externos.
 
+![](/assets/c4/ComponentMatchingRouting.png)
+**Diagrama de componentes de Matching & Routing**
+
 ![](/assets/c4/structurizr-Component-004.png)
 **Diagrama de componentes de Payments & fees**
 
 ![](/assets/c4/structurizr-Component-007.png)
 **Diagrama de componentes de Comunication**
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context:
