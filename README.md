@@ -1065,14 +1065,53 @@ Finalmente, se identifica un aspecto emocional muy potente: la necesidad de prot
 
 ### 2.3.1. User Personas
 
+ * Estudiante Pasajero
+ ![UserPersonPajaero](/assets/needfinding/user-person-pasajero.png)
+
+ * Estudiante Conductor
+ ![UserPersonConductor](/assets/needfinding/user-persona-conductor.png)
+
 ### 2.3.2. User Task Matrix
 
+![taskMatrix](/assets/needfinding/task-matrix.png)
+
+ * __Frecuencia e importancia:__ Las tareas con mayor frecuencia e impotancia se enfocan en el ahorro de tiempo y dinero tanto como pasajero y conductor al dirigirse a clases. 
+* __Diferencias:__ La diferencia mas notoria es al momento de coordinar viajes a la universidad con un amigo o compañeros. Teniendo diferentes puntos de vistas respecto al ambito social al momento de viajar a la universidad.
+
+* **Coincidencias:** La coincidencias que destacan entrelos diferentes usuarios. Tanto como el pasajero como el conductor buscan  ahorrar dinero, tiempo y controlar sus gastos al momento de viajar a la universidad. Estas necesidades en comun refelajan una busqueda de una solucion respecto a los gastos de viajara a la universidad.
+
 ### 2.3.3. User Journey Mapping
+* **Pasajero**
+![userJorningMap](/assets/needfinding/user-jorning-map-pasajero.png)
+
+Se presenta el User Journey Map para el segmento objetivo de pasajeros mostrandonos el recorrido del usuario en el transporte publico.
+
+* **Conductor**
+
+![userJourneyMapConductor](/assets/needfinding/user-journey-map-conductor.png)
+
+Se presenta el User Journey Map para el segmento objetivo de conductor mostrandonos el recorrido su viaje a la universidad.
+
 
 ### 2.3.4. Empathy Mapping
 
+* **Pasajero**
+![EmpathyMapPasajero](/assets/needfinding/Passenger-empathyMap.png)
+
+Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de pasajeros que buscan ahorrar tiempo y dinero al movilizarse a la universidad, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
+
+* **Conductor**
+![EmpathyMapConductor](/assets/needfinding/Driver-empathyMap.png)
+
+Se presenta el Empathy Map del segmento objetivo de estudiantes que cumplen el rol de conductor que buscan ahorrar tiempo y dinero al movilizarse a la universidad tratando de compartir su veihculo, en el cual se describe las ideas, motivaciones,frustaciones y demandas de los usuarios.
+
 ### 2.3.5. As-is Scenario Mapping
 
+* **Conductor**
+![asisConductor](/assets/needfinding/as-is-passenger.png)
+
+* **Pasajero**
+![asisPassenger](/assets/needfinding/as-is-driver.png)
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements specification
