@@ -973,21 +973,75 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ### 4.2.4. Bounded Context: IAM
 
+Este bounded context se encarga de la gestión de usuarios, autenticación y autorización, incluyendo la administración de roles y estados de cuenta.
+
 #### 4.2.4.1. Domain Layer
+
+Aquí se modela el núcleo de usuarios y roles, así como las reglas de negocio para el registro, estado y asignación de permisos:
+
+| Clase              | Tipo                          | Propósito                                                                                               |
+|--------------------|-------------------------------|---------------------------------------------------------------------------------------------------------|
+| `User`             | Aggregate Root (Entity)       | Representa la cuenta de un usuario, con credenciales, estado y roles asignados.                         |
+| `Role`             | Entity                        | Define un rol de autorización que agrupa permisos o capacidades dentro del sistema.                     |
+| `UserId`           | Value Object                  | Identificador único de usuario.                                                                         |
+| `RoleId`           | Value Object                  | Identificador único de rol.                                                                             |
+| `Email`            | Value Object                  | Dirección de correo y flag de verificación.                                                             |
+| `PasswordHash`     | Value Object                  | Contraseña cifrada.                                                                                     |
+| `UserStatus`       | Enum                          | Estados posibles de usuario: `Active`, `Blocked`, `Deleted`.                                            |
+| `PasswordEncoder`  | Interface (Domain Service)    | Abstracción para cifrar y validar contraseñas (`encode()`, `matches()`).                                |
 
 #### 4.2.4.2. Interface Layer
 
+Expone la funcionalidad de IAM a través de APIs REST o consumidores de eventos:
+
+| Clase                    | Tipo        | Propósito                                                                                     |
+|--------------------------|-------------|-----------------------------------------------------------------------------------------------|
+| `AuthController`         | Controller  | Endpoints para registro, login, logout y refresh de tokens.                                   |
+| `UserController`         | Controller  | CRUD de usuarios: consulta, actualización de perfil y estado.                                 |
+| `RoleController`         | Controller  | CRUD de roles y asignación de permisos.                                                       |
+| `TokenEventConsumer`     | Consumer    | (Opcional) Escucha eventos de expiración o revocación de tokens para limpieza de sesiones.    |
+
 #### 4.2.4.3. Application Layer
 
-#### 4.2.4.4. Infrastructure Layer
+Orquesta los flujos de registro, autenticación y gestión de roles con handlers de comandos y eventos:
+
+| Clase                            | Tipo            | Propósito                                                                            |
+|----------------------------------|-----------------|--------------------------------------------------------------------------------------|
+| `RegisterUserCommandHandler`     | Command Handler | Valida datos, crea un `User`, cifra la contraseña y dispara evento `UserRegistered`. |
+| `AuthenticateUserCommandHandler` | Command Handler | Verifica credenciales, genera JWT y refresh token.                                   |
+| `RefreshTokenCommandHandler`     | Command Handler | Valida refresh token y emite nuevo access token.                                     |
+| `AssignRoleCommandHandler`       | Command Handler | Asigna un `Role` a un `User` según reglas de negocio.                                |
+| `ChangePasswordCommandHandler`   | Command Handler | Valida contraseña actual, aplica cifrado y actualiza `PasswordHash`.                 |
+| `DeactivateUserCommandHandler`   | Command Handler | Cambia `UserStatus` a `Blocked` o `Deleted` y dispara evento `UserDeactivated`.      |
+
+#### 4.2.4.4. Infrastructure 
+
+Implementa la persistencia, el cifrado y la emisión de tokens o correos:
+
+| Clase                        | Tipo                   | Propósito                                                                                |
+|------------------------------|------------------------|------------------------------------------------------------------------------------------|
+| `UserRepository`             | Repository Impl.       | Persiste y consulta objetos `User` (`save()`, `findById()`, `findByEmail()`).            |
+| `RoleRepository`             | Repository Impl.       | Persiste y consulta objetos `Role` (`save()`, `findAll()`).                              |
+| `PasswordEncoderAdapter`     | External Service       | Implementa `PasswordEncoder` usando Bcrypt u otro algoritmo.                             |
+| `JwtTokenProvider`           | External Service       | Genera y valida JWT y refresh tokens.                                                    |
+| `EmailServiceAdapter`        | External Service       | Envía correos de confirmación, recuperación de contraseña y notificaciones de seguridad. |
+| `DatabaseTransactionManager` | Infrastructure Utility | Garantiza transacciones atómicas en operaciones críticas de IAM.                         |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/iam.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
 ### 4.2.5. Bounded Context: Reputation & Incentives Management
 
