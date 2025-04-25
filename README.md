@@ -1045,21 +1045,86 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 ### 4.2.5. Bounded Context: Reputation & Incentives Management
 
+Este bounded context agrupa la lógica de cálculo y seguimiento del puntaje de reputación de los usuarios, así como la gestión de incentivos, recompensas e infracciones asociadas.
+
 #### 4.2.5.1. Domain Layer
+
+En esta capa se modela el núcleo de reputación e incentivos, con entidades, objetos de valor y enumeraciones:
+
+| Clase               | Tipo                    | Propósito                                                                                                                               |
+|---------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| `ReputationProfile` | Aggregate Root (Entity) | Representa el perfil de reputación de un usuario, centralizando su puntaje y operaciones de actualización, penalización o bonificación. |
+| `ReputationScore`   | Value Object            | Desglosa el puntaje con `value: Integer` y `category: ScoreCategory`.                                                                   |
+| `InfractionTracker` | Entity                  | Lleva el registro de infracciones en un período, contando tipos y ocurrencias consecutivas.                                             |
+| `Penalty`           | Entity                  | Aplica sanciones al usuario según infracciones, con estado, tipo y motivo.                                                              |
+| `Incentive`         | Aggregate Root (Entity) | Define un incentivo disponible: tipo, período de vigencia, y operaciones para activarlo o aplicarlo a usuarios elegibles.               |
+| `IncentiveReward`   | Entity                  | Representa una recompensa concreta otorgada a un usuario por un incentivo. Incluye estado de canje.                                     |
+| `IncentiveType`     | Enum                    | Tipos de incentivo: FullCapacityBonus, ReferralReward, LoyaltyDiscount, SpecialPromotion.                                               |
+| `RewardStatus`      | Enum                    | Estado de la recompensa: Issued, Pending, Redeemed, Expired.                                                                            |
+| `InfractionType`    | Enum                    | Tipos de infracción: LateCancellation, PassengerRejection, LateCommissionPayment, NoShow.                                               |
+| `PenaltyType`       | Enum                    | Tipos de sanción: Warning, Fine, TemporarySuspension, PermanentBan.                                                                     |
+| `PenaltyStatus`     | Enum                    | Estado de la sanción: Active, Dismissed, Expired, Completed.                                                                            |
+| `ScoreCategory`     | Enum                    | Categorías de puntaje: Excellent, Good, Average, Poor, Critical.                                                                        |
+| `UserId`            | Value Object            | Identificador único de usuario.                                                                                                         |
+| `IncentiveId`       | Value Object            | Identificador único de incentivo.                                                                                                       |
 
 #### 4.2.5.2. Interface Layer
 
+Aquí se exponen los servicios REST o consumidores de eventos para interactuar con reputación e incentivos:
+
+| Clase                  | Tipo       | Propósito                                                                                         |
+|------------------------|------------|---------------------------------------------------------------------------------------------------|
+| `ReputationController` | Controller | Endpoints para consultar y actualizar el perfil de reputación de un usuario.                      |
+| `InfractionController` | Controller | Permite registrar infracciones y obtener historial de sanciones.                                  |
+| `PenaltyController`    | Controller | CRUD y gestión de sanciones aplicadas a los usuarios.                                             |
+| `IncentiveController`  | Controller | Endpoints para listar, activar y desactivar incentivos.                                           |
+| `RewardController`     | Controller | Permite reclamar o consultar el estado de las recompensas de incentivos.                          |
+| `EventConsumer`        | Consumer   | (Opcional) Escucha eventos de sistema (p.ej. viaje completado) para generar o revocar incentivos. |
+
 #### 4.2.5.3. Application Layer
 
+Orquesta los flujos de reputación, infracciones e incentivos mediante handlers:
+
+| Clase                                         | Tipo            | Propósito                                                                                 |
+|-----------------------------------------------|-----------------|-------------------------------------------------------------------------------------------|
+| `RecordInfractionCommandHandler`              | Command Handler | Procesa y registra una infracción, actualiza el contador en `InfractionTracker`.          |
+| `IssuePenaltyCommandHandler`                  | Command Handler | Emite una sanción basada en reglas de negocio al exceder umbrales de infracciones.        |
+| `UpdateReputationCommandHandler`              | Command Handler | Recalcula y actualiza el `ReputationScore` tras eventos de infracciones o recompensas.    |
+| `ActivateIncentiveCommandHandler`             | Command Handler | Activa un incentivo en el período definido.                                               |
+| `DeactivateIncentiveCommandHandler`           | Command Handler | Desactiva incentivos caducados o revocados.                                               |
+| `ApplyIncentiveToEligibleUsersCommandHandler` | Command Handler | Recorre perfiles elegibles y crea instancias de `IncentiveReward`.                        |
+| `RedeemRewardCommandHandler`                  | Command Handler | Marca una recompensa como canjeada y genera efectos asociados (descuento, crédito, etc.). |
+
 #### 4.2.5.4. Infrastructure Layer
+
+Implementaciones de persistencia y adaptadores a servicios externos:
+
+| Clase                          | Tipo               | Propósito                                                                               |
+|--------------------------------|--------------------|-----------------------------------------------------------------------------------------|
+| `ReputationProfileRepository`  | Repository Impl.   | Persiste y consulta `ReputationProfile` y sus `ReputationScore`.                        |
+| `InfractionTrackerRepository`  | Repository Impl.   | Almacena los trackers de infracciones por usuario.                                      |
+| `PenaltyRepository`            | Repository Impl.   | Persiste y consulta sanciones aplicadas.                                                |
+| `IncentiveRepository`          | Repository Impl.   | Gestiona incentivos activos e históricos.                                               |
+| `RewardRepository`             | Repository Impl.   | Persiste las recompensas emitidas y su estado.                                          |
+| `NotificationServiceAdapter`   | External Service   | Envía notificaciones de sanciones, recompensas y cambios de reputación a los usuarios.  |
+| `SchedulerAdapter`             | Infrastructure     | Planifica tareas periódicas para desactivar incentivos o recalcular puntajes.           |
+| `DatabaseTransactionManager`   | Utility            | Maneja transacciones atómicas en operaciones críticas de reputación e incentivos.       |
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
+Aquí se muestra el diagrama UML de clases para el Domain Layer, incluyendo entidades, value objects, interfaces y enumeraciones. Cada elemento viene con sus atributos, métodos y visibilidad (public, private, protected), así como las relaciones (nombres, direcciones y multiplicidades) que definen la estructura del modelo de dominio.
+
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
+
+<img src="./assets/bounded-contexts/class-diagrams/reputation-incentives.png" alt="Domain Layer Class Diagram"/>
+
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
 ### 4.2.6. Bounded Context: In Trip Communication Management
 
