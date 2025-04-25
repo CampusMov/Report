@@ -1049,6 +1049,8 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![IAM.png](assets/database-diagrams/IAM.png)
+
 ### 4.2.5. Bounded Context: Reputation & Incentives Management
 
 Este bounded context agrupa la lógica de cálculo y seguimiento del puntaje de reputación de los usuarios, así como la gestión de incentivos, recompensas e infracciones asociadas.
