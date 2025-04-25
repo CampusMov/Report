@@ -1331,6 +1331,8 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 En este apartado se presenta el modelo relacional que soporta el contexto: tablas, columnas, llaves primarias y foráneas, índices y demás constraints. El diagrama evidencia las relaciones de integridad entre las tablas y cómo se persisten las entidades del dominio en la base de datos.
 
+![Comunication.png](assets/database-diagrams/Comunication.png)
+
 # Capítulo V: Solution UI/UX Design
 
 ## 5.1. Product Design
