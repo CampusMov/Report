@@ -861,6 +861,11 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
 
 ### 2.2.1. Diseño de entrevistas
 
+Las entrevistas se diseñaron con el fin de obtener información cualitativa sobre las necesidades, expectativas y comportamientos de los usuarios potenciales de la aplicación. Para ello, se realizaron entrevistas a estudiantes universitarios de la Universidad Peruana de Ciencias Aplicadas (UPC) en Lima, Perú. El objetivo principal fue comprender sus experiencias diarias de movilidad, así como su disposición a utilizar una plataforma de carpooling.
+
+En cuanto a la metodología, las entrevistas se llevaron a cabo de manera semiestructurada, lo que permitió una conversación fluida y la exploración de temas relevantes. Asimismo, se utilizaron preguntas abiertas con el propósito de fomentar la expresión de opiniones y experiencias personales.
+
+Finalmente, el formato de las entrevistas incluyó preguntas relacionadas con la rutina diaria de los estudiantes, sus preferencias de transporte, la percepción de seguridad al compartir viajes y su disposición a utilizar una aplicación de carpooling.
 
 ### 2.2.2. Registro de entrevistas
 <table>
@@ -888,7 +893,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         <td>
             <strong>Piero Alonso Espinoza Bohorquez</strong><br>
             Edad: 21 años<br>
-            Distrito: Surco<br>
+            Distrito: Santiago de Surco<br>
             Nivel de educación: Universitario<br>
             Estado civil: Soltero<br>
             Composición familiar: Vive solo<br>
@@ -917,7 +922,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
     <td>
         <strong>Ignacio</strong><br>
         Edad: 19 años<br>
-        Distrito: --<br>
+        Distrito: Santiago de Surco<br>
         Nivel de educación: Universitario<br>
         Estado civil: Soltero<br>
         Composición familiar: Vive solo<br>
@@ -942,7 +947,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         Estado civil: Soltero<br>
         Composición familiar: Vive solo<br>
         Ocupación principal: Estudiante universitario<br>
-        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ES8DkIjICzxHuXzDnPTW-6wBRsy-hmMG7HxQOQzXi_SNUw?e=PrjY8W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODkzLjI5fX0%3D">14:53</a><br><br>
+        Tiempo de la entrevista: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220829_upc_edu_pe/EeXe77d5b8xPqcTXJM8Qt2UBLTo-8lklB2rPhexCLK1zEg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Ii8XeL">14:53</a><br><br>
         <b>Resumen</b>:
         <br>Leonardo, estudiante de Administración en la UPC, utiliza el microbús como principal medio de transporte debido a su bajo costo. Sin embargo, este medio le genera frustración por el tráfico constante, el riesgo de inseguridad en horarios nocturnos y la imprevisibilidad en los tiempos de llegada, lo que le ocasiona estrés y ansiedad, especialmente cuando debe asistir a clases por la noche.
         <br><br>Ante la propuesta de una app de carpooling enfocada en estudiantes, Leonardo expresó gran interés, ya que considera que podría ahorrar tiempo y dinero, además de sentirse más seguro al viajar con personas verificadas de su misma universidad. Le resulta atractiva la posibilidad de coordinar viajes fijos semanalmente, mediante un calendario compartido, lo cual le permitiría organizar mejor su rutina académica.
@@ -1000,7 +1005,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         <br></br>Sobre la idea de formar parte de un grupo fijo de estudiantes para movilizarse toda la semana, Irving opina que sería una opción muy beneficiosa. Le parece importante contar con un medio de transporte estable, coordinado y confiable, especialmente en un entorno donde la inseguridad es un problema constante. Asimismo, considera que tener un calendario compartido con conductores y otros pasajeros sería muy útil para planificar sus viajes con anticipación.
         <br></br>Finalmente, también valora positivamente la posibilidad de ver conductores cercanos en tiempo real y unirse a un viaje espontáneamente. Aunque reconoce que nunca había considerado esta opción, le parece una idea interesante que puede aportar aún más flexibilidad al sistema. En general, Irving muestra una actitud receptiva hacia la propuesta y considera que podría facilitar considerablemente la movilidad estudiantil.
     </td>
-    <td><img src="./assets/interviews/IrvingAllca"></td>
+    <td><img src="./assets/interviews/IrvingAllca.png"></td>
     </tr>
 </table>
 
