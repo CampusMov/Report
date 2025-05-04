@@ -34,6 +34,10 @@
               <td>Morales Quispe, Brayan Smith</td>
               <td>20211f984</td>
             </tr>
+            <tr>
+              <td>Del Castillo Bueno, Daniel Mateo</td>
+              <td>202211212</td>            
+            </tr>
         </table>
     </div>
     <p style="text-align: center">Marzo 2025</p>
