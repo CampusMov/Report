@@ -2070,13 +2070,25 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 # Capitulo V: Solution UI/UX Design
 
 ## 5.1. Product design
-
+  En esta sección, presentaremos el diseño del producto como parte integral del sistema. El diseño de producto abarcará los componentes fisicos como el software. Además se va a detallar como los componentes influyen en la interación humano-computadora
 
 ### 5.1.1. Style Guidelines
+Esta sección sentará las bases para contar con un repositorio para el formato visual de nuestros productos. Dicho proceso es necesario para tener una consistencia visual en los productos tanto landing como mobile.
+
 
 #### 5.1.1.1. General Style Guidelines
+En esta sección explicaremos las decisiones y referencias visuales sobre conceptos generales visuales.
 
+- **Color:** 
+La paleta de colores asimila las luces de un semaforo, dados los patrones visuales decidimos utilizar el color rojo para las alertas antes de utilizarlo como un terciario
+![Color](./assets/product-design/general%20styles/Paleta.png)
+- **Tipografía:**
+![Tipografía](./assets/product-design/general%20styles/Tipografía.png)
 
+- **Branding:** Nuestro logo debe ser jovial, debido a que nuestro publico objetivo son adultos jovenes que van a la universidad, a su vez debe ser serio y presentar los colores de la paleta
+
+- **Spacing:** Para los componentes usaremos un pading interno por defecto en botones y formularios de 16 px, entre secciones usaremos 24px.
+Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 px de padding.
 
 ### 5.1.2. Information Architecture
 
