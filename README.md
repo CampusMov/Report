@@ -2086,6 +2086,7 @@ La paleta de colores asimila las luces de un semaforo, dados los patrones visual
 ![Tipografía](./assets/product-design/general%20styles/Tipografía.png)
 
 - **Branding:** Nuestro logo debe ser jovial, debido a que nuestro publico objetivo son adultos jovenes que van a la universidad, a su vez debe ser serio y presentar los colores de la paleta
+![Logo](./assets/product-design/general%20styles/Logo.png)
 
 - **Spacing:** Para los componentes usaremos un pading interno por defecto en botones y formularios de 16 px, entre secciones usaremos 24px.
 Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 px de padding.
@@ -2093,6 +2094,7 @@ Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 
 ### 5.1.2. Information Architecture
 
 #### 5.1.2.1. Organization Systems
+
 #### 5.1.2.2. Labeling Systems
 #### 5.1.2.3. SEO Tags and Meta Tags
 #### 5.1.2.4. Searching Systems
