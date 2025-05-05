@@ -2092,13 +2092,60 @@ La paleta de colores asimila las luces de un semaforo, dados los patrones visual
 Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 px de padding.
 
 ### 5.1.2. Information Architecture
-
+En esta sección plantearemos las decisiones que dirigan la manera en la que se organizará el contenido en las experiencias que brindarmos, sustentando dichas decisiones con propuestas orientadas a la rapida adaptación a la funcionalidad establecida
 #### 5.1.2.1. Organization Systems
+El sistema de organización tiene como objetivo la interacción entre usuarios y la plataforma mediante una jerarquía visual que resalta funciones clave como la solicitud de un viaje agendado.
+
+**Sequential**
+La organización secuencial(step-by-step) se implementará en procesos como la planificación de viajes en las que por ejemplo el conductor mostrará su 
+
+**Matrix**
+Se aplicaran filtros avanzados para la busqueda de conductores en una area designada brindando así opciones especificas que mejoran la navegación
 
 #### 5.1.2.2. Labeling Systems
+En Carpool components, el sistema de etiquetas tendrán nomenclaturas intuitivas para que los usuarios puedan reconocer las funcionalidades por ejemplo:
+
+- Inicio: Botón en el logo que redirigirá a la vista general del sistema
+
+- Beneficios: Botoón que muestra los beneficios separados por las necesidades de los segmentos objetivos
+
+- Ir a la aplicación(Pasajero/ Conductor): Botones call to action que enviarán al usuario de cada segmento objetivo a su respectiva aplicación movil 
+
 #### 5.1.2.3. SEO Tags and Meta Tags
+En esta sección documentaremos la información de las SEO Tags y la meta data que usaremos dentro de los productos de campusmov. Esta información ayudará a la accesibilidad y a la experiencia de usuario.
+
+**Meta & SEO(Search Engine Optimization) Tags:** Son palabras clave que se usan para que la página pueda ser buscada adecuadamente{van en el <"head">} 
+
+* Titulo:
+```
+<title>CampusMov - Official Landing Page</title>
+```
+* Descripción:
+```
+<meta name="description" content="a place where you can generate and join a ride to your campus"/>
+```
+* Palabras Clave:
+```
+<meta name="keyword" content="carpool", "gas savings dashboard", "plan a ride", "join a ride",>
+```
+
 #### 5.1.2.4. Searching Systems
+**¿Que se busca?**
+Los usuarios buscarán beneficios, alcances de la aplicación
+**¿Que resultados se mostrarán?**
+Los resultados mostrarán información relevante sobre alianzas, terminos y condiciones, testimonios y beneficios
+**Interfaz de búsqueda:**
+La interfaz de busqueda mostrará un diseño intuitivo usando iconos de material design por decisión del equipo
+![Searching Label](./assets/product-design/searching-systems/search-engine.png){width=200px}
 #### 5.1.2.5. Navigation Systems
+La navegación dentro de la landing page contará con las secciones principales:
+
+**Hierarchical Navigation System:** La navegación se organiza de manera jerarquica desde la pagina principal hacia las páginas de destino.
+
+**Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
+
+**Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
+![Local navigation system](./assets/product-design/searching-systems/local-navigation-systems.png)
 
 
 ### 5.1.3. Landing Page UI Design
