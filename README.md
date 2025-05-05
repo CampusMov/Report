@@ -2211,6 +2211,11 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 
 
  #### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 1.png">
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
+
+
  #### 5.1.4.5. Mobile Applications Prototyping
 
 # Conclusiones
