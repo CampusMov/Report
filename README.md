@@ -6,7 +6,7 @@
         <p>Docente: Ing. Jorge Luis Mayta Guillermo</p>   
         <p>Informe de Trabajo Final<p>
         <p>Startup: CampusMov</p>
-        <p>Producto: CarPool</p>
+        <p>Producto: UniRide</p>
     </div>
     <div style="text-align: center; display: flex; flex-direction: column; align-items: center">
         <h3 style="font-weight: bolder">Team Members:</h3>
@@ -2114,11 +2114,11 @@ En Carpool components, el sistema de etiquetas tendrán nomenclaturas intuitivas
 #### 5.1.2.3. SEO Tags and Meta Tags
 En esta sección documentaremos la información de las SEO Tags y la meta data que usaremos dentro de los productos de campusmov. Esta información ayudará a la accesibilidad y a la experiencia de usuario.
 
-**Meta & SEO(Search Engine Optimization) Tags:** Son palabras clave que se usan para que la página pueda ser buscada adecuadamente{van en el <"head">} 
+**Meta & SEO(Search Engine Optimization) Tags:** Son palabras clave que se usan para que la página pueda ser buscada adecuadamente (van en el <"head">)
 
 * Titulo:
 ```
-<title>CampusMov - Official Landing Page</title>
+<title>UniRide - Official Landing Page</title>
 ```
 * Descripción:
 ```
