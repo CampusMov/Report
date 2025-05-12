@@ -2150,8 +2150,11 @@ La navegación dentro de la landing page contará con las secciones principales:
 
 ### 5.1.3. Landing Page UI Design
 #### 5.1.3.1. Landing Page Wireframe
+En esta secccion se presentara el wireframe del landing page en una escala de grises mostrando todas las secciones de la pagina web desde la navegacion hasta las preguntas frecuentes.
+![](./assets/landingPage/Landing%20page.png)
 #### 5.1.3.2. Landing Page Mock-up
-
+En esta seccion se mostrara el landing page con el diseño final para el desarrollo de este se tomo en cuenta los estilos prestablecidos anteriormente.
+![](./assets/landingPage//Landing%20page-1.png)
 
 ### 5.1.4. Mobile Applications UX/UI Design
 #### 5.1.4.1. Mobile Applications Wireframes
