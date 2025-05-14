@@ -2305,7 +2305,10 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
  #### 5.1.4.2. Mobile Applications Wireflow Diagrams
 
- 
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 1.png">
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 2.png">
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 3.png">
+
  #### 5.1.4.3. Mobile Applications Mock-ups
  ### Conductor
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
