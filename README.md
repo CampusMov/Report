@@ -6,7 +6,7 @@
         <p>Docente: Ing. Jorge Luis Mayta Guillermo</p>   
         <p>Informe de Trabajo Final<p>
         <p>Startup: CampusMov</p>
-        <p>Producto: CarPool</p>
+        <p>Producto: UniRide</p>
     </div>
     <div style="text-align: center; display: flex; flex-direction: column; align-items: center">
         <h3 style="font-weight: bolder">Team Members:</h3>
@@ -33,6 +33,10 @@
             <tr>
               <td>Morales Quispe, Brayan Smith</td>
               <td>20211f984</td>
+            </tr>
+            <tr>
+              <td>Del Castillo Bueno, Daniel Mateo</td>
+              <td>202211212</td>            
             </tr>
         </table>
     </div>
@@ -2155,6 +2159,104 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 ![Comunication.png](assets/database-diagrams/Comunication.png)
 
 <div style="page-break-before: always"></div>
+
+# Capitulo V: Solution UI/UX Design
+
+## 5.1. Product design
+  En esta sección, presentaremos el diseño del producto como parte integral del sistema. El diseño de producto abarcará los componentes fisicos como el software. Además se va a detallar como los componentes influyen en la interación humano-computadora
+
+### 5.1.1. Style Guidelines
+Esta sección sentará las bases para contar con un repositorio para el formato visual de nuestros productos. Dicho proceso es necesario para tener una consistencia visual en los productos tanto landing como mobile.
+
+
+#### 5.1.1.1. General Style Guidelines
+En esta sección explicaremos las decisiones y referencias visuales sobre conceptos generales visuales.
+
+- **Color:** 
+La paleta de colores asimila las luces de un semaforo, dados los patrones visuales decidimos utilizar el color rojo para las alertas antes de utilizarlo como un terciario
+![Color](./assets/product-design/general%20styles/Paleta.png)
+- **Tipografía:**
+![Tipografía](./assets/product-design/general%20styles/Tipografía.png)
+
+- **Branding:** Nuestro logo debe ser jovial, debido a que nuestro publico objetivo son adultos jovenes que van a la universidad, a su vez debe ser serio y presentar los colores de la paleta
+![Logo](./assets/product-design/general%20styles/Logo.png)
+
+- **Spacing:** Para los componentes usaremos un pading interno por defecto en botones y formularios de 16 px, entre secciones usaremos 24px.
+Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 px de padding.
+
+### 5.1.2. Information Architecture
+En esta sección plantearemos las decisiones que dirigan la manera en la que se organizará el contenido en las experiencias que brindarmos, sustentando dichas decisiones con propuestas orientadas a la rapida adaptación a la funcionalidad establecida
+#### 5.1.2.1. Organization Systems
+El sistema de organización tiene como objetivo la interacción entre usuarios y la plataforma mediante una jerarquía visual que resalta funciones clave como la solicitud de un viaje agendado.
+
+**Sequential**
+La organización secuencial(step-by-step) se implementará en procesos como la planificación de viajes en las que por ejemplo el conductor mostrará su 
+
+**Matrix**
+Se aplicaran filtros avanzados para la busqueda de conductores en una area designada brindando así opciones especificas que mejoran la navegación
+
+#### 5.1.2.2. Labeling Systems
+En Carpool components, el sistema de etiquetas tendrán nomenclaturas intuitivas para que los usuarios puedan reconocer las funcionalidades por ejemplo:
+
+- Inicio: Botón en el logo que redirigirá a la vista general del sistema
+
+- Beneficios: Botoón que muestra los beneficios separados por las necesidades de los segmentos objetivos
+
+- Ir a la aplicación(Pasajero/ Conductor): Botones call to action que enviarán al usuario de cada segmento objetivo a su respectiva aplicación movil 
+
+#### 5.1.2.3. SEO Tags and Meta Tags
+En esta sección documentaremos la información de las SEO Tags y la meta data que usaremos dentro de los productos de campusmov. Esta información ayudará a la accesibilidad y a la experiencia de usuario.
+
+**Meta & SEO(Search Engine Optimization) Tags:** Son palabras clave que se usan para que la página pueda ser buscada adecuadamente (van en el <"head">)
+
+* Titulo:
+```
+<title>UniRide - Official Landing Page</title>
+```
+* Descripción:
+```
+<meta name="description" content="a place where you can generate and join a ride to your campus"/>
+```
+* Palabras Clave:
+```
+<meta name="keyword" content="carpool", "gas savings dashboard", "plan a ride", "join a ride",>
+```
+
+#### 5.1.2.4. Searching Systems
+**¿Que se busca?**
+Los usuarios buscarán beneficios, alcances de la aplicación
+**¿Que resultados se mostrarán?**
+Los resultados mostrarán información relevante sobre alianzas, terminos y condiciones, testimonios y beneficios
+**Interfaz de búsqueda:**
+La interfaz de busqueda mostrará un diseño intuitivo usando iconos de material design por decisión del equipo
+![Searching Label](./assets/product-design/searching-systems/search-engine.png){width=200px}
+#### 5.1.2.5. Navigation Systems
+La navegación dentro de la landing page contará con las secciones principales:
+
+**Hierarchical Navigation System:** La navegación se organiza de manera jerarquica desde la pagina principal hacia las páginas de destino.
+
+**Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
+
+**Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
+![Local navigation system](./assets/product-design/searching-systems/local-navigation-systems.png)
+
+
+### 5.1.3. Landing Page UI Design
+#### 5.1.3.1. Landing Page Wireframe
+En esta secccion se presentara el wireframe del landing page en una escala de grises mostrando todas las secciones de la pagina web desde la navegacion hasta las preguntas frecuentes.
+![](./assets/landingPage/Landing%20page.png)
+#### 5.1.3.2. Landing Page Mock-up
+En esta seccion se mostrara el landing page con el diseño final para el desarrollo de este se tomo en cuenta los estilos prestablecidos anteriormente.
+![](./assets/landingPage//Landing%20page-1.png)
+
+### 5.1.4. Mobile Applications UX/UI Design
+#### 5.1.4.1. Mobile Applications Wireframes
+#### 5.1.4.2. Mobile Applications Wireflow Diagrams
+#### 5.1.4.3. Mobile Applications Mock-ups
+#### 5.1.4.4. Mobile Applications User Flow Diagrams
+#### 5.1.4.5. Mobile Applications Prototyping
+
+
 
 # Conclusiones
 
