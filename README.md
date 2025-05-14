@@ -2255,7 +2255,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 ### 5.1.4. Mobile Applications UX/UI Design
 #### 5.1.4.1. Mobile Applications Wireframes
 
-### Conductor
+<h1> Conductor </h1>
 <img src="./assets/movile-ux-ui/wireframes/Conductor/Bienvenido Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/actualizar info conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/menu conductor.png" width="400px">
@@ -2272,7 +2272,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/wireframes/Conductor/calificar pasajero conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/valoracion promedio conductor.png" width="400px">
 
-## Pasajero
+<h1>Pasajero</h1>
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/Bienvenido Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/actualizar info pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/menu pasajero.png" width="400px">
@@ -2288,7 +2288,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/calificar conductor pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/valoracion promedio pasajero.png" width="400px">
 
-## Ambos
+<h1> Ambos </h1>
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Introducir Correo.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Agregar Nombre.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Codigo Verificacion.png" width="400px">
@@ -2309,7 +2309,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
  #### 5.1.4.2. Mobile Applications Wireflow Diagrams
  #### 5.1.4.3. Mobile Applications Mock-ups
- ### Conductor
+ <h1> Conductor</h1>
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Info Vehiculo- Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Config-Conductor.png" width="400px">
@@ -2328,7 +2328,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Rentabilidad Conductor.png" width="400px">
 
 
- ### Pasajero
+ <h1> Pasajero</h1>
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Actualizar Perfil - Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config-Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje - Pasajero.png" width="400px">
@@ -2346,7 +2346,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
 
 
- ### Ambos
+ <h1> Ambos </h1>
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Correo.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Nombre.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Codigo-Verificación.png" width="400px">
@@ -2368,7 +2368,38 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
 
 
- #### 5.1.4.5. Mobile Applications Prototyping
+#### 5.1.4.5. Mobile Applications Prototyping
+
+# Capitulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+### 6.1.1. Software Development Environment Configuration
+### 6.1.2. Source Code Management
+### 6.1.3. Source Code Style Guide & Conventions
+### 6.1.4. Software Deployment Configuration
+
+## 6.2. Landing Page & Mobile Application Implementation
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.2. Sprint Backlog 1
+#### 6.2.1.3. Development Evidence for Sprint Review
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+#### 6.2.1.5. Execution Evidence for Sprint Review
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+### 6.3.3. Evaluaciones según heurísticas
+## 6.4. Video About-the-Product
+Conclusiones
+Conclusiones y recomendaciones.
+Video About-the-team
+Bibliografía
+Anexos
 
 # Conclusiones
 
