@@ -2303,11 +2303,9 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/wireframes/Ambos/chat.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Terminos y Condiciones.png" width="400px">
 
-
-
-
-
  #### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+ 
  #### 5.1.4.3. Mobile Applications Mock-ups
  ### Conductor
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
@@ -2366,7 +2364,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
 <img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 1.png">
 <img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
-
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 3.png">
 
  #### 5.1.4.5. Mobile Applications Prototyping
 
