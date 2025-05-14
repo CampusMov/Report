@@ -2238,6 +2238,7 @@ La navegación dentro de la landing page contará con las secciones principales:
 **Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
 
 **Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
+
 ![Local navigation system](./assets/product-design/searching-systems/local-navigation-systems.png)
 
 
@@ -2249,14 +2250,125 @@ En esta secccion se presentara el wireframe del landing page en una escala de gr
 En esta seccion se mostrara el landing page con el diseño final para el desarrollo de este se tomo en cuenta los estilos prestablecidos anteriormente.
 ![](./assets/landingPage//Landing%20page-1.png)
 
+
+
 ### 5.1.4. Mobile Applications UX/UI Design
 #### 5.1.4.1. Mobile Applications Wireframes
-#### 5.1.4.2. Mobile Applications Wireflow Diagrams
-#### 5.1.4.3. Mobile Applications Mock-ups
-#### 5.1.4.4. Mobile Applications User Flow Diagrams
-#### 5.1.4.5. Mobile Applications Prototyping
+
+### Conductor
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Bienvenido Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/actualizar info conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/menu conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Punto de partida conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Crear Carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Creando carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Costo carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Solicitudes pasajeros conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/mis carpools conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/incidencias conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/notificaciones conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/pagar comision conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/mi rentabilidad conductor .png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/calificar pasajero conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/valoracion promedio conductor.png" width="400px">
+
+## Pasajero
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Bienvenido Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/actualizar info pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/menu pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Buscar Carpool Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Buscando carpool pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Resultado busqueda pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Punto de partida pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Inicio carpool pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/mi tiempo pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/mis carpools pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/incidencias pasajeros.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/notificaciones pasajeros.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/calificar conductor pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/valoracion promedio pasajero.png" width="400px">
+
+## Ambos
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Introducir Correo.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Agregar Nombre.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Codigo Verificacion.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Academica.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Academica 2.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info de Contacto.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Personal.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Inicio.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Inicio 2.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/tiempo carpool.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/ubicaciones guardadas.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/chat.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Terminos y Condiciones.png" width="400px">
 
 
+
+
+
+ #### 5.1.4.2. Mobile Applications Wireflow Diagrams
+ #### 5.1.4.3. Mobile Applications Mock-ups
+ ### Conductor
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Info Vehiculo- Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config-Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config Viaje - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config Viaje - Conductor 2.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Menu Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Mis Carpools Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Iniciar Carpool - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Lista Pasajeros -Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Calif Pasajero -  Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Valoracion Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Viaje en curso - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Incidencias - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Notificaciones - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Pago Comision - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Rentabilidad Conductor.png" width="400px">
+
+
+ ### Pasajero
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Actualizar Perfil - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config-Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje 2 Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Menu Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Busqueda Viaje Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Viaje no iniciado Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mis Carpools Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mi tiempo - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Incidencias - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Notificaciones - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Calif Conductor - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mi Calificacion - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Resultados Pasajero.png" width="400px">
+
+
+
+ ### Ambos
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Correo.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Nombre.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Codigo-Verificación.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Inicio.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Academica.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Academica 2.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Contacto.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Ubicaciones guardadas.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Viaje en Curso.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Chat.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Terminos y Condiciones.png" width="400px">
+
+
+
+ #### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 1.png">
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
+
+
+ #### 5.1.4.5. Mobile Applications Prototyping
 
 # Conclusiones
 
