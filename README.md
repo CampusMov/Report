@@ -2390,16 +2390,6 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
 
-## 6.3. Validation Interviews
-### 6.3.1. Diseño de Entrevistas
-### 6.3.2. Registro de Entrevistas
-### 6.3.3. Evaluaciones según heurísticas
-## 6.4. Video About-the-Product
-Conclusiones
-Conclusiones y recomendaciones.
-Video About-the-team
-Bibliografía
-Anexos
 
 # Conclusiones
 
