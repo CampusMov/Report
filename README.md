@@ -3126,6 +3126,42 @@ class PassengerRequestControllerIntegrationTest {
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En esta sección se presentan los avances relacionados con la documentación de los Web Services realizados durante el Sprint, utilizando OpenAPI. Se incluye una tabla con los endpoints implementados, detallando las acciones soportadas (verbo HTTP, sintaxis, parámetros, ejemplos de respuesta), así como los enlaces a la documentación generada o URLs locales si aún no se ha desplegado. También se adjuntan capturas de interacción con los endpoints usando datos de prueba, y se proporciona el enlace al repositorio junto con los identificadores de los commits vinculados a esta documentación.
+
+**IAM SERVICE**
+Contamos con dos controladores con la ruta a ``auth/code-verification`` para inicio de sesion y ``/auth/institutional-email-verification`` para el registro de un nuevo usuario, por lo que ambos solo usan un metodo post.
+
+**PROFILE SERVICE**
+Los controladores proporcionan endpoints RESTful relacionados con la gestión de perfiles de usuario (Profile) y sus horarios de clase (ClassSchedule). Están documentados con OpenAPI (Swagger) y utilizan los servicios de dominio para consultar y modificar datos.
+
+**MATCHING SERVICE**
+Estos controladores REST están orientados a la gestión de:
+- Carpools (viajes compartidos)
+- Solicitudes de pasajeros (Passenger Requests)
+
+Ambos controladores implementan interfaces documentadas mediante Swagger (OpenAPI) y hacen uso de servicios de dominio para ejecutar comandos y consultas.
+
+Endpoints - CarpoolControllerImpl
+
+| Método | Ruta                                             | Descripción                                                             |
+|--------|--------------------------------------------------|-------------------------------------------------------------------------|
+| POST   | /carpools                                        | Crear un nuevo carpool                                                  |
+| GET    | /carpools/{carpoolId}                            | Obtener un carpool por su ID                                            |
+| GET    | /carpools/driver/{driverId}/active               | Obtener el carpool activo del conductor                                 |
+| GET    | /carpools/driver/{driverId}                      | Obtener todos los carpools creados por el conductor                     |
+| POST   | /carpools/available?scheduleId=...               | Obtener carpools disponibles según horario y ubicación                  |
+| POST   | /carpools/{carpoolId}/start                      | Iniciar un carpool con la ubicación actual del conductor                |
+
+Endpoints - PassengerRequestControllerImpl
+
+| Método | Ruta                                                           | Descripción                                                          |
+|--------|----------------------------------------------------------------|----------------------------------------------------------------------|
+| POST   | /passenger-requests                                            | Crear una solicitud de pasajero                                      |
+| POST   | /passenger-requests/{passengerRequestId}/accept                | Aceptar una solicitud de pasajero                                    |
+| POST   | /passenger-requests/{passengerRequestId}/reject                | Rechazar una solicitud de pasajero                                   |
+| GET    | /passenger-requests/{passengerRequestId}                       | Obtener una solicitud por su ID                                      |
+| GET    | /carpools/{carpoolId}/passenger-requests                       | Listar solicitudes pendientes asociadas a un carpool específico      |
+
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
