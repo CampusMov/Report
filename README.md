@@ -2371,6 +2371,23 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
  #### 5.1.4.5. Mobile Applications Prototyping
 
+ ##### Userflow 1
+
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 1.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/Eaq_EAkLnRtDp3v-0BVdERMBq_XJVKqo6qsPBRUcW82sJw?e=dhXbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+ ##### Userflow 2
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 2.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/Eb-0ZaTyNNpAuTnzQq_knVgBoyPQl5kJdP2SdkOk_p2-nA?e=pLTcxz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+ ##### Userflow 3
+
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 3.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EdNlOXsNXuNHom4y1NpYZDMB4h4N_XLa11aiuRFaX-1RMg?e=H2RZdm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # Conclusiones
 
 Validación de Supuestos y Resultados: La validación de las hipótesis iniciales, como la preferencia por una app móvil fácil de usar, se confirmó en gran medida. Sin embargo, aspectos como la seguridad en el proceso de asignación y la transparencia del sistema de pagos requirieron ajustes para mejorar la confianza del usuario.
