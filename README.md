@@ -2373,12 +2373,96 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 # Capitulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
+En esta sección se proporcionarán los enclaces a las aplicaciones y productos de software que utilizaremos durante este producto de software que utilizaremos durante el desarrollo del proyecto.
+Con dicho fin, organizarmos la información en las siguientes secciones
+
+- Project Management
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Documentation
+
+
+<h2>Project Management</h2>
+
+La gestión de proyectos se enfoca en la administración eficiente de procesos y su entorno, con el objetivo de alcanzar los resultados esperados.
+
+- Durante el ciclo digital del proyecto, se implementará un producto de software bajo el modelo SaaS, que funcionará a través de un navegador web. No se contempla el desarrollo de una versión móvil nativa en esta etapa.
+
+<h2>Requirements Management</h2>
+
+Este proceso asegura que la organización documente, valide y cumpla con las necesidades y expectativas de los clientes y las partes interesadas, tanto internas como externas.
+
+- **Pivotal Tracker:** Se utilizó como herramienta para gestionar historias de usuario, organizándolas en epopeyas y priorizándolas según su importancia. Su funcionalidad permite a los equipos colaborar en tiempo real, visualizar avances y ajustar el flujo del proyecto de manera eficiente.
+
+<h2>Product UX/UI Design</h2>
+
+El diseño de experiencia e interfaz de usuario busca crear soluciones digitales que se integren de forma natural en la vida de los usuarios. En este proyecto, se desarrolla un sitio web responsive, compatible con computadoras y dispositivos móviles.
+
+Para lograrlo, se emplearon las siguientes herramientas:
+
+- **Uxpressia:** Plataforma online para crear mapas de experiencia del cliente, perfiles de usuario, mapas de empatía y journey maps, facilitando la comprensión profunda de las necesidades del usuario. Más información en [Uxpressia](https://uxpressia.com/).
+
+- **MIRO:** Pizarra digital colaborativa utilizada para actividades de investigación, ideación, lluvia de ideas y creación de mapas mentales, fomentando el trabajo en equipo. Más detalles en [MIRO](https://miro.com/app/dashboard/).
+
+- **Figma:** Herramienta de diseño y prototipado que permite crear interfaces directamente en línea, facilitando la colaboración en tiempo real y la creación de prototipos para navegadores web y móviles. Consulta más en [Figma](https://www.figma.com/design/).
+
+- **Lucidchart:** Aplicación web para diagramación colaborativa, utilizada para desarrollar diagramas UML, mapas mentales, prototipos de software y otros esquemas visuales. Más información en [Lucidchart](https://lucid.app/lucidchart/).
+
+Estas herramientas son clave para transformar ideas en diseños funcionales, asegurando que el producto sea accesible y visualmente atractivo en diversas plataformas.
+
+
 ### 6.1.1. Software Development Environment Configuration
+
 ### 6.1.2. Source Code Management
+Esta sección detallará que medios se utilizaron para el seguimiento de las modificaciones, así como la semantica y nomenclatura que usaremos para estructurar los commit del control de versiones
+
+- Url de la organización:
+
+**Gitflow:** 
+Git Flow es un modelo de trabajo el cual consta de ramas principales y ramas de apoyo. Este modelo nos permite manejar de mejor manera nuestro codigo, permitiendo limpieza, organización. La división del producto se hará a través de una variedad de ramas las cuales son las siguientes.
+
+- Ramas principales:
+  - Main: Rama principal donde se ramifican todas las demás. Además, aquí se guarda el codigo fuente que se desplegará a producción.
+  - Develop: Esta rama surga a partir de la rama Main y se utiliza para integrar las funcionalidades trabajadas en ramas anteriores.
+- Ramas de apoyo:
+  - Feature: Estas ramas creadas a partir de develop se crean para desarrollar funcionalidades. La nomenclatura es la siguiente:
+  ```
+  feature/profile 
+  feature/ride   
+   ```
+  - Release: Estas ramas son creadas a partir de Develop y sirven para preparar una nueva versión de nuestro proyecto que está listo para publicar.
+  - Hotfix: Estas ramas se crean a partir del main y sirven para corregir rápidamente los errores que se presenten en producción
+
+**Conventional Commits**
+
+Este es un conjunto de reglas, las cuales deben seguir nuestros commits para crear un historial explícito de los cambios realizados en el proyecto, haciéndolo más sencillo de comprender para el equipo de desarrollo. Los conventional commits siguen la siguiente estructura: 
+
+    <type> [opcional scope]: <description>
+    [optional body]
+    [optional footer]
+
+* **type:** Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+    * **feat:** Cuando se agrega una nueva funcionalidad (feature)
+    * **docs:** Cuando se realizan cambios en la documentación del proyecto
+    * **fix:** Cuando se corrige un error en el código
+    * **chore**: Cuando se realizan cambios que no afectan al código
+    * **refactor:** Cuando se realizan cambios es la estructura del código, sin afectar al comportamiento del proyecto
+    * **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas.
+    * **perf:** Cuando se realizan cambio que mejoran el rendimiento del proyecto
+* **scope:** Este es un campo opcional, que nos permite especificar el alcance que tiene el commit.
+* **description:** Este es un campo obligatorio, ya que proporciona información breve y concisa de los cambios que se han realizado. Además debe ser escrito en minúsculas y de modo imperativo
+* **body:** Este es un campo opcional en el cual se detalla más información sobre el commit, como el motivo del cambio. 
+* **footer:** Este es un campo opcion y se utiliza para informar respecto a cambios importantes en el proyecto
+
 ### 6.1.3. Source Code Style Guide & Conventions
+
 ### 6.1.4. Software Deployment Configuration
 
+
 ## 6.2. Landing Page & Mobile Application Implementation
+
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
 #### 6.2.1.2. Sprint Backlog 1
