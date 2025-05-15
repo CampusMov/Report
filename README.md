@@ -241,6 +241,23 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
       * [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
         * [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
         * [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+* [Capitulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)   
+  * [6.1. Software Configuration Management](#61-software-configuration-management)
+    * [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    * [6.1.2. Source Code Management](#612-source-code-management)
+    * [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    * [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  * [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+    * [6.2.1. Sprint 1](#621-sprint-1)
+    * [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    * [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+    * [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+    * [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+    * [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    * [ 6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -2414,6 +2431,27 @@ Estas herramientas son clave para transformar ideas en diseños funcionales, ase
 
 
 ### 6.1.1. Software Development Environment Configuration
+<h2>Development Tools</h2>
+
+- **GitHub:** Es una plataforma en línea que permite almacenar y gestionar proyectos mediante repositorios con control de versiones usando Git. Facilita el trabajo colaborativo y el seguimiento detallado de los cambios en el proyecto. Puedes acceder a nuestro repositorio desde [este enlace](https://github.com/Dotvue).
+
+- **Git:** Herramienta de control de versiones que se instala localmente, permitiendo mantener un historial de modificaciones en el proyecto mediante commits. También se utiliza para colaborar en repositorios alojados en GitHub. Descarga Git desde [aquí](https://git-scm.com).
+
+- **WebStorm:** Un entorno de desarrollo (IDE) especializado en tecnologías web como HTML, CSS, JavaScript y frameworks como Vue y Angular. Es la herramienta que utilizamos para desarrollar la parte de la landing page del proyecto. Más información en [WebStorm](https://www.jetbrains.com/es-es/webstorm/).
+
+- **IntelliJ IDEA con Spring Boot:** Entorno de desarrollo integrado utilizado para crear servicios web robustos mediante el framework Spring Boot, facilitando la creación de servicios backend en Java. Consulta más en [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/).
+
+- **Android Studio con Kotlin:** IDE oficial para desarrollar aplicaciones móviles en Android, utilizando Kotlin como lenguaje principal. Nos permitirá desarrollar la aplicación móvil del proyecto. Puedes descargarlo desde [Android Studio](https://developer.android.com/studio).
+
+<h2>Software Testing</h2>
+
+El proceso de pruebas de software consiste en verificar y validar que el sistema funcione correctamente, asegurando que cumpla con los requisitos establecidos y detectando posibles errores en su funcionamiento.
+
+- **Lenguaje Gherkin:** Es un lenguaje específico de dominio (DSL) que facilita la definición de historias de usuario y escenarios de prueba en un formato comprensible tanto para desarrolladores como para personas no técnicas. Utiliza estructuras como Característica, Escenario, Ejemplo, Esquema de Escenario, Dado, Cuando, Entonces y Y para describir el comportamiento esperado del software.
+
+<h2>Software Documentation</h2>
+
+La documentación de software comprende textos e ilustraciones que explican el funcionamiento de una aplicación o cómo utilizarla. Puede estar integrada en el código fuente o acompañar al software como guía para usuarios y desarrolladores, facilitando su comprensión y uso.
 
 ### 6.1.2. Source Code Management
 Esta sección detallará que medios se utilizaron para el seguimiento de las modificaciones, así como la semantica y nomenclatura que usaremos para estructurar los commit del control de versiones
@@ -2457,6 +2495,45 @@ Este es un conjunto de reglas, las cuales deben seguir nuestros commits para cre
 * **footer:** Este es un campo opcion y se utiliza para informar respecto a cambios importantes en el proyecto
 
 ### 6.1.3. Source Code Style Guide & Conventions
+<h2>Kotlin</h2>
+
+Kotlin es un lenguaje de programación moderno, conciso y seguro, utilizado principalmente para el desarrollo de aplicaciones Android, aunque también se emplea en backend, multiplataforma y desarrollo web. A continuación, se describen las pautas para el uso de Kotlin en nuestro proyecto:
+
+- **Espacios alrededor de operadores**
+
+Se debe agregar un espacio en blanco antes y después de cada operador aritmético, lógico y de asignación. Esto incluye también las comas dentro de listas y llamadas a funciones.
+
+Ejemplo:
+
+```kotlin
+val sum = a + b
+val numbers = listOf(1, 2, 3)
+```
+- **Finalización de expresiones:**
+
+En Kotlin, las instrucciones no requieren punto y coma al final. Se debe evitar su uso a menos que se necesiten en la misma línea por razones de sintaxis (algo muy poco común).
+
+Ejemplo:
+```kotlin
+val name = "John"
+val age = 30
+```
+
+- **Funciones Lambda en Kotlin:**
+
+En Kotlin, las funciones lambda son bloques de código que se pueden definir como valores y pasar como argumentos a otras funciones. Son una característica clave para trabajar con colecciones, callbacks y programación funcional.
+
+A continuación, se presentan las pautas para el uso de funciones lambda en nuestro proyecto:
+
+- **Sintaxis básica de una lambda**
+
+Las funciones lambda se definen con llaves `{}` y dentro de ellas se especifican los parámetros, seguidos de la flecha `->` y luego el cuerpo de la función.
+
+Ejemplo:
+
+```kotlin
+val sum: (Int, Int) -> Int = { a, b -> a + b }
+```
 
 ### 6.1.4. Software Deployment Configuration
 
@@ -2465,15 +2542,125 @@ Este es un conjunto de reglas, las cuales deben seguir nuestros commits para cre
 
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>30/04/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Gutiérrez Soto, Jhosepmyr Orlando</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Hernández Tuiro, Eric Ernesto
+</li>
+                <li>Riva Rodríguez, Elmer Augusto
+</li>
+                <li>Sanchez Montero, Carlos
+</li>
+                <li>Morales Quispe, Brayan Smith
+</li>
+                <li>Del Castillo Bueno, Daniel Mateo
+</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Este es el primer sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Acuerdo de la implementación de una primera versión del Landing Page  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar la primera versión de la Landing Page de enfocándonos en una estructura que sea visualmente atractiva y fácil de navegar, además de presentar un avance de una de las aplicaciones moviles
+                </p>
+                <p>
+                Creemos que esta Landing Page ofrecerá una introducción simple y directa para que el usuario pueda. El éxito de este sprint se confirmará cuando los usuarios puedan explorar la Landing Page de manera fluida en distintos dispositivos, logrando una primera impresión positiva y una navegación sencilla que los motive a explorar más sobre el sistema.Además de brindarles una primera vista de la aplicación móvil.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                n
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                n
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 #### 6.2.1.2. Sprint Backlog 1
+
 #### 6.2.1.3. Development Evidence for Sprint Review
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
 #### 6.2.1.5. Execution Evidence for Sprint Review
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
+<h4>UniRide Landing Page</h4>
+<img src="./assets/sprint-1/collaboration insights/landing-page.png" alt="Landing page" >
 
+<h4>UniRide Backend Services</h4>
+
+IAM Service
+
+<img src="" alt="IAM Service" >
+
+Profile Service
+
+<img src="" alt="Profile Service" >
+
+Matching-Routing-Service
+
+<img src="./assets/sprint-1/collaboration insights/profile-service.png" alt="Matching-Routing-Service" width=80%  >
+
+
+<h4>UniRide Kotlin</h4>
+<img src="" alt="" >
 
 # Conclusiones
 
