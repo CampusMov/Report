@@ -3039,6 +3039,49 @@ __*Matching and Routing Service__
 |              | 2e23ff1  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add pluralize and spring doc openapi dependencies                                                              |
 |              | 32c1b4b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: init commit                                                                                                    |
 
+__*IAM-Service__
+
+| Repository                                       | Commit    | Author               | Date                 | Message                                                                                    |
+|--------------------------------------------------|-----------|----------------------|----------------------|--------------------------------------------------------------------------------------------|
+| CampusMo/Indentity and Access Management Service | 04a1375   | Eric Hernández       | 2025-05-14 13:46:56  | Merge pull request #2 from CampusMov/feature/login                                         |
+|                                                  | ee8da41   | Eric Hernández       | 2025-05-14 01:04:15  | chore: implement new port and server address configuration for project                     |
+|                                                  | ffaaf9d   | Eric Hernández       | 2025-05-14 01:03:12  | chore: add open api configuration information for swagger                                  |
+|                                                  | 4584f5b   | Eric Hernández       | 2025-05-14 01:02:22  | refactor(login): refactor user resource and interfaces                                     |
+|                                                  | 1bda009   | Eric Hernández       | 2025-05-14 01:01:39  | refactor(login): refactor login controller request parameters and resources and commands   |
+|                                                  | eb74570   | Eric Hernández       | 2025-05-14 01:00:04  | refactor(login): refactor sign up controller request parameters and resources and commands |
+|                                                  | 7a73ca8   | Eric Hernández       | 2025-05-14 00:56:10  | refactor(login): implement institutional email validation                                  |
+|                                                  | 773c320   | Eric Hernández       | 2025-05-14 00:54:14  | refactor(login): implement new logic for role assignation                                  |
+|                                                  | e2115f0   | Eric Hernández       | 2025-05-08 14:16:43  | chore(login): add expiration time for account                                              |
+|                                                  | ebf48c5   | Eric Hernández       | 2025-05-08 14:09:19  | fix(login): remove unused sign in files                                                    |
+|                                                  | 35fb0a8   | Eric Hernández       | 2025-05-08 14:07:54  | refactor(login): refactor registration controller for one endpoint                         |
+|                                                  | 2e95201   | Eric Hernández       | 2025-05-08 14:06:58  | refactor(login): refactor logic for one registration endpoint                              |
+|                                                  | 3e85e8d   | Eric Hernández       | 2025-05-08 09:59:45  | feat(login): add login controller for account verification                                 |
+|                                                  | 6b43481   | Eric Hernández       | 2025-05-08 09:59:19  | feat(login): implement AuthenticationService                                               |
+|                                                  | dd099ff   | Eric Hernández       | 2025-05-08 09:58:57  | feat(login): add verification models for user                                              |
+|                                                  | eb26f99   | Eric Hernández       | 2025-05-08 09:58:24  | refactor(login): refactor registration controller                                          |
+|                                                  | 62687fb   | Eric Hernández       | 2025-05-08 09:56:07  | feat(login): add email service and email template                                          |
+|                                                  | 754fa41   | Eric Hernández       | 2025-05-08 09:47:08  | feat(login): add email configuration and model                                             |
+|                                                  | 3872aaf   | Eric Hernández       | 2025-05-08 09:43:29  | feat(login): add new attributes for user entity and service and enable scheduling          |
+|                                                  | 2384fe1   | Eric Hernández       | 2025-05-07 14:22:10  | refactor(signIn): refactor sign in and registration logic                                  |
+|                                                  | 4fc562e   | Eric Hernández       | 2025-05-07 07:33:21  | feat(signIn): implement sign in endpoint                                                   |
+|                                                  | 9bc62f6   | Eric Hernández       | 2025-05-07 07:30:58  | feat(signIn): add sign in resource and transformation interface                            |
+|                                                  | c6b69f0   | Eric Hernández       | 2025-05-07 07:30:07  | feat(signIn): implement sign in logic in user repository and user command services         |
+|                                                  | 1bc82b5   | Eric Hernández       | 2025-05-07 07:28:10  | feat(signIn): add sign in command                                                          |
+|                                                  | f6ea723   | Eric Hernández       | 2025-05-06 12:08:49  | Merge pull request #1 from CampusMov/feature/create-user                                   |
+|                                                  | ed7ab98   | Eric Hernández       | 2025-05-06 12:05:07  | feat(registration): implement registration controller for registration endpoints           |
+|                                                  | 76f8255   | Eric Hernández       | 2025-05-06 12:03:00  | feat(registration): implement event handler for role seeding                               |
+|                                                  | ac996f1   | Eric Hernández       | 2025-05-06 12:01:49  | feat(registration): add transformation interface for user and create user                  |
+|                                                  | a440436   | Eric Hernández       | 2025-05-06 12:01:18  | feat(registration): add resources for user and create user                                 |
+|                                                  | d832d80   | Eric Hernández       | 2025-05-06 12:00:00  | feat(registration): implement user command service                                         |
+|                                                  | 8dd1bbd   | Eric Hernández       | 2025-05-06 11:58:06  | feat(registration): implement role command service                                         |
+|                                                  | 82b93c3   | Eric Hernández       | 2025-05-06 11:56:29  | feat(registration): add user and role repositories                                         |
+|                                                  | 802da50   | Eric Hernández       | 2025-05-06 11:55:04  | feat(registration): add create user and seed roles commands                                |
+|                                                  | f2dfdd8   | Eric Hernández       | 2025-05-06 11:53:46  | feat(registration): add user, role, and user status models                                 |
+|                                                  | 3bd8592   | Eric Hernández       | 2025-05-06 01:58:47  | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy         |
+|                                                  | c649708   | Eric Hernández       | 2025-05-06 01:29:13  | chore: add readme                                                                          |
+|                                                  | ed2af71   | Eric Hernández       | 2025-05-06 01:24:43  | chore: add pluralize and spring doc openapi dependencies                                   |
+|                                                  | 1ca891b   | Eric Hernández       | 2025-05-05 22:58:14  | chore: initial commit                                                                      |
+
 __* AppMobile:__
 
 | Repository                  | Commit   | Author                           | Date                | Message                                                                                                                                      |
