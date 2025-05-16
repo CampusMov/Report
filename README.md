@@ -296,7 +296,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico                                                                                                                     | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | <div> Daniel del Castillo <p>TB1: Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p></div> <div> Carlos Sánchez <p>TB1: En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p></div> <div> Elmer Riva <p>TB1: Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p></div> <div> Jhosepmyr Gutiérrez <p>TB1: Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p></div> <div> Erick Hernández <p>TB1: Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p></div> <div> Brayan Morales <p>TB1: Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p></div>                                                                       | <p>TB1: El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software.</p> |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | <div> Daniel del Castillo <p>TB1: Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>TP: Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p></div> <div> Carlos Sánchez <p>TB1: En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p></div> <div> Elmer Riva <p>TB1: Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p></div> <div> Jhosepmyr Gutiérrez <p>TB1: Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p></div> <div> Erick Hernández <p>TB1: Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p></div> <div> Brayan Morales <p>TB1: Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p></div>                                                                       | <p>TB1: El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software.</p> |
 | Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.  | <div> Daniel del Castillo <p>TB1: Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p></div> <div> Carlos Sánchez <p>TB1: En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p></div> <div> Elmer Riva <p>TB1: Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p></div> <div> Jhosepmyr Gutiérrez <p>TB1: Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p></div> <div> Erick Hernández <p>TB1: El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p></div> <div> Brayan Morales <p>TB1: Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p></div> | <p>TB1: Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente.</p>                     |
 <div style="page-break-before: always"></div>
 
@@ -2649,13 +2649,13 @@ __Web Services:__
         <tr>
             <td>Sprint 1 Velocity</td>
             <td>
-                n
+                50
             </td>
         </tr>
         <tr>
             <td>Sum of story points</td>
             <td>
-                n
+                25
             </td>
         </tr>
     </tbody>
@@ -2790,7 +2790,7 @@ Para este sprint asignamos las user stories de los productos que ibamos a desarr
     <td align="center">2</td>
     <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
 </td>
-    <td align="center">In-Process</td>
+    <td align="center">Done</td>
   </tr>
   <tr>
     <td align="center">16</td>
@@ -2812,7 +2812,7 @@ Para este sprint asignamos las user stories de los productos que ibamos a desarr
     <td align="center">3</td>
     <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
 </td>
-    <td align="center">In-Process</td>
+    <td align="center">Done</td>
   </tr>
   <tr>
     <td align="center">18</td>
@@ -2823,7 +2823,7 @@ Para este sprint asignamos las user stories de los productos que ibamos a desarr
     <td align="center">2</td>
     <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
 </td>
-    <td align="center">In-process</td>
+    <td align="center">Done</td>
   </tr>
   <tr>
     <td align="center">19</td>
@@ -2846,7 +2846,7 @@ Para este sprint asignamos las user stories de los productos que ibamos a desarr
     <td align="center">3</td>
     <td align="center">Hernández Tuiro, Eric Ernesto
 Riva Rodríguez, Elmer Augusto</td>
-    <td align="center">In-Process</td>
+    <td align="center">Done</td>
   </tr>
   <tr>
     <td align="center">37</td>
@@ -2867,7 +2867,7 @@ Riva Rodríguez, Elmer Augusto</td>
     <td align="center">Planificador para tareas programadas</td>
     <td align="center">3</td>
     <td align="center">Riva Rodríguez, Elmer Augusto</td>
-    <td align="center">In-Process</td>
+    <td align="center">Done</td>
   </tr>
   <tr>
     <td align="center">39</td>
@@ -2897,7 +2897,7 @@ Riva Rodríguez, Elmer Augusto</td>
   <td align="center">Crear API para actualizar los datos del perfil de usuario</td>
   <td align="center">2</td>
   <td align="center">Riva Rodríguez, Elmer Augusto</td>
-  <td align="center">In-Process</td>
+  <td align="center">Done</td>
 </tr>
 <tr>
   <td align="center">53</td>
@@ -2907,7 +2907,7 @@ Riva Rodríguez, Elmer Augusto</td>
   <td align="center">Crear API para obtener los datos del perfil de usuario</td>
   <td align="center">2</td>
   <td align="center">Hernández Tuiro, Eric Ernesto</td>
-  <td align="center">In-Process</td>
+  <td align="center">Done</td>
 </tr>
   
 
