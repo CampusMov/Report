@@ -2556,7 +2556,22 @@ val sum: (Int, Int) -> Int = { a, b -> a + b }
 ```
 
 ### 6.1.4. Software Deployment Configuration
+En esta seccion se mostrara los pasos para la configuracion de los desplieges a realizar:
 
+__Landing Page:__
+
+
+1.- Segundo activamos el gitHub Actions para la automatizacion del despliege del landing page y configuramos en jekyll-gh-pages.yml para una entrega continua.
+
+2.- Ahora con la configuracion lista para la automatizacion del despliege y proporcionar el link del sitio web.
+
+__Web Services:__
+
+1.-Primero habilitamos los cluster en google cloud para nuestro proyecto.
+
+2.-Segundo iniciamos sesion en el terminal de google cloud.
+
+3.-Conectamos de manera local.
 
 ## 6.2. Landing Page & Mobile Application Implementation
 
@@ -2909,7 +2924,229 @@ Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/softwa
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review
+__* Landin Page__
 
+| Repository   | Commit   | Author               | Date       | Message                                                     |
+|--------------|----------|----------------------|------------|-------------------------------------------------------------|
+| CampusMov landing-page-uniride   | 208c3d0  | Brayan Smith Morales | 2025-05-15 | feature: added based url for display                        |
+|              | 6795b58  | Brayan Smith         | 2025-05-10 | Merge pull request #2 from CampusMov/feature/fix-components |
+|              | d6a2396  | Brayan Smith Morales | 2025-05-10 | style: fixed style of video                                 |
+|              | aa2cf46  | Brayan Smith Morales | 2025-05-10 | chore: Add component about us                               |
+|              | 0530b63  | Brayan Smith Morales | 2025-05-10 | fix: fixed translate in component benefits components       |
+|              | 1a968c0  | Brayan Smith Morales | 2025-05-10 | fix: fixed style product component                          |
+|              | 24abf46  | Brayan Smith Morales | 2025-05-10 | style: modified style faq-title                             |
+|              | 11ecc23  | Brayan Smith Morales | 2025-05-10 | chore: add timeline component                               |
+|              | 361ec0e  | Brayan Smith Morales | 2025-05-10 | fix: fixed style div skill container                        |
+|              | 4739ec0  | Brayan Smith Morales | 2025-05-10 | fix: fixed timeline benefits                                |
+|              | df3d545  | Brayan Smith Morales | 2025-05-10 | fix: fixed navbar translate and home component              |
+|              | b0230b1  | Brayan Smith         | 2025-05-10 | Merge pull request #1 from CampusMov/feature/home           |
+|              | 85252c6  | teocchiii            | 2025-05-09 | chore: added the translations to the FAQ                    |
+|              | 9c8b76e  | teocchiii            | 2025-05-09 | chore: added select button to the main js                   |
+|              | 53ed3cd  | teocchiii            | 2025-05-09 | chore: added footer to the landing                          |
+|              | 2c3533c  | teocchiii            | 2025-05-09 | chore: added color accents.                                 |
+|              | d953fec  | Brayan Smith Morales | 2025-05-07 | fix: fixed style div skill container                        |
+|              | 8a1f25e  | teocchiii            | 2025-05-07 | feat(i18n): added vuei18n component and locales             |
+|              | 1fa6d1b  | Brayan Smith Morales | 2025-05-06 | chore: add benefits component and styles                    |
+|              | 68f188b  | Brayan Smith Morales | 2025-05-05 | chore: add home component and styles                        |
+|              | bddbd9b  | Brayan Smith Morales | 2025-05-05 | chore: Initial Committee                                    |
+|              | cdff83f  | Brayan Smith         | 2025-05-05 | Initial commit                                              |
+
+
+__* Web Services:__
+
+| Repository   | Commit   | Author                           | Date       | Message                                                                                                               |
+|--------------|----------|----------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------|
+| CampusMov/Matching-Routing-Service   | 03a28e2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-15 | feat: add eureka client cloud and set connection                                                                      |
+|              | 68528e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-09 | Merge pull request #14 from CampusMov/feature/linked-passenger-creation                                               |
+|              | e8e2608  | jhosepmyr                        | 2025-05-09 | feat(events): add listener for passenger request accepted event                                                       |
+|              | 468d2c8  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add transform from event assembler to created linked passenger command                        |
+|              | 128de30  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add create linked passenger command in command service and interface                          |
+|              | a93fcdc  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add linked passenger entity                                                                   |
+|              | 8d5f52f  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add create linked passenger command                                                           |
+|              | 14a5d32  | jhosepmyr                        | 2025-05-09 | chore(events): add carpoolId to PassengerRequestAcceptedEvent                                                         |
+|              | 268b059  | jhosepmyr                        | 2025-05-08 | feat(events): trigger PassengerRequestAcceptedEvent on acceptance                                                     |
+|              | d2f8229  | jhosepmyr                        | 2025-05-08 | feat(kafka): add Supplier for PassengerRequestEvent and event publishing                                              |
+|              | 7988754  | jhosepmyr                        | 2025-05-08 | feat(events): add sealed interface for PassengerRequestEvent and implementation                                       |
+|              | 4cdd407  | jhosepmyr                        | 2025-05-08 | feat(domain): add DomainEvent interface                                                                               |
+|              | f59d764  | jhosepmyr                        | 2025-05-08 | feat(config): add Spring Cloud Stream configuration for passenger request                                             |
+|              | 874430c  | jhosepmyr                        | 2025-05-08 | chore: add spring cloud and  spring cloud binder kafka dependencies                                                   |
+|              | 6814700  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | Merge pull request #13 from CampusMov/feature/get-all-passenger-request-by-carpool-id-and-status-is-pending           |
+|              | 2d6c368  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): add endpoint to get all passenger requests by carpool id in controller                       |
+|              | b6a3990  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): create query to get all passenger request by carpool id                                      |
+|              | 97c2dd7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): add new query to get all passenger request by carpool id and status is pending in repository |
+|              | 8aaf72e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #12 from CampusMov/feature/get-passenger-request-by-id                                             |
+|              | 7e42049  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add get by ID endpoint                                                                       |
+|              | d73cb73  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement query service                                                                      |
+|              | 006ff1a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #11 from CampusMov/feature/reject-passenger-request                                                |
+|              | e024aaa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implements reject request                                                                    |
+|              | 5a0f8f8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implements request rejection                                                                 |
+|              | 4046128  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add reject functionality to PassengerRequest                                                 |
+|              | 185bd7e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #10 from CampusMov/feature/accept-passenger-request                                                |
+|              | 657ce5a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-requesr): Implements accept request endpoint                                                           |
+|              | c5d5927  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement request acceptance                                                                 |
+|              | 2129408  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement accept request                                                                     |
+|              | 59e2312  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #9 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 9631a3c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | chore: update values for testing                                                                                      |
+|              | 6bc533b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #8 from CampusMov/feature/create-passenger-request                                                 |
+|              | b29f432  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add integration test for passenger request                                                   |
+|              | 0ae8a20  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement request creation endpoint                                                          |
+|              | 0016f5b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add passenger request DTOs                                                                   |
+|              | baa8de5  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement passenger request command                                                          |
+|              | 85ff4c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add PassengerRequestRepository                                                               |
+|              | 5f6c56b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement passenger request                                                                  |
+|              | 057ecb0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): implement PassengerRequest aggregate                                                                   |
+|              | 878091e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): add passenger request status enum                                                                      |
+|              | fbd0c09  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #7 from CampusMov/feature/post-carpool-update-status-to-in-progress                                |
+|              | b27bd22  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): add functionality to start a carpool via a new endpoint.                                               |
+|              | a1e9e36  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): creates command assembler                                                                              |
+|              | 5f3eb56  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): enable carpool start functionality in service                                                          |
+|              | 72bc125  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): enable carpool starting functionality                                                                  |
+|              | 127a9fb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #6 from CampusMov/feature/get-all-carpools-available-by-schedule-id-and-pick-up-location           |
+|              | bedc394  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | fea(carpool): exposes endpoint in controller for available carpools                                                   |
+|              | 2bb3ad9  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add query assembler                                                                                    |
+|              | d768f2c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add carpool retrieval query by schedule                                                                |
+|              | e1376da  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add find by schedule IDs to carpool                                                                    |
+|              | cc5507a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #5 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 104595b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge branch 'develop' into feature/create-carpool-endpoint                                                           |
+|              | 301f5c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): prevent driver from creating multiple carpools                                                         |
+|              | 67ef9c0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #4 from CampusMov/feature/get-all-carpools-by-driver-id                                            |
+|              | 650c197  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to retrieve all carpools by driver ID                                                     |
+|              | 09ba724  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add query for all carpools by driver                                                                   |
+|              | e2a0ed8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add method to retrieve carpools by driver ID                                                           |
+|              | a73431a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #3 from CampusMov/feature/get-carpool-by-driver-id-and-is-active                                   |
+|              | 52c3376  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to get active carpool by driver id                                                        |
+|              | 8bb6984  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool query by driver and status                                                           |
+|              | 4f8f992  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add find by driver and status                                                                          |
+|              | 479a62c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #2 from CampusMov/feature/get-carpool-by-id                                                        |
+|              | b6d22ae  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to retrieve carpool by ID                                                                 |
+|              | 256852a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool query service                                                                        |
+|              | a2ff83e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #1 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 0a6aae8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add TODOs for carpool creation logic                                                                           |
+|              | 6a21ccf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add CarpoolController integration tests                                                                |
+|              | fbe4fa8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | refactor(carpool): update location coordinates to longitude/latitude                                                  |
+|              | 2aa1d6e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add testcontainers dependencies and update java version to 22                                                  |
+|              | f0169ac  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): expose carpool creation endpoint                                                                       |
+|              | ff0a64c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add carpool resource DTOs and assemblers                                                               |
+|              | 9ce8099  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): initialize Carpool aggregate                                                                           |
+|              | 8bd31e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool creation command                                                                     |
+|              | 67774ff  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore(carpool): add Carpool repository                                                                                |
+|              | 1d4b0c8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add Carpool aggregate                                                                                  |
+|              | e143cbe  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat: add value objects for IDs                                                                                       |
+|              | 86f3d2d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat: implement JPA auditing and OpenAPI                                                                              |
+|              | 198d4bb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add readme                                                                                                     |
+|              | 2e23ff1  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add pluralize and spring doc openapi dependencies                                                              |
+|              | 32c1b4b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: init commit                                                                                                    |
+
+__* AppMobile:__
+
+| Repository   | Commit   | Author                           | Date       | Message                                                                                                        |
+|--------------|----------|----------------------------------|------------|----------------------------------------------------------------------------------------------------------------|
+| CampusMov/ UniRide-Passenger   | a8e9408  | Eric                             | 2025-05-14 | chore: implement logging configuration                                                                         |
+|              | d8443e7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | Merge pull request #10 from CampusMov/feature/search-carpool                                                   |
+|              | 256d919  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: Improves origin place display                                                                            |
+|              | bd3ea4e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: implements seat selection                                                                                |
+|              | 9206774  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: Implement place search view                                                                              |
+|              | b119cfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: allows null leading icon                                                                                 |
+|              | 1519e8f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: Initialize Google Places API                                                                             |
+|              | 17d5c7d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: implement place prediction                                                                               |
+|              | dfba2b5  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: injects PlacesClient dependency                                                                          |
+|              | f958f55  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: implement location repository                                                                            |
+|              | ec1042f  | Eric HernÃ¡ndez                  | 2025-05-14 | Merge pull request #9 from CampusMov/feature/enter-institutional-email                                         |
+|              | 3c05cce  | Eric                             | 2025-05-14 | fix: fix send email timeout error                                                                              |
+|              | 2da3bb8  | Eric                             | 2025-05-14 | feat: add unhappy path for enter institutional email                                                           |
+|              | 93ac9f9  | Eric                             | 2025-05-14 | feat: add unhappy path for enter verification code                                                             |
+|              | e527f20  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat(map): integrates place search functionality                                                               |
+|              | 7f1371a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: implements search place view and view model                                                              |
+|              | 8336bef  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: implements search carpool view and viewmodel                                                             |
+|              | 7e67b4f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: add place prediction                                                                                     |
+|              | 7475453  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat(default-input): adds leading icon and enable control                                                      |
+|              | 69fcde0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: add icons extended and places dependencies                                                               |
+|              | 5e644ba  | Eric                             | 2025-05-14 | fix: fix repository module error                                                                               |
+|              | 795e735  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | Merge pull request #8 from CampusMov/feature/enter-institutional-email                                         |
+|              | c78c3f2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | Merge branch 'develop' into feature/enter-institutional-email                                                  |
+|              | a93eb38  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | Merge pull request #7 from CampusMov/feature/google-map-background                                             |
+|              | 6c941ea  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | refactor(map): extract Google Map to separate component                                                        |
+|              | ec0ac6d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | feat: enhance map interaction                                                                                  |
+|              | 58ea9f6  | Eric                             | 2025-05-14 | feat: add verification code view for user verification                                                         |
+|              | d1746d0  | Eric                             | 2025-05-14 | feat: add verification code view model for user verification                                                   |
+|              | e52be4a  | Eric                             | 2025-05-14 | feat: add verification code validation state and refactor Role model                                           |
+|              | 04961b3  | Eric                             | 2025-05-14 | feat: add use cases for verification code and save and get session data                                        |
+|              | 8bb1197  | Eric                             | 2025-05-14 | feat: add verify code service and response class and fix verification email service response                   |
+|              | 884558b  | Eric                             | 2025-05-14 | feat: add verify code coroutine and implement datastore in verify email coroutine                              |
+|              | 14d188f  | Eric                             | 2025-05-14 | feat: add Data Store dependency and configuration and local data store class                                   |
+|              | 1127f07  | Eric                             | 2025-05-14 | refactor: refactor email registration view and view model and implement verification code view                 |
+|              | 5f2433c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14 | Merge pull request #6 from CampusMov/feature/google-map-background                                             |
+|              | bdb1a9c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | chore: disable gesture in lateral menu                                                                         |
+|              | 19b5ead  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(map): implement map carpool searcher view                                                                 |
+|              | 96f56e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | chore: add custom map styling                                                                                  |
+|              | c6db45e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(location): adds location update feature                                                                   |
+|              | 79e8442  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(location): add location update use cases                                                                  |
+|              | 7c9503f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(location): implement location repository                                                                  |
+|              | 715057c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(di): configures location data source                                                                      |
+|              | c9a5b0d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat(location): add location data source                                                                       |
+|              | a84ef99  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | chore: delete unused imports                                                                                   |
+|              | 3d91451  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add permission for location and set google maps api                                                      |
+|              | c2dc29b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add google map dependencies                                                                              |
+|              | 8a2c112  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | Merge pull request #5 from CampusMov/feature/menu-navigation                                                   |
+|              | 9258e0f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | chore: disable sendVerificationEmail by going to Home Route for test                                           |
+|              | 7e8d244  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add base map carpool search view                                                                         |
+|              | c679c15  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add MenuNavigationView in AuthGraph                                                                      |
+|              | 5bfe3d7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add base info profile view                                                                               |
+|              | 79e61cc  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add menu navigation view                                                                                 |
+|              | 8dadd37  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add routes for routing and matching screens                                                              |
+|              | d6b1ead  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | feat: add navigation item                                                                                      |
+|              | 25b1d3c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | Merge pull request #4 from CampusMov/feature/enter-institutional-email                                         |
+|              | d317fce  | Eric396                          | 2025-05-13 | feat: include EnterInstitutionalEmailView in routing for AuthNavGraph                                          |
+|              | 0d91985  | Eric396                          | 2025-05-13 | feat: use view model into enter institutional email view                                                       |
+|              | d1dbcde  | Eric396                          | 2025-05-13 | feat: add state and view model for enter institutional email                                                   |
+|              | 5d3b992  | Eric396                          | 2025-05-13 | feat: set configuration for dependency inyection with dagger retrofit                                          |
+|              | 0c4b3f4  | Eric396                          | 2025-05-13 | feat: add VerificationEmailUseCase                                                                             |
+|              | 1547286  | Eric396                          | 2025-05-13 | feat: add auth repository implementation                                                                       |
+|              | a204aa1  | Eric396                          | 2025-05-13 | feat: add auth repository interface                                                                            |
+|              | 432f0f2  | Eric396                          | 2025-05-13 | feat: add AuthService                                                                                          |
+|              | 0320229  | Eric396                          | 2025-05-13 | feat: add AuthEmailVerificationResponse                                                                        |
+|              | 5284ace  | Eric396                          | 2025-05-13 | feat: add resource for remote respondes                                                                        |
+|              | ad0af57  | Eric396                          | 2025-05-13 | feat: set hilt configuration                                                                                   |
+|              | e5af0f1  | Eric396                          | 2025-05-13 | feat: add hilt suit dependencies                                                                               |
+|              | 9aa46d6  | Eric396                          | 2025-05-13 | chore: delete files by moving folder and deleting                                                              |
+|              | 39f6d8f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | Merge remote-tracking branch 'origin/feature/enter-institutional-email' into feature/enter-institutional-email |
+|              | ea53990  | Eric                             | 2025-05-13 | chore(internet): implement network permission configuration for internet                                       |
+|              | 0a07bf4  | Eric                             | 2025-05-13 | feat(login): implement email entry logic                                                                       |
+|              | 61c4cb3  | Eric                             | 2025-05-13 | feat(login): add view model for institutional email entry                                                      |
+|              | 312113e  | Eric                             | 2025-05-13 | feat(login): add authentication repository and service                                                         |
+|              | b3faefb  | Eric                             | 2025-05-13 | feat(login): add data module and Dto files                                                                     |
+|              | d58d7c7  | Eric                             | 2025-05-13 | feat(login): add domain models                                                                                 |
+|              | f88e0d6  | Eric                             | 2025-05-13 | chore: add retrofit gson converter and logging dependencies                                                    |
+|              | 9aff236  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13 | chore: add idea folder to gitignore                                                                            |
+|              | 9cfc1cf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-12 | feat: add EnterInstitutionalEmailView                                                                          |
+|              | ea9bc2f  | elmer-riva                       | 2025-05-11 | chore: resolve merge conflicts                                                                                 |
+|              | dd5c2c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: set RootNavGraph in MainActivity to take routes controll                                                 |
+|              | 8bb357c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add base root nav graph                                                                                  |
+|              | 026a85a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat:  add  routes for profile service                                                                         |
+|              | ef09d25  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat:  add routes for authentication service                                                                   |
+|              | 6951f33  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add boundaries domain graph names                                                                        |
+|              | 4a117e6  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add navigation compose dependency                                                                        |
+|              | 92978f7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | chore: move WelcomeView to folder auth                                                                         |
+|              | bd1548f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | Merge pull request #3 from CampusMov/feature/enter-institutional-email                                         |
+|              | e1e6bfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: replace text button for reusable default compose one                                                     |
+|              | 70a81d4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add reusable default rounded text button                                                                 |
+|              | 95259fc  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add reusable default rounded input field                                                                 |
+|              | 6d4416c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add uni ride logo imagenes                                                                               |
+|              | fcb01be  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | fix: erase propagation of splash theme to all views                                                            |
+|              | b424a86  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | Merge pull request #2 from CampusMov/feature/route-navigation                                                  |
+|              | 579603b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: set RootNavGraph in MainActivity to take routes controll                                                 |
+|              | 276d5ce  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add base root nav graph                                                                                  |
+|              | a0214db  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat:  add  routes for profile service                                                                         |
+|              | 912f8d6  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat:  add routes for authentication service                                                                   |
+|              | 81ae7b8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add boundaries domain graph names                                                                        |
+|              | cd7c0d2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add navigation compose dependency                                                                        |
+|              | df30efb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | chore: move WelcomeView to folder auth                                                                         |
+|              | 7b0eeab  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | Merge pull request #1 from CampusMov/feature/splash-screen                                                     |
+|              | 623853d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: active splash screen and set welcome view as main screen                                                 |
+|              | d613f15  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: design welcome screen                                                                                    |
+|              | 431c0bf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: configure splashscreen api and add logo uniride icon                                                     |
+|              | c5d8d83  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | feat: add splashscreen dependency                                                                              |
+|              | c056dfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11 | chore: init commit   
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
 Este código es una prueba de integración para el controlador de carpool en una aplicación Spring Boot, usando Testcontainers con MySQL y TestRestTemplate para realizar solicitudes HTTP. Se validan distintos casos de creación de viajes compartidos (carpools): creación exitosa con datos completos, creación con valores nulos en maxPassengers y radius (verificando valores por defecto como radius=50 y status=CREATED), y casos negativos donde se omite el origen o destino, esperando errores 500. Cada prueba verifica el código de respuesta y la correcta asignación de valores en la respuesta.
 
@@ -3105,7 +3342,7 @@ class PassengerRequestControllerIntegrationTest {
                         .latitude(12.345678)
                         .longitude(98.765432)
                         .build())
-                .requestedSeats(null)
+                  .requestedSeats(null)
                 .build();
 
         // When
@@ -3124,7 +3361,57 @@ class PassengerRequestControllerIntegrationTest {
 }
 
 ```
-#### 6.2.1.5. Execution Evidence for Sprint Review
+
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+En este sprint se logro las siguientes ejecuciones de software tomando desde el landig page, web services y applicaction mobile.
+
+__* Landing Page:__ En este screen se muestra la ejecucion del landing page en local.
+
+![](/assets/software%20deployment/landingpage-exe.png)
+
+
+__* Web Services:__
+En estos screens se muestra la ejecucion de los 3 microservicios desarrollados.
+
+![](/assets/software%20deployment/iam.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO IAM</p>
+</div>
+
+![](/assets/software%20deployment/matching.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO Matching</p>
+</div>
+
+![](/assets/software%20deployment/profile.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO Profile</p>
+</div>
+
+__* App Movil:__ En estos screens se muestra la ejecucion las vistas desarrolladas en este sprint.
+
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/buscar.png">
+  <p>Vista de Home de la aplicacion</p>
+
+</div>
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/presentacion.png">
+  <p>Vista de Presentacion de la aplicacion</p>
+</div>
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/punto%20inicio.png">
+  <p>Vista de selecion de punto de inicio </p>
+</div>
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 En esta sección se presentan los avances relacionados con la documentación de los Web Services realizados durante el Sprint, utilizando OpenAPI. Se incluye una tabla con los endpoints implementados, detallando las acciones soportadas (verbo HTTP, sintaxis, parámetros, ejemplos de respuesta), así como los enlaces a la documentación generada o URLs locales si aún no se ha desplegado. También se adjuntan capturas de interacción con los endpoints usando datos de prueba, y se proporciona el enlace al repositorio junto con los identificadores de los commits vinculados a esta documentación.
@@ -3165,6 +3452,46 @@ Endpoints - PassengerRequestControllerImpl
 
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
+En esta seccion se mostrara los pasos para los desplieges a realizar:
+
+__Landing Page:__
+
+1.- Primero realizamos la configuracion en el archivo configuracion del vite.congif.js
+
+```
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+// https://vite.dev/config/
+export default defineConfig({
+  darkMode: false,
+  plugins: [vue()],
+  base: "https://campusmov.github.io/landing-page-uniride/",
+})
+```
+2.- Segundo activamos el gitHub Actions para la automatizacion del despliege del landing page y configuramos en jekyll-gh-pages.yml para una entrega continua.
+
+![](/assets/software%20deployment/githubactions.png)
+Para la configuracion del archivo se uso la documentacion del sitio de vite [Link](https://vite.dev/guide/static-deploy).
+
+3.- Ahora con la configuracion lista para la automatizacion del despliege y proporcionar el link del sitio web.
+
+* Link: [Landing Page](https://campusmov.github.io/landing-page-uniride/)
+
+
+__Web Services:__
+
+1.- Instalar Argos CD en el sdk de google.
+
+![](/assets/software%20deployment/instalar%20argos%201.png)
+
+2.- Acceder Argos CD api Server.
+
+![](/assets/software%20deployment/accede%20argos%203.png)
+
+3.-Configuramos la aplicacion y conexion con repositotio de kubernets.
+![](/assets/software%20deployment/configuramos%20app.png)
+![](/assets/software%20deployment/configuramos%20app%202.png)
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 
