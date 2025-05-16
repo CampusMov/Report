@@ -6,7 +6,7 @@
         <p>Docente: Ing. Jorge Luis Mayta Guillermo</p>   
         <p>Informe de Trabajo Final<p>
         <p>Startup: CampusMov</p>
-        <p>Producto: CarPool</p>
+        <p>Producto: UniRide</p>
     </div>
     <div style="text-align: center; display: flex; flex-direction: column; align-items: center">
         <h3 style="font-weight: bolder">Team Members:</h3>
@@ -34,6 +34,10 @@
               <td>Morales Quispe, Brayan Smith</td>
               <td>20211f984</td>
             </tr>
+            <tr>
+              <td>Del Castillo Bueno, Daniel Mateo</td>
+              <td>202211212</td>            
+            </tr>
         </table>
     </div>
     <p style="text-align: center">Marzo 2025</p>
@@ -43,18 +47,20 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                        |
-|---------|------------|----------------------------|-----------------------------------------------------------------------------------------------------------|
-| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                    |
-| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                         |
+| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                       |
+|---------|------------|----------------------------|----------------------------------------------------------------------------------------------------------|
+| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                   |
+| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                        |
 | 1.2.0   | 2025-04-03 | Jhosepmyr Orlando, Eric    | Capítulo I completo: Descripción de la Startup y Perfiles del equipo (1.1), Problemática y Lean UX (1.2). |
-| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                       |
-| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                 |
-| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                             |
-| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                 |
-| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                         |
-| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                               |
-| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                    |
+| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                      |
+| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                |
+| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                            |
+| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                |
+| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                        |
+| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                              |
+| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                   |
+| 2.1.0   | 2025-05-14 | Daniel, Carlos, Brayan     | Informe completo hasta el Capítulo V: Mobile Applications User Flow Diagram.                             |
+| 2.2.0   | 2025-05-15 | Todo el equipo             | Informe completo hasta el Capítulo VI: Sprint 1.                                                         |
 
 <div style="page-break-before: always"></div>
 
@@ -237,6 +243,42 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
       * [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
         * [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
         * [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+* [Capitulo V: Solution UI/UX Design](#capitulo-v-solution-uiux-design)
+  * [5.1. Product design](#51-product-design)
+    * [5.1.1. Style Guidelines](#511-style-guidelines)
+      * [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+    * [5.1.2. Information Architecture](#512-information-architecture)
+      * [5.1.2.1. Organization Systems](#5121-organization-systems)
+      * [5.1.2.2. Labeling Systems](#5122-labeling-systems)
+      * [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+      * [5.1.2.4. Searching Systems](#5124-searching-systems)
+      * [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+    * [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+      * [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+      * [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+    * [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+      * [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+      * [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+      * [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+      * [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+      * [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+* [Capitulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)   
+  * [6.1. Software Configuration Management](#61-software-configuration-management)
+    * [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    * [6.1.2. Source Code Management](#612-source-code-management)
+    * [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    * [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  * [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+    * [6.2.1. Sprint 1](#621-sprint-1)
+    * [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    * [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+    * [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+    * [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+    * [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    * [ 6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -254,10 +296,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-| Criterio específico                                                                                                                     | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | <div> Daniel del Castillo <p>TB1: Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p></div> <div> Carlos Sánchez <p>TB1: En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p></div> <div> Elmer Riva <p>TB1: Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p></div> <div> Jhosepmyr Gutiérrez <p>TB1: Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p></div> <div> Erick Hernández <p>TB1: Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p></div> <div> Brayan Morales <p>TB1: Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p></div>                                                                       | <p>TB1: El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software.</p> |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.  | <div> Daniel del Castillo <p>TB1: Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p></div> <div> Carlos Sánchez <p>TB1: En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p></div> <div> Elmer Riva <p>TB1: Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p></div> <div> Jhosepmyr Gutiérrez <p>TB1: Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p></div> <div> Erick Hernández <p>TB1: El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p></div> <div> Brayan Morales <p>TB1: Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p></div> | <p>TB1: Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente.</p>                     |
+| **Criterio específico**                                                                                                                     | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Daniel del Castillo** <br> <div><p>**TB1:** Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>**TP:** Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p><p>**TP:** El trabajo con Kotlin me ayudó a darme cuenta de la importancia de conocer el lenguaje base para trabajar con aplicaciones Android de manera eficiente y eficaz.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p><p>**TP:** Al aplicar patrones de DDD y arquitectura hexagonal, pude entender más a fondo cómo modularizar y estructurar aplicaciones de manera efectiva, lo que será fundamental en proyectos futuros.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p><p>**TP:** El aprendizaje de EventStorming y Context Mapping me permitió mejorar la planificación de arquitecturas, y pude liderar la integración de estos flujos de manera eficaz entre los equipos.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p><p>**TP:** Aprender sobre Impact Mapping me permitió entender cómo alinear mejor los objetivos del negocio con las necesidades del usuario, mejorando el impacto final de la solución.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p><p>**TP:** Implementar arquitectura limpia en sistemas modulares me ayudó a mejorar el flujo de trabajo y simplificar la interacción entre los componentes frontend y la lógica de negocio, lo que aumentó la eficiencia del desarrollo.</p></div> | **TB1:** El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software. <br><br> **TP:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Daniel del Castillo** <br> <div><p>**TB1:** Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p><p>**TP:** Durante este proyecto, me di cuenta de que el aprendizaje de nuevas arquitecturas y patrones es fundamental, ya que permite elegir la mejor solución para los retos específicos del proyecto.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p><p>**TP:** Estuve investigando más a fondo sobre herramientas y metodologías ágiles, y comprendí lo importante que es conocer nuevas herramientas para mantener la eficiencia en el trabajo.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p><p>**TP:** Comprendí que integrar bien los componentes del sistema es crucial para asegurar la calidad y el rendimiento de la aplicación.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p><p>**TP:** El modelado de flujos y la conexión entre los bounded contexts me permitió comprender la importancia de la planificación y la flexibilidad en el desarrollo.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p><p>**TP:** Aprendí que, al trabajar de cerca con los usuarios y comprender sus necesidades, podemos alinear el diseño y los requerimientos de manera efectiva para crear soluciones que realmente resuelvan sus problemas.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p><p>**TP:** El aprendizaje autónomo en nuevas tecnologías me permitió adaptar la solución rápidamente y mantener la calidad del prototipo de forma eficiente.</p></div> | **TB1:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TP:** Reconocemos que la integración de nuevas herramientas y metodologías se ha convertido en un motor de innovación. Al mantenernos actualizados, podemos enfrentar los desafíos de manera efectiva y seguir entregando soluciones de alta calidad. |
 <div style="page-break-before: always"></div>
 
 # Objetivos SMART
@@ -861,6 +903,99 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
 
 ### 2.2.1. Diseño de entrevistas
 
+## Entrevista a Pasajeros
+
+### Contexto Inicial
+- ¿Cómo es tu rutina para ir a la universidad? ¿Cuánto tiempo te toma, qué pasos sigues y cómo decides el medio de transporte?
+- ¿Qué aplicaciones o herramientas usas para orientarte (bus, taxi, Google Maps, chats con amigos)?
+
+### Sentimientos y Frustraciones
+- ¿Qué situaciones en tu trayecto te generan mayor frustración, cansancio o inseguridad?
+- ¿Has tenido experiencias en las que te sientas estresado, con miedo o ansioso al viajar?
+
+### Motivaciones y Deseos
+- ¿Qué tan importante es para ti ahorrar dinero o tiempo en tus viajes matutinos?
+- ¿Qué seguros y lugares tú encontrarías una alternativa distinta a tu rutina actual?
+
+### Presentación de la Solución – Grupos Preformados y Calendario Compartido
+- ¿Cómo percibes la idea de unirte a un grupo fijo de estudiantes para toda la semana?
+- ¿En qué crees que te beneficiaría o perjudicaría coordinar así?
+- Si tuvieras un calendario compartido con conductores y demás pasajeros, ¿en qué momentos o situaciones verías útil planificar tus viajes con antelación?
+
+### Búsqueda Individual y Viaje en Curso
+- ¿Qué te parecería ver conductores que están pasando cerca en el mismo momento y unirte al 'viaje en curso' sin planear?
+- ¿Qué información necesitarías antes de subirte?
+- ¿Suelen tener cambios de horario de último minuto?
+- ¿Cómo crees que esta opción encajaría cuando cambias tus planes repentinamente?
+
+### Validación, Chat Previo y Reputación
+- ¿En qué te fijarías para sentirte seguro con un conductor desconocido?
+- ¿Cómo crees que un chat previo te ayudaría a resolver dudas o confirmar detalles del viaje?
+- ¿Te interesaría un método de pago integrado, como Yape?
+- Si el conductor cancela o no cumple, ¿te daría más confianza un sistema de penalización o notificaciones?
+
+### Sistema de Recompensas
+- ¿Te animarías a invitar a tus amigos a usar la app si obtuvieras recompensas (descuentos, puntos, niveles)?
+- ¿Qué te motivaría más?
+- ¿Qué tan cómoda fue tu experiencia con otras personas para que se sumen?
+
+### Cierre y Visión Futura
+- De todo lo que acabas de ver y escuchar, ¿qué aspecto te parece más decisivo para que adoptes esta solución sin pensarlo dos veces?
+- Imagina que usas este sistema a diario: ¿qué cambio notarías más en tu rutina a 6 meses?
+- ¿Qué situaciones crees que quedarían solucionadas y cuáles seguirían siendo un reto?
+
+---
+
+## Entrevista a Conductores
+
+### Contexto Inicial – Perfil y Motivaciones
+- ¿Cómo organizas tu ruta a la universidad cuando manejas?
+- ¿Qué pasos sigues y qué herramientas usas para coordinar con alguien?
+
+### Problemas Actuales
+- ¿Qué costos o problemas te generan más frustración al ir solo en tu auto?
+
+### Motivaciones y Deseos
+- ¿Qué esperas obtener (aparte de llegar a tiempo) al compartir tu auto con otros estudiantes?
+
+### Presentación de la Idea – Grupos Preformados y Calendario Compartido
+- ¿Qué beneficios ves en crear un grupo constante para los viajes?
+- ¿Crees que te ahorraría tiempo de coordinación o temes que alguno no aparezca?
+- ¿Qué te parece esta pantalla con un calendario semanal?
+- ¿Te facilitaría planificar con anticipación?
+
+### Sugerencias de Pasajeros y Viaje en Curso
+- ¿Cómo preferirías que se te sugieran pasajeros? ¿Por cercanía, por horario, por calificación?
+- ¿Aceptarías pasajeros espontáneos en pleno viaje?
+- ¿Consideras que esta dinámica puede ser caótica o conflictiva?
+- ¿Qué problemas crees que causaría?
+
+### Reputación de Pasajeros y Puntualidad
+- ¿Qué datos específicos de un pasajero te ayudarían a sentirte seguro para aceptarlo?
+- ¿Observarías la reputación de cada pasajero?
+- ¿Qué otra información te gustaría ver?
+
+### Sistema de Recompensas
+- ¿Te ves hablándole a tus conocidos para que usen la app o necesitarías un incentivo más fuerte?
+- ¿Qué te motivaría a compartir tu auto con amigos a cambio de recompensas?
+- ¿Qué tipo de recompensas te gustaría? (descuentos en comisión, insignias, etc.)
+
+### Panel de Ahorro y Cobro Integrado
+- ¿Cómo te gustaría ver reflejados tus ingresos o ahorros (por ejemplo, gasolina, compensación)?
+- ¿Qué te motivaría más: ver un número claro al fin de mes?
+- ¿Estarías dispuesto a que la app entregue un pequeño porcentaje como forma de gestionar los pagos y penalizaciones?
+- ¿Prefieres cobro inmediato por viaje o balance quincenal?
+- ¿Qué opinas de penalizar a pasajeros que falten sin avisar?
+- ¿Crees que eso te daría más seguridad?
+
+### Chat Previo y Notificaciones
+- ¿Crees que un chat entre el pasajero y tú ayudaría a planificar bien el horario?
+- ¿Te gustaría recibir recordatorios de que alguien no se presentó o avisos de impuntualidad?
+
+### Cierre y Visión Futura
+- ¿De todo lo que hemos visto, qué función consideras fundamental para animarte a llevar pasajeros con confianza?
+- ¿Cómo imaginas tus viajes dentro de 6 meses si adoptaras esta app?
+- ¿Qué problemas quedarían resueltos y qué retos crees que seguirían?
 
 ### 2.2.2. Registro de entrevistas
 <table>
@@ -2062,6 +2197,1464 @@ En este apartado se presenta el modelo relacional que soporta el contexto: tabla
 ![Comunication.png](assets/database-diagrams/Comunication.png)
 
 <div style="page-break-before: always"></div>
+
+# Capitulo V: Solution UI/UX Design
+
+## 5.1. Product design
+  En esta sección, presentaremos el diseño del producto como parte integral del sistema. El diseño de producto abarcará los componentes fisicos como el software. Además se va a detallar como los componentes influyen en la interación humano-computadora
+
+### 5.1.1. Style Guidelines
+Esta sección sentará las bases para contar con un repositorio para el formato visual de nuestros productos. Dicho proceso es necesario para tener una consistencia visual en los productos tanto landing como mobile.
+
+
+#### 5.1.1.1. General Style Guidelines
+En esta sección explicaremos las decisiones y referencias visuales sobre conceptos generales visuales.
+
+- **Color:** 
+La paleta de colores asimila las luces de un semaforo, dados los patrones visuales decidimos utilizar el color rojo para las alertas antes de utilizarlo como un terciario
+![Color](./assets/product-design/general%20styles/Paleta.png)
+- **Tipografía:**
+![Tipografía](./assets/product-design/general%20styles/Tipografía.png)
+
+- **Branding:** Nuestro logo debe ser jovial, debido a que nuestro publico objetivo son adultos jovenes que van a la universidad, a su vez debe ser serio y presentar los colores de la paleta
+![Logo](./assets/product-design/general%20styles/Logo.png)
+
+- **Spacing:** Para los componentes usaremos un pading interno por defecto en botones y formularios de 16 px, entre secciones usaremos 24px.
+Debido al limitado espacio dentro de una aplicación movil usaremos de 8px a 24 px de padding.
+
+### 5.1.2. Information Architecture
+En esta sección plantearemos las decisiones que dirigan la manera en la que se organizará el contenido en las experiencias que brindarmos, sustentando dichas decisiones con propuestas orientadas a la rapida adaptación a la funcionalidad establecida
+#### 5.1.2.1. Organization Systems
+El sistema de organización tiene como objetivo la interacción entre usuarios y la plataforma mediante una jerarquía visual que resalta funciones clave como la solicitud de un viaje agendado.
+
+**Sequential**
+La organización secuencial(step-by-step) se implementará en procesos como la planificación de viajes en las que por ejemplo el conductor mostrará su 
+
+**Matrix**
+Se aplicaran filtros avanzados para la busqueda de conductores en una area designada brindando así opciones especificas que mejoran la navegación
+
+#### 5.1.2.2. Labeling Systems
+En Carpool components, el sistema de etiquetas tendrán nomenclaturas intuitivas para que los usuarios puedan reconocer las funcionalidades por ejemplo:
+
+- Inicio: Botón en el logo que redirigirá a la vista general del sistema
+
+- Beneficios: Botoón que muestra los beneficios separados por las necesidades de los segmentos objetivos
+
+- Ir a la aplicación(Pasajero/ Conductor): Botones call to action que enviarán al usuario de cada segmento objetivo a su respectiva aplicación movil 
+
+#### 5.1.2.3. SEO Tags and Meta Tags
+En esta sección documentaremos la información de las SEO Tags y la meta data que usaremos dentro de los productos de campusmov. Esta información ayudará a la accesibilidad y a la experiencia de usuario.
+
+**Meta & SEO(Search Engine Optimization) Tags:** Son palabras clave que se usan para que la página pueda ser buscada adecuadamente (van en el <"head">)
+
+* Titulo:
+```
+<title>UniRide - Official Landing Page</title>
+```
+* Descripción:
+```
+<meta name="description" content="a place where you can generate and join a ride to your campus"/>
+```
+* Palabras Clave:
+```
+<meta name="keyword" content="carpool", "gas savings dashboard", "plan a ride", "join a ride",>
+```
+
+#### 5.1.2.4. Searching Systems
+**¿Que se busca?**
+Los usuarios buscarán beneficios, alcances de la aplicación
+**¿Que resultados se mostrarán?**
+Los resultados mostrarán información relevante sobre alianzas, terminos y condiciones, testimonios y beneficios
+**Interfaz de búsqueda:**
+La interfaz de busqueda mostrará un diseño intuitivo usando iconos de material design por decisión del equipo
+![Searching Label](./assets/product-design/searching-systems/search-engine.png){width=200px}
+#### 5.1.2.5. Navigation Systems
+La navegación dentro de la landing page contará con las secciones principales:
+
+**Hierarchical Navigation System:** La navegación se organiza de manera jerarquica desde la pagina principal hacia las páginas de destino.
+
+**Global Navigation Systems:** Permite el movimiento vertical dentro de la pagina. Incluye un botón que te regresará a la pagina principal.
+
+**Local Navigation System:** Completa al sistema global permitiendo accceso a otras secciones dentro del sub-sitio.
+
+![Local navigation system](./assets/product-design/searching-systems/local-navigation-systems.png)
+
+
+### 5.1.3. Landing Page UI Design
+#### 5.1.3.1. Landing Page Wireframe
+En esta secccion se presentara el wireframe del landing page en una escala de grises mostrando todas las secciones de la pagina web desde la navegacion hasta las preguntas frecuentes.
+![](./assets/landingPage/Landing%20page.png)
+#### 5.1.3.2. Landing Page Mock-up
+En esta seccion se mostrara el landing page con el diseño final para el desarrollo de este se tomo en cuenta los estilos prestablecidos anteriormente.
+![](./assets/landingPage//Landing%20page-1.png)
+
+
+
+### 5.1.4. Mobile Applications UX/UI Design
+#### 5.1.4.1. Mobile Applications Wireframes
+
+<h1> Conductor </h1>
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Bienvenido Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/actualizar info conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/menu conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Punto de partida conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Crear Carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Creando carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Costo carpool conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/Solicitudes pasajeros conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/mis carpools conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/incidencias conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/notificaciones conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/pagar comision conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/mi rentabilidad conductor .png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/calificar pasajero conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Conductor/valoracion promedio conductor.png" width="400px">
+
+<h1>Pasajero</h1>
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Bienvenido Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/actualizar info pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/menu pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Buscar Carpool Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Buscando carpool pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Resultado busqueda pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Punto de partida pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/Inicio carpool pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/mi tiempo pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/mis carpools pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/incidencias pasajeros.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/notificaciones pasajeros.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/calificar conductor pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Pasajero/valoracion promedio pasajero.png" width="400px">
+
+<h1> Ambos </h1>
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Introducir Correo.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Agregar Nombre.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Codigo Verificacion.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Academica.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Academica 2.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info de Contacto.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Info Personal.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Inicio.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Inicio 2.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/tiempo carpool.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/ubicaciones guardadas.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/chat.png" width="400px">
+<img src="./assets/movile-ux-ui/wireframes/Ambos/Terminos y Condiciones.png" width="400px">
+
+ #### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 1.png">
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 2.png">
+<img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 3.png">
+
+ #### 5.1.4.3. Mobile Applications Mock-ups
+ <h1> Conductor</h1>
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Info Vehiculo- Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config-Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config Viaje - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Config Viaje - Conductor 2.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Menu Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Mis Carpools Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Iniciar Carpool - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Lista Pasajeros -Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Calif Pasajero -  Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Valoracion Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Viaje en curso - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Incidencias - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Notificaciones - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Pago Comision - Conductor.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Conductor/Rentabilidad Conductor.png" width="400px">
+
+
+ <h1> Pasajero</h1>
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Actualizar Perfil - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config-Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje 2 Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Menu Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Busqueda Viaje Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Viaje no iniciado Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mis Carpools Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mi tiempo - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Incidencias - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Notificaciones - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Calif Conductor - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Mi Calificacion - Pasajero.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Pasajero/Resultados Pasajero.png" width="400px">
+
+
+
+ <h1> Ambos </h1>
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Correo.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Nombre.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Codigo-Verificación.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Inicio.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Academica.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Academica 2.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info Contacto.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Info.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Ubicaciones guardadas.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Viaje en Curso.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Chat.png" width="400px">
+<img src="./assets/movile-ux-ui/mock-ups/Ambos/Terminos y Condiciones.png" width="400px">
+
+
+
+ #### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 1.png">
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
+<img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 3.png">
+
+#### 5.1.4.5. Mobile Applications Prototyping
+
+# Capitulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+En esta sección se proporcionarán los enclaces a las aplicaciones y productos de software que utilizaremos durante este producto de software que utilizaremos durante el desarrollo del proyecto.
+Con dicho fin, organizarmos la información en las siguientes secciones
+
+- Project Management
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Documentation
+
+
+<h2>Project Management</h2>
+
+La gestión de proyectos se enfoca en la administración eficiente de procesos y su entorno, con el objetivo de alcanzar los resultados esperados.
+
+- Durante el ciclo digital del proyecto, se implementará un producto de software bajo el modelo SaaS, que funcionará a través de un navegador web. No se contempla el desarrollo de una versión móvil nativa en esta etapa.
+
+<h2>Requirements Management</h2>
+
+Este proceso asegura que la organización documente, valide y cumpla con las necesidades y expectativas de los clientes y las partes interesadas, tanto internas como externas.
+
+- **Pivotal Tracker:** Se utilizó como herramienta para gestionar historias de usuario, organizándolas en epopeyas y priorizándolas según su importancia. Su funcionalidad permite a los equipos colaborar en tiempo real, visualizar avances y ajustar el flujo del proyecto de manera eficiente.
+
+<h2>Product UX/UI Design</h2>
+
+El diseño de experiencia e interfaz de usuario busca crear soluciones digitales que se integren de forma natural en la vida de los usuarios. En este proyecto, se desarrolla un sitio web responsive, compatible con computadoras y dispositivos móviles.
+
+Para lograrlo, se emplearon las siguientes herramientas:
+
+- **Uxpressia:** Plataforma online para crear mapas de experiencia del cliente, perfiles de usuario, mapas de empatía y journey maps, facilitando la comprensión profunda de las necesidades del usuario. Más información en [Uxpressia](https://uxpressia.com/).
+
+- **MIRO:** Pizarra digital colaborativa utilizada para actividades de investigación, ideación, lluvia de ideas y creación de mapas mentales, fomentando el trabajo en equipo. Más detalles en [MIRO](https://miro.com/app/dashboard/).
+
+- **Figma:** Herramienta de diseño y prototipado que permite crear interfaces directamente en línea, facilitando la colaboración en tiempo real y la creación de prototipos para navegadores web y móviles. Consulta más en [Figma](https://www.figma.com/design/).
+
+- **Lucidchart:** Aplicación web para diagramación colaborativa, utilizada para desarrollar diagramas UML, mapas mentales, prototipos de software y otros esquemas visuales. Más información en [Lucidchart](https://lucid.app/lucidchart/).
+
+Estas herramientas son clave para transformar ideas en diseños funcionales, asegurando que el producto sea accesible y visualmente atractivo en diversas plataformas.
+
+
+### 6.1.1. Software Development Environment Configuration
+<h2>Development Tools</h2>
+
+- **GitHub:** Es una plataforma en línea que permite almacenar y gestionar proyectos mediante repositorios con control de versiones usando Git. Facilita el trabajo colaborativo y el seguimiento detallado de los cambios en el proyecto. Puedes acceder a nuestro repositorio desde [este enlace](https://github.com/Dotvue).
+
+- **Git:** Herramienta de control de versiones que se instala localmente, permitiendo mantener un historial de modificaciones en el proyecto mediante commits. También se utiliza para colaborar en repositorios alojados en GitHub. Descarga Git desde [aquí](https://git-scm.com).
+
+- **WebStorm:** Un entorno de desarrollo (IDE) especializado en tecnologías web como HTML, CSS, JavaScript y frameworks como Vue y Angular. Es la herramienta que utilizamos para desarrollar la parte de la landing page del proyecto. Más información en [WebStorm](https://www.jetbrains.com/es-es/webstorm/).
+
+- **IntelliJ IDEA con Spring Boot:** Entorno de desarrollo integrado utilizado para crear servicios web robustos mediante el framework Spring Boot, facilitando la creación de servicios backend en Java. Consulta más en [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/).
+
+- **Android Studio con Kotlin:** IDE oficial para desarrollar aplicaciones móviles en Android, utilizando Kotlin como lenguaje principal. Nos permitirá desarrollar la aplicación móvil del proyecto. Puedes descargarlo desde [Android Studio](https://developer.android.com/studio).
+
+<h2>Software Testing</h2>
+
+El proceso de pruebas de software consiste en verificar y validar que el sistema funcione correctamente, asegurando que cumpla con los requisitos establecidos y detectando posibles errores en su funcionamiento.
+
+- **Lenguaje Gherkin:** Es un lenguaje específico de dominio (DSL) que facilita la definición de historias de usuario y escenarios de prueba en un formato comprensible tanto para desarrolladores como para personas no técnicas. Utiliza estructuras como Característica, Escenario, Ejemplo, Esquema de Escenario, Dado, Cuando, Entonces y Y para describir el comportamiento esperado del software.
+
+<h2>Software Documentation</h2>
+
+La documentación de software comprende textos e ilustraciones que explican el funcionamiento de una aplicación o cómo utilizarla. Puede estar integrada en el código fuente o acompañar al software como guía para usuarios y desarrolladores, facilitando su comprensión y uso.
+
+### 6.1.2. Source Code Management
+Esta sección detallará que medios se utilizaron para el seguimiento de las modificaciones, así como la semantica y nomenclatura que usaremos para estructurar los commit del control de versiones
+
+- Url de la organización:
+
+**Gitflow:** 
+Git Flow es un modelo de trabajo el cual consta de ramas principales y ramas de apoyo. Este modelo nos permite manejar de mejor manera nuestro codigo, permitiendo limpieza, organización. La división del producto se hará a través de una variedad de ramas las cuales son las siguientes.
+
+- Ramas principales:
+  - Main: Rama principal donde se ramifican todas las demás. Además, aquí se guarda el codigo fuente que se desplegará a producción.
+  - Develop: Esta rama surga a partir de la rama Main y se utiliza para integrar las funcionalidades trabajadas en ramas anteriores.
+- Ramas de apoyo:
+  - Feature: Estas ramas creadas a partir de develop se crean para desarrollar funcionalidades. La nomenclatura es la siguiente:
+  ```
+  feature/profile 
+  feature/ride   
+   ```
+  - Release: Estas ramas son creadas a partir de Develop y sirven para preparar una nueva versión de nuestro proyecto que está listo para publicar.
+  - Hotfix: Estas ramas se crean a partir del main y sirven para corregir rápidamente los errores que se presenten en producción
+
+**Conventional Commits**
+
+Este es un conjunto de reglas, las cuales deben seguir nuestros commits para crear un historial explícito de los cambios realizados en el proyecto, haciéndolo más sencillo de comprender para el equipo de desarrollo. Los conventional commits siguen la siguiente estructura: 
+
+    <type> [opcional scope]: <description>
+    [optional body]
+    [optional footer]
+
+* **type:** Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+    * **feat:** Cuando se agrega una nueva funcionalidad (feature)
+    * **docs:** Cuando se realizan cambios en la documentación del proyecto
+    * **fix:** Cuando se corrige un error en el código
+    * **chore**: Cuando se realizan cambios que no afectan al código
+    * **refactor:** Cuando se realizan cambios es la estructura del código, sin afectar al comportamiento del proyecto
+    * **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas.
+    * **perf:** Cuando se realizan cambio que mejoran el rendimiento del proyecto
+* **scope:** Este es un campo opcional, que nos permite especificar el alcance que tiene el commit.
+* **description:** Este es un campo obligatorio, ya que proporciona información breve y concisa de los cambios que se han realizado. Además debe ser escrito en minúsculas y de modo imperativo
+* **body:** Este es un campo opcional en el cual se detalla más información sobre el commit, como el motivo del cambio. 
+* **footer:** Este es un campo opcion y se utiliza para informar respecto a cambios importantes en el proyecto
+
+### 6.1.3. Source Code Style Guide & Conventions
+<h2>Kotlin</h2>
+
+Kotlin es un lenguaje de programación moderno, conciso y seguro, utilizado principalmente para el desarrollo de aplicaciones Android, aunque también se emplea en backend, multiplataforma y desarrollo web. A continuación, se describen las pautas para el uso de Kotlin en nuestro proyecto:
+
+- **Espacios alrededor de operadores**
+
+Se debe agregar un espacio en blanco antes y después de cada operador aritmético, lógico y de asignación. Esto incluye también las comas dentro de listas y llamadas a funciones.
+
+Ejemplo:
+
+```kotlin
+val sum = a + b
+val numbers = listOf(1, 2, 3)
+```
+- **Finalización de expresiones:**
+
+En Kotlin, las instrucciones no requieren punto y coma al final. Se debe evitar su uso a menos que se necesiten en la misma línea por razones de sintaxis (algo muy poco común).
+
+Ejemplo:
+```kotlin
+val name = "John"
+val age = 30
+```
+
+- **Funciones Lambda en Kotlin:**
+
+En Kotlin, las funciones lambda son bloques de código que se pueden definir como valores y pasar como argumentos a otras funciones. Son una característica clave para trabajar con colecciones, callbacks y programación funcional.
+
+A continuación, se presentan las pautas para el uso de funciones lambda en nuestro proyecto:
+
+- **Sintaxis básica de una lambda**
+
+Las funciones lambda se definen con llaves `{}` y dentro de ellas se especifican los parámetros, seguidos de la flecha `->` y luego el cuerpo de la función.
+
+Ejemplo:
+
+```kotlin
+val sum: (Int, Int) -> Int = { a, b -> a + b }
+```
+
+### 6.1.4. Software Deployment Configuration
+En esta seccion se mostrara los pasos para la configuracion de los desplieges a realizar:
+
+__Landing Page:__
+
+
+1.- Segundo activamos el gitHub Actions para la automatizacion del despliege del landing page y configuramos en jekyll-gh-pages.yml para una entrega continua.
+
+2.- Ahora con la configuracion lista para la automatizacion del despliege y proporcionar el link del sitio web.
+
+__Web Services:__
+
+1.-Primero habilitamos los cluster en google cloud para nuestro proyecto.
+
+2.-Segundo iniciamos sesion en el terminal de google cloud.
+
+3.-Conectamos de manera local.
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>30/04/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Gutiérrez Soto, Jhosepmyr Orlando</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Hernández Tuiro, Eric Ernesto
+</li>
+                <li>Riva Rodríguez, Elmer Augusto
+</li>
+                <li>Sanchez Montero, Carlos
+</li>
+                <li>Morales Quispe, Brayan Smith
+</li>
+                <li>Del Castillo Bueno, Daniel Mateo
+</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Este es el primer sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Acuerdo de la implementación de una primera versión del Landing Page  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar la primera versión de la Landing Page de enfocándonos en una estructura que sea visualmente atractiva y fácil de navegar, además de presentar un avance de una de las aplicaciones moviles
+                </p>
+                <p>
+                Creemos que esta Landing Page ofrecerá una introducción simple y directa para que el usuario pueda. El éxito de este sprint se confirmará cuando los usuarios puedan explorar la Landing Page de manera fluida en distintos dispositivos, logrando una primera impresión positiva y una navegación sencilla que los motive a explorar más sobre el sistema.Además de brindarles una primera vista de la aplicación móvil.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                50
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                25
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+#### 6.2.1.2. Sprint Backlog 1
+
+Para este sprint asignamos las user stories de los productos que ibamos a desarrollar en esta entrega, de ese modo 
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td align="center" colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><strong>User Story</strong></td>
+    <td align="center" colspan="6"><strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>Description</strong></td>
+    <td align="center"><strong>Estimation (Hours)</strong></td>
+    <td align="center"><strong>Assigned To</strong></td>
+    <td align="center"><strong>Status (To-do/In-Process/To-Review/Done)</strong></td>
+  </tr>
+
+  <tr>
+    <td align="center">1</td>
+    <td align="center">US-43</td>
+    <td align="center">TA01</td>
+    <td align="center">Explorar sección “Beneficios”</td>
+    <td align="center">Desarrollar la sección de beneficios de la plataforma</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">2</td>
+    <td align="center">US-44</td>
+    <td align="center">TA02</td>
+    <td align="center">Navegación responsiva</td>
+    <td align="center">Implementar la navegación adaptable a dispositivos móviles</td>
+    <td align="center">2</td>
+    <td align="center">Del Castillo Bueno, Daniel Mateo
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">3</td>
+    <td align="center">US-45</td>
+    <td align="center">TA03</td>
+    <td align="center">Sección “Sobre la App” y “Videos”</td>
+    <td align="center">Diseñar la sección informativa y de contenido multimedia</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">5</td>
+    <td align="center">US-49</td>
+    <td align="center">TA04</td>
+    <td align="center">Sección “Testimonios”</td>
+    <td align="center">Mostrar reseñas y testimonios de usuarios</td>
+    <td align="center">1</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">6</td>
+    <td align="center">US-50</td>
+    <td align="center">TA05</td>
+    <td align="center">Sección “Preguntas Frecuentes”</td>
+    <td align="center">Crear una sección FAQ para resolver dudas frecuentes</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">7</td>
+    <td align="center">US-51</td>
+    <td align="center">TA06</td>
+    <td align="center">Formulario de contacto</td>
+    <td align="center">Desarrollar un formulario para enviar mensajes de contacto</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">8</td>
+    <td align="center">US-53</td>
+    <td align="center">TA07</td>
+    <td align="center">Sección “Equipo”</td>
+    <td align="center">Crear la sección donde se presenta al equipo de trabajo</td>
+    <td align="center">1</td>
+    <td align="center">Del Castillo Bueno, Daniel Mateo
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <!-- Aquí van los nuevos entre Done y To-do (por defecto los pondré como In-Process, puedes ajustar luego) -->
+  <tr>
+    <td align="center">14</td>
+    <td align="center">US-11</td>
+    <td align="center">TS-01</td>
+    <td align="center">Rastreo en tiempo real del viaje</td>
+    <td align="center">Implementar funcionalidad de rastreo en vivo para los viajes</td>
+    <td align="center">5</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">15</td>
+    <td align="center">US-12</td>
+    <td align="center">TS-02</td>
+    <td align="center">Cancelar Carpool antes de iniciar</td>
+    <td align="center">Permitir a usuarios cancelar viajes antes del inicio</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">16</td>
+    <td align="center">TS-03</td>
+    <td align="center">TA08</td>
+    <td align="center">Exponer endpoint para cancelar Carpools</td>
+    <td align="center">Crear API para cancelar viajes</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">17</td>
+    <td align="center">US-13</td>
+    <td align="center">TA09</td>
+    <td align="center">Unirse a un Carpool en curso</td>
+    <td align="center">Permitir a usuarios unirse a viajes activos</td>
+    <td align="center">3</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">18</td>
+    <td align="center">TS-04</td>
+    <td align="center">TA10</td>
+    <td align="center">Exponer endpoint para unirse a Carpools</td>
+    <td align="center">Crear API para unirse a viajes</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">19</td>
+    <td align="center">TS-08</td>
+    <td align="center">TA11</td>
+    <td align="center">Permitir unirse a Carpools activos</td>
+    <td align="center">Lógica de backend para viajes en curso</td>
+    <td align="center">3</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+
+  <tr>
+    <td align="center">36</td>
+    <td align="center">TS-20</td>
+    <td align="center">TA14</td>
+    <td align="center">Implementar EventBusAdapter</td>
+    <td align="center">Adaptador de eventos para comunicación interna</td>
+    <td align="center">3</td>
+    <td align="center">Hernández Tuiro, Eric Ernesto
+Riva Rodríguez, Elmer Augusto</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">37</td>
+    <td align="center">US-27</td>
+    <td align="center">TA15</td>
+    <td align="center">Recordatorio de salida de viaje</td>
+    <td align="center">Notificar al usuario antes de iniciar el viaje</td>
+    <td align="center">1</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">38</td>
+    <td align="center">TS-21</td>
+    <td align="center">TA16</td>
+    <td align="center">Implementar SchedulerAdapter</td>
+    <td align="center">Planificador para tareas programadas</td>
+    <td align="center">3</td>
+    <td align="center">Riva Rodríguez, Elmer Augusto</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">39</td>
+    <td align="center">US-28</td>
+    <td align="center">TA17</td>
+    <td align="center">Notificación de confirmación de viaje</td>
+    <td align="center">Enviar mensaje al confirmar viaje</td>
+    <td align="center">1</td>
+    <td align="center">Alumno-n</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">51</td>
+    <td align="center">TS-07</td>
+    <td align="center">TA19</td>
+    <td align="center">Exponer endpoint para cancelar solicitudes</td>
+    <td align="center">API para anular una solicitud de viaje</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+  <td align="center">52</td>
+  <td align="center">TS-13</td>
+  <td align="center">TA20</td>
+  <td align="center">Exponer endpoint para actualizar Profile</td>
+  <td align="center">Crear API para actualizar los datos del perfil de usuario</td>
+  <td align="center">2</td>
+  <td align="center">Riva Rodríguez, Elmer Augusto</td>
+  <td align="center">Done</td>
+</tr>
+<tr>
+  <td align="center">53</td>
+  <td align="center">TS-14</td>
+  <td align="center">TA21</td>
+  <td align="center">Exponer endpoint para leer Profile</td>
+  <td align="center">Crear API para obtener los datos del perfil de usuario</td>
+  <td align="center">2</td>
+  <td align="center">Hernández Tuiro, Eric Ernesto</td>
+  <td align="center">Done</td>
+</tr>
+  
+
+
+</table>
+
+  
+
+
+
+Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/software/projects/HU/boards/1) de nuestro proyecto
+
+<img src="./assets/sprint-1/product backlog.png">
+
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+__* Landin Page__
+
+| Repository   | Commit   | Author               | Date       | Message                                                     |
+|--------------|----------|----------------------|------------|-------------------------------------------------------------|
+| CampusMov landing-page-uniride   | 208c3d0  | Brayan Smith Morales | 2025-05-15 | feature: added based url for display                        |
+|              | 6795b58  | Brayan Smith         | 2025-05-10 | Merge pull request #2 from CampusMov/feature/fix-components |
+|              | d6a2396  | Brayan Smith Morales | 2025-05-10 | style: fixed style of video                                 |
+|              | aa2cf46  | Brayan Smith Morales | 2025-05-10 | chore: Add component about us                               |
+|              | 0530b63  | Brayan Smith Morales | 2025-05-10 | fix: fixed translate in component benefits components       |
+|              | 1a968c0  | Brayan Smith Morales | 2025-05-10 | fix: fixed style product component                          |
+|              | 24abf46  | Brayan Smith Morales | 2025-05-10 | style: modified style faq-title                             |
+|              | 11ecc23  | Brayan Smith Morales | 2025-05-10 | chore: add timeline component                               |
+|              | 361ec0e  | Brayan Smith Morales | 2025-05-10 | fix: fixed style div skill container                        |
+|              | 4739ec0  | Brayan Smith Morales | 2025-05-10 | fix: fixed timeline benefits                                |
+|              | df3d545  | Brayan Smith Morales | 2025-05-10 | fix: fixed navbar translate and home component              |
+|              | b0230b1  | Brayan Smith         | 2025-05-10 | Merge pull request #1 from CampusMov/feature/home           |
+|              | 85252c6  | teocchiii            | 2025-05-09 | chore: added the translations to the FAQ                    |
+|              | 9c8b76e  | teocchiii            | 2025-05-09 | chore: added select button to the main js                   |
+|              | 53ed3cd  | teocchiii            | 2025-05-09 | chore: added footer to the landing                          |
+|              | 2c3533c  | teocchiii            | 2025-05-09 | chore: added color accents.                                 |
+|              | d953fec  | Brayan Smith Morales | 2025-05-07 | fix: fixed style div skill container                        |
+|              | 8a1f25e  | teocchiii            | 2025-05-07 | feat(i18n): added vuei18n component and locales             |
+|              | 1fa6d1b  | Brayan Smith Morales | 2025-05-06 | chore: add benefits component and styles                    |
+|              | 68f188b  | Brayan Smith Morales | 2025-05-05 | chore: add home component and styles                        |
+|              | bddbd9b  | Brayan Smith Morales | 2025-05-05 | chore: Initial Committee                                    |
+|              | cdff83f  | Brayan Smith         | 2025-05-05 | Initial commit                                              |
+
+
+__* Web Services:__
+
+__*Matching and Routing Service__
+
+| Repository   | Commit   | Author                           | Date       | Message                                                                                                               |
+|--------------|----------|----------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------|
+| CampusMov/Matching-Routing-Service   | 03a28e2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-15 | feat: add eureka client cloud and set connection                                                                      |
+|              | 68528e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-09 | Merge pull request #14 from CampusMov/feature/linked-passenger-creation                                               |
+|              | e8e2608  | jhosepmyr                        | 2025-05-09 | feat(events): add listener for passenger request accepted event                                                       |
+|              | 468d2c8  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add transform from event assembler to created linked passenger command                        |
+|              | 128de30  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add create linked passenger command in command service and interface                          |
+|              | a93fcdc  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add linked passenger entity                                                                   |
+|              | 8d5f52f  | jhosepmyr                        | 2025-05-09 | feat(linked-passenger): add create linked passenger command                                                           |
+|              | 14a5d32  | jhosepmyr                        | 2025-05-09 | chore(events): add carpoolId to PassengerRequestAcceptedEvent                                                         |
+|              | 268b059  | jhosepmyr                        | 2025-05-08 | feat(events): trigger PassengerRequestAcceptedEvent on acceptance                                                     |
+|              | d2f8229  | jhosepmyr                        | 2025-05-08 | feat(kafka): add Supplier for PassengerRequestEvent and event publishing                                              |
+|              | 7988754  | jhosepmyr                        | 2025-05-08 | feat(events): add sealed interface for PassengerRequestEvent and implementation                                       |
+|              | 4cdd407  | jhosepmyr                        | 2025-05-08 | feat(domain): add DomainEvent interface                                                                               |
+|              | f59d764  | jhosepmyr                        | 2025-05-08 | feat(config): add Spring Cloud Stream configuration for passenger request                                             |
+|              | 874430c  | jhosepmyr                        | 2025-05-08 | chore: add spring cloud and  spring cloud binder kafka dependencies                                                   |
+|              | 6814700  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | Merge pull request #13 from CampusMov/feature/get-all-passenger-request-by-carpool-id-and-status-is-pending           |
+|              | 2d6c368  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): add endpoint to get all passenger requests by carpool id in controller                       |
+|              | b6a3990  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): create query to get all passenger request by carpool id                                      |
+|              | 97c2dd7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-07 | feat(passenger-request): add new query to get all passenger request by carpool id and status is pending in repository |
+|              | 8aaf72e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #12 from CampusMov/feature/get-passenger-request-by-id                                             |
+|              | 7e42049  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add get by ID endpoint                                                                       |
+|              | d73cb73  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement query service                                                                      |
+|              | 006ff1a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #11 from CampusMov/feature/reject-passenger-request                                                |
+|              | e024aaa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implements reject request                                                                    |
+|              | 5a0f8f8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implements request rejection                                                                 |
+|              | 4046128  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add reject functionality to PassengerRequest                                                 |
+|              | 185bd7e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #10 from CampusMov/feature/accept-passenger-request                                                |
+|              | 657ce5a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-requesr): Implements accept request endpoint                                                           |
+|              | c5d5927  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement request acceptance                                                                 |
+|              | 2129408  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement accept request                                                                     |
+|              | 59e2312  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #9 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 9631a3c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | chore: update values for testing                                                                                      |
+|              | 6bc533b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #8 from CampusMov/feature/create-passenger-request                                                 |
+|              | b29f432  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add integration test for passenger request                                                   |
+|              | 0ae8a20  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement request creation endpoint                                                          |
+|              | 0016f5b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add passenger request DTOs                                                                   |
+|              | baa8de5  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement passenger request command                                                          |
+|              | 85ff4c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): add PassengerRequestRepository                                                               |
+|              | 5f6c56b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(passenger-request): implement passenger request                                                                  |
+|              | 057ecb0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): implement PassengerRequest aggregate                                                                   |
+|              | 878091e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): add passenger request status enum                                                                      |
+|              | fbd0c09  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | Merge pull request #7 from CampusMov/feature/post-carpool-update-status-to-in-progress                                |
+|              | b27bd22  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): add functionality to start a carpool via a new endpoint.                                               |
+|              | a1e9e36  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): creates command assembler                                                                              |
+|              | 5f3eb56  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): enable carpool start functionality in service                                                          |
+|              | 72bc125  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-06 | feat(carpool): enable carpool starting functionality                                                                  |
+|              | 127a9fb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #6 from CampusMov/feature/get-all-carpools-available-by-schedule-id-and-pick-up-location           |
+|              | bedc394  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | fea(carpool): exposes endpoint in controller for available carpools                                                   |
+|              | 2bb3ad9  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add query assembler                                                                                    |
+|              | d768f2c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add carpool retrieval query by schedule                                                                |
+|              | e1376da  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add find by schedule IDs to carpool                                                                    |
+|              | cc5507a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #5 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 104595b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge branch 'develop' into feature/create-carpool-endpoint                                                           |
+|              | 301f5c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): prevent driver from creating multiple carpools                                                         |
+|              | 67ef9c0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #4 from CampusMov/feature/get-all-carpools-by-driver-id                                            |
+|              | 650c197  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to retrieve all carpools by driver ID                                                     |
+|              | 09ba724  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add query for all carpools by driver                                                                   |
+|              | e2a0ed8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add method to retrieve carpools by driver ID                                                           |
+|              | a73431a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #3 from CampusMov/feature/get-carpool-by-driver-id-and-is-active                                   |
+|              | 52c3376  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to get active carpool by driver id                                                        |
+|              | 8bb6984  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool query by driver and status                                                           |
+|              | 4f8f992  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add find by driver and status                                                                          |
+|              | 479a62c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #2 from CampusMov/feature/get-carpool-by-id                                                        |
+|              | b6d22ae  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add endpoint to retrieve carpool by ID                                                                 |
+|              | 256852a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool query service                                                                        |
+|              | a2ff83e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | Merge pull request #1 from CampusMov/feature/create-carpool-endpoint                                                  |
+|              | 0a6aae8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add TODOs for carpool creation logic                                                                           |
+|              | 6a21ccf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add CarpoolController integration tests                                                                |
+|              | fbe4fa8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | refactor(carpool): update location coordinates to longitude/latitude                                                  |
+|              | 2aa1d6e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add testcontainers dependencies and update java version to 22                                                  |
+|              | f0169ac  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): expose carpool creation endpoint                                                                       |
+|              | ff0a64c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add carpool resource DTOs and assemblers                                                               |
+|              | 9ce8099  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): initialize Carpool aggregate                                                                           |
+|              | 8bd31e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): implement carpool creation command                                                                     |
+|              | 67774ff  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore(carpool): add Carpool repository                                                                                |
+|              | 1d4b0c8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat(carpool): add Carpool aggregate                                                                                  |
+|              | e143cbe  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat: add value objects for IDs                                                                                       |
+|              | 86f3d2d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | feat: implement JPA auditing and OpenAPI                                                                              |
+|              | 198d4bb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add readme                                                                                                     |
+|              | 2e23ff1  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: add pluralize and spring doc openapi dependencies                                                              |
+|              | 32c1b4b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-05 | chore: init commit                                                                                                    |
+
+__*IAM-Service__
+
+| Repository                                       | Commit    | Author               | Date                 | Message                                                                                    |
+|--------------------------------------------------|-----------|----------------------|----------------------|--------------------------------------------------------------------------------------------|
+| CampusMo/Indentity and Access Management Service | 04a1375   | Eric Hernández       | 2025-05-14 13:46:56  | Merge pull request #2 from CampusMov/feature/login                                         |
+|                                                  | ee8da41   | Eric Hernández       | 2025-05-14 01:04:15  | chore: implement new port and server address configuration for project                     |
+|                                                  | ffaaf9d   | Eric Hernández       | 2025-05-14 01:03:12  | chore: add open api configuration information for swagger                                  |
+|                                                  | 4584f5b   | Eric Hernández       | 2025-05-14 01:02:22  | refactor(login): refactor user resource and interfaces                                     |
+|                                                  | 1bda009   | Eric Hernández       | 2025-05-14 01:01:39  | refactor(login): refactor login controller request parameters and resources and commands   |
+|                                                  | eb74570   | Eric Hernández       | 2025-05-14 01:00:04  | refactor(login): refactor sign up controller request parameters and resources and commands |
+|                                                  | 7a73ca8   | Eric Hernández       | 2025-05-14 00:56:10  | refactor(login): implement institutional email validation                                  |
+|                                                  | 773c320   | Eric Hernández       | 2025-05-14 00:54:14  | refactor(login): implement new logic for role assignation                                  |
+|                                                  | e2115f0   | Eric Hernández       | 2025-05-08 14:16:43  | chore(login): add expiration time for account                                              |
+|                                                  | ebf48c5   | Eric Hernández       | 2025-05-08 14:09:19  | fix(login): remove unused sign in files                                                    |
+|                                                  | 35fb0a8   | Eric Hernández       | 2025-05-08 14:07:54  | refactor(login): refactor registration controller for one endpoint                         |
+|                                                  | 2e95201   | Eric Hernández       | 2025-05-08 14:06:58  | refactor(login): refactor logic for one registration endpoint                              |
+|                                                  | 3e85e8d   | Eric Hernández       | 2025-05-08 09:59:45  | feat(login): add login controller for account verification                                 |
+|                                                  | 6b43481   | Eric Hernández       | 2025-05-08 09:59:19  | feat(login): implement AuthenticationService                                               |
+|                                                  | dd099ff   | Eric Hernández       | 2025-05-08 09:58:57  | feat(login): add verification models for user                                              |
+|                                                  | eb26f99   | Eric Hernández       | 2025-05-08 09:58:24  | refactor(login): refactor registration controller                                          |
+|                                                  | 62687fb   | Eric Hernández       | 2025-05-08 09:56:07  | feat(login): add email service and email template                                          |
+|                                                  | 754fa41   | Eric Hernández       | 2025-05-08 09:47:08  | feat(login): add email configuration and model                                             |
+|                                                  | 3872aaf   | Eric Hernández       | 2025-05-08 09:43:29  | feat(login): add new attributes for user entity and service and enable scheduling          |
+|                                                  | 2384fe1   | Eric Hernández       | 2025-05-07 14:22:10  | refactor(signIn): refactor sign in and registration logic                                  |
+|                                                  | 4fc562e   | Eric Hernández       | 2025-05-07 07:33:21  | feat(signIn): implement sign in endpoint                                                   |
+|                                                  | 9bc62f6   | Eric Hernández       | 2025-05-07 07:30:58  | feat(signIn): add sign in resource and transformation interface                            |
+|                                                  | c6b69f0   | Eric Hernández       | 2025-05-07 07:30:07  | feat(signIn): implement sign in logic in user repository and user command services         |
+|                                                  | 1bc82b5   | Eric Hernández       | 2025-05-07 07:28:10  | feat(signIn): add sign in command                                                          |
+|                                                  | f6ea723   | Eric Hernández       | 2025-05-06 12:08:49  | Merge pull request #1 from CampusMov/feature/create-user                                   |
+|                                                  | ed7ab98   | Eric Hernández       | 2025-05-06 12:05:07  | feat(registration): implement registration controller for registration endpoints           |
+|                                                  | 76f8255   | Eric Hernández       | 2025-05-06 12:03:00  | feat(registration): implement event handler for role seeding                               |
+|                                                  | ac996f1   | Eric Hernández       | 2025-05-06 12:01:49  | feat(registration): add transformation interface for user and create user                  |
+|                                                  | a440436   | Eric Hernández       | 2025-05-06 12:01:18  | feat(registration): add resources for user and create user                                 |
+|                                                  | d832d80   | Eric Hernández       | 2025-05-06 12:00:00  | feat(registration): implement user command service                                         |
+|                                                  | 8dd1bbd   | Eric Hernández       | 2025-05-06 11:58:06  | feat(registration): implement role command service                                         |
+|                                                  | 82b93c3   | Eric Hernández       | 2025-05-06 11:56:29  | feat(registration): add user and role repositories                                         |
+|                                                  | 802da50   | Eric Hernández       | 2025-05-06 11:55:04  | feat(registration): add create user and seed roles commands                                |
+|                                                  | f2dfdd8   | Eric Hernández       | 2025-05-06 11:53:46  | feat(registration): add user, role, and user status models                                 |
+|                                                  | 3bd8592   | Eric Hernández       | 2025-05-06 01:58:47  | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy         |
+|                                                  | c649708   | Eric Hernández       | 2025-05-06 01:29:13  | chore: add readme                                                                          |
+|                                                  | ed2af71   | Eric Hernández       | 2025-05-06 01:24:43  | chore: add pluralize and spring doc openapi dependencies                                   |
+|                                                  | 1ca891b   | Eric Hernández       | 2025-05-05 22:58:14  | chore: initial commit                                                                      |
+
+__*Profile Service__
+
+| Repository                    | Commit   | Author                            | Date                     | Message                                                                                                                                                    |
+|-------------------------------|----------|-----------------------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CampusMov/Profile-Service     | 58f66f8  | Elmer Riva                        | 2025-05-15 07:35:20      | Merge pull request #7 from CampusMov/feature/profile-vehicles                                                                                              |
+|                               | faa5475  | Elmer Riva                        | 2025-05-15 07:31:43      | feat(vehicles): add VehicleController to handle vehicle creation and update                                                                                |
+|                               | 1972faab | Gutierrez Soto Jhosepmyr Orlando  | 2025-05-15 00:46:48      | refactor(api): remove api versioning from endpoint paths                                                                                                   |
+|                               | dd088ba  | Gutierrez Soto Jhosepmyr Orlando  | 2025-05-15 00:24:20      | feat: integrates Eureka client                                                                                                                             |
+|                               | a4d5541  | Elmer Riva                        | 2025-05-10 16:53:55      | feat(vehicles): add VehicleController to handle vehicle retrieval by ownerId or vehicleId                                                                  |
+|                               | 8702530  | Elmer Riva                        | 2025-05-10 16:32:18      | feat(vehicles): add VehicleResource and assembler VehicleResourceFromEntityAssembler to map entity to resource                                             |
+|                               | 975a222  | Elmer Riva                        | 2025-05-10 16:30:30      | feat(vehicles): add query record for retrieving vehicle by owner ID or vehicle ID and implement logic in VehicleQueryService                               |
+|                               | aa1dba9  | Elmer Riva                        | 2025-05-10 16:25:00      | Merge remote-tracking branch 'origin/feature/profile-vehicles' into feature/profile-vehicles                                                               |
+|                               | 48936ec  | Elmer Riva                        | 2025-05-10 16:24:16      | feat(vehicles): add Vehicle aggregate root and corresponding repository                                                                                    |
+|                               | 960c1dc  | Elmer Riva                        | 2025-05-10 16:19:42      | feat(vehicle): add value objects BasicVehicleSpecs and Vehicle identification, and enumerator EVehicleStatus. Must be embed in the Vehicle Entity.         |
+|                               | 2f376f7  | Elmer Riva                        | 2025-05-10 16:19:42      | feat(class-schedules): add value objects BasicVehicleSpecs and Vehicle identification, and enumerator EVehicleStatus. Must be embed in the Vehicle Entity. |
+|                               | 92b8304  | Elmer Riva                        | 2025-05-10 16:06:13      | feat(class-schedules): add endpoint to retrieve class schedules by course name and profile ID                                                              |
+|                               | 72d9e7f  | Elmer Riva                        | 2025-05-10 16:04:27      | feat(class-schedules): implement method to retrieve class schedules by course name similarity                                                              |
+|                               | 6e63c19  | Elmer Riva                        | 2025-05-10 16:03:02      | feat(class-schedules): add utility class for course name similarity with n-gram and Levenshtein distance algorithms                                        |
+|                               | 58b117a  | Elmer Riva                        | 2025-05-10 16:01:04      | feat(class-schedules): add record related to get all schedules by course name and profile id                                                               |
+|                               | 1f94ad0  | Elmer Riva                        | 2025-05-07 20:58:04      | Merge pull request #6 from CampusMov/feature/profile-favorite-stops                                                                                        |
+|                               | d3c93c9  | Elmer Riva                        | 2025-05-07 20:44:45      | Reapply "Feature/profile class schedules"                                                                                                                  |
+|                               | 447c754  | Elmer Riva                        | 2025-05-07 20:27:23      | feat(favorite-stop): add methods for adding, updating, and removing FavoriteStop                                                                           |
+|                               | 5dda7e1  | Elmer Riva                        | 2025-05-07 20:25:26      | feat(favorite-stop): add handlers for Create, Update, and Delete FavoriteStop commands in profile command service                                          |
+|                               | ba20836  | Elmer Riva                        | 2025-05-07 20:23:08      | feat(favorite-stop): add handler for fetching, adding, and updating favorite stops by profileId                                                            |
+|                               | d8788f6  | Elmer Riva                        | 2025-05-07 20:22:02      | feat(favorite-stop): add handler for fetching and adding favorite stops by profileId                                                                       |
+|                               | 31efb99  | Elmer Riva                        | 2025-05-07 20:20:52      | feat(favorite-stop): add assembler for UpdateFavoriteStopCommand and related resources                                                                     |
+|                               | f90be8f  | Elmer Riva                        | 2025-05-07 20:20:07      | feat(favorite-stop): add assembler for DeleteFavoriteStopCommand                                                                                           |
+|                               | cd02da8  | Elmer Riva                        | 2025-05-07 20:18:28      | feat(favorite-stop): add assembler for CreateFavoriteStopCommand                                                                                           |
+|                               | d07d8e3  | Elmer Riva                        | 2025-05-07 20:15:30      | feat(favorite-stop): add handler for fetching FavoriteStops by profileId in ProfileFavoriteStopsController                                                 |
+|                               | fe94eec  | Elmer Riva                        | 2025-05-07 20:13:50      | feat(favorite-stop): add handler for fetching FavoriteStops by profileId                                                                                   |
+|                               | 59f1acb  | Elmer Riva                        | 2025-05-07 20:12:45      | feat(favorite-stop): add assemblers for FavoriteStop resources and entity list                                                                             |
+|                               | 4784e78  | Elmer Riva                        | 2025-05-07 20:09:37      | feat(favorite-stops): add FavoriteStop entity with creation and update functionality                                                                       |
+|                               | 53e68cd  | Elmer Riva                        | 2025-05-07 18:53:32      | Merge pull request #4 from CampusMov/revert-3-feature/profile-class-schedules                                                                              |
+|                               | b36aba7  | Elmer Riva                        | 2025-05-07 18:52:52      | Revert "Feature/profile class schedules"                                                                                                                   |
+|                               | 7f57ec4  | Elmer Riva                        | 2025-05-07 18:50:41      | Merge pull request #3 from CampusMov/feature/profile-class-schedules                                                                                       |
+|                               | 5a7f56a  | Elmer Riva                        | 2025-05-07 18:49:13      | feat(class-schedules): add delete endpoint for class schedule                                                                                              |
+|                               | 0ac3170  | Elmer Riva                        | 2025-05-07 18:46:22      | feat(class-schedules): add deleteClassSchedule handler in command service                                                                                  |
+|                               | 10d2b35  | Elmer Riva                        | 2025-05-07 18:38:24      | feat(profile-api): add CreateFavoriteStopResource and delete class-schedule support                                                                        |
+|                               | 8212c37  | Elmer Riva                        | 2025-05-07 18:34:20      | feat(class-schedules): add removeClassScheduleByClassScheduleId to Profile                                                                                 |
+|                               | da341b7  | Elmer Riva                        | 2025-05-07 18:31:46      | feat(class-schedules): implement update endpoint in controller                                                                                             |
+|                               | 7592e87  | Elmer Riva                        | 2025-05-07 18:26:14      | feat(class-schedules): add updateClassSchedule handler in command service                                                                                  |
+|                               | ce30b06  | Elmer Riva                        | 2025-05-07 18:22:41      | feat(class-schedules): add updateClassSchedule to Profile entity                                                                                           |
+|                               | 4a9b459  | Elmer Riva                        | 2025-05-07 18:19:50      | feat(class-schedules): add update resource, command, and assembler                                                                                         |
+|                               | 64569e6  | Elmer Riva                        | 2025-05-07 18:16:26      | feat(class-schedules): implement POST /profiles/{id}/class-schedules                                                                                       |
+|                               | 1c017c1  | Elmer Riva                        | 2025-05-07 18:14:24      | feat(class-schedules): add class schedule creation in command service                                                                                      |
+|                               | 97c718b  | Elmer Riva                        | 2025-05-07 18:09:27      | feat(class-schedules): add resource, command, and assembler for schedule creation                                                                          |
+|                               | 7945964  | Elmer Riva                        | 2025-05-07 18:02:48      | feat(class-schedules): expose GET /profiles/{id}/class-schedules endpoint                                                                                  |
+|                               | 6ccd292  | Elmer Riva                        | 2025-05-07 17:59:21      | feat(class-schedules): add ClassScheduleResource and assembler                                                                                             |
+|                               | a5b702b  | Elmer Riva                        | 2025-05-07 17:56:40      | feat(profiles-crud): enable profile creation and attribute updates                                                                                         |
+
+
+__* AppMobile:__
+
+| Repository                  | Commit   | Author                           | Date                | Message                                                                                                                                      |
+|-----------------------------|----------|----------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| CampusMov/UniRide-Passenger | 8329f2b  | Elmer Riva                       | 2025-05-15 20:26:42 | feat(profile-networking): add provider for ProfileApiService                                                                                 |
+|                             | 32e6d98  | Elmer Riva                       | 2025-05-15 20:25:47 | feat(profile-navigation): define sealed class ProfileScreen with routes for profile registration flow                                        |
+|                             | f24bf6a  | Elmer Riva                       | 2025-05-15 20:24:34 | feat(profile-api-service): define ProfileApiService with endpoint to save profile                                                            |
+|                             | 3b7bdf1  | Elmer Riva                       | 2025-05-15 20:23:48 | feat(model-mapper): add extension functions to convert Profile and ClassSchedule to request bodies                                           |
+|                             | f79cf9a  | Elmer Riva                       | 2025-05-15 20:22:56 | feat(profile-usecases): implement SaveProfileUseCase to handle profile saving logic                                                          |
+|                             | 9fc1e55  | Elmer Riva                       | 2025-05-15 20:20:48 | feat(profile-repository): implement ProfileRepositoryImpl with profile save logic and error handling                                         |
+|                             | dd6394f  | Elmer Riva                       | 2025-05-15 20:10:28 | feat(profile-navigation): define ProfileNavGraph with composable destinations for profile setup flow                                         |
+|                             | d153e72  | Elmer Riva                       | 2025-05-15 20:09:26 | feat(profile-information): add data transfer objects, ProfileRequestDto and ClassScheduleRequestDto                                          |
+|                             | 37b6c73  | Elmer Riva                       | 2025-05-15 20:07:53 | feat(profile-information): add ClassSchedule and Profile model                                                                               |
+|                             | 483c63c  | Elmer Riva                       | 2025-05-15 20:06:15 | feat(profile-information): add all required ui models                                                                                        |
+|                             | 7aa7494  | Elmer Riva                       | 2025-05-15 20:05:22 | feat(profile-information): implement ProfileViewModel managing profile state, updates, schedule editing, and save logic                      |
+|                             | 0b41e08  | Elmer Riva                       | 2025-05-15 20:04:14 | feat(di): add RepositoryModule providing ProfileRepository implementations                                                                   |
+|                             | b8e9ce6  | Elmer Riva                       | 2025-05-15 19:57:31 | feat(profile-information): add ProfileUseCases provider method in UseCaseModule for dependency injection                                     |
+|                             | 9b4dc12  | Elmer Riva                       | 2025-05-15 19:53:36 | feat(profile-information): add ScheduleItemView composable displaying schedule details with edit and delete actions                          |
+|                             | a49bc0f  | Elmer Riva                       | 2025-05-15 19:53:05 | feat(profile-information): add ScheduleDialogView composable for adding and editing class schedules with date/time pickers and day selection |
+|                             | d41bab2  | Elmer Riva                       | 2025-05-15 19:51:35 | feat(profile-information): add AcademicInfoView with input fields, schedule management, and profile summary dialog                           |
+|                             | 6e89259  | Elmer Riva                       | 2025-05-15 19:50:34 | feat(profile-information): add ContactInfoView composable with email and phone validation and navigation controls.                           |
+|                             | d70d7d7  | Elmer Riva                       | 2025-05-15 19:49:27 | feat(profile-information): add PersonalInfoView composable with avatar picker, date picker, gender selector, and validation                  |
+|                             | f61a29a  | Elmer Riva                       | 2025-05-15 19:46:02 | feat(profile-information): enable navigation from EnterVerificationCodeView to TermsView via button action                                   |
+|                             | 2da234a  | Elmer Riva                       | 2025-05-15 19:40:06 | feat(profile-information): add ProfileListView composable showing profile setup steps and finalization button with validation                |
+|                             | 2884e30  | Elmer Riva                       | 2025-05-15 19:29:43 | Merge branch 'feature/profile-information' of https://github.com/CampusMov/UniRide-Passenger into feature/profile-information                |
+|                             | 0a46d4f  | Elmer Riva                       | 2025-05-15 19:21:03 | feat(profile-information): add TermsView composable with expandable terms text, acceptance checkbox, and navigation controls                 |
+|                             | ba733d6  | Elmer Riva                       | 2025-05-15 19:19:49 | feat(profile-information): add NameView composable for user to input first and last name with validation and navigation buttons              |
+|                             | a8e9408  | Eric                             | 2025-05-14          | chore: implement logging configuration                                                                                                       |
+|                             | d8443e7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | Merge pull request #10 from CampusMov/feature/search-carpool                                                                                 |
+|                             | 256d919  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: Improves origin place display                                                                                                          |
+|                             | bd3ea4e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: implements seat selection                                                                                                              |
+|                             | 9206774  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: Implement place search view                                                                                                            |
+|                             | b119cfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: allows null leading icon                                                                                                               |
+|                             | 1519e8f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: Initialize Google Places API                                                                                                           |
+|                             | 17d5c7d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: implement place prediction                                                                                                             |
+|                             | dfba2b5  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: injects PlacesClient dependency                                                                                                        |
+|                             | f958f55  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: implement location repository                                                                                                          |
+|                             | ec1042f  | Eric HernÃ¡ndez                  | 2025-05-14          | Merge pull request #9 from CampusMov/feature/enter-institutional-email                                                                       |
+|                             | 3c05cce  | Eric                             | 2025-05-14          | fix: fix send email timeout error                                                                                                            |
+|                             | 2da3bb8  | Eric                             | 2025-05-14          | feat: add unhappy path for enter institutional email                                                                                         |
+|                             | 93ac9f9  | Eric                             | 2025-05-14          | feat: add unhappy path for enter verification code                                                                                           |
+|                             | e527f20  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat(map): integrates place search functionality                                                                                             |
+|                             | 7f1371a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: implements search place view and view model                                                                                            |
+|                             | 8336bef  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: implements search carpool view and viewmodel                                                                                           |
+|                             | 7e67b4f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: add place prediction                                                                                                                   |
+|                             | 7475453  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat(default-input): adds leading icon and enable control                                                                                    |
+|                             | 69fcde0  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: add icons extended and places dependencies                                                                                             |
+|                             | 5e644ba  | Eric                             | 2025-05-14          | fix: fix repository module error                                                                                                             |
+|                             | 795e735  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | Merge pull request #8 from CampusMov/feature/enter-institutional-email                                                                       |
+|                             | c78c3f2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | Merge branch 'develop' into feature/enter-institutional-email                                                                                |
+|                             | a93eb38  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | Merge pull request #7 from CampusMov/feature/google-map-background                                                                           |
+|                             | 6c941ea  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | refactor(map): extract Google Map to separate component                                                                                      |
+|                             | ec0ac6d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | feat: enhance map interaction                                                                                                                |
+|                             | 58ea9f6  | Eric                             | 2025-05-14          | feat: add verification code view for user verification                                                                                       |
+|                             | d1746d0  | Eric                             | 2025-05-14          | feat: add verification code view model for user verification                                                                                 |
+|                             | e52be4a  | Eric                             | 2025-05-14          | feat: add verification code validation state and refactor Role model                                                                         |
+|                             | 04961b3  | Eric                             | 2025-05-14          | feat: add use cases for verification code and save and get session data                                                                      |
+|                             | 8bb1197  | Eric                             | 2025-05-14          | feat: add verify code service and response class and fix verification email service response                                                 |
+|                             | 884558b  | Eric                             | 2025-05-14          | feat: add verify code coroutine and implement datastore in verify email coroutine                                                            |
+|                             | 14d188f  | Eric                             | 2025-05-14          | feat: add Data Store dependency and configuration and local data store class                                                                 |
+|                             | 1127f07  | Eric                             | 2025-05-14          | refactor: refactor email registration view and view model and implement verification code view                                               |
+|                             | 5f2433c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-14          | Merge pull request #6 from CampusMov/feature/google-map-background                                                                           |
+|                             | bdb1a9c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | chore: disable gesture in lateral menu                                                                                                       |
+|                             | 19b5ead  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(map): implement map carpool searcher view                                                                                               |
+|                             | 96f56e4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | chore: add custom map styling                                                                                                                |
+|                             | c6db45e  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(location): adds location update feature                                                                                                 |
+|                             | 79e8442  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(location): add location update use cases                                                                                                |
+|                             | 7c9503f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(location): implement location repository                                                                                                |
+|                             | 715057c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(di): configures location data source                                                                                                    |
+|                             | c9a5b0d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat(location): add location data source                                                                                                     |
+|                             | a84ef99  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | chore: delete unused imports                                                                                                                 |
+|                             | 3d91451  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add permission for location and set google maps api                                                                                    |
+|                             | c2dc29b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add google map dependencies                                                                                                            |
+|                             | 8a2c112  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | Merge pull request #5 from CampusMov/feature/menu-navigation                                                                                 |
+|                             | 9258e0f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | chore: disable sendVerificationEmail by going to Home Route for test                                                                         |
+|                             | 7e8d244  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add base map carpool search view                                                                                                       |
+|                             | c679c15  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add MenuNavigationView in AuthGraph                                                                                                    |
+|                             | 5bfe3d7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add base info profile view                                                                                                             |
+|                             | 79e61cc  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add menu navigation view                                                                                                               |
+|                             | 8dadd37  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add routes for routing and matching screens                                                                                            |
+|                             | d6b1ead  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | feat: add navigation item                                                                                                                    |
+|                             | 25b1d3c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | Merge pull request #4 from CampusMov/feature/enter-institutional-email                                                                       |
+|                             | d317fce  | Eric396                          | 2025-05-13          | feat: include EnterInstitutionalEmailView in routing for AuthNavGraph                                                                        |
+|                             | 0d91985  | Eric396                          | 2025-05-13          | feat: use view model into enter institutional email view                                                                                     |
+|                             | d1dbcde  | Eric396                          | 2025-05-13          | feat: add state and view model for enter institutional email                                                                                 |
+|                             | 5d3b992  | Eric396                          | 2025-05-13          | feat: set configuration for dependency inyection with dagger retrofit                                                                        |
+|                             | 0c4b3f4  | Eric396                          | 2025-05-13          | feat: add VerificationEmailUseCase                                                                                                           |
+|                             | 1547286  | Eric396                          | 2025-05-13          | feat: add auth repository implementation                                                                                                     |
+|                             | a204aa1  | Eric396                          | 2025-05-13          | feat: add auth repository interface                                                                                                          |
+|                             | 432f0f2  | Eric396                          | 2025-05-13          | feat: add AuthService                                                                                                                        |
+|                             | 0320229  | Eric396                          | 2025-05-13          | feat: add AuthEmailVerificationResponse                                                                                                      |
+|                             | 5284ace  | Eric396                          | 2025-05-13          | feat: add resource for remote respondes                                                                                                      |
+|                             | ad0af57  | Eric396                          | 2025-05-13          | feat: set hilt configuration                                                                                                                 |
+|                             | e5af0f1  | Eric396                          | 2025-05-13          | feat: add hilt suit dependencies                                                                                                             |
+|                             | 9aa46d6  | Eric396                          | 2025-05-13          | chore: delete files by moving folder and deleting                                                                                            |
+|                             | 39f6d8f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | Merge remote-tracking branch 'origin/feature/enter-institutional-email' into feature/enter-institutional-email                               |
+|                             | ea53990  | Eric                             | 2025-05-13          | chore(internet): implement network permission configuration for internet                                                                     |
+|                             | 0a07bf4  | Eric                             | 2025-05-13          | feat(login): implement email entry logic                                                                                                     |
+|                             | 61c4cb3  | Eric                             | 2025-05-13          | feat(login): add view model for institutional email entry                                                                                    |
+|                             | 312113e  | Eric                             | 2025-05-13          | feat(login): add authentication repository and service                                                                                       |
+|                             | b3faefb  | Eric                             | 2025-05-13          | feat(login): add data module and Dto files                                                                                                   |
+|                             | d58d7c7  | Eric                             | 2025-05-13          | feat(login): add domain models                                                                                                               |
+|                             | f88e0d6  | Eric                             | 2025-05-13          | chore: add retrofit gson converter and logging dependencies                                                                                  |
+|                             | 9aff236  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-13          | chore: add idea folder to gitignore                                                                                                          |
+|                             | 9cfc1cf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-12          | feat: add EnterInstitutionalEmailView                                                                                                        |
+|                             | ea9bc2f  | elmer-riva                       | 2025-05-11          | chore: resolve merge conflicts                                                                                                               |
+|                             | dd5c2c2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: set RootNavGraph in MainActivity to take routes controll                                                                               |
+|                             | 8bb357c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add base root nav graph                                                                                                                |
+|                             | 026a85a  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat:  add  routes for profile service                                                                                                       |
+|                             | ef09d25  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat:  add routes for authentication service                                                                                                 |
+|                             | 6951f33  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add boundaries domain graph names                                                                                                      |
+|                             | 4a117e6  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add navigation compose dependency                                                                                                      |
+|                             | 92978f7  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | chore: move WelcomeView to folder auth                                                                                                       |
+|                             | bd1548f  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | Merge pull request #3 from CampusMov/feature/enter-institutional-email                                                                       |
+|                             | e1e6bfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: replace text button for reusable default compose one                                                                                   |
+|                             | 70a81d4  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add reusable default rounded text button                                                                                               |
+|                             | 95259fc  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add reusable default rounded input field                                                                                               |
+|                             | 6d4416c  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add uni ride logo imagenes                                                                                                             |
+|                             | fcb01be  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | fix: erase propagation of splash theme to all views                                                                                          |
+|                             | b424a86  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | Merge pull request #2 from CampusMov/feature/route-navigation                                                                                |
+|                             | 579603b  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: set RootNavGraph in MainActivity to take routes controll                                                                               |
+|                             | 276d5ce  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add base root nav graph                                                                                                                |
+|                             | a0214db  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat:  add  routes for profile service                                                                                                       |
+|                             | 912f8d6  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat:  add routes for authentication service                                                                                                 |
+|                             | 81ae7b8  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add boundaries domain graph names                                                                                                      |
+|                             | cd7c0d2  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add navigation compose dependency                                                                                                      |
+|                             | df30efb  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | chore: move WelcomeView to folder auth                                                                                                       |
+|                             | 7b0eeab  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | Merge pull request #1 from CampusMov/feature/splash-screen                                                                                   |
+|                             | 623853d  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: active splash screen and set welcome view as main screen                                                                               |
+|                             | d613f15  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: design welcome screen                                                                                                                  |
+|                             | 431c0bf  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: configure splashscreen api and add logo uniride icon                                                                                   |
+|                             | c5d8d83  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | feat: add splashscreen dependency                                                                                                            |
+|                             | c056dfa  | Gutierrez Soto Jhosepmyr Orlando | 2025-05-11          | chore: init commit                                                                                                                           |
+
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+Este código es una prueba de integración para el controlador de carpool en una aplicación Spring Boot, usando Testcontainers con MySQL y TestRestTemplate para realizar solicitudes HTTP. Se validan distintos casos de creación de viajes compartidos (carpools): creación exitosa con datos completos, creación con valores nulos en maxPassengers y radius (verificando valores por defecto como radius=50 y status=CREATED), y casos negativos donde se omite el origen o destino, esperando errores 500. Cada prueba verifica el código de respuesta y la correcta asignación de valores en la respuesta.
+
+```Java
+@Testcontainers
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class CarpoolControllerIntegrationTest {
+    @Container
+    @ServiceConnection
+    static MySQLContainer<?> mySQLContainer = new MySQLContainer<>("mysql:9.2.0");
+
+    @Autowired
+    private TestRestTemplate testRestTemplate;
+
+    @Test
+    void TestCreateCarpool_ValidAllContentRequest_ShouldPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-5678-1234-5123123123678")
+                .vehicleId("87654321-4321-8765-4321-1231231231231")
+                .maxPassengers(4)
+                .scheduleId("12345678-1234-5678-1234-1231312334")
+                .radius(10)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+    }
+
+    @Test
+    void TestCreateCarpool_NullMaxPassengers_NullRadius_ValidRequest_ShouldPass(){
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-5678-1234-3452345235")
+                .vehicleId("87654321-4321-8765-4321-34525435523452345")
+                .maxPassengers(null)
+                .scheduleId("12345678-1234-5678-1234-2345756675756")
+                .radius(null)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().radius()).isEqualTo(50);
+        Assertions.assertThat(response.getBody().status()).isEqualTo("CREATED");
+        Assertions.assertThat(response.getBody().originName()).isEqualTo("Origin Location");
+        Assertions.assertThat(response.getBody().originAddress()).isEqualTo("123 Origin St");
+        Assertions.assertThat(response.getBody().destinationName()).isEqualTo("Destination Location");
+        Assertions.assertThat(response.getBody().destinationAddress()).isEqualTo("456 Destination Ave");
+        Assertions.assertThat(response.getBody().isVisible()).isEqualTo(true);
+    }
+
+    @Test
+    void TestCreateCarpool_NullOrigin_ShouldNotPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-3645-5678-1234-567812345678")
+                .vehicleId("87654321-7968-8765-4321-876543214321")
+                .maxPassengers(4)
+                .scheduleId("12345678-6789-5678-1234-567812345678")
+                .radius(10)
+                .origin(null)
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @Test
+    void TestCreateCarpool_NullDestination_ShouldNotPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-2435-1234-567812345678")
+                .vehicleId("87654321-4321-2535-4321-876543214321")
+                .maxPassengers(4)
+                .scheduleId("12345678-1234-5678-1234-567812345678")
+                .radius(10)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(null)
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+```
+
+Este código es una prueba de integración para el controlador de solicitudes de pasajero (PassengerRequest) en una aplicación Spring Boot, usando Testcontainers con MySQL y TestRestTemplate para realizar solicitudes HTTP. Se validan dos casos de creación de solicitudes: uno con todos los datos completos y otro con el valor requestedSeats nulo. En ambos casos, se espera una respuesta con estado HTTP 201 (CREATED), verificando que los datos devueltos coincidan con la solicitud enviada, que requestedSeats se asigne como 1 por defecto si es nulo y que el estado de la solicitud sea PENDING.
+
+```JAVA
+@Testcontainers
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class PassengerRequestControllerIntegrationTest {
+    @Container
+    @ServiceConnection
+    static MySQLContainer<?> mySQLContainer = new MySQLContainer<>("mysql:9.2.0");
+
+    @Autowired
+    private TestRestTemplate testRestTemplate;
+
+    @Test
+    void TestCreatePassengerRequest_ValidAllContentRequest_ShouldPass() {
+        // Given
+        CreatePassengerRequestResource createPassengerRequestResource = CreatePassengerRequestResource
+                .builder()
+                .passengerId("12345678-1234-5678-1234-567812345678")
+                .carpoolId("87654321-4321-8765-4321-876543214321")
+                .pickupLocation(CreateLocationResource.builder()
+                        .name("Pickup Location")
+                        .address("123 Pickup St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .requestedSeats(2)
+                .build();
+
+        // When
+        ResponseEntity<PassengerRequestResource> response = testRestTemplate.postForEntity("/passenger-requests", createPassengerRequestResource, PassengerRequestResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().passengerId()).isEqualTo(createPassengerRequestResource.passengerId());
+        Assertions.assertThat(response.getBody().carpoolId()).isEqualTo(createPassengerRequestResource.carpoolId());
+        Assertions.assertThat(response.getBody().pickupLocationName()).isEqualTo(createPassengerRequestResource.pickupLocation().name());
+        Assertions.assertThat(response.getBody().pickupLocationAddress()).isEqualTo(createPassengerRequestResource.pickupLocation().address());
+        Assertions.assertThat(response.getBody().requestedSeats()).isEqualTo(createPassengerRequestResource.requestedSeats());
+        Assertions.assertThat(response.getBody().status()).isEqualTo("PENDING");
+    }
+
+    @Test
+    void TestCreatePassengerRequest_ValidAllContentRequestWithNullRequestedSeats_ShouldPass() {
+        // Given
+        CreatePassengerRequestResource createPassengerRequestResource = CreatePassengerRequestResource
+                .builder()
+                .passengerId("12345678-1234-5678-1234-567812345678")
+                .carpoolId("87654321-4321-8765-4321-876543214321")
+                .pickupLocation(CreateLocationResource.builder()
+                        .name("Pickup Location")
+                        .address("123 Pickup St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                  .requestedSeats(null)
+                .build();
+
+        // When
+        ResponseEntity<PassengerRequestResource> response = testRestTemplate.postForEntity("/passenger-requests", createPassengerRequestResource, PassengerRequestResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().passengerId()).isEqualTo(createPassengerRequestResource.passengerId());
+        Assertions.assertThat(response.getBody().carpoolId()).isEqualTo(createPassengerRequestResource.carpoolId());
+        Assertions.assertThat(response.getBody().pickupLocationName()).isEqualTo(createPassengerRequestResource.pickupLocation().name());
+        Assertions.assertThat(response.getBody().pickupLocationAddress()).isEqualTo(createPassengerRequestResource.pickupLocation().address());
+        Assertions.assertThat(response.getBody().requestedSeats()).isEqualTo(1);
+        Assertions.assertThat(response.getBody().status()).isEqualTo("PENDING");
+    }
+}
+
+```
+
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+En este sprint se logro las siguientes ejecuciones de software tomando desde el landig page, web services y applicaction mobile.
+
+__* Landing Page:__ En este screen se muestra la ejecucion del landing page en local.
+
+![](/assets/software%20deployment/landingpage-exe.png)
+
+
+__* Web Services:__
+En estos screens se muestra la ejecucion de los 3 microservicios desarrollados.
+
+![](/assets/software%20deployment/iam.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO IAM</p>
+</div>
+
+![](/assets/software%20deployment/matching.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO Matching</p>
+</div>
+
+![](/assets/software%20deployment/profile.png)
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Micro ServiciO Profile</p>
+</div>
+
+__* App Movil:__ En estos screens se muestra la ejecucion las vistas desarrolladas en este sprint.
+
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/buscar.png">
+  <p>Vista de Home de la aplicacion</p>
+
+</div>
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/presentacion.png">
+  <p>Vista de Presentacion de la aplicacion</p>
+</div>
+
+
+<div style="text-align: center; font-weight: bolder">
+  <img src="./assets/software%20deployment/punto%20inicio.png">
+  <p>Vista de selecion de punto de inicio </p>
+</div>
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En esta sección se presentan los avances relacionados con la documentación de los Web Services realizados durante el Sprint, utilizando OpenAPI. Se incluye una tabla con los endpoints implementados, detallando las acciones soportadas (verbo HTTP, sintaxis, parámetros, ejemplos de respuesta), así como los enlaces a la documentación generada o URLs locales si aún no se ha desplegado. También se adjuntan capturas de interacción con los endpoints usando datos de prueba, y se proporciona el enlace al repositorio junto con los identificadores de los commits vinculados a esta documentación.
+
+**IAM SERVICE**
+Contamos con dos controladores con la ruta a ``auth/code-verification`` para inicio de sesion y ``/auth/institutional-email-verification`` para el registro de un nuevo usuario, por lo que ambos solo usan un metodo post.
+
+**PROFILE SERVICE**
+Los controladores proporcionan endpoints RESTful relacionados con la gestión de perfiles de usuario (Profile) y sus horarios de clase (ClassSchedule). Están documentados con OpenAPI (Swagger) y utilizan los servicios de dominio para consultar y modificar datos.
+
+**MATCHING SERVICE**
+Estos controladores REST están orientados a la gestión de:
+- Carpools (viajes compartidos)
+- Solicitudes de pasajeros (Passenger Requests)
+
+Ambos controladores implementan interfaces documentadas mediante Swagger (OpenAPI) y hacen uso de servicios de dominio para ejecutar comandos y consultas.
+
+Endpoints - CarpoolControllerImpl
+
+| Método | Ruta                                             | Descripción                                                             |
+|--------|--------------------------------------------------|-------------------------------------------------------------------------|
+| POST   | /carpools                                        | Crear un nuevo carpool                                                  |
+| GET    | /carpools/{carpoolId}                            | Obtener un carpool por su ID                                            |
+| GET    | /carpools/driver/{driverId}/active               | Obtener el carpool activo del conductor                                 |
+| GET    | /carpools/driver/{driverId}                      | Obtener todos los carpools creados por el conductor                     |
+| POST   | /carpools/available?scheduleId=...               | Obtener carpools disponibles según horario y ubicación                  |
+| POST   | /carpools/{carpoolId}/start                      | Iniciar un carpool con la ubicación actual del conductor                |
+
+Endpoints - PassengerRequestControllerImpl
+
+| Método | Ruta                                                           | Descripción                                                          |
+|--------|----------------------------------------------------------------|----------------------------------------------------------------------|
+| POST   | /passenger-requests                                            | Crear una solicitud de pasajero                                      |
+| POST   | /passenger-requests/{passengerRequestId}/accept                | Aceptar una solicitud de pasajero                                    |
+| POST   | /passenger-requests/{passengerRequestId}/reject                | Rechazar una solicitud de pasajero                                   |
+| GET    | /passenger-requests/{passengerRequestId}                       | Obtener una solicitud por su ID                                      |
+| GET    | /carpools/{carpoolId}/passenger-requests                       | Listar solicitudes pendientes asociadas a un carpool específico      |
+
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+En esta seccion se mostrara los pasos para los desplieges a realizar:
+
+__Landing Page:__
+
+1.- Primero realizamos la configuracion en el archivo configuracion del vite.congif.js
+
+```
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+// https://vite.dev/config/
+export default defineConfig({
+  darkMode: false,
+  plugins: [vue()],
+  base: "https://campusmov.github.io/landing-page-uniride/",
+})
+```
+2.- Segundo activamos el gitHub Actions para la automatizacion del despliege del landing page y configuramos en jekyll-gh-pages.yml para una entrega continua.
+
+![](/assets/software%20deployment/githubactions.png)
+Para la configuracion del archivo se uso la documentacion del sitio de vite [Link](https://vite.dev/guide/static-deploy).
+
+3.- Ahora con la configuracion lista para la automatizacion del despliege y proporcionar el link del sitio web.
+
+* Link: [Landing Page](https://campusmov.github.io/landing-page-uniride/)
+
+
+__Web Services:__
+
+1.- Instalar Argos CD en el sdk de google.
+
+![](/assets/software%20deployment/instalar%20argos%201.png)
+
+2.- Acceder Argos CD api Server.
+
+![](/assets/software%20deployment/accede%20argos%203.png)
+
+3.-Configuramos la aplicacion y conexion con repositotio de kubernets.
+![](/assets/software%20deployment/configuramos%20app.png)
+![](/assets/software%20deployment/configuramos%20app%202.png)
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+<h4>UniRide Landing Page</h4>
+<img src="./assets/sprint-1/collaboration insights/landing-page.png" alt="Landing page" >
+
+<h4>UniRide Backend Services</h4>
+
+IAM Service
+
+<img src="./assets/sprint-1/collaboration insights/iam-service.png" alt="IAM Service" >
+
+Profile Service
+
+<img src="./assets/sprint-1/collaboration insights/profile-service.png" alt="Profile Service" >
+
+Matching-Routing-Service
+
+<img src="./assets/sprint-1/collaboration insights/matching-routing-service.png" alt="Matching-Routing-Service" width=80%  >
+
+
+<h4>UniRide Kotlin</h4>
+<img src="./assets/sprint-1/collaboration insights/kotlin-uniride.png" alt="UniRide Kotlin" >
+
+ ##### Userflow 1
+
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 1.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/Eaq_EAkLnRtDp3v-0BVdERMBq_XJVKqo6qsPBRUcW82sJw?e=dhXbh7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+ ##### Userflow 2
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 2.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/Eb-0ZaTyNNpAuTnzQq_knVgBoyPQl5kJdP2SdkOk_p2-nA?e=pLTcxz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+ ##### Userflow 3
+
+ <img src="./assets/movile-ux-ui/prototyping/Userflow 3.png" width="400px">
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EdNlOXsNXuNHom4y1NpYZDMB4h4N_XLa11aiuRFaX-1RMg?e=H2RZdm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 # Conclusiones
 
