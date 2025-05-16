@@ -47,20 +47,20 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                       |
-|---------|------------|----------------------------|----------------------------------------------------------------------------------------------------------|
-| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                   |
-| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                        |
+| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                        |
+|---------|------------|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                    |
+| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                         |
 | 1.2.0   | 2025-04-03 | Jhosepmyr Orlando, Eric    | Capítulo I completo: Descripción de la Startup y Perfiles del equipo (1.1), Problemática y Lean UX (1.2). |
-| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                      |
-| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                |
-| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                            |
-| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                |
-| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                        |
-| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                              |
-| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                   |
-| 2.1.0   | 2025-05-14 | Daniel, Carlos, Brayan     | Informe completo hasta el Capítulo V: Mobile Applications User Flow Diagram.                             |
-| 2.2.0   | 2025-05-15 | Todo el equipo             | Informe completo hasta el Capítulo VI: Sprint 1.                                                         |
+| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                       |
+| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                 |
+| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                             |
+| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                 |
+| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                         |
+| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                               |
+| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                    |
+| 2.1.0   | 2025-05-14 | Daniel, Carlos, Brayan     | Informe completo hasta el Capítulo V: Mobile Applications User Flow Diagram.                              |
+| 2.2.0   | 2025-05-15 | Todo el equipo             | Informe completo hasta el Capítulo VI: Sprint 1.                                                          |
 
 <div style="page-break-before: always"></div>
 
@@ -1291,10 +1291,12 @@ Finalmente, se identifica un aspecto emocional muy potente: la necesidad de prot
 ### 2.3.1. User Personas
 
  * Estudiante Pasajero
- ![UserPersonPajaero](/assets/needfinding/user-person-pasajero.png)
+
+<img src="/assets/needfinding/user-person-pasajero.png" alt="UserPersonPasajero" width="500"/>
 
  * Estudiante Conductor
- ![UserPersonConductor](/assets/needfinding/user-persona-conductor.png)
+
+<img src="/assets/needfinding/user-persona-conductor.png" alt="UserPersonConductor" width="500"/>
 
 ### 2.3.2. User Task Matrix
 
