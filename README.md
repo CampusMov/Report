@@ -2433,7 +2433,7 @@ La gestión de proyectos se enfoca en la administración eficiente de procesos y
 
 Este proceso asegura que la organización documente, valide y cumpla con las necesidades y expectativas de los clientes y las partes interesadas, tanto internas como externas.
 
-- **Pivotal Tracker:** Se utilizó como herramienta para gestionar historias de usuario, organizándolas en epopeyas y priorizándolas según su importancia. Su funcionalidad permite a los equipos colaborar en tiempo real, visualizar avances y ajustar el flujo del proyecto de manera eficiente.
+- **Jirar:** Se utilizó como herramienta para gestionar historias de usuario, organizándolas en epopeyas y priorizándolas según su importancia. Su funcionalidad permite a los equipos colaborar en tiempo real, visualizar avances y ajustar el flujo del proyecto de manera eficiente.
 
 <h2>Product UX/UI Design</h2>
 
