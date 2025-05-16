@@ -71,12 +71,18 @@ En esta sección se documenta la colaboración del equipo en la elaboración del
 * URL del repositorio del Project Report en la organización de GitHub del equipo:
 * [https://github.com/CampusMov/Report](https://github.com/CampusMov/Report)
 
-**Figura 1: Contributors** 
+**Contributors**
+Muestra el número de commits por miembro a lo largo del tiempo.
 
-Muestra el número de commits por miembro a lo largo del tiempo. 
-Por ejemplo, Jhosepmyr realizó 32 commits, Elmer 25, Brayan 16, Carlos 15, Eric 13 y Mateo 12, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
+**TB1**
+Jhosepmyr realizó 32 commits, Elmer 25, Brayan 16, Carlos 15, Eric 13 y Mateo 12, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
 
 ![commits.png](assets/insights/commits.png)
+
+**TP*
+Jhosepmyr realizó 33 commits, Carlos 30, Elmer 29, Mateo 27, Brayan 18, y Eric 15, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
+![commitsTP.png](assets/insights/commitsTP.png)
+
 
 Ante lo observado, las métricas confirman que **todos** los miembros contribuyeron activamente: redacción de secciones, creación de diagramas, revisiones de contenido y coordinación de entregas. Se recomienda mantener la práctica de PRs y revisiones cruzadas en las siguientes iteraciones para asegurar calidad y trazabilidad.
 
