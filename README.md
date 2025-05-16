@@ -3672,3 +3672,5 @@ Redaccion EC. (2024, 17 de febrero) ¿Cuánto dinero gastaron los peruanos en ga
 TomTom. (2023). Traffic Index 2023. Retrieved from https://www.tomtom.com/traffic-index/lima-traffic
 
 # Anexos
+
+Video de exposicion TP: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EbyWOLs71xVChLYd71lS610BdzqZXYnoJ0TXLDVSsm2ZdA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dEwcyo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317638_upc_edu_pe/EbyWOLs71xVChLYd71lS610BdzqZXYnoJ0TXLDVSsm2ZdA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dEwcyo)
