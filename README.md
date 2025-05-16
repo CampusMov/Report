@@ -241,6 +241,42 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
       * [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
         * [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
         * [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+* [Capitulo V: Solution UI/UX Design](#capitulo-v-solution-uiux-design)
+  * [5.1. Product design](#51-product-design)
+    * [5.1.1. Style Guidelines](#511-style-guidelines)
+      * [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+    * [5.1.2. Information Architecture](#512-information-architecture)
+      * [5.1.2.1. Organization Systems](#5121-organization-systems)
+      * [5.1.2.2. Labeling Systems](#5122-labeling-systems)
+      * [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+      * [5.1.2.4. Searching Systems](#5124-searching-systems)
+      * [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+    * [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+      * [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+      * [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+    * [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+      * [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+      * [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+      * [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+      * [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+      * [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+* [Capitulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)   
+  * [6.1. Software Configuration Management](#61-software-configuration-management)
+    * [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    * [6.1.2. Source Code Management](#612-source-code-management)
+    * [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    * [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  * [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+    * [6.2.1. Sprint 1](#621-sprint-1)
+    * [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    * [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+    * [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+    * [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+    * [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    * [ 6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -2255,7 +2291,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 ### 5.1.4. Mobile Applications UX/UI Design
 #### 5.1.4.1. Mobile Applications Wireframes
 
-### Conductor
+<h1> Conductor </h1>
 <img src="./assets/movile-ux-ui/wireframes/Conductor/Bienvenido Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/actualizar info conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/menu conductor.png" width="400px">
@@ -2272,7 +2308,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/wireframes/Conductor/calificar pasajero conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Conductor/valoracion promedio conductor.png" width="400px">
 
-## Pasajero
+<h1>Pasajero</h1>
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/Bienvenido Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/actualizar info pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/menu pasajero.png" width="400px">
@@ -2288,7 +2324,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/calificar conductor pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Pasajero/valoracion promedio pasajero.png" width="400px">
 
-## Ambos
+<h1> Ambos </h1>
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Introducir Correo.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Agregar Nombre.png" width="400px">
 <img src="./assets/movile-ux-ui/wireframes/Ambos/Codigo Verificacion.png" width="400px">
@@ -2310,7 +2346,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/Wire Flow Diagrams/Wireflow 3.png">
 
  #### 5.1.4.3. Mobile Applications Mock-ups
- ### Conductor
+ <h1> Conductor</h1>
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Actualizar Perfil - Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Info Vehiculo- Conductor.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Config-Conductor.png" width="400px">
@@ -2329,7 +2365,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/mock-ups/Conductor/Rentabilidad Conductor.png" width="400px">
 
 
- ### Pasajero
+ <h1> Pasajero</h1>
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Actualizar Perfil - Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config-Pasajero.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Pasajero/Config Viaje - Pasajero.png" width="400px">
@@ -2347,7 +2383,7 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 
 
 
- ### Ambos
+ <h1> Ambos </h1>
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Correo.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Login-Nombre.png" width="400px">
 <img src="./assets/movile-ux-ui/mock-ups/Ambos/Codigo-Verificación.png" width="400px">
@@ -2369,7 +2405,789 @@ En esta seccion se mostrara el landing page con el diseño final para el desarro
 <img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 2.png">
 <img src="./assets/movile-ux-ui/User Flow Diagrams/User Flow 3.png">
 
- #### 5.1.4.5. Mobile Applications Prototyping
+#### 5.1.4.5. Mobile Applications Prototyping
+
+# Capitulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+En esta sección se proporcionarán los enclaces a las aplicaciones y productos de software que utilizaremos durante este producto de software que utilizaremos durante el desarrollo del proyecto.
+Con dicho fin, organizarmos la información en las siguientes secciones
+
+- Project Management
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Documentation
+
+
+<h2>Project Management</h2>
+
+La gestión de proyectos se enfoca en la administración eficiente de procesos y su entorno, con el objetivo de alcanzar los resultados esperados.
+
+- Durante el ciclo digital del proyecto, se implementará un producto de software bajo el modelo SaaS, que funcionará a través de un navegador web. No se contempla el desarrollo de una versión móvil nativa en esta etapa.
+
+<h2>Requirements Management</h2>
+
+Este proceso asegura que la organización documente, valide y cumpla con las necesidades y expectativas de los clientes y las partes interesadas, tanto internas como externas.
+
+- **Pivotal Tracker:** Se utilizó como herramienta para gestionar historias de usuario, organizándolas en epopeyas y priorizándolas según su importancia. Su funcionalidad permite a los equipos colaborar en tiempo real, visualizar avances y ajustar el flujo del proyecto de manera eficiente.
+
+<h2>Product UX/UI Design</h2>
+
+El diseño de experiencia e interfaz de usuario busca crear soluciones digitales que se integren de forma natural en la vida de los usuarios. En este proyecto, se desarrolla un sitio web responsive, compatible con computadoras y dispositivos móviles.
+
+Para lograrlo, se emplearon las siguientes herramientas:
+
+- **Uxpressia:** Plataforma online para crear mapas de experiencia del cliente, perfiles de usuario, mapas de empatía y journey maps, facilitando la comprensión profunda de las necesidades del usuario. Más información en [Uxpressia](https://uxpressia.com/).
+
+- **MIRO:** Pizarra digital colaborativa utilizada para actividades de investigación, ideación, lluvia de ideas y creación de mapas mentales, fomentando el trabajo en equipo. Más detalles en [MIRO](https://miro.com/app/dashboard/).
+
+- **Figma:** Herramienta de diseño y prototipado que permite crear interfaces directamente en línea, facilitando la colaboración en tiempo real y la creación de prototipos para navegadores web y móviles. Consulta más en [Figma](https://www.figma.com/design/).
+
+- **Lucidchart:** Aplicación web para diagramación colaborativa, utilizada para desarrollar diagramas UML, mapas mentales, prototipos de software y otros esquemas visuales. Más información en [Lucidchart](https://lucid.app/lucidchart/).
+
+Estas herramientas son clave para transformar ideas en diseños funcionales, asegurando que el producto sea accesible y visualmente atractivo en diversas plataformas.
+
+
+### 6.1.1. Software Development Environment Configuration
+<h2>Development Tools</h2>
+
+- **GitHub:** Es una plataforma en línea que permite almacenar y gestionar proyectos mediante repositorios con control de versiones usando Git. Facilita el trabajo colaborativo y el seguimiento detallado de los cambios en el proyecto. Puedes acceder a nuestro repositorio desde [este enlace](https://github.com/Dotvue).
+
+- **Git:** Herramienta de control de versiones que se instala localmente, permitiendo mantener un historial de modificaciones en el proyecto mediante commits. También se utiliza para colaborar en repositorios alojados en GitHub. Descarga Git desde [aquí](https://git-scm.com).
+
+- **WebStorm:** Un entorno de desarrollo (IDE) especializado en tecnologías web como HTML, CSS, JavaScript y frameworks como Vue y Angular. Es la herramienta que utilizamos para desarrollar la parte de la landing page del proyecto. Más información en [WebStorm](https://www.jetbrains.com/es-es/webstorm/).
+
+- **IntelliJ IDEA con Spring Boot:** Entorno de desarrollo integrado utilizado para crear servicios web robustos mediante el framework Spring Boot, facilitando la creación de servicios backend en Java. Consulta más en [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/).
+
+- **Android Studio con Kotlin:** IDE oficial para desarrollar aplicaciones móviles en Android, utilizando Kotlin como lenguaje principal. Nos permitirá desarrollar la aplicación móvil del proyecto. Puedes descargarlo desde [Android Studio](https://developer.android.com/studio).
+
+<h2>Software Testing</h2>
+
+El proceso de pruebas de software consiste en verificar y validar que el sistema funcione correctamente, asegurando que cumpla con los requisitos establecidos y detectando posibles errores en su funcionamiento.
+
+- **Lenguaje Gherkin:** Es un lenguaje específico de dominio (DSL) que facilita la definición de historias de usuario y escenarios de prueba en un formato comprensible tanto para desarrolladores como para personas no técnicas. Utiliza estructuras como Característica, Escenario, Ejemplo, Esquema de Escenario, Dado, Cuando, Entonces y Y para describir el comportamiento esperado del software.
+
+<h2>Software Documentation</h2>
+
+La documentación de software comprende textos e ilustraciones que explican el funcionamiento de una aplicación o cómo utilizarla. Puede estar integrada en el código fuente o acompañar al software como guía para usuarios y desarrolladores, facilitando su comprensión y uso.
+
+### 6.1.2. Source Code Management
+Esta sección detallará que medios se utilizaron para el seguimiento de las modificaciones, así como la semantica y nomenclatura que usaremos para estructurar los commit del control de versiones
+
+- Url de la organización:
+
+**Gitflow:** 
+Git Flow es un modelo de trabajo el cual consta de ramas principales y ramas de apoyo. Este modelo nos permite manejar de mejor manera nuestro codigo, permitiendo limpieza, organización. La división del producto se hará a través de una variedad de ramas las cuales son las siguientes.
+
+- Ramas principales:
+  - Main: Rama principal donde se ramifican todas las demás. Además, aquí se guarda el codigo fuente que se desplegará a producción.
+  - Develop: Esta rama surga a partir de la rama Main y se utiliza para integrar las funcionalidades trabajadas en ramas anteriores.
+- Ramas de apoyo:
+  - Feature: Estas ramas creadas a partir de develop se crean para desarrollar funcionalidades. La nomenclatura es la siguiente:
+  ```
+  feature/profile 
+  feature/ride   
+   ```
+  - Release: Estas ramas son creadas a partir de Develop y sirven para preparar una nueva versión de nuestro proyecto que está listo para publicar.
+  - Hotfix: Estas ramas se crean a partir del main y sirven para corregir rápidamente los errores que se presenten en producción
+
+**Conventional Commits**
+
+Este es un conjunto de reglas, las cuales deben seguir nuestros commits para crear un historial explícito de los cambios realizados en el proyecto, haciéndolo más sencillo de comprender para el equipo de desarrollo. Los conventional commits siguen la siguiente estructura: 
+
+    <type> [opcional scope]: <description>
+    [optional body]
+    [optional footer]
+
+* **type:** Dependiendo del cambio que se realicen en el proyecto, los commits pueden ser:
+    * **feat:** Cuando se agrega una nueva funcionalidad (feature)
+    * **docs:** Cuando se realizan cambios en la documentación del proyecto
+    * **fix:** Cuando se corrige un error en el código
+    * **chore**: Cuando se realizan cambios que no afectan al código
+    * **refactor:** Cuando se realizan cambios es la estructura del código, sin afectar al comportamiento del proyecto
+    * **build**: Cuando se realizan cambios en los componentes del proyecto, como dependencias externas.
+    * **perf:** Cuando se realizan cambio que mejoran el rendimiento del proyecto
+* **scope:** Este es un campo opcional, que nos permite especificar el alcance que tiene el commit.
+* **description:** Este es un campo obligatorio, ya que proporciona información breve y concisa de los cambios que se han realizado. Además debe ser escrito en minúsculas y de modo imperativo
+* **body:** Este es un campo opcional en el cual se detalla más información sobre el commit, como el motivo del cambio. 
+* **footer:** Este es un campo opcion y se utiliza para informar respecto a cambios importantes en el proyecto
+
+### 6.1.3. Source Code Style Guide & Conventions
+<h2>Kotlin</h2>
+
+Kotlin es un lenguaje de programación moderno, conciso y seguro, utilizado principalmente para el desarrollo de aplicaciones Android, aunque también se emplea en backend, multiplataforma y desarrollo web. A continuación, se describen las pautas para el uso de Kotlin en nuestro proyecto:
+
+- **Espacios alrededor de operadores**
+
+Se debe agregar un espacio en blanco antes y después de cada operador aritmético, lógico y de asignación. Esto incluye también las comas dentro de listas y llamadas a funciones.
+
+Ejemplo:
+
+```kotlin
+val sum = a + b
+val numbers = listOf(1, 2, 3)
+```
+- **Finalización de expresiones:**
+
+En Kotlin, las instrucciones no requieren punto y coma al final. Se debe evitar su uso a menos que se necesiten en la misma línea por razones de sintaxis (algo muy poco común).
+
+Ejemplo:
+```kotlin
+val name = "John"
+val age = 30
+```
+
+- **Funciones Lambda en Kotlin:**
+
+En Kotlin, las funciones lambda son bloques de código que se pueden definir como valores y pasar como argumentos a otras funciones. Son una característica clave para trabajar con colecciones, callbacks y programación funcional.
+
+A continuación, se presentan las pautas para el uso de funciones lambda en nuestro proyecto:
+
+- **Sintaxis básica de una lambda**
+
+Las funciones lambda se definen con llaves `{}` y dentro de ellas se especifican los parámetros, seguidos de la flecha `->` y luego el cuerpo de la función.
+
+Ejemplo:
+
+```kotlin
+val sum: (Int, Int) -> Int = { a, b -> a + b }
+```
+
+### 6.1.4. Software Deployment Configuration
+
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>30/04/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Gutiérrez Soto, Jhosepmyr Orlando</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Hernández Tuiro, Eric Ernesto
+</li>
+                <li>Riva Rodríguez, Elmer Augusto
+</li>
+                <li>Sanchez Montero, Carlos
+</li>
+                <li>Morales Quispe, Brayan Smith
+</li>
+                <li>Del Castillo Bueno, Daniel Mateo
+</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Review Summary</td>
+            <td>
+                Este es el primer sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Acuerdo de la implementación de una primera versión del Landing Page  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar la primera versión de la Landing Page de enfocándonos en una estructura que sea visualmente atractiva y fácil de navegar, además de presentar un avance de una de las aplicaciones moviles
+                </p>
+                <p>
+                Creemos que esta Landing Page ofrecerá una introducción simple y directa para que el usuario pueda. El éxito de este sprint se confirmará cuando los usuarios puedan explorar la Landing Page de manera fluida en distintos dispositivos, logrando una primera impresión positiva y una navegación sencilla que los motive a explorar más sobre el sistema.Además de brindarles una primera vista de la aplicación móvil.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>
+                n
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                n
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+#### 6.2.1.2. Sprint Backlog 1
+
+Para este sprint asignamos las user stories de los productos que ibamos a desarrollar en esta entrega, de ese modo 
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td align="center" colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><strong>User Story</strong></td>
+    <td align="center" colspan="6"><strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>ID</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>Description</strong></td>
+    <td align="center"><strong>Estimation (Hours)</strong></td>
+    <td align="center"><strong>Assigned To</strong></td>
+    <td align="center"><strong>Status (To-do/In-Process/To-Review/Done)</strong></td>
+  </tr>
+
+  <tr>
+    <td align="center">1</td>
+    <td align="center">US-43</td>
+    <td align="center">TA01</td>
+    <td align="center">Explorar sección “Beneficios”</td>
+    <td align="center">Desarrollar la sección de beneficios de la plataforma</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">2</td>
+    <td align="center">US-44</td>
+    <td align="center">TA02</td>
+    <td align="center">Navegación responsiva</td>
+    <td align="center">Implementar la navegación adaptable a dispositivos móviles</td>
+    <td align="center">2</td>
+    <td align="center">Del Castillo Bueno, Daniel Mateo
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">3</td>
+    <td align="center">US-45</td>
+    <td align="center">TA03</td>
+    <td align="center">Sección “Sobre la App” y “Videos”</td>
+    <td align="center">Diseñar la sección informativa y de contenido multimedia</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">5</td>
+    <td align="center">US-49</td>
+    <td align="center">TA04</td>
+    <td align="center">Sección “Testimonios”</td>
+    <td align="center">Mostrar reseñas y testimonios de usuarios</td>
+    <td align="center">1</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">6</td>
+    <td align="center">US-50</td>
+    <td align="center">TA05</td>
+    <td align="center">Sección “Preguntas Frecuentes”</td>
+    <td align="center">Crear una sección FAQ para resolver dudas frecuentes</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">7</td>
+    <td align="center">US-51</td>
+    <td align="center">TA06</td>
+    <td align="center">Formulario de contacto</td>
+    <td align="center">Desarrollar un formulario para enviar mensajes de contacto</td>
+    <td align="center">2</td>
+    <td align="center">Morales Quispe, Brayan Smith
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <tr>
+    <td align="center">8</td>
+    <td align="center">US-53</td>
+    <td align="center">TA07</td>
+    <td align="center">Sección “Equipo”</td>
+    <td align="center">Crear la sección donde se presenta al equipo de trabajo</td>
+    <td align="center">1</td>
+    <td align="center">Del Castillo Bueno, Daniel Mateo
+</td>
+    <td align="center">Done</td>
+  </tr>
+
+  <!-- Aquí van los nuevos entre Done y To-do (por defecto los pondré como In-Process, puedes ajustar luego) -->
+  <tr>
+    <td align="center">14</td>
+    <td align="center">US-11</td>
+    <td align="center">TS-01</td>
+    <td align="center">Rastreo en tiempo real del viaje</td>
+    <td align="center">Implementar funcionalidad de rastreo en vivo para los viajes</td>
+    <td align="center">5</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>
+    <td align="center">15</td>
+    <td align="center">US-12</td>
+    <td align="center">TS-02</td>
+    <td align="center">Cancelar Carpool antes de iniciar</td>
+    <td align="center">Permitir a usuarios cancelar viajes antes del inicio</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">16</td>
+    <td align="center">TS-03</td>
+    <td align="center">TA08</td>
+    <td align="center">Exponer endpoint para cancelar Carpools</td>
+    <td align="center">Crear API para cancelar viajes</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">17</td>
+    <td align="center">US-13</td>
+    <td align="center">TA09</td>
+    <td align="center">Unirse a un Carpool en curso</td>
+    <td align="center">Permitir a usuarios unirse a viajes activos</td>
+    <td align="center">3</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">18</td>
+    <td align="center">TS-04</td>
+    <td align="center">TA10</td>
+    <td align="center">Exponer endpoint para unirse a Carpools</td>
+    <td align="center">Crear API para unirse a viajes</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-process</td>
+  </tr>
+  <tr>
+    <td align="center">19</td>
+    <td align="center">TS-08</td>
+    <td align="center">TA11</td>
+    <td align="center">Permitir unirse a Carpools activos</td>
+    <td align="center">Lógica de backend para viajes en curso</td>
+    <td align="center">3</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+
+  <tr>
+    <td align="center">36</td>
+    <td align="center">TS-20</td>
+    <td align="center">TA14</td>
+    <td align="center">Implementar EventBusAdapter</td>
+    <td align="center">Adaptador de eventos para comunicación interna</td>
+    <td align="center">3</td>
+    <td align="center">Hernández Tuiro, Eric Ernesto
+Riva Rodríguez, Elmer Augusto</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">37</td>
+    <td align="center">US-27</td>
+    <td align="center">TA15</td>
+    <td align="center">Recordatorio de salida de viaje</td>
+    <td align="center">Notificar al usuario antes de iniciar el viaje</td>
+    <td align="center">1</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando
+</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">38</td>
+    <td align="center">TS-21</td>
+    <td align="center">TA16</td>
+    <td align="center">Implementar SchedulerAdapter</td>
+    <td align="center">Planificador para tareas programadas</td>
+    <td align="center">3</td>
+    <td align="center">Riva Rodríguez, Elmer Augusto</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">39</td>
+    <td align="center">US-28</td>
+    <td align="center">TA17</td>
+    <td align="center">Notificación de confirmación de viaje</td>
+    <td align="center">Enviar mensaje al confirmar viaje</td>
+    <td align="center">1</td>
+    <td align="center">Alumno-n</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+    <td align="center">51</td>
+    <td align="center">TS-07</td>
+    <td align="center">TA19</td>
+    <td align="center">Exponer endpoint para cancelar solicitudes</td>
+    <td align="center">API para anular una solicitud de viaje</td>
+    <td align="center">2</td>
+    <td align="center">Gutiérrez Soto, Jhosepmyr Orlando</td>
+    <td align="center">In-Process</td>
+  </tr>
+  <tr>
+  <td align="center">52</td>
+  <td align="center">TS-13</td>
+  <td align="center">TA20</td>
+  <td align="center">Exponer endpoint para actualizar Profile</td>
+  <td align="center">Crear API para actualizar los datos del perfil de usuario</td>
+  <td align="center">2</td>
+  <td align="center">Riva Rodríguez, Elmer Augusto</td>
+  <td align="center">In-Process</td>
+</tr>
+<tr>
+  <td align="center">53</td>
+  <td align="center">TS-14</td>
+  <td align="center">TA21</td>
+  <td align="center">Exponer endpoint para leer Profile</td>
+  <td align="center">Crear API para obtener los datos del perfil de usuario</td>
+  <td align="center">2</td>
+  <td align="center">Hernández Tuiro, Eric Ernesto</td>
+  <td align="center">In-Process</td>
+</tr>
+  
+
+
+</table>
+
+  
+
+
+
+Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/software/projects/HU/boards/1) de nuestro proyecto
+
+<img src="./assets/sprint-1/product backlog.png">
+
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+Este código es una prueba de integración para el controlador de carpool en una aplicación Spring Boot, usando Testcontainers con MySQL y TestRestTemplate para realizar solicitudes HTTP. Se validan distintos casos de creación de viajes compartidos (carpools): creación exitosa con datos completos, creación con valores nulos en maxPassengers y radius (verificando valores por defecto como radius=50 y status=CREATED), y casos negativos donde se omite el origen o destino, esperando errores 500. Cada prueba verifica el código de respuesta y la correcta asignación de valores en la respuesta.
+
+```Java
+@Testcontainers
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class CarpoolControllerIntegrationTest {
+    @Container
+    @ServiceConnection
+    static MySQLContainer<?> mySQLContainer = new MySQLContainer<>("mysql:9.2.0");
+
+    @Autowired
+    private TestRestTemplate testRestTemplate;
+
+    @Test
+    void TestCreateCarpool_ValidAllContentRequest_ShouldPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-5678-1234-5123123123678")
+                .vehicleId("87654321-4321-8765-4321-1231231231231")
+                .maxPassengers(4)
+                .scheduleId("12345678-1234-5678-1234-1231312334")
+                .radius(10)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+    }
+
+    @Test
+    void TestCreateCarpool_NullMaxPassengers_NullRadius_ValidRequest_ShouldPass(){
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-5678-1234-3452345235")
+                .vehicleId("87654321-4321-8765-4321-34525435523452345")
+                .maxPassengers(null)
+                .scheduleId("12345678-1234-5678-1234-2345756675756")
+                .radius(null)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().radius()).isEqualTo(50);
+        Assertions.assertThat(response.getBody().status()).isEqualTo("CREATED");
+        Assertions.assertThat(response.getBody().originName()).isEqualTo("Origin Location");
+        Assertions.assertThat(response.getBody().originAddress()).isEqualTo("123 Origin St");
+        Assertions.assertThat(response.getBody().destinationName()).isEqualTo("Destination Location");
+        Assertions.assertThat(response.getBody().destinationAddress()).isEqualTo("456 Destination Ave");
+        Assertions.assertThat(response.getBody().isVisible()).isEqualTo(true);
+    }
+
+    @Test
+    void TestCreateCarpool_NullOrigin_ShouldNotPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-3645-5678-1234-567812345678")
+                .vehicleId("87654321-7968-8765-4321-876543214321")
+                .maxPassengers(4)
+                .scheduleId("12345678-6789-5678-1234-567812345678")
+                .radius(10)
+                .origin(null)
+                .destination(CreateLocationResource.builder()
+                        .name("Destination Location")
+                        .address("456 Destination Ave")
+                        .latitude(23.456789)
+                        .longitude(87.654321)
+                        .build())
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @Test
+    void TestCreateCarpool_NullDestination_ShouldNotPass() {
+        // Given
+        CreateCarpoolResource createCarpoolResource = CreateCarpoolResource
+                .builder()
+                .driverId("12345678-1234-2435-1234-567812345678")
+                .vehicleId("87654321-4321-2535-4321-876543214321")
+                .maxPassengers(4)
+                .scheduleId("12345678-1234-5678-1234-567812345678")
+                .radius(10)
+                .origin(CreateLocationResource.builder()
+                        .name("Origin Location")
+                        .address("123 Origin St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .destination(null)
+                .build();
+
+        // When
+        ResponseEntity<CarpoolResource> response = testRestTemplate.postForEntity("/carpools", createCarpoolResource, CarpoolResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+```
+
+Este código es una prueba de integración para el controlador de solicitudes de pasajero (PassengerRequest) en una aplicación Spring Boot, usando Testcontainers con MySQL y TestRestTemplate para realizar solicitudes HTTP. Se validan dos casos de creación de solicitudes: uno con todos los datos completos y otro con el valor requestedSeats nulo. En ambos casos, se espera una respuesta con estado HTTP 201 (CREATED), verificando que los datos devueltos coincidan con la solicitud enviada, que requestedSeats se asigne como 1 por defecto si es nulo y que el estado de la solicitud sea PENDING.
+
+```JAVA
+@Testcontainers
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class PassengerRequestControllerIntegrationTest {
+    @Container
+    @ServiceConnection
+    static MySQLContainer<?> mySQLContainer = new MySQLContainer<>("mysql:9.2.0");
+
+    @Autowired
+    private TestRestTemplate testRestTemplate;
+
+    @Test
+    void TestCreatePassengerRequest_ValidAllContentRequest_ShouldPass() {
+        // Given
+        CreatePassengerRequestResource createPassengerRequestResource = CreatePassengerRequestResource
+                .builder()
+                .passengerId("12345678-1234-5678-1234-567812345678")
+                .carpoolId("87654321-4321-8765-4321-876543214321")
+                .pickupLocation(CreateLocationResource.builder()
+                        .name("Pickup Location")
+                        .address("123 Pickup St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .requestedSeats(2)
+                .build();
+
+        // When
+        ResponseEntity<PassengerRequestResource> response = testRestTemplate.postForEntity("/passenger-requests", createPassengerRequestResource, PassengerRequestResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().passengerId()).isEqualTo(createPassengerRequestResource.passengerId());
+        Assertions.assertThat(response.getBody().carpoolId()).isEqualTo(createPassengerRequestResource.carpoolId());
+        Assertions.assertThat(response.getBody().pickupLocationName()).isEqualTo(createPassengerRequestResource.pickupLocation().name());
+        Assertions.assertThat(response.getBody().pickupLocationAddress()).isEqualTo(createPassengerRequestResource.pickupLocation().address());
+        Assertions.assertThat(response.getBody().requestedSeats()).isEqualTo(createPassengerRequestResource.requestedSeats());
+        Assertions.assertThat(response.getBody().status()).isEqualTo("PENDING");
+    }
+
+    @Test
+    void TestCreatePassengerRequest_ValidAllContentRequestWithNullRequestedSeats_ShouldPass() {
+        // Given
+        CreatePassengerRequestResource createPassengerRequestResource = CreatePassengerRequestResource
+                .builder()
+                .passengerId("12345678-1234-5678-1234-567812345678")
+                .carpoolId("87654321-4321-8765-4321-876543214321")
+                .pickupLocation(CreateLocationResource.builder()
+                        .name("Pickup Location")
+                        .address("123 Pickup St")
+                        .latitude(12.345678)
+                        .longitude(98.765432)
+                        .build())
+                .requestedSeats(null)
+                .build();
+
+        // When
+        ResponseEntity<PassengerRequestResource> response = testRestTemplate.postForEntity("/passenger-requests", createPassengerRequestResource, PassengerRequestResource.class);
+
+        // Then
+        Assertions.assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+        Assertions.assertThat(response.getBody()).isNotNull();
+        Assertions.assertThat(response.getBody().passengerId()).isEqualTo(createPassengerRequestResource.passengerId());
+        Assertions.assertThat(response.getBody().carpoolId()).isEqualTo(createPassengerRequestResource.carpoolId());
+        Assertions.assertThat(response.getBody().pickupLocationName()).isEqualTo(createPassengerRequestResource.pickupLocation().name());
+        Assertions.assertThat(response.getBody().pickupLocationAddress()).isEqualTo(createPassengerRequestResource.pickupLocation().address());
+        Assertions.assertThat(response.getBody().requestedSeats()).isEqualTo(1);
+        Assertions.assertThat(response.getBody().status()).isEqualTo("PENDING");
+    }
+}
+
+```
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En esta sección se presentan los avances relacionados con la documentación de los Web Services realizados durante el Sprint, utilizando OpenAPI. Se incluye una tabla con los endpoints implementados, detallando las acciones soportadas (verbo HTTP, sintaxis, parámetros, ejemplos de respuesta), así como los enlaces a la documentación generada o URLs locales si aún no se ha desplegado. También se adjuntan capturas de interacción con los endpoints usando datos de prueba, y se proporciona el enlace al repositorio junto con los identificadores de los commits vinculados a esta documentación.
+
+**IAM SERVICE**
+Contamos con dos controladores con la ruta a ``auth/code-verification`` para inicio de sesion y ``/auth/institutional-email-verification`` para el registro de un nuevo usuario, por lo que ambos solo usan un metodo post.
+
+**PROFILE SERVICE**
+Los controladores proporcionan endpoints RESTful relacionados con la gestión de perfiles de usuario (Profile) y sus horarios de clase (ClassSchedule). Están documentados con OpenAPI (Swagger) y utilizan los servicios de dominio para consultar y modificar datos.
+
+**MATCHING SERVICE**
+Estos controladores REST están orientados a la gestión de:
+- Carpools (viajes compartidos)
+- Solicitudes de pasajeros (Passenger Requests)
+
+Ambos controladores implementan interfaces documentadas mediante Swagger (OpenAPI) y hacen uso de servicios de dominio para ejecutar comandos y consultas.
+
+Endpoints - CarpoolControllerImpl
+
+| Método | Ruta                                             | Descripción                                                             |
+|--------|--------------------------------------------------|-------------------------------------------------------------------------|
+| POST   | /carpools                                        | Crear un nuevo carpool                                                  |
+| GET    | /carpools/{carpoolId}                            | Obtener un carpool por su ID                                            |
+| GET    | /carpools/driver/{driverId}/active               | Obtener el carpool activo del conductor                                 |
+| GET    | /carpools/driver/{driverId}                      | Obtener todos los carpools creados por el conductor                     |
+| POST   | /carpools/available?scheduleId=...               | Obtener carpools disponibles según horario y ubicación                  |
+| POST   | /carpools/{carpoolId}/start                      | Iniciar un carpool con la ubicación actual del conductor                |
+
+Endpoints - PassengerRequestControllerImpl
+
+| Método | Ruta                                                           | Descripción                                                          |
+|--------|----------------------------------------------------------------|----------------------------------------------------------------------|
+| POST   | /passenger-requests                                            | Crear una solicitud de pasajero                                      |
+| POST   | /passenger-requests/{passengerRequestId}/accept                | Aceptar una solicitud de pasajero                                    |
+| POST   | /passenger-requests/{passengerRequestId}/reject                | Rechazar una solicitud de pasajero                                   |
+| GET    | /passenger-requests/{passengerRequestId}                       | Obtener una solicitud por su ID                                      |
+| GET    | /carpools/{carpoolId}/passenger-requests                       | Listar solicitudes pendientes asociadas a un carpool específico      |
+
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+<h4>UniRide Landing Page</h4>
+<img src="./assets/sprint-1/collaboration insights/landing-page.png" alt="Landing page" >
+
+<h4>UniRide Backend Services</h4>
+
+IAM Service
+
+<img src="" alt="IAM Service" >
+
+Profile Service
+
+<img src="" alt="Profile Service" >
+
+Matching-Routing-Service
+
+<img src="./assets/sprint-1/collaboration insights/profile-service.png" alt="Matching-Routing-Service" width=80%  >
+
+
+<h4>UniRide Kotlin</h4>
+<img src="" alt="" >
 
  ##### Userflow 1
 
