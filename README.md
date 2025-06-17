@@ -284,6 +284,21 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
     * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
     * [ 6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
     * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    * [6.2.2. Sprint 2](#622-sprint-2)
+    * [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+    * [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+    * [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+    * [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+    * [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+    * [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+    * [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+    * [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+  * [6.3. Validation Interviews](#63-validation-interviews)
+    * [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    * [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    * [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  * [6.4. Video About-the-Product](#64-video-about-the-product)
+
 
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
@@ -3661,6 +3676,22 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
  <img src="./assets/movile-ux-ui/prototyping/Userflow 3.png" width="400px">
 
 Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EdNlOXsNXuNHom4y1NpYZDMB4h4N_XLa11aiuRFaX-1RMg?e=H2RZdm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+#### 6.2.2.2. Sprint Backlog 2
+#### 6.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+#### 6.2.2.5. Execution Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+### 6.3. Validation Interviews
+#### 6.3.1. Diseño de Entrevistas
+#### 6.3.2. Registro de Entrevistas
+#### 6.3.3. Evaluaciones según heurísticas
+
 
 # Conclusiones
 
