@@ -3681,6 +3681,174 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
 #### 6.2.2.1. Sprint Planning 2
 #### 6.2.2.2. Sprint Backlog 2
 #### 6.2.2.3. Development Evidence for Sprint Review
+__UniRide Driver:__
+| Repository  | Commit   | Author               | Date       | Message                                                                 |
+|-------------|----------|----------------------|------------|-------------------------------------------------------------------------|
+| repository  | 4c0acb6  | Brayan Smith Morales | 2025-06-17 | fix: fix create carpool and home pages                                 |
+| repository  | 5e490ec  | Brayan Smith Morales | 2025-06-17 | chore: add custom UI and entity location favorite                      |
+| repository  | 4bff033  | Brayan Smith Morales | 2025-06-17 | chore: add styles in text and colors                                   |
+| repository  | 66892f4  | Brayan Smith Morales | 2025-06-17 | chore: add location list view                                          |
+| repository  | 7c3f38f  | Brayan Smith Morales | 2025-06-17 | chore: add card view                                                   |
+| repository  | 2074ae2  | Brayan Smith Morales | 2025-06-17 | fix: fix location map view                                             |
+| repository  | e862352  | Brayan Smith Morales | 2025-06-17 | chore: add routes in main                                              |
+| repository  | 7f2c5d2  | Daniel Del Castillo  | 2025-06-16 | chore: added the assets                                                |
+| repository  | 7be1b8f  | Daniel Del Castillo  | 2025-06-16 | chore: added the splash screens and bloc placeholders                  |
+| repository  | 0c9039a  | Daniel Del Castillo  | 2025-06-15 | feat(email-verification): added the repository and created an impl     |
+| repository  | ace2104  | Daniel Del Castillo  | 2025-06-15 | feat(email-verification): added the student logic to the project       |
+| repository  | 1b9efac  | Carlos               | 2025-06-15 | style: information buttons redesigned                                  |
+| repository  | a99fa62  | Carlos               | 2025-06-15 | feat: crop image functionality added                                   |
+| repository  | a804283  | Carlos               | 2025-06-15 | feat: new dependencies for iOS added                                   |
+| repository  | 00c1eeb  | Carlos               | 2025-06-15 | feat: dependencies crop_your_image and image_picker added              |
+| repository  | 420db72  | Carlos               | 2025-06-15 | feat: welcome screen added                                             |
+| repository  | f55aaa6  | Carlos               | 2025-06-15 | feat: name input screen added                                          |
+| repository  | 15612f9  | Carlos               | 2025-06-15 | feat: information profile screens added                                |
+| repository  | 3a86a85  | Carlos               | 2025-06-15 | feat(main): home screen changed                                        |
+| repository  | c7090ed  | Carlos               | 2025-06-15 | chore: iOS support added                                               |
+| repository  | eaf304c  | Brayan Smith Morales | 2025-06-14 | chore: add Google Maps API key in API constants                        |
+| repository  | afa6036  | Brayan Smith Morales | 2025-06-14 | feat: set HomePage as Scaffold body in main.dart                       |
+| repository  | 74713fe  | Brayan Smith Morales | 2025-06-14 | feat(map): add display user's current location                         |
+| repository  | 8884152  | Brayan Smith Morales | 2025-06-14 | chore: add SlidingUpPanelWidget to home page                           |
+| repository  | 9ee25cb  | Brayan Smith Morales | 2025-06-14 | feat: add location permission request for Android & iOS                |
+| repository  | 269b0d4  | Brayan Smith Morales | 2025-06-14 | fix: fix NDK version                                                    |
+| repository  | ccb2709  | Brayan Smith Morales | 2025-06-14 | feat: add location, flutter_polyline_points, flutter_sliding_up_panel |
+| repository  | 8237a7d  | Brayan Smith Morales | 2025-06-13 | chore: add home_page.dart                                              |
+| repository  | 79e6976  | Brayan Smith Morales | 2025-06-13 | feat: add dependency of Google Maps                                    |
+| repository  | 0858453  | Brayan Smith Morales | 2025-06-13 | chore: initial commit                                                  |
+
+__Reputation-Incentives-Service__
+
+| Repository   | Commit   | Author           | Date       | Message                                                                                                    |
+|--------------|----------|------------------|------------|------------------------------------------------------------------------------------------------------------|
+| repository   | 4685776  | Eric             | 2025-06-14 | fix: fix reputation score data type                                                                        |
+| repository   | c797336  | Eric             | 2025-06-14 | feat(infraction): add build description method for penalty entity and implement create penalty in service |
+| repository   | af6cde2  | Eric             | 2025-06-14 | feat(infraction): implement method to create penalty command                                               |
+| repository   | 9026d89  | Eric             | 2025-06-14 | refactor(infraction): refactor create penalty command and penalty status                                   |
+| repository   | 7db3672  | Eric             | 2025-06-14 | fix: fix bug with reset infraction tracker                                                                 |
+| repository   | 8ba43f4  | Eric             | 2025-06-13 | feat(valoration): implement register event in valoration entity and command service                        |
+| repository   | 83fdf40  | Eric             | 2025-06-13 | feat(valoration): implement valoration event source and publisher                                          |
+| repository   | d737d4c  | Eric             | 2025-06-13 | chore: implement spring cloud dependencies and eureka and kafka configuration                              |
+| repository   | 07985e3  | Eric             | 2025-06-13 | feat(valoration): implement valoration created and domain event                                            |
+| repository   | 5074d57  | Eric             | 2025-06-11 | feat(incentive): add incentive controller for endpoints                                                     |
+| repository   | a6cd194  | Eric             | 2025-06-11 | feat(incentive): add incentive command service and repository                                              |
+| repository   | fcd0a0b  | Eric             | 2025-06-11 | feat(incentive): add create incentive command, resource and assembler                                      |
+| repository   | a01bd2e  | Eric             | 2025-06-11 | feat(incentive): add incentive entity and value objects                                                    |
+| repository   | ace16fa  | Eric Hernández   | 2025-06-09 | Merge pull request #2 from CampusMov/feature/infraction                                                    |
+| repository   | d1c3ad6  | Eric             | 2025-06-08 | feat(infraction): implement penalty query endpoint and move controllers location                           |
+| repository   | 6b85194  | Eric             | 2025-06-08 | feat(infraction): add Penalty query service                                                                |
+| repository   | 4ea750c  | Eric             | 2025-06-08 | feat(infraction): add Penalty resource and transformation interface                                        |
+| repository   | 82cc217  | Eric             | 2025-06-08 | feat(infraction): add Penalty query, command, and repository                                               |
+| repository   | b362660  | Eric             | 2025-06-08 | feat(infraction): add Penalty entity and status and type enums                                             |
+| repository   | 7167d39  | Eric             | 2025-06-08 | fix(infraction): fix repository errors and valoration resource missing attribute                           |
+| repository   | 233c832  | Eric             | 2025-06-08 | feat(infraction): add infraction controller for endpoints                                                  |
+| repository   | e37de99  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker repository and command service                                    |
+| repository   | c8f5508  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker command, resource, and transformation interface                   |
+| repository   | 131bdb9  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker entity and infraction type enum                                   |
+| repository   | f159016  | Eric Hernández   | 2025-06-08 | Merge pull request #1 from CampusMov/feature/valoration                                                    |
+| repository   | 24fbea0  | Eric             | 2025-06-08 | feat(valoration): add valoration controller for endpoint                                                   |
+| repository   | 7bfe834  | Eric             | 2025-06-08 | feat(valoration): add valoration resource and transform interface                                          |
+| repository   | cfc3a50  | Eric             | 2025-06-08 | feat(valoration): add valoration command service                                                           |
+| repository   | 44d0cad  | Eric             | 2025-06-08 | feat(valoration): add create valoration command, resource, and transform interface                         |
+| repository   | 8968de4  | Eric             | 2025-06-08 | feat(valoration): add valoration entity and repository                                                     |
+| repository   | 4e81c8a  | Eric             | 2025-06-08 | fix: change port                                                                                           |
+| repository   | 73d8636  | Eric             | 2025-06-08 | chore: implement application properties and enable jpa auditing                                            |
+| repository   | 2c23696  | Eric             | 2025-06-05 | chore: add readme                                                                                          |
+| repository   | 0d1b484  | Eric             | 2025-06-05 | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy                         |
+| repository   | 9017e00  | Eric             | 2025-06-05 | chore: add dependencies                                                                                    |
+| repository   | 2e60b00  | Eric             | 2025-06-05 | chore: init commit                                                                                         |
+
+__In-Trip-Communication-Service__
+
+| Repository   | Commit   | Author                       | Date       | Message                                                                                                     |
+|--------------|----------|------------------------------|------------|-------------------------------------------------------------------------------------------------------------|
+| repository   | f1ea1ac  | elmer-riva                   | 2025-06-16 | chore: change spring boot framework version to 3.4.5                                                        |
+| repository   | 9b93a58  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #5 from CampusMov/feature/information-fetching                                           |
+| repository   | 016147d  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching unread messages count in ChatMessageController              |
+| repository   | 0b70544  | elmer-riva                   | 2025-06-16 | feat(application): add GetUnreadCountQuery in ChatQueryService implementation                               |
+| repository   | 0383146  | elmer-riva                   | 2025-06-16 | feat(resources): add MessageResource and MessageResourceFromEntityAssembler                                 |
+| repository   | fe4c6b8  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching chat messages in ChatMessageController                      |
+| repository   | 3f69a16  | elmer-riva                   | 2025-06-16 | feat(application): add GetMessagesByChatIdQuery in ChatQueryService implementation                          |
+| repository   | 7840613  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching drivers's chat in ChatController                            |
+| repository   | 2e472e3  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatsByDriverIdQuery handling in ChatQueryService implementation                  |
+| repository   | 75dc1e4  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching passenger's chat in ChatController                          |
+| repository   | 72474d2  | elmer-riva                   | 2025-06-16 | feat(resources): add ChatResource and ChatResourceFromEntityAssembler                                       |
+| repository   | 369ad57  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 2941133  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 216f78d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #3 from CampusMov/feature/chat-closing                                                   |
+| repository   | 383c497  | elmer-riva                   | 2025-06-16 | feat(application): add REST implementation for ChatController to expose chat closing endpoint               |
+| repository   | 76e2f05  | elmer-riva                   | 2025-06-16 | feat(application): add handling for chat closing in ChatCommandService                                      |
+| repository   | 2810968  | elmer-riva                   | 2025-06-16 | feat(domain): add CloseChatCommand and integrate its handling in Chat aggregate                             |
+| repository   | 5fc221d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #2 from CampusMov/feature/message-sending                                                |
+| repository   | 4ceb186  | elmer-riva                   | 2025-06-16 | feat(application): add ChatMessageController with endpoints implementation for sending and reading messages |
+| repository   | 46107ca  | elmer-riva                   | 2025-06-16 | feat(application): add MarkMessageReadResource and SendMessageResource...                                   |
+| repository   | be3c945  | elmer-riva                   | 2025-06-16 | feat(application): add handling for sending and reading messages in ChatCommandService                      |
+| repository   | 29ab05a  | elmer-riva                   | 2025-06-16 | feat(domain): add SendMessageCommand and MarkMessageReadCommand...                                          |
+| repository   | 1b73c64  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #1 from CampusMov/feature/chat-creation                                                  |
+| repository   | bf3c366  | elmer-riva                   | 2025-06-15 | feat(application): implement ChatController endpoint for creating chats...                                  |
+| repository   | 8f3cd44  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatResource and CreateChatCommandFromResourceAssembler                        |
+| repository   | 04002eb  | elmer-riva                   | 2025-06-15 | feat(application): add @EnableJpaAuditing annotation to...                                                  |
+| repository   | 7fb5193  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatCommand with usage annotation...                                           |
+| repository   | b926a66  | elmer-riva                   | 2025-06-15 | feat(persistence): add ChatRepository interface...                                                          |
+| repository   | 9bbb286  | elmer-riva                   | 2025-06-15 | feat(domain): add Chat aggregate root...                                                                    |
+| repository   | 4692540  | elmer-riva                   | 2025-06-15 | feat(domain): add Message and ReadReceipt entities...                                                       |
+| repository   | 06c3795  | elmer-riva                   | 2025-06-15 | feat(domain): add CarpoolId, ChatId, ChatStatus, etc.                                                       |
+| repository   | 6be0de4  | elmer-riva                   | 2025-06-15 | feat: add application properties for dev debugging and testing                                              |
+| repository   | 30703dd  | elmer-riva                   | 2025-06-07 | chore: initial commit                                                                                       |
+__Analytics-Service__
+
+| Repository   | Commit   | Author                       | Date       | Message                                                                                                     |
+|--------------|----------|------------------------------|------------|-------------------------------------------------------------------------------------------------------------|
+| repository   | f1ea1ac  | elmer-riva                   | 2025-06-16 | chore: change spring boot framework version to 3.4.5                                                        |
+| repository   | 9b93a58  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #5 from CampusMov/feature/information-fetching                                           |
+| repository   | 016147d  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching unread messages count in ChatMessageController              |
+| repository   | 0b70544  | elmer-riva                   | 2025-06-16 | feat(application): add GetUnreadCountQuery in ChatQueryService implementation                               |
+| repository   | 0383146  | elmer-riva                   | 2025-06-16 | feat(resources): add MessageResource and MessageResourceFromEntityAssembler                                 |
+| repository   | fe4c6b8  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching chat messages in ChatMessageController                      |
+| repository   | 3f69a16  | elmer-riva                   | 2025-06-16 | feat(application): add GetMessagesByChatIdQuery in ChatQueryService implementation                          |
+| repository   | 7840613  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching drivers's chat in ChatController                            |
+| repository   | 2e472e3  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatsByDriverIdQuery handling in ChatQueryService implementation                  |
+| repository   | 75dc1e4  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching passenger's chat in ChatController                          |
+| repository   | 72474d2  | elmer-riva                   | 2025-06-16 | feat(resources): add ChatResource and ChatResourceFromEntityAssembler                                       |
+| repository   | 369ad57  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 2941133  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 216f78d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #3 from CampusMov/feature/chat-closing                                                   |
+| repository   | 383c497  | elmer-riva                   | 2025-06-16 | feat(application): add REST implementation for ChatController to expose chat closing endpoint               |
+| repository   | 76e2f05  | elmer-riva                   | 2025-06-16 | feat(application): add handling for chat closing in ChatCommandService                                      |
+| repository   | 2810968  | elmer-riva                   | 2025-06-16 | feat(domain): add CloseChatCommand and integrate its handling in Chat aggregate                             |
+| repository   | 5fc221d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #2 from CampusMov/feature/message-sending                                                |
+| repository   | 4ceb186  | elmer-riva                   | 2025-06-16 | feat(application): add ChatMessageController with endpoints implementation for sending and reading messages |
+| repository   | 46107ca  | elmer-riva                   | 2025-06-16 | feat(application): add MarkMessageReadResource and SendMessageResource...                                   |
+| repository   | be3c945  | elmer-riva                   | 2025-06-16 | feat(application): add handling for sending and reading messages in ChatCommandService                      |
+| repository   | 29ab05a  | elmer-riva                   | 2025-06-16 | feat(domain): add SendMessageCommand and MarkMessageReadCommand...                                          |
+| repository   | 1b73c64  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #1 from CampusMov/feature/chat-creation                                                  |
+| repository   | 1948e86  | Eric                         | 2025-06-14 | feat(student-metrics): implement event handlers for valoration and profile                                 |
+| repository   | 34a6ee8  | Eric                         | 2025-06-14 | feat(student-metrics): add assemblers for events                                                            |
+| repository   | 34aca38  | Eric                         | 2025-06-14 | feat(student-metrics): implement student rating metrics service for commands                               |
+| repository   | 2bbfafa  | Eric                         | 2025-06-14 | feat(student-metrics): implement update method and builder for student rating metrics entity               |
+| repository   | 7e01329  | Eric                         | 2025-06-14 | feat(student-metrics): add update anc create commands for student rating metrics                            |
+| repository   | d72e264  | Eric                         | 2025-06-14 | feat(student-metrics): implement event source for rating metrics                                            |
+| repository   | d2ba70b  | Eric                         | 2025-06-14 | chore: implement spring cloud dependencies and eureka and kafka configuration                               |
+| repository   | 9d9f9e9  | Eric                         | 2025-06-14 | feat(student-metrics): implement profile and valoration created events                                      |
+| repository   | bf3c366  | elmer-riva                   | 2025-06-15 | feat(application): implement ChatController endpoint for creating chats...                                  |
+| repository   | 8f3cd44  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatResource and CreateChatCommandFromResourceAssembler                        |
+| repository   | 04002eb  | elmer-riva                   | 2025-06-15 | feat(application): add @EnableJpaAuditing annotation to...                                                  |
+| repository   | 7fb5193  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatCommand with usage annotation...                                           |
+| repository   | b926a66  | elmer-riva                   | 2025-06-15 | feat(persistence): add ChatRepository interface...                                                          |
+| repository   | 9bbb286  | elmer-riva                   | 2025-06-15 | feat(domain): add Chat aggregate root...                                                                    |
+| repository   | 4692540  | elmer-riva                   | 2025-06-15 | feat(domain): add Message and ReadReceipt entities...                                                       |
+| repository   | 06c3795  | elmer-riva                   | 2025-06-15 | feat(domain): add CarpoolId, ChatId, ChatStatus, etc.                                                       |
+| repository   | 6be0de4  | elmer-riva                   | 2025-06-15 | feat: add application properties for dev debugging and testing                                              |
+| repository   | ba924d4  | Eric                         | 2025-06-12 | feat(student-metrics): add student metrics controller for endpoints                                         |
+| repository   | f90a604  | Eric                         | 2025-06-12 | feat(student-metrics): add student resource and assembler                                                   |
+| repository   | ec2e57f  | Eric                         | 2025-06-12 | feat(student-metrics): add student rating metrics query and service                                         |
+| repository   | 00a25c4  | Eric                         | 2025-06-12 | feat(student-metrics): add student rating metrics entity and repository                                     |
+| repository   | 4bace52  | Eric                         | 2025-06-11 | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy                          |
+| repository   | 12dde5c  | Eric                         | 2025-06-11 | chore: add readme                                                                                           |
+| repository   | 81ed11d  | Eric                         | 2025-06-11 | chore: add dependencies                                                                                     |
+| repository   | ea0ba78  | Eric                         | 2025-06-11 | chore: init commit                                                                                          |
+| repository   | 30703dd  | elmer-riva                   | 2025-06-07 | chore: initial commit                                                                                       |
+
+
+
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 #### 6.2.2.5. Execution Evidence for Sprint Review
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
