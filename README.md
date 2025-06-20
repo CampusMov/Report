@@ -3854,7 +3854,22 @@ __Analytics-Service__
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
+Se mostrara la colaboracion del equipo en el desarrollo del sprint 2.
+* __UniRide_Driver__
 
+![](/assets/sprint-2/cola-flutter.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Brayan, seguido por Carlos y ultimo Mateo
+
+* __UniRide_Passenger__
+
+![](/assets/sprint-2/cola-android.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Jhosemir, seguido por Elmer y ultimo Eric
+
+![](/assets/sprint-2/android-cola.png)
+
+Grafico de linea de tiempo mostrando los committs realizados a lo largo del desarrollo de android.
 ### 6.3. Validation Interviews
 #### 6.3.1. Diseño de Entrevistas
 #### 6.3.2. Registro de Entrevistas
