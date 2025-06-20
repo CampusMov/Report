@@ -3850,6 +3850,301 @@ __Analytics-Service__
 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+Los tests para la clase `ChatMessageControllerImpl` verifican el correcto funcionamiento de los tres endpoints expuestos por el controlador. Evalúan que, al solicitar los mensajes de un chat específico, se retorne una lista correctamente transformada y con código HTTP 200. También prueban que, al enviar un mensaje, se construya el comando adecuado, se procese con éxito y se retorne el recurso del mensaje con estado 201, o un 404 si falla. Finalmente, aseguran que la operación para marcar un mensaje como leído invoque el servicio correspondiente y responda con un estado HTTP 200, confirmando así que el controlador coordina correctamente los flujos entre servicios, ensambladores y respuestas HTTP.
+
+```JAVA
+class ChatControllerImplTest {
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @InjectMocks
+    private ChatControllerImpl chatController;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void testCreateChat() {
+        // Given
+        CreateChatResource resource = new CreateChatResource("carpool-id", "driver-id", "passenger-id");
+        CreateChatCommand command = CreateChatCommandFromResourceAssembler.toCommand(resource);
+
+        Chat fakeChat = mock(Chat.class);
+        when(fakeChat.getId()).thenReturn(new ChatId("fake-chat-id"));
+        when(fakeChat.getCarpoolId()).thenReturn(new CarpoolId("carpool-id"));
+        when(fakeChat.getDriverId()).thenReturn(new UserId("driver-id"));
+        when(fakeChat.getPassengerId()).thenReturn(new UserId("passenger-id"));
+        when(fakeChat.getCreatedAt()).thenReturn(null);
+        when(fakeChat.getLastMessageAt()).thenReturn(null);
+        when(fakeChat.getStatus()).thenReturn(ChatStatus.OPEN);
+        when(fakeChat.getLastMessagePreview()).thenReturn("");
+        when(fakeChat.getUnreadCount()).thenReturn(0);
+
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(fakeChat));
+
+        // When
+        ResponseEntity<?> response = chatController.createChat(resource);
+
+        // Then
+        assertEquals(201, response.getStatusCodeValue());
+    }
+
+
+
+    @Test
+    void testGetUnreadMessageCount() {
+        // Given
+        String userId = "user-123";
+        String chatId = "chat-123";
+        GetUnreadCountQuery query = new GetUnreadCountQuery(userId, chatId);
+        when(chatQueryService.handle(query)).thenReturn(5);
+
+        // When
+        ResponseEntity<Integer> response = chatController.getUnreadCount(userId, chatId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(5, response.getBody());
+    }
+
+    @Test
+    void testGetChatsByDriverId() {
+        // Given
+        String driverId = "driver-123";
+        var query = new GetChatsByDriverIdQuery(driverId);
+        List<ChatResource> chatResources = List.of();
+        when(chatQueryService.handle(query)).thenReturn(List.of());
+
+
+        // When
+        ResponseEntity<List<ChatResource>> response = ResponseEntity.ok(chatResources);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertNotNull(response.getBody());
+        assertTrue(response.getBody().isEmpty());
+    }
+
+
+}
+```
+Los tests de la clase `ChatMessageControllerImplTest` validan el comportamiento del controlador REST encargado de manejar operaciones de mensajería dentro del sistema. Se cubren tres escenarios clave: la obtención de mensajes (`getMessages`), el envío de un mensaje (`sendMessage`) y el marcado de un mensaje como leído (`markMessageRead`). Cada test sigue el enfoque Given-When-Then para asegurar claridad y estructura. Se valida que, al recuperar mensajes por ID de chat, se retorne una colección correctamente mapeada a `MessageResource` con estado 200 OK. En el envío de mensajes, se prueba tanto el flujo exitoso (retorno 201 CREATED con el recurso creado) como el fallido (retorno 404 NOT FOUND cuando no se genera el mensaje). Finalmente, se asegura que al marcar un mensaje como leído, se construya correctamente el comando y se invoque el servicio correspondiente, respondiendo con estado 200 OK. En todos los casos se hace uso de `Mockito` para simular dependencias y ensambladores estáticos.
+
+
+```JAVA
+public class ChatMessageControllerImplTest {
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @InjectMocks
+    private ChatMessageControllerImpl controller;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void getMessages_shouldReturnListOfMessageResources() {
+        // Given
+        String chatId = "chat123";
+        Message message = mock(Message.class);
+        MessageResource resource = new MessageResource("msg1", "chat123", "user1", LocalDateTime.now(), "SENT");
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(chatQueryService.handle(any(GetMessagesByChatIdQuery.class)))
+                .thenReturn(List.of(message));
+
+
+
+        // When
+        ResponseEntity<Collection<MessageResource>> response = controller.getMessages(chatId);
+
+        // Then
+        assertEquals(OK, response.getStatusCode());
+        assertNotNull(response.getBody());
+        assertEquals(1, response.getBody().size());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnCreatedMessageResource_whenSuccessful() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        Message message = mock(Message.class);
+        MessageResource messageResource = new MessageResource("msg1", chatId, "user1", LocalDateTime.now(), "SENT");
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(message));
+        when(MessageResourceFromEntityAssembler.toResource(message)).thenReturn(messageResource);
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(CREATED, response.getStatusCode());
+        assertEquals(messageResource, response.getBody());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnNotFound_whenMessageNotCreated() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.empty());
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(NOT_FOUND, response.getStatusCode());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void markMessageRead_shouldCallServiceAndReturnOk() {
+        // Given
+        String chatId = "chat123";
+        String messageId = "msg1";
+        MarkMessageReadResource resource = new MarkMessageReadResource("user1", LocalDateTime.now());
+        MarkMessageReadCommand command = mock(MarkMessageReadCommand.class);
+        mockStatic(MarkMessageReadCommandFromResourceAssembler.class);
+
+        when(MarkMessageReadCommandFromResourceAssembler.toCommand(messageId, resource)).thenReturn(command);
+
+        // When
+        ResponseEntity<Void> response = controller.markMessageRead(chatId, messageId, resource);
+
+        // Then
+        verify(chatCommandService).handle(chatId, command);
+        assertEquals(OK, response.getStatusCode());
+
+        clearAllCaches();
+    }
+}
+
+```
+El test givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue verifica el comportamiento del método createIncentive del IncentiveController cuando se recibe un recurso válido. Utilizando el enfoque Given-When-Then, el test simula que el servicio IncentiveCommandService devuelve exitosamente una entidad Incentive al procesar el comando generado desde el recurso. Luego, invoca el método del controlador y comprueba que el resultado sea true, lo cual indica que el incentivo fue creado correctamente. Finalmente, se asegura que el método handle() del servicio haya sido invocado exactamente una vez, validando así la interacción esperada entre el controlador y su capa de servicio.
+
+
+```JAVA 
+class IncentiveControllerTest {
+
+    private IncentiveCommandService incentiveCommandService;
+    private IncentiveController incentiveController;
+
+    @BeforeEach
+    void setUp() {
+        incentiveCommandService = mock(IncentiveCommandService.class);
+        incentiveController = new IncentiveController(incentiveCommandService);
+    }
+
+    @Test
+    void givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue() {
+        // Given
+        CreateIncentiveResource resource = new CreateIncentiveResource("user123", "BONUS_CREDITS");
+        Incentive fakeIncentive = mock(Incentive.class);
+        given(incentiveCommandService.handle(any())).willReturn(Optional.of(fakeIncentive));
+
+        // When
+        boolean result = incentiveController.createIncentive(resource);
+
+        // Then
+        assertTrue(result);
+        verify(incentiveCommandService, times(1)).handle(any());
+    }
+}
+ ```
+
+ Este conjunto de pruebas unitarias para el InfractionController valida el comportamiento de sus tres endpoints principales utilizando el enfoque Given-When-Then. La primera prueba verifica que, al recibir un recurso válido, el método increaseInfractionTracker invoque correctamente el servicio correspondiente y retorne true si se creó o actualizó el contador de infracciones. La segunda prueba asegura que el método resetInfractionTracker también funcione correctamente al reiniciar dicho contador. Finalmente, la tercera prueba comprueba que el endpoint getAllPenaltiesByUserId devuelva una lista de penalidades asociadas a un usuario. Para ello, se mockea un objeto Penalty con todos los campos requeridos (id, userId, type, status, y description) para evitar errores de validación en el ensamblaje del recurso. Estas pruebas aseguran que el controlador se comporte correctamente y que las dependencias sean invocadas con los datos esperados.
+
+ ```JAVA 
+class InfractionControllerTest {
+
+    private InfractionTrackerCommandService infractionTrackerCommandService;
+    private PenaltyQueryService penaltyQueryService;
+    private InfractionController infractionController;
+
+    @BeforeEach
+    void setUp() {
+        infractionTrackerCommandService = mock(InfractionTrackerCommandService.class);
+        penaltyQueryService = mock(PenaltyQueryService.class);
+        infractionController = new InfractionController(infractionTrackerCommandService, penaltyQueryService);
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenIncreaseInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handle(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.increaseInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handle(any());
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenResetInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handleReset(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.resetInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handleReset(any());
+    }
+
+    @Test
+    void givenExistingUserId_whenGetAllPenaltiesByUserId_thenReturnsPenaltyResources() {
+        // Given
+        String userId = "user123";
+
+        Penalty mockPenalty = mock(Penalty.class);
+        when(mockPenalty.getId()).thenReturn("penalty-1");
+        when(mockPenalty.getUserId()).thenReturn(userId);
+        when(mockPenalty.getType()).thenReturn(PenaltyType.WARNING);
+        when(mockPenalty.getStatus()).thenReturn(PenaltyStatus.ACTIVE);
+        when(mockPenalty.getDescription()).thenReturn("Late cancellation");
+
+        given(penaltyQueryService.handle(any())).willReturn(List.of(mockPenalty));
+
+        // When
+        ResponseEntity<Collection<PenaltyResource>> response = infractionController.getAllPenaltiesByUserId(userId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(1, response.getBody().size());
+        verify(penaltyQueryService).handle(any());
+    }
+
+}
+ ```
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
 En este sprint se logro las siguientes ejecuciones de los siguientes microservicios.
