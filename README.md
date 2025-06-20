@@ -3850,6 +3850,27 @@ __Analytics-Service__
 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
+En este sprint se logro las siguientes ejecuciones de los siguientes microservicios.
+
+<div style="text-align: center; font-weight: bolder">
+        <p>In Trip Commmunication Service</p>
+</div>
+
+<img src="assets/software deployment/in trip communication.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Reputation and Incentives Service</p>
+</div>
+
+<img src="assets/software deployment/reputation and incentives.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Analytics Service</p>
+</div>
+
+<img src="assets/software deployment/analytics.png">
+
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
