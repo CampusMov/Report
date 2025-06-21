@@ -3751,7 +3751,7 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
         <tr>
             <td>Sprint 2 Velocity</td>
             <td>
-                50
+                100
             </td>
         </tr>
         <tr>
@@ -3764,6 +3764,192 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
 </table>
 
 #### 6.2.2.2. Sprint Backlog 2
+
+Para este sprint asignamos las user stories de los productos que ibamos a desarrollar en esta entrega, de ese modo 
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td align="center" colspan="78"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><strong>User Story</strong></td>
+    <td align="center" colspan="6"><strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ID</strong></td>  
+    <td align="center"><strong>Title</strong></td>
+    <td align= "center"><strong>Id</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>Description</strong></td>
+    <td align="center"><strong>Estimation (Hours)</strong></td>
+    <td align="center"><strong>Assigned To</strong></td>
+    <td align="center"><strong>Status (To-do/In-Process/To-Review/Done)</strong></td>
+  </tr>
+
+  <tr>    
+    <td align="center">US-43</td>
+    <td align="center">Explorar sección “Beneficios”</td>
+    <td align="center">TA22</td>
+    <td align="center"> </td>
+    <td align="center">Desarrollar la sección de beneficios de la plataforma</td>
+    <td align="center">2</td>
+    <td align="center">Brayan Smith Morales Quispe</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>    
+    <td align="center">US-</td>
+    <td align="center"> Gestión de capacidad máxima del Carpool</td> 
+    <td align="center">TA23</td>
+    <td align="center"> Gestión de capacidad máxima del Carpool</td>
+    <td align="center"> sistema notifica cuando la capacidad máxima de un Carpool se cubra y evite nuevas solicitudes.	</td>
+    <td align="center"> 4 </td>
+    <td align="center">Jhosepmyr Orlando Gutierrez Soto </td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>    
+    <td align="center">US-21</td>
+    <td align="center">Cálculo automático de tarifa sugerida</td>
+    <td align="center">TA24</td>
+    <td align="center">Cálculo automático de tarifa sugerida </td>
+    <td align="center">App proponga un Fare estimado según distancia y ruta para decidir antes de unirme.	 </td>
+    <td align="center">4 </td>
+    <td align="center"> Jhosepmyr Orlando Gutierrez Soto</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  
+<tr>    
+    <td align="center">US-11 </td>
+    <td align="center"> Rastreo en tiempo real del viaje </td>
+    <td align="center"> TA25 </td>
+    <td align="center">Rastreo en tiempo real del viaje </td>
+    <td align="center">ver en un mapa la ubicación actual del Carpool en curso para confirmar el itinerario </td>
+    <td align="center">6 </td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> TO DO</td>
+  </tr>
+  
+  <tr>    
+    <td align="center">TS-16 </td>
+    <td align="center"> Guardado de paraderos favoritos </td>
+    <td align="center"> TA26 </td>
+    <td align="center">Guardado de paraderos favoritos </td>
+    <td align="center">Define los paraderos favoritos del usuario </td>
+    <td align="center">5 </td>
+    <td align="center">Elmer Augusto Riva Rodriguez </td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center">US-12 </td>
+    <td align="center">Cancelar un viaje antes del inicio  </td>
+    <td align="center"> TA27 </td>
+    <td align="center"> Cancelar un viaje antes del inicio</td>
+    <td align="center">Cancelar un viaje con tiempo de antelación para evitar penalizaciones y liberar el espacio para otro usuario </td>
+    <td align="center"> 6</td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center">	TS-13 </td>
+    <td align="center"> Visualizar y editar mi perfil </td>
+    <td align="center"> TA28 </td>
+    <td align="center"> Visualizar y editar mi perfil</td>
+    <td align="center">ver y actualizar mi Profile para mantener mi información precisa y actualizada </td>
+    <td align="center">4 </td>
+    <td align="center"> Eric Ernesto Hernandez Tuiro</td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center"> 	TS-02</td>
+    <td align="center"> Lectura de información del viaje </td>
+    <td align="center"> TA29 </td>
+    <td align="center"> Lectura de información del viaje</td>
+    <td align="center">permitir que un pasajero visualice la información básica de un viaje </td>
+    <td align="center">4 </td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-22 </td>
+    <td align="center"> Completar perfil de usuario</td>
+    <td align="center"> TA30 </td>
+    <td align="center"> Completar perfil de usuario</td>
+    <td align="center"> completar el Profile con foto, PersonInfo y AcademicInformation para generar confianza</td>
+    <td align="center"> 4</td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center"> 	US-16</td>
+    <td align="center"> 	Visualización y selección en lista de espera </td>
+    <td align="center"> TA31 </td>
+    <td align="center">	Visualización y selección en lista de espera </td>
+    <td align="center"> almacenar ClassSchedules recurrentes</td>
+    <td align="center"> 4</td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">US-13 </td>
+    <td align="center">Unirse a un Carpool en curso  </td>
+    <td align="center"> TA32 </td>
+    <td align="center">Unirse a un Carpool en curso </td>
+    <td align="center">unirme a un Carpool activo si está cerca para aprovechar rutas en curso</td>
+    <td align="center"> 4</td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-11 </td>
+    <td align="center">	Rastreo en tiempo real  </td>
+    <td align="center"> TA33 </td>
+    <td align="center">	Rastreo en tiempo real </td>
+    <td align="center">  ver la ubicación actual del Carpool en un mapa</td>
+    <td align="center">4 </td>
+    <td align="center">Jhosepmyr Orlando Gutierrez Soto </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-12 </td>
+    <td align="center">Cancelar Carpool antes de iniciar  </td>
+    <td align="center"> TA34 </td>
+    <td align="center">Cancelar Carpool antes de iniciar </td>
+    <td align="center"> cancelar un Carpool antes de iniciar para liberar Passenger y evitar esperas innecesarias </td>
+    <td align="center">4 </td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">TS-15 </td>
+    <td align="center">	Obtención de la información de un vehículo  </td>
+    <td align="center"> TA35 </td>
+    <td align="center">	Obtención de la información de un vehículo </td>
+    <td align="center"> los pasajeros puedan identificar el auto asignado y viajar con mayor confianza </td>
+    <td align="center">4 </td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">TS-13 </td>
+    <td align="center">Actualizar datos de perfil  </td>
+    <td align="center"> TA36 </td>
+    <td align="center">Actualizar datos de perfil </td>
+    <td align="center">  actualizar datos de perfil para que los usuarios mantengan su información personal al día.</td>
+    <td align="center"> 6</td>
+    <td align="center"> Eric Ernesto Hernandez Tuiro</td>
+    <td align="center"> Done</td>
+  </tr>
+
+</table>
+
+  
+
+
+
+Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/software/projects/HU/boards/1) de nuestro proyecto
+
+![alt text](assets/validation-interviews/sprintbakclog2.png)
 
 
 
@@ -3939,6 +4125,7 @@ __Analytics-Service__
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 #### 6.2.2.5. Execution Evidence for Sprint Review
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
@@ -3976,7 +4163,7 @@ __Analytics-Service__
 
 #### 6.3.2. Registro de Entrevistas
 
-*** Segmento Pasajeros: ***
+***Segmento Pasajeros:***
 
 ![Entrevista Mateo](assets/validation-interviews/image.png) 
 [Entrevista Mateo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EVJSLxc-xltJtcXIezP-xFkBtaN0Rxx4A7clEQCRHFG04g?e=fRlsnC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
