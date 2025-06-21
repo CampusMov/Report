@@ -3944,11 +3944,9 @@ __Analytics-Service__
 
 ### 6.3. Validation Interviews
 
-
-
 #### 6.3.1. Diseño de Entrevistas
 
-### 6.3.1. Diseño de Entrevistas.
+
 **Preguntas generales:**
 
 1. ¿Podría decirme su nombre completo, por favor?
@@ -3978,6 +3976,32 @@ __Analytics-Service__
 
 #### 6.3.2. Registro de Entrevistas
 
+*** Segmento Pasajeros: ***
+
+![Entrevista Mateo](assets/validation-interviews/image.png) 
+[Entrevista Mateo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EVJSLxc-xltJtcXIezP-xFkBtaN0Rxx4A7clEQCRHFG04g?e=fRlsnC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Mateo Alejandro Vílchez Ríos, un estudiante universitario de 20 años que reside en Monterrico, Surco, fue entrevistado como parte del segmento objetivo “pasajero” para una aplicación de carpool entre estudiantes. En cuanto al diseño visual, mencionó que le gusta y lo asocia con aplicaciones como Uber por su uso de colores simples como blanco y azul, aunque considera que no es muy dinámico. Sobre la usabilidad, opina que la aplicación tiene muchas pantallas, lo que podría hacerla confusa para algunos usuarios. Aunque la navegación es continua, le parece que las pantallas contienen demasiada información, lo cual puede resultar abrumador.
+
+El entrevistado consideró positivo que el proceso de creación de cuenta incluya una verificación institucional mediante correo universitario, ya que garantiza que los usuarios sean efectivamente estudiantes, lo cual considera un buen filtro. En relación con las funcionalidades para solicitar carpool, comprendió que el flujo implica ingresar los horarios de clases y luego seleccionar el campus al que desea ir. Sin embargo, expresó que este método no es de su agrado, ya que no siempre sigue un horario fijo. Preferiría una dinámica más parecida a la de Uber, donde se puede hacer una solicitud al instante y ser emparejado con un conductor si hay disponibilidad, sin tener que depender de un horario previamente ingresado.
+
+Respecto a los puntos fuertes de la aplicación, valoró que el sistema esté centrado en los campus universitarios, permitiendo seleccionar directamente la sede como punto de partida sin tener que ingresar direcciones adicionales. Cree que esta solución puede facilitar la movilidad diaria, sobre todo porque muchas personas que viven cerca podrían compartir ruta y horario, pero actualmente no existe una herramienta que lo permita de forma eficiente.
+
+En cuanto a la interfaz, encontró confuso el uso de algunos términos como “Mi tiempo” o “Ubicaciones pasadas” y consideró innecesario un apartado exclusivo para notificaciones, que bien podría integrarse en la configuración general. También sugirió que al ingresar direcciones se permita etiquetarlas con nombres personalizados para facilitar su uso. Finalmente, mencionó que algunas secciones no le resultaron intuitivas por el lenguaje utilizado, como el caso de “Mis carpool”, que no le quedó claro inicialmente.
+
+
+![Entrevista Grecia](assets/validation-interviews/sole.png)
+[Entrevista Grecia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EUebI4rwDkRDuRPeOkV2e1oBOvvb1sT4MUImF70bAdUO0w?e=HtAjKT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Grecia Aldrete Cuba, estudiante universitaria de 20 años residente en Santiago de Surco, participó en la entrevista como parte del segmento “pasajero” para validar una aplicación de carpool entre estudiantes. Al evaluar el diseño visual, destacó que le gusta el color por ser neutral y transmitir seriedad, así como la tipografía, la cual también percibe como profesional. Considera que el diseño es útil y facilita la concentración del usuario en la aplicación.
+
+En cuanto a la facilidad de uso, mencionó que le parece intuitiva, práctica y similar a otras apps que ha utilizado. Valora especialmente la opción de ingresar los horarios “horario por horario”, lo cual considera muy beneficioso para los estudiantes, ya que permite organizar mejor sus viajes. En relación con la navegación, la considera fluida y práctica; resaltó positivamente que la aplicación tenga diversas funciones accesibles mediante una secuencia lógica.
+
+Grecia consideró que el proceso de creación de cuenta es claro y práctico, pues basta con ingresar los datos y vincular un correo institucional. En términos de funcionalidades para el carpool, señaló que la app cubre todo lo necesario: ver el mapa, rastrear el recorrido del vehículo, conocer la cantidad de pasajeros y los puntos de parada. Esto, en su opinión, genera una sensación de seguridad y control sobre la experiencia de viaje.
+
+Sobre los beneficios en su rutina diaria, afirmó que la aplicación podría ayudarla a llegar más temprano a clases, evitando los problemas de tráfico y la inseguridad de los buses públicos, donde se viaja incómoda y expuesta a robos. También considera que representa una opción más económica que un taxi tradicional, promoviendo un apoyo mutuo entre estudiantes, tanto para quienes ofrecen como para quienes solicitan transporte.
+
+Finalmente, al hablar sobre la estructura y claridad de los botones e interfaz, indicó que todo le pareció coherente y comprensible. Apreció que el flujo de uso se dé paso a paso, en un orden lógico, desde el inicio de sesión hasta la visualización de rutas. En conclusión, expresó una percepción muy positiva de la aplicación, considerándola beneficiosa, clara y muy adecuada para estudiantes.
 #### 6.3.3. Evaluaciones según heurísticas
 
 
