@@ -4321,14 +4321,30 @@ Grafico de linea de tiempo mostrando los committs realizados a lo largo del desa
 ### 6.3. Validation Interviews
 #### 6.3.1. Diseño de Entrevistas
 #### 6.3.2. Registro de Entrevistas
+
+* __Entrevista__
+
+![](/assets/sprint-2/entrevista%201.png)
+
+Entrevista con Yadira Quispe Garfias, una estudiante de relaciones internacionales de 21 años residente en Chorrillos.Destaca que le gusta el diseño visual de la aplicación, en especial el modo oscuro por el descanso visual que ofrece, aunque señala como inconveniente la imposibilidad de aumentar el tamaño de la tipografía, un problema para su visión. Considera que la aplicación es intuitiva y fácil de usar, similar a otras aplicaciones de movilidad, y aprecia su buena organización.
 #### 6.3.3. Evaluaciones según heurísticas
+
+**Problema #1:** Tamaño de tipografía fijo que no permite ajustes para usuarios con dificultades visuales.
+
+**Severidad:** 3 
+
+**Heurística violada:** Estética y diseño minimalista.
+
+**Problema:** Yadira menciona que tiene dificultades de visión y que le gustaría poder aumentar el tamaño de la tipografía en la aplicación. La falta de esta opción de personalización limita la accesibilidad y la usabilidad para usuarios con necesidades visuales específicas. Esto va en contra de la flexibilidad para adaptarse a las preferencias y capacidades individuales de los usuarios.
+
+**Recomendación:** Implementar una opción dentro de la configuración de la aplicación que permita al usuario ajustar el tamaño de la fuente. Esto mejoraría significativamente la accesibilidad y la usabilidad para personas con diferentes problemas visuales, haciendo la aplicación más inclusiva.
 
 
 # Conclusiones
 
 Validación de Supuestos y Resultados: La validación de las hipótesis iniciales, como la preferencia por una app móvil fácil de usar, se confirmó en gran medida. Sin embargo, aspectos como la seguridad en el proceso de asignación y la transparencia del sistema de pagos requirieron ajustes para mejorar la confianza del usuario.
 
-Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.
+Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.[link](https://upcedupe-my.sharepoint.com/personal/u20211f984_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211f984%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D20%2021%2D47%2D33%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1b661232%2D30e9%2D4d70%2Da85d%2D4d3751ee05a2&isDarkMode=false)
 
 # Bibliografía
 
