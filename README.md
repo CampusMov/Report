@@ -4049,7 +4049,6 @@ public class ChatMessageControllerImplTest {
 ```
 El test givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue verifica el comportamiento del método createIncentive del IncentiveController cuando se recibe un recurso válido. Utilizando el enfoque Given-When-Then, el test simula que el servicio IncentiveCommandService devuelve exitosamente una entidad Incentive al procesar el comando generado desde el recurso. Luego, invoca el método del controlador y comprueba que el resultado sea true, lo cual indica que el incentivo fue creado correctamente. Finalmente, se asegura que el método handle() del servicio haya sido invocado exactamente una vez, validando así la interacción esperada entre el controlador y su capa de servicio.
 
-
 ```JAVA 
 class IncentiveControllerTest {
 
@@ -4144,6 +4143,52 @@ class InfractionControllerTest {
 
 }
  ```
+El test StudentMetricControllerTest verifica que el método getStudentRatingMetrics del controlador StudentMetricController funcione correctamente. Para ello, simula la lógica del servicio StudentRatingMetricQueryService mediante Mockito y asegura que, al proporcionar un userId, el controlador devuelva una respuesta HTTP 200 junto con los datos esperados en el cuerpo. Además, comprueba que los valores de userId, averageRating y totalReviewsCount coincidan con los generados por el ensamblador de recursos, y que el servicio se invoque exactamente una vez. Esto garantiza que el controlador responde correctamente ante una consulta válida.
+
+```JAVA 
+
+class StudentMetricControllerTest {
+
+    @Mock
+    private StudentRatingMetricQueryService studentRatingMetricQueryService;
+
+    @InjectMocks
+    private StudentMetricController studentMetricController;
+
+    private final String userId = "user-123";
+
+    private StudentRatingMetric metric;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+        metric = new StudentRatingMetric();
+        metric.setUserId(userId);
+        metric.setTotalRatings(10.0);
+        metric.setTotalReviewsCount(2);
+        metric.setAverageRating(5.0);
+    }
+
+    @Test
+    void getStudentRatingMetrics_ShouldReturnMetrics() {
+        when(studentRatingMetricQueryService.handle(new GetStudentRatingMetricQuery(userId)))
+                .thenReturn(Optional.of(metric));
+
+        StudentRatingMetricResource expectedResource = StudentRatingMetricResourceFromEntityAssembler.toResourceFromEntity(metric);
+
+        ResponseEntity<StudentRatingMetricResource> response = studentMetricController.getStudentRatingMetrics(userId);
+
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(expectedResource.userId(), response.getBody().userId());
+        assertEquals(expectedResource.averageRating(), response.getBody().averageRating());
+        assertEquals(expectedResource.totalReviewsCount(), response.getBody().totalReviewsCount());
+
+        verify(studentRatingMetricQueryService, times(1)).handle(any(GetStudentRatingMetricQuery.class));
+    }
+}
+
+```
+ 
 
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
@@ -4168,6 +4213,65 @@ En este sprint se logro las siguientes ejecuciones de los siguientes microservic
 <img src="assets/software deployment/analytics.png">
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+**In Trip Communication Service**
+
+El microservicio In-Trip Communication Service gestiona los chats entre pasajeros y conductores durante un viaje compartido, permitiendo crear, consultar, enviar mensajes, cerrar chats y consultar mensajes no leídos. Está construido con Java y Spring Boot, siguiendo principios de diseño orientado al dominio (DDD).
+
+**ChatController**
+
+| Método | Endpoint                                             | Descripción                                                                 |
+|--------|------------------------------------------------------|-----------------------------------------------------------------------------|
+| POST   | `/chats`                                             | Crea un nuevo chat entre pasajero y conductor                              |
+| GET    | `/chats/passenger/{passengerId}/ride/{carpoolId}`   | Obtiene el chat del pasajero en un viaje específico                        |
+| GET    | `/chats/driver/{driverId}`                           | Lista todos los chats abiertos de un conductor                             |
+| POST   | `/chats/{chatId}/close`                              | Cierra el chat especificado                                                 |
+| GET    | `/chats/{chatId}/unread-count`      | Obtiene la cantidad de mensajes no leídos por un usuario en el chat dado   |
+
+**ChatMessageController**
+
+| Método | Endpoint                                                         | Descripción                                                                 |
+|--------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| GET    | `/chats/{chatId}/messages`                                       | Lista todos los mensajes del chat especificado                             |
+| POST   | `/chats/{chatId}/messages`                                       | Envía un nuevo mensaje en el chat                                          |
+| POST   | `/chats/{chatId}/messages/{messageId}/read`                      | Marca el mensaje especificado como leído en el chat                        |
+
+**Reputation and Incentives Service** 
+
+Este microservicio gestiona el sistema de reputación e incentivos dentro de la plataforma, permitiendo crear, consultar y actualizar incentivos para usuarios, rastrear infracciones y aplicar penalidades. Utiliza Java con Spring Boot y JPA, y sigue principios de diseño orientado a dominios (DDD). Los incentivos pueden tener distintos tipos de recompensa y una lógica de expiración según su naturaleza.
+
+**IncentiveController**
+
+| Método | Endpoint                                     | Descripción                      |
+|--------|----------------------------------------------|----------------------------------|
+| POST   | `/reputation-incentives/incentives`          | Crea un nuevo incentivo para un usuario |
+
+**InfractionController**
+
+| Método | Endpoint                                               | Descripción                                              |
+|--------|--------------------------------------------------------|----------------------------------------------------------|
+| POST   | `/reputation-incentives/infractions/increase`         | Aumenta o crea el contador de infracciones para un usuario |
+| POST   | `/reputation-incentives/infractions/reset`            | Reinicia el contador de infracciones para un usuario     |
+| GET    | `/reputation-incentives/infractions/{userId}`         | Recupera las penalidades asociadas a un usuario          |
+
+**ValorationController**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/reputation-incentives/valorations`                  | Crea una nueva valoración                             |
+| GET    | `/reputation-incentives/valorations/{userId}`         | Obtiene todas las valoraciones asociadas a un usuario |
+
+**Analytics Service**
+Este microservicio se encarga de registrar y actualizar métricas de calificación de los usuarios (principalmente estudiantes), como el promedio de valoraciones, cantidad total de reseñas y suma de puntuaciones. Cada vez que se registra una valoración, se actualizan estas métricas para reflejar el desempeño del usuario en la plataforma. Está desarrollado en Java con Spring Boot, empleando una arquitectura orientada a dominios (DDD) y almacenamiento con JPA.
+
+
+**StudentMetricController**
+| Método | Endpoint                                  | Descripción                                                       |
+|--------|-------------------------------------------|-------------------------------------------------------------------|
+| GET    | `/analytics/student-metrics/{userId}`     | Recupera las métricas de calificación de un estudiante por su ID |
+
+
+
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 Se mostrara la colaboracion del equipo en el desarrollo del sprint 2.
