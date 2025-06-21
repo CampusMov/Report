@@ -3955,7 +3955,9 @@ Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/softwa
 
 
 #### 6.2.2.3. Development Evidence for Sprint Review
+
 __UniRide Driver:__
+
 | Repository  | Commit   | Author               | Date       | Message                                                                 |
 |-------------|----------|----------------------|------------|-------------------------------------------------------------------------|
 | repository  | 4c0acb6  | Brayan Smith Morales | 2025-06-17 | fix: fix create carpool and home pages                                 |
