@@ -3679,7 +3679,94 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>28/05/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>03:40 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Gutiérrez Soto, Jhosepmyr Orlando</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Hernández Tuiro, Eric Ernesto
+</li>
+                <li>Riva Rodríguez, Elmer Augusto
+</li>
+                <li>Sanchez Montero, Carlos
+</li>
+                <li>Morales Quispe, Brayan Smith
+</li>
+                <li>Del Castillo Bueno, Daniel Mateo
+</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>
+                Durante este sprint pudimos destacar el desarrollo del servicio web y la conexión con la aplicación movil desarrollada al 80% en kotlin.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Acuerdo de la implementación del API y la aplicación movil
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar la aplicación movil al 100% en nuestro proyecto 
+                </p>
+                <p>
+                Creemos que la versión finalizada de la aplicación movil para el segmento de pasajero para que el usuario pueda utilizar todas las funcionalidades. El éxito de este sprint se confirmará cuando los usuarios puedan dar retroalimentación positiva acerca de la usabilidad de la aplicación de manera que pueden sentirse cómodos usandolas .
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>
+                50
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                25
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 #### 6.2.2.2. Sprint Backlog 2
+
+
+
 #### 6.2.2.3. Development Evidence for Sprint Review
 __UniRide Driver:__
 | Repository  | Commit   | Author               | Date       | Message                                                                 |
@@ -3856,8 +3943,41 @@ __Analytics-Service__
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews
+
+
+
 #### 6.3.1. Diseño de Entrevistas
+
+### 6.3.1. Diseño de Entrevistas.
+**Preguntas generales:**
+
+1. ¿Podría decirme su nombre completo, por favor?
+
+2. ¿Cuál es su edad y en qué distrito reside actualmente?
+
+3. ¿A qué se dedica actualmente (ocupación o rol profesional)?
+
+
+**PASAJERO **
+
+1. ¿Qué impresión le genera el diseño visual de la aplicación (colores, distribución, tipografía, etc.)?
+
+2. ¿Le parece que la aplicación es intuitiva y fácil de usar? ¿Por qué?
+
+3. ¿Cómo evalúa la experiencia de navegación dentro de la app? ¿Le resulta sencillo moverse entre las diferentes pantallas?
+
+4. ¿El proceso de creación de una nueva cuenta le resultó claro y comprensible?
+
+5. ¿Las pantallas disponibles permiten cubrir todas las acciones necesarias para solicitar unirse a un carpool?
+
+6. Desde su perspectiva, ¿cuál considera que es el punto más fuerte o destacado de la aplicación?
+
+7. ¿Qué beneficios cree que esta plataforma puede aportar a su empresa o actividad diaria?
+
+8. ¿Ha podido acceder fácilmente a la información que buscaba mediante los distintos botones y secciones? ¿Hubo algo confuso?
+
 #### 6.3.2. Registro de Entrevistas
+
 #### 6.3.3. Evaluaciones según heurísticas
 
 
