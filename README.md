@@ -4210,9 +4210,9 @@ En este sprint se logro las siguientes ejecuciones de los siguientes microservic
         <p>Analytics Service</p>
 </div>
 
-**App Movil en Flutter**
-
 <img src="assets/software deployment/analytics.png">
+
+**App Movil en Flutter**
 
 <img src="assets/software deployment/appflutter1.png">
 
