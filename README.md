@@ -296,17 +296,6 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
     * [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   * [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
     * [6.2.1. Sprint 1](#621-sprint-1)
-      * [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      * [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-      * [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-      * [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-      * [6.2.1.5. Execution Evidence for Sprint Review.](#6215-execution-evidence-for-sprint-review)
-      * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      * [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-        * [Userflow 1](#userflow-1)
-        * [Userflow 2](#userflow-2)
-        * [Userflow 3](#userflow-3)
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -324,10 +313,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 7.
 
-| **Criterio específico**                                                                                                                     | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Daniel del Castillo** <br> <div><p>**TB1:** Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>**TP:** Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p><p>**TP:** El trabajo con Kotlin me ayudó a darme cuenta de la importancia de conocer el lenguaje base para trabajar con aplicaciones Android de manera eficiente y eficaz.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p><p>**TP:** Al aplicar patrones de DDD y arquitectura hexagonal, pude entender más a fondo cómo modularizar y estructurar aplicaciones de manera efectiva, lo que será fundamental en proyectos futuros.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p><p>**TP:** El aprendizaje de EventStorming y Context Mapping me permitió mejorar la planificación de arquitecturas, y pude liderar la integración de estos flujos de manera eficaz entre los equipos.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p><p>**TP:** Aprender sobre Impact Mapping me permitió entender cómo alinear mejor los objetivos del negocio con las necesidades del usuario, mejorando el impacto final de la solución.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p><p>**TP:** Implementar arquitectura limpia en sistemas modulares me ayudó a mejorar el flujo de trabajo y simplificar la interacción entre los componentes frontend y la lógica de negocio, lo que aumentó la eficiencia del desarrollo.</p></div> | **TB1:** El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software. <br><br> **TP:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Daniel del Castillo** <br> <div><p>**TB1:** Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p><p>**TP:** Durante este proyecto, me di cuenta de que el aprendizaje de nuevas arquitecturas y patrones es fundamental, ya que permite elegir la mejor solución para los retos específicos del proyecto.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p><p>**TP:** Estuve investigando más a fondo sobre herramientas y metodologías ágiles, y comprendí lo importante que es conocer nuevas herramientas para mantener la eficiencia en el trabajo.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p><p>**TP:** Comprendí que integrar bien los componentes del sistema es crucial para asegurar la calidad y el rendimiento de la aplicación.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p><p>**TP:** El modelado de flujos y la conexión entre los bounded contexts me permitió comprender la importancia de la planificación y la flexibilidad en el desarrollo.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p><p>**TP:** Aprendí que, al trabajar de cerca con los usuarios y comprender sus necesidades, podemos alinear el diseño y los requerimientos de manera efectiva para crear soluciones que realmente resuelvan sus problemas.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p><p>**TP:** El aprendizaje autónomo en nuevas tecnologías me permitió adaptar la solución rápidamente y mantener la calidad del prototipo de forma eficiente.</p></div>                                                                                                                                                                                                                                                              | **TB1:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TP:** Reconocemos que la integración de nuevas herramientas y metodologías se ha convertido en un motor de innovación. Al mantenernos actualizados, podemos enfrentar los desafíos de manera efectiva y seguir entregando soluciones de alta calidad.                                                                                                                                                                                                                                     |
+| **Criterio específico**                                                                                                                     | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Daniel del Castillo** <br> <div><p>**TB1:** Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>**TP:** Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p> <p>**TB2:** Durante esta entrega, me enfoqué en profundizar en el uso de patrones de diseño y su aplicación en el desarrollo de software escalable. Investigando más sobre los patrones de diseño me di cuenta de la importancia de elegir el adecuado para cada tipo de proyecto, lo cual optimiza tanto el tiempo de desarrollo como el mantenimiento a largo plazo. Estos aprendizajes serán clave para los próximos desafíos en mis proyectos, permitiéndome tomar decisiones más informadas sobre cómo estructurar el código y aplicar soluciones técnicas de manera más eficiente.</p> </div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p><p>**TP:** El trabajo con Kotlin me ayudó a darme cuenta de la importancia de conocer el lenguaje base para trabajar con aplicaciones Android de manera eficiente y eficaz.</p><p>**TB2:** Profundicé en la optimización del rendimiento de aplicaciones Android con Flutter, explorando técnicas de concurrencia y gestión de memoria para mejorar la eficiencia del software.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p><p>**TP:** Al aplicar patrones de DDD y arquitectura hexagonal, pude entender más a fondo cómo modularizar y estructurar aplicaciones de manera efectiva, lo que será fundamental en proyectos futuros.</p> <p>**TB2:** Durante esta entrega, me centré en mejorar mi comprensión de los principios SOLID y su aplicación en el desarrollo de software. Profundicé en cómo cada principio contribuye a la escalabilidad y mantenibilidad del código. A través de la práctica, pude aplicar estos principios para refactorizar partes del código existente, lo que me permitió optimizar el rendimiento y la legibilidad. Este conocimiento me ayudará a abordar proyectos más complejos de manera más eficiente, asegurando una base sólida para futuros desarrollos.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p><p>**TP:** El aprendizaje de EventStorming y Context Mapping me permitió mejorar la planificación de arquitecturas, y pude liderar la integración de estos flujos de manera eficaz entre los equipos.</p> <p>**TB2:** Durante esta entrega, profundicé en el uso de CQRS (Command Query Responsibility Segregation) y Event Sourcing para mejorar la separación de responsabilidades en el modelo de datos. Implementé estos patrones para optimizar la gestión de estados y garantizar una mayor eficiencia en el manejo de comandos y consultas. La comprensión y aplicación de estos patrones será esencial para manejar aplicaciones con alta demanda de escalabilidad y performance en el futuro.</p></div> <br><br> **Eric Hernández** <br> <div><p>**TB1:** Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p><p>**TP:** Aprender sobre Impact Mapping me permitió entender cómo alinear mejor los objetivos del negocio con las necesidades del usuario, mejorando el impacto final de la solución.</p> <p>**TB2:** Durante esta entrega, profundicé en el uso de Story Mapping como herramienta para visualizar y priorizar las historias de usuario de manera efectiva. Implementé esta técnica para desglosar funcionalidades clave y asegurarme de que el equipo entendiera cómo cada historia contribuye al objetivo general del proyecto. Este enfoque me ayudará a gestionar mejor las expectativas de los stakeholders y a alinear las entregas con los objetivos de negocio en el futuro.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p><p>**TP:** Implementar arquitectura limpia en sistemas modulares me ayudó a mejorar el flujo de trabajo y simplificar la interacción entre los componentes frontend y la lógica de negocio, lo que aumentó la eficiencia del desarrollo.</p><p>**TB2:** Investigue los manejos de maps en flutter  ampliando mis conocimientos en el desarrollo de aplicaciones que necesitan la ayuda de un mapa para mostrar a usuarios cierta información</p></div> | **TB1:** El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software. <br><br> **TP:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TB2:** Durante esta entrega, profundizamos en el uso de técnicas de refactorización y cómo aplicarlas para mejorar el diseño del software a medida que crece. Implementamos prácticas como la remoción de código duplicado y la simplificación de algoritmos para hacer que el código fuera más limpio y fácil de mantener. Este enfoque no solo optimizó el rendimiento y la legibilidad del código, sino que también fortaleció nuestra capacidad de adaptación ante cambios futuros, permitiendo un desarrollo ágil y flexible en proyectos venideros. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Daniel del Castillo** <br> <div><p>**TB1:** Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p><p>**TP:** Durante este proyecto, me di cuenta de que el aprendizaje de nuevas arquitecturas y patrones es fundamental, ya que permite elegir la mejor solución para los retos específicos del proyecto.</p> <p>**TB2:** Esta semana profundicé en el uso de Microservicios y su aplicabilidad en la escalabilidad de aplicaciones. Aprender sobre este patrón de arquitectura me permitió entender mejor cómo estructurar soluciones más flexibles y adaptables. Este tipo de conocimiento es esencial para afrontar los desafíos técnicos en proyectos futuros y seguir mejorando como profesional.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p><p>**TP:** Estuve investigando más a fondo sobre herramientas y metodologías ágiles, y comprendí lo importante que es conocer nuevas herramientas para mantener la eficiencia en el trabajo.</p><p>**TB2:** Comprendí que la actualización constante en las herramientas de desarrollo no solo agiliza los procesos, sino que también es crucial para integrar nuevas funcionalidades y mantener la seguridad del software.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p><p>**TP:** Comprendí que integrar bien los componentes del sistema es crucial para asegurar la calidad y el rendimiento de la aplicación.</p><p>**TB2:** Durante esta entrega, me dediqué a estudiar GraphQL como una alternativa a las APIs RESTful. Aprendí cómo esta tecnología permite una mejor optimización de consultas y puede mejorar el rendimiento en aplicaciones complejas. Este conocimiento me permitirá tomar decisiones más informadas sobre qué tecnología usar en función de los requisitos específicos de los proyectos futuros.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p><p>**TP:** El modelado de flujos y la conexión entre los bounded contexts me permitió comprender la importancia de la planificación y la flexibilidad en el desarrollo.</p><p>**TB2:** En esta entrega, profundicé en el uso de Domain-Driven Design (DDD), enfocándome en los patrones tácticos para mejorar la estructuración del código. Aprender sobre cómo definir correctamente los agregados y entidades me ha ayudado a crear soluciones más coherentes y fáciles de mantener. Este enfoque fortalecerá mi capacidad para trabajar en proyectos complejos, asegurando que el diseño de la solución esté alineado con los objetivos del negocio.</p></div> <br><br> **Eric Hernández** <br> <div><p>**TB1:** El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p><p>**TP:** Aprendí que, al trabajar de cerca con los usuarios y comprender sus necesidades, podemos alinear el diseño y los requerimientos de manera efectiva para crear soluciones que realmente resuelvan sus problemas.</p><p>**TB2:** Esta entrega me permitió profundizar en el uso de Lean UX para iterar rápidamente sobre prototipos basados en feedback real de los usuarios. Aprender a crear prototipos rápidos y recoger comentarios frecuentes me permitió ajustar los diseños de manera más eficiente. Este enfoque será útil en proyectos futuros, ya que me ayudará a validar ideas de manera más ágil y a asegurar que las soluciones realmente satisfacen las necesidades del usuario.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p><p>**TP:** El aprendizaje autónomo en nuevas tecnologías me permitió adaptar la solución rápidamente y mantener la calidad del prototipo de forma eficiente.</p><p> **TB2:** Reconocí que la autoformación en nuevas librerías y frameworks es esencial para mantener la relevancia técnica y ofrecer soluciones que cumplan con los estándares actuales de rendimiento y usabilidad.</p> </div>| **TB1:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TP:** Reconocemos que la integración de nuevas herramientas y metodologías se ha convertido en un motor de innovación. Al mantenernos actualizados, podemos enfrentar los desafíos de manera efectiva y seguir entregando soluciones de alta calidad.<br><br> **TB2:** Durante esta entrega, nos enfocamos en la implementación de TDD (Test-Driven Development) y su impacto en la calidad del código. Aprendí que al adoptar esta metodología, no solo mejoramos la cobertura de pruebas, sino que también logramos escribir código más limpio y fácil de mantener. Este enfoque refuerza nuestra capacidad de entregar soluciones de software más confiables y escalables, alineadas con la mejora continua. |
 <div style="page-break-before: always"></div>
 
 # Objetivos SMART
@@ -3686,11 +3675,1006 @@ Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/E
 
 Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202015274_upc_edu_pe/EdNlOXsNXuNHom4y1NpYZDMB4h4N_XLa11aiuRFaX-1RMg?e=H2RZdm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>28/05/2025</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>03:40 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Gutiérrez Soto, Jhosepmyr Orlando</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Hernández Tuiro, Eric Ernesto
+</li>
+                <li>Riva Rodríguez, Elmer Augusto
+</li>
+                <li>Sanchez Montero, Carlos
+</li>
+                <li>Morales Quispe, Brayan Smith
+</li>
+                <li>Del Castillo Bueno, Daniel Mateo
+</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>
+                Durante este sprint pudimos destacar el desarrollo del servicio web y la conexión con la aplicación movil desarrollada al 80% en kotlin.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Retrospective Summary</td>
+            <td>
+                Acuerdo de la implementación del API y la aplicación movil
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar la aplicación movil al 100% en nuestro proyecto 
+                </p>
+                <p>
+                Creemos que la versión finalizada de la aplicación movil para el segmento de pasajero para que el usuario pueda utilizar todas las funcionalidades. El éxito de este sprint se confirmará cuando los usuarios puedan dar retroalimentación positiva acerca de la usabilidad de la aplicación de manera que pueden sentirse cómodos usandolas .
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>
+                100
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                25
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 6.2.2.2. Sprint Backlog 2
+
+Para este sprint asignamos las user stories de los productos que ibamos a desarrollar en esta entrega, de ese modo 
+<table>
+  <tr>
+    <td><strong>Sprint #</strong></td>
+    <td align="center" colspan="78"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><strong>User Story</strong></td>
+    <td align="center" colspan="6"><strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ID</strong></td>  
+    <td align="center"><strong>Title</strong></td>
+    <td align= "center"><strong>Id</strong></td>
+    <td align="center"><strong>Title</strong></td>
+    <td align="center"><strong>Description</strong></td>
+    <td align="center"><strong>Estimation (Hours)</strong></td>
+    <td align="center"><strong>Assigned To</strong></td>
+    <td align="center"><strong>Status (To-do/In-Process/To-Review/Done)</strong></td>
+  </tr>
+
+  <tr>    
+    <td align="center">US-43</td>
+    <td align="center">Explorar sección “Beneficios”</td>
+    <td align="center">TA22</td>
+    <td align="center"> </td>
+    <td align="center">Desarrollar la sección de beneficios de la plataforma</td>
+    <td align="center">2</td>
+    <td align="center">Brayan Smith Morales Quispe</td>
+    <td align="center">Done</td>
+  </tr>
+  <tr>    
+    <td align="center">US-</td>
+    <td align="center"> Gestión de capacidad máxima del Carpool</td> 
+    <td align="center">TA23</td>
+    <td align="center"> Gestión de capacidad máxima del Carpool</td>
+    <td align="center"> sistema notifica cuando la capacidad máxima de un Carpool se cubra y evite nuevas solicitudes.	</td>
+    <td align="center"> 4 </td>
+    <td align="center">Jhosepmyr Orlando Gutierrez Soto </td>
+    <td align="center"> Done</td>
+  </tr>
+
+  <tr>    
+    <td align="center">US-21</td>
+    <td align="center">Cálculo automático de tarifa sugerida</td>
+    <td align="center">TA24</td>
+    <td align="center">Cálculo automático de tarifa sugerida </td>
+    <td align="center">App proponga un Fare estimado según distancia y ruta para decidir antes de unirme.	 </td>
+    <td align="center">4 </td>
+    <td align="center"> Jhosepmyr Orlando Gutierrez Soto</td>
+    <td align="center"> Done</td>
+  </tr>
+
+  
+<tr>    
+    <td align="center">US-11 </td>
+    <td align="center"> Rastreo en tiempo real del viaje </td>
+    <td align="center"> TA25 </td>
+    <td align="center">Rastreo en tiempo real del viaje </td>
+    <td align="center">ver en un mapa la ubicación actual del Carpool en curso para confirmar el itinerario </td>
+    <td align="center">6 </td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> TO DO</td>
+  </tr>
+  
+  <tr>    
+    <td align="center">TS-16 </td>
+    <td align="center"> Guardado de paraderos favoritos </td>
+    <td align="center"> TA26 </td>
+    <td align="center">Guardado de paraderos favoritos </td>
+    <td align="center">Define los paraderos favoritos del usuario </td>
+    <td align="center">5 </td>
+    <td align="center">Elmer Augusto Riva Rodriguez </td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center">US-12 </td>
+    <td align="center">Cancelar un viaje antes del inicio  </td>
+    <td align="center"> TA27 </td>
+    <td align="center"> Cancelar un viaje antes del inicio</td>
+    <td align="center">Cancelar un viaje con tiempo de antelación para evitar penalizaciones y liberar el espacio para otro usuario </td>
+    <td align="center"> 6</td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center">	TS-13 </td>
+    <td align="center"> Visualizar y editar mi perfil </td>
+    <td align="center"> TA28 </td>
+    <td align="center"> Visualizar y editar mi perfil</td>
+    <td align="center">ver y actualizar mi Profile para mantener mi información precisa y actualizada </td>
+    <td align="center">4 </td>
+    <td align="center"> Eric Ernesto Hernandez Tuiro</td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center"> 	TS-02</td>
+    <td align="center"> Lectura de información del viaje </td>
+    <td align="center"> TA29 </td>
+    <td align="center"> Lectura de información del viaje</td>
+    <td align="center">permitir que un pasajero visualice la información básica de un viaje </td>
+    <td align="center">4 </td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-22 </td>
+    <td align="center"> Completar perfil de usuario</td>
+    <td align="center"> TA30 </td>
+    <td align="center"> Completar perfil de usuario</td>
+    <td align="center"> completar el Profile con foto, PersonInfo y AcademicInformation para generar confianza</td>
+    <td align="center"> 4</td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center">Done </td>
+  </tr>
+  <tr>    
+    <td align="center"> 	US-16</td>
+    <td align="center"> 	Visualización y selección en lista de espera </td>
+    <td align="center"> TA31 </td>
+    <td align="center">	Visualización y selección en lista de espera </td>
+    <td align="center"> almacenar ClassSchedules recurrentes</td>
+    <td align="center"> 4</td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">US-13 </td>
+    <td align="center">Unirse a un Carpool en curso  </td>
+    <td align="center"> TA32 </td>
+    <td align="center">Unirse a un Carpool en curso </td>
+    <td align="center">unirme a un Carpool activo si está cerca para aprovechar rutas en curso</td>
+    <td align="center"> 4</td>
+    <td align="center">Eric Ernesto Hernandez Tuiro </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-11 </td>
+    <td align="center">	Rastreo en tiempo real  </td>
+    <td align="center"> TA33 </td>
+    <td align="center">	Rastreo en tiempo real </td>
+    <td align="center">  ver la ubicación actual del Carpool en un mapa</td>
+    <td align="center">4 </td>
+    <td align="center">Jhosepmyr Orlando Gutierrez Soto </td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">	US-12 </td>
+    <td align="center">Cancelar Carpool antes de iniciar  </td>
+    <td align="center"> TA34 </td>
+    <td align="center">Cancelar Carpool antes de iniciar </td>
+    <td align="center"> cancelar un Carpool antes de iniciar para liberar Passenger y evitar esperas innecesarias </td>
+    <td align="center">4 </td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">TS-15 </td>
+    <td align="center">	Obtención de la información de un vehículo  </td>
+    <td align="center"> TA35 </td>
+    <td align="center">	Obtención de la información de un vehículo </td>
+    <td align="center"> los pasajeros puedan identificar el auto asignado y viajar con mayor confianza </td>
+    <td align="center">4 </td>
+    <td align="center"> Elmer Augusto Riva Rodriguez</td>
+    <td align="center"> Done</td>
+  </tr>
+  <tr>    
+    <td align="center">TS-13 </td>
+    <td align="center">Actualizar datos de perfil  </td>
+    <td align="center"> TA36 </td>
+    <td align="center">Actualizar datos de perfil </td>
+    <td align="center">  actualizar datos de perfil para que los usuarios mantengan su información personal al día.</td>
+    <td align="center"> 6</td>
+    <td align="center"> Eric Ernesto Hernandez Tuiro</td>
+    <td align="center"> Done</td>
+  </tr>
+
+</table>
+
+  
+
+
+
+Para mas informacion acceda al [jira](https://uni-ride.atlassian.net/jira/software/projects/HU/boards/1) de nuestro proyecto
+
+![alt text](assets/validation-interviews/sprintbakclog2.png)
+
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+__UniRide Driver:__
+
+| Repository  | Commit   | Author               | Date       | Message                                                                 |
+|-------------|----------|----------------------|------------|-------------------------------------------------------------------------|
+| repository  | 4c0acb6  | Brayan Smith Morales | 2025-06-17 | fix: fix create carpool and home pages                                 |
+| repository  | 5e490ec  | Brayan Smith Morales | 2025-06-17 | chore: add custom UI and entity location favorite                      |
+| repository  | 4bff033  | Brayan Smith Morales | 2025-06-17 | chore: add styles in text and colors                                   |
+| repository  | 66892f4  | Brayan Smith Morales | 2025-06-17 | chore: add location list view                                          |
+| repository  | 7c3f38f  | Brayan Smith Morales | 2025-06-17 | chore: add card view                                                   |
+| repository  | 2074ae2  | Brayan Smith Morales | 2025-06-17 | fix: fix location map view                                             |
+| repository  | e862352  | Brayan Smith Morales | 2025-06-17 | chore: add routes in main                                              |
+| repository  | 7f2c5d2  | Daniel Del Castillo  | 2025-06-16 | chore: added the assets                                                |
+| repository  | 7be1b8f  | Daniel Del Castillo  | 2025-06-16 | chore: added the splash screens and bloc placeholders                  |
+| repository  | 0c9039a  | Daniel Del Castillo  | 2025-06-15 | feat(email-verification): added the repository and created an impl     |
+| repository  | ace2104  | Daniel Del Castillo  | 2025-06-15 | feat(email-verification): added the student logic to the project       |
+| repository  | 1b9efac  | Carlos               | 2025-06-15 | style: information buttons redesigned                                  |
+| repository  | a99fa62  | Carlos               | 2025-06-15 | feat: crop image functionality added                                   |
+| repository  | a804283  | Carlos               | 2025-06-15 | feat: new dependencies for iOS added                                   |
+| repository  | 00c1eeb  | Carlos               | 2025-06-15 | feat: dependencies crop_your_image and image_picker added              |
+| repository  | 420db72  | Carlos               | 2025-06-15 | feat: welcome screen added                                             |
+| repository  | f55aaa6  | Carlos               | 2025-06-15 | feat: name input screen added                                          |
+| repository  | 15612f9  | Carlos               | 2025-06-15 | feat: information profile screens added                                |
+| repository  | 3a86a85  | Carlos               | 2025-06-15 | feat(main): home screen changed                                        |
+| repository  | c7090ed  | Carlos               | 2025-06-15 | chore: iOS support added                                               |
+| repository  | eaf304c  | Brayan Smith Morales | 2025-06-14 | chore: add Google Maps API key in API constants                        |
+| repository  | afa6036  | Brayan Smith Morales | 2025-06-14 | feat: set HomePage as Scaffold body in main.dart                       |
+| repository  | 74713fe  | Brayan Smith Morales | 2025-06-14 | feat(map): add display user's current location                         |
+| repository  | 8884152  | Brayan Smith Morales | 2025-06-14 | chore: add SlidingUpPanelWidget to home page                           |
+| repository  | 9ee25cb  | Brayan Smith Morales | 2025-06-14 | feat: add location permission request for Android & iOS                |
+| repository  | 269b0d4  | Brayan Smith Morales | 2025-06-14 | fix: fix NDK version                                                    |
+| repository  | ccb2709  | Brayan Smith Morales | 2025-06-14 | feat: add location, flutter_polyline_points, flutter_sliding_up_panel |
+| repository  | 8237a7d  | Brayan Smith Morales | 2025-06-13 | chore: add home_page.dart                                              |
+| repository  | 79e6976  | Brayan Smith Morales | 2025-06-13 | feat: add dependency of Google Maps                                    |
+| repository  | 0858453  | Brayan Smith Morales | 2025-06-13 | chore: initial commit                                                  |
+
+__Reputation-Incentives-Service__
+
+| Repository   | Commit   | Author           | Date       | Message                                                                                                    |
+|--------------|----------|------------------|------------|------------------------------------------------------------------------------------------------------------|
+| repository   | 4685776  | Eric             | 2025-06-14 | fix: fix reputation score data type                                                                        |
+| repository   | c797336  | Eric             | 2025-06-14 | feat(infraction): add build description method for penalty entity and implement create penalty in service |
+| repository   | af6cde2  | Eric             | 2025-06-14 | feat(infraction): implement method to create penalty command                                               |
+| repository   | 9026d89  | Eric             | 2025-06-14 | refactor(infraction): refactor create penalty command and penalty status                                   |
+| repository   | 7db3672  | Eric             | 2025-06-14 | fix: fix bug with reset infraction tracker                                                                 |
+| repository   | 8ba43f4  | Eric             | 2025-06-13 | feat(valoration): implement register event in valoration entity and command service                        |
+| repository   | 83fdf40  | Eric             | 2025-06-13 | feat(valoration): implement valoration event source and publisher                                          |
+| repository   | d737d4c  | Eric             | 2025-06-13 | chore: implement spring cloud dependencies and eureka and kafka configuration                              |
+| repository   | 07985e3  | Eric             | 2025-06-13 | feat(valoration): implement valoration created and domain event                                            |
+| repository   | 5074d57  | Eric             | 2025-06-11 | feat(incentive): add incentive controller for endpoints                                                     |
+| repository   | a6cd194  | Eric             | 2025-06-11 | feat(incentive): add incentive command service and repository                                              |
+| repository   | fcd0a0b  | Eric             | 2025-06-11 | feat(incentive): add create incentive command, resource and assembler                                      |
+| repository   | a01bd2e  | Eric             | 2025-06-11 | feat(incentive): add incentive entity and value objects                                                    |
+| repository   | ace16fa  | Eric Hernández   | 2025-06-09 | Merge pull request #2 from CampusMov/feature/infraction                                                    |
+| repository   | d1c3ad6  | Eric             | 2025-06-08 | feat(infraction): implement penalty query endpoint and move controllers location                           |
+| repository   | 6b85194  | Eric             | 2025-06-08 | feat(infraction): add Penalty query service                                                                |
+| repository   | 4ea750c  | Eric             | 2025-06-08 | feat(infraction): add Penalty resource and transformation interface                                        |
+| repository   | 82cc217  | Eric             | 2025-06-08 | feat(infraction): add Penalty query, command, and repository                                               |
+| repository   | b362660  | Eric             | 2025-06-08 | feat(infraction): add Penalty entity and status and type enums                                             |
+| repository   | 7167d39  | Eric             | 2025-06-08 | fix(infraction): fix repository errors and valoration resource missing attribute                           |
+| repository   | 233c832  | Eric             | 2025-06-08 | feat(infraction): add infraction controller for endpoints                                                  |
+| repository   | e37de99  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker repository and command service                                    |
+| repository   | c8f5508  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker command, resource, and transformation interface                   |
+| repository   | 131bdb9  | Eric             | 2025-06-08 | feat(infraction): add infraction tracker entity and infraction type enum                                   |
+| repository   | f159016  | Eric Hernández   | 2025-06-08 | Merge pull request #1 from CampusMov/feature/valoration                                                    |
+| repository   | 24fbea0  | Eric             | 2025-06-08 | feat(valoration): add valoration controller for endpoint                                                   |
+| repository   | 7bfe834  | Eric             | 2025-06-08 | feat(valoration): add valoration resource and transform interface                                          |
+| repository   | cfc3a50  | Eric             | 2025-06-08 | feat(valoration): add valoration command service                                                           |
+| repository   | 44d0cad  | Eric             | 2025-06-08 | feat(valoration): add create valoration command, resource, and transform interface                         |
+| repository   | 8968de4  | Eric             | 2025-06-08 | feat(valoration): add valoration entity and repository                                                     |
+| repository   | 4e81c8a  | Eric             | 2025-06-08 | fix: change port                                                                                           |
+| repository   | 73d8636  | Eric             | 2025-06-08 | chore: implement application properties and enable jpa auditing                                            |
+| repository   | 2c23696  | Eric             | 2025-06-05 | chore: add readme                                                                                          |
+| repository   | 0d1b484  | Eric             | 2025-06-05 | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy                         |
+| repository   | 9017e00  | Eric             | 2025-06-05 | chore: add dependencies                                                                                    |
+| repository   | 2e60b00  | Eric             | 2025-06-05 | chore: init commit                                                                                         |
+
+__In-Trip-Communication-Service__
+
+| Repository   | Commit   | Author                       | Date       | Message                                                                                                     |
+|--------------|----------|------------------------------|------------|-------------------------------------------------------------------------------------------------------------|
+| repository   | f1ea1ac  | elmer-riva                   | 2025-06-16 | chore: change spring boot framework version to 3.4.5                                                        |
+| repository   | 9b93a58  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #5 from CampusMov/feature/information-fetching                                           |
+| repository   | 016147d  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching unread messages count in ChatMessageController              |
+| repository   | 0b70544  | elmer-riva                   | 2025-06-16 | feat(application): add GetUnreadCountQuery in ChatQueryService implementation                               |
+| repository   | 0383146  | elmer-riva                   | 2025-06-16 | feat(resources): add MessageResource and MessageResourceFromEntityAssembler                                 |
+| repository   | fe4c6b8  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching chat messages in ChatMessageController                      |
+| repository   | 3f69a16  | elmer-riva                   | 2025-06-16 | feat(application): add GetMessagesByChatIdQuery in ChatQueryService implementation                          |
+| repository   | 7840613  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching drivers's chat in ChatController                            |
+| repository   | 2e472e3  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatsByDriverIdQuery handling in ChatQueryService implementation                  |
+| repository   | 75dc1e4  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching passenger's chat in ChatController                          |
+| repository   | 72474d2  | elmer-riva                   | 2025-06-16 | feat(resources): add ChatResource and ChatResourceFromEntityAssembler                                       |
+| repository   | 369ad57  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 2941133  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 216f78d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #3 from CampusMov/feature/chat-closing                                                   |
+| repository   | 383c497  | elmer-riva                   | 2025-06-16 | feat(application): add REST implementation for ChatController to expose chat closing endpoint               |
+| repository   | 76e2f05  | elmer-riva                   | 2025-06-16 | feat(application): add handling for chat closing in ChatCommandService                                      |
+| repository   | 2810968  | elmer-riva                   | 2025-06-16 | feat(domain): add CloseChatCommand and integrate its handling in Chat aggregate                             |
+| repository   | 5fc221d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #2 from CampusMov/feature/message-sending                                                |
+| repository   | 4ceb186  | elmer-riva                   | 2025-06-16 | feat(application): add ChatMessageController with endpoints implementation for sending and reading messages |
+| repository   | 46107ca  | elmer-riva                   | 2025-06-16 | feat(application): add MarkMessageReadResource and SendMessageResource...                                   |
+| repository   | be3c945  | elmer-riva                   | 2025-06-16 | feat(application): add handling for sending and reading messages in ChatCommandService                      |
+| repository   | 29ab05a  | elmer-riva                   | 2025-06-16 | feat(domain): add SendMessageCommand and MarkMessageReadCommand...                                          |
+| repository   | 1b73c64  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #1 from CampusMov/feature/chat-creation                                                  |
+| repository   | bf3c366  | elmer-riva                   | 2025-06-15 | feat(application): implement ChatController endpoint for creating chats...                                  |
+| repository   | 8f3cd44  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatResource and CreateChatCommandFromResourceAssembler                        |
+| repository   | 04002eb  | elmer-riva                   | 2025-06-15 | feat(application): add @EnableJpaAuditing annotation to...                                                  |
+| repository   | 7fb5193  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatCommand with usage annotation...                                           |
+| repository   | b926a66  | elmer-riva                   | 2025-06-15 | feat(persistence): add ChatRepository interface...                                                          |
+| repository   | 9bbb286  | elmer-riva                   | 2025-06-15 | feat(domain): add Chat aggregate root...                                                                    |
+| repository   | 4692540  | elmer-riva                   | 2025-06-15 | feat(domain): add Message and ReadReceipt entities...                                                       |
+| repository   | 06c3795  | elmer-riva                   | 2025-06-15 | feat(domain): add CarpoolId, ChatId, ChatStatus, etc.                                                       |
+| repository   | 6be0de4  | elmer-riva                   | 2025-06-15 | feat: add application properties for dev debugging and testing                                              |
+| repository   | 30703dd  | elmer-riva                   | 2025-06-07 | chore: initial commit                                                                                       |
+__Analytics-Service__
+
+| Repository   | Commit   | Author                       | Date       | Message                                                                                                     |
+|--------------|----------|------------------------------|------------|-------------------------------------------------------------------------------------------------------------|
+| repository   | f1ea1ac  | elmer-riva                   | 2025-06-16 | chore: change spring boot framework version to 3.4.5                                                        |
+| repository   | 9b93a58  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #5 from CampusMov/feature/information-fetching                                           |
+| repository   | 016147d  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching unread messages count in ChatMessageController              |
+| repository   | 0b70544  | elmer-riva                   | 2025-06-16 | feat(application): add GetUnreadCountQuery in ChatQueryService implementation                               |
+| repository   | 0383146  | elmer-riva                   | 2025-06-16 | feat(resources): add MessageResource and MessageResourceFromEntityAssembler                                 |
+| repository   | fe4c6b8  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching chat messages in ChatMessageController                      |
+| repository   | 3f69a16  | elmer-riva                   | 2025-06-16 | feat(application): add GetMessagesByChatIdQuery in ChatQueryService implementation                          |
+| repository   | 7840613  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching drivers's chat in ChatController                            |
+| repository   | 2e472e3  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatsByDriverIdQuery handling in ChatQueryService implementation                  |
+| repository   | 75dc1e4  | elmer-riva                   | 2025-06-16 | feat(rest-interface): add endpoint for fetching passenger's chat in ChatController                          |
+| repository   | 72474d2  | elmer-riva                   | 2025-06-16 | feat(resources): add ChatResource and ChatResourceFromEntityAssembler                                       |
+| repository   | 369ad57  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 2941133  | elmer-riva                   | 2025-06-16 | feat(application): add GetChatForPassengerQuery handling in ChatQueryService implementation                 |
+| repository   | 216f78d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #3 from CampusMov/feature/chat-closing                                                   |
+| repository   | 383c497  | elmer-riva                   | 2025-06-16 | feat(application): add REST implementation for ChatController to expose chat closing endpoint               |
+| repository   | 76e2f05  | elmer-riva                   | 2025-06-16 | feat(application): add handling for chat closing in ChatCommandService                                      |
+| repository   | 2810968  | elmer-riva                   | 2025-06-16 | feat(domain): add CloseChatCommand and integrate its handling in Chat aggregate                             |
+| repository   | 5fc221d  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #2 from CampusMov/feature/message-sending                                                |
+| repository   | 4ceb186  | elmer-riva                   | 2025-06-16 | feat(application): add ChatMessageController with endpoints implementation for sending and reading messages |
+| repository   | 46107ca  | elmer-riva                   | 2025-06-16 | feat(application): add MarkMessageReadResource and SendMessageResource...                                   |
+| repository   | be3c945  | elmer-riva                   | 2025-06-16 | feat(application): add handling for sending and reading messages in ChatCommandService                      |
+| repository   | 29ab05a  | elmer-riva                   | 2025-06-16 | feat(domain): add SendMessageCommand and MarkMessageReadCommand...                                          |
+| repository   | 1b73c64  | Elmer Augusto Riva Rodriguez | 2025-06-16 | Merge pull request #1 from CampusMov/feature/chat-creation                                                  |
+| repository   | 1948e86  | Eric                         | 2025-06-14 | feat(student-metrics): implement event handlers for valoration and profile                                 |
+| repository   | 34a6ee8  | Eric                         | 2025-06-14 | feat(student-metrics): add assemblers for events                                                            |
+| repository   | 34aca38  | Eric                         | 2025-06-14 | feat(student-metrics): implement student rating metrics service for commands                               |
+| repository   | 2bbfafa  | Eric                         | 2025-06-14 | feat(student-metrics): implement update method and builder for student rating metrics entity               |
+| repository   | 7e01329  | Eric                         | 2025-06-14 | feat(student-metrics): add update anc create commands for student rating metrics                            |
+| repository   | d72e264  | Eric                         | 2025-06-14 | feat(student-metrics): implement event source for rating metrics                                            |
+| repository   | d2ba70b  | Eric                         | 2025-06-14 | chore: implement spring cloud dependencies and eureka and kafka configuration                               |
+| repository   | 9d9f9e9  | Eric                         | 2025-06-14 | feat(student-metrics): implement profile and valoration created events                                      |
+| repository   | bf3c366  | elmer-riva                   | 2025-06-15 | feat(application): implement ChatController endpoint for creating chats...                                  |
+| repository   | 8f3cd44  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatResource and CreateChatCommandFromResourceAssembler                        |
+| repository   | 04002eb  | elmer-riva                   | 2025-06-15 | feat(application): add @EnableJpaAuditing annotation to...                                                  |
+| repository   | 7fb5193  | elmer-riva                   | 2025-06-15 | feat(application): add CreateChatCommand with usage annotation...                                           |
+| repository   | b926a66  | elmer-riva                   | 2025-06-15 | feat(persistence): add ChatRepository interface...                                                          |
+| repository   | 9bbb286  | elmer-riva                   | 2025-06-15 | feat(domain): add Chat aggregate root...                                                                    |
+| repository   | 4692540  | elmer-riva                   | 2025-06-15 | feat(domain): add Message and ReadReceipt entities...                                                       |
+| repository   | 06c3795  | elmer-riva                   | 2025-06-15 | feat(domain): add CarpoolId, ChatId, ChatStatus, etc.                                                       |
+| repository   | 6be0de4  | elmer-riva                   | 2025-06-15 | feat: add application properties for dev debugging and testing                                              |
+| repository   | ba924d4  | Eric                         | 2025-06-12 | feat(student-metrics): add student metrics controller for endpoints                                         |
+| repository   | f90a604  | Eric                         | 2025-06-12 | feat(student-metrics): add student resource and assembler                                                   |
+| repository   | ec2e57f  | Eric                         | 2025-06-12 | feat(student-metrics): add student rating metrics query and service                                         |
+| repository   | 00a25c4  | Eric                         | 2025-06-12 | feat(student-metrics): add student rating metrics entity and repository                                     |
+| repository   | 4bace52  | Eric                         | 2025-06-11 | feat: implement JPA auditing and OpenAPI and snake_case pluralized naming strategy                          |
+| repository   | 12dde5c  | Eric                         | 2025-06-11 | chore: add readme                                                                                           |
+| repository   | 81ed11d  | Eric                         | 2025-06-11 | chore: add dependencies                                                                                     |
+| repository   | ea0ba78  | Eric                         | 2025-06-11 | chore: init commit                                                                                          |
+| repository   | 30703dd  | elmer-riva                   | 2025-06-07 | chore: initial commit                                                                                       |
+
+
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+Los tests para la clase `ChatMessageControllerImpl` verifican el correcto funcionamiento de los tres endpoints expuestos por el controlador. Evalúan que, al solicitar los mensajes de un chat específico, se retorne una lista correctamente transformada y con código HTTP 200. También prueban que, al enviar un mensaje, se construya el comando adecuado, se procese con éxito y se retorne el recurso del mensaje con estado 201, o un 404 si falla. Finalmente, aseguran que la operación para marcar un mensaje como leído invoque el servicio correspondiente y responda con un estado HTTP 200, confirmando así que el controlador coordina correctamente los flujos entre servicios, ensambladores y respuestas HTTP.
+
+```JAVA
+class ChatControllerImplTest {
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @InjectMocks
+    private ChatControllerImpl chatController;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void testCreateChat() {
+        // Given
+        CreateChatResource resource = new CreateChatResource("carpool-id", "driver-id", "passenger-id");
+        CreateChatCommand command = CreateChatCommandFromResourceAssembler.toCommand(resource);
+
+        Chat fakeChat = mock(Chat.class);
+        when(fakeChat.getId()).thenReturn(new ChatId("fake-chat-id"));
+        when(fakeChat.getCarpoolId()).thenReturn(new CarpoolId("carpool-id"));
+        when(fakeChat.getDriverId()).thenReturn(new UserId("driver-id"));
+        when(fakeChat.getPassengerId()).thenReturn(new UserId("passenger-id"));
+        when(fakeChat.getCreatedAt()).thenReturn(null);
+        when(fakeChat.getLastMessageAt()).thenReturn(null);
+        when(fakeChat.getStatus()).thenReturn(ChatStatus.OPEN);
+        when(fakeChat.getLastMessagePreview()).thenReturn("");
+        when(fakeChat.getUnreadCount()).thenReturn(0);
+
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(fakeChat));
+
+        // When
+        ResponseEntity<?> response = chatController.createChat(resource);
+
+        // Then
+        assertEquals(201, response.getStatusCodeValue());
+    }
+
+
+
+    @Test
+    void testGetUnreadMessageCount() {
+        // Given
+        String userId = "user-123";
+        String chatId = "chat-123";
+        GetUnreadCountQuery query = new GetUnreadCountQuery(userId, chatId);
+        when(chatQueryService.handle(query)).thenReturn(5);
+
+        // When
+        ResponseEntity<Integer> response = chatController.getUnreadCount(userId, chatId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(5, response.getBody());
+    }
+
+    @Test
+    void testGetChatsByDriverId() {
+        // Given
+        String driverId = "driver-123";
+        var query = new GetChatsByDriverIdQuery(driverId);
+        List<ChatResource> chatResources = List.of();
+        when(chatQueryService.handle(query)).thenReturn(List.of());
+
+
+        // When
+        ResponseEntity<List<ChatResource>> response = ResponseEntity.ok(chatResources);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertNotNull(response.getBody());
+        assertTrue(response.getBody().isEmpty());
+    }
+
+
+}
+```
+Los tests de la clase `ChatMessageControllerImplTest` validan el comportamiento del controlador REST encargado de manejar operaciones de mensajería dentro del sistema. Se cubren tres escenarios clave: la obtención de mensajes (`getMessages`), el envío de un mensaje (`sendMessage`) y el marcado de un mensaje como leído (`markMessageRead`). Cada test sigue el enfoque Given-When-Then para asegurar claridad y estructura. Se valida que, al recuperar mensajes por ID de chat, se retorne una colección correctamente mapeada a `MessageResource` con estado 200 OK. En el envío de mensajes, se prueba tanto el flujo exitoso (retorno 201 CREATED con el recurso creado) como el fallido (retorno 404 NOT FOUND cuando no se genera el mensaje). Finalmente, se asegura que al marcar un mensaje como leído, se construya correctamente el comando y se invoque el servicio correspondiente, respondiendo con estado 200 OK. En todos los casos se hace uso de `Mockito` para simular dependencias y ensambladores estáticos.
+
+
+```JAVA
+public class ChatMessageControllerImplTest {
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @InjectMocks
+    private ChatMessageControllerImpl controller;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void getMessages_shouldReturnListOfMessageResources() {
+        // Given
+        String chatId = "chat123";
+        Message message = mock(Message.class);
+        MessageResource resource = new MessageResource("msg1", "chat123", "user1", LocalDateTime.now(), "SENT");
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(chatQueryService.handle(any(GetMessagesByChatIdQuery.class)))
+                .thenReturn(List.of(message));
+
+
+
+        // When
+        ResponseEntity<Collection<MessageResource>> response = controller.getMessages(chatId);
+
+        // Then
+        assertEquals(OK, response.getStatusCode());
+        assertNotNull(response.getBody());
+        assertEquals(1, response.getBody().size());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnCreatedMessageResource_whenSuccessful() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        Message message = mock(Message.class);
+        MessageResource messageResource = new MessageResource("msg1", chatId, "user1", LocalDateTime.now(), "SENT");
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(message));
+        when(MessageResourceFromEntityAssembler.toResource(message)).thenReturn(messageResource);
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(CREATED, response.getStatusCode());
+        assertEquals(messageResource, response.getBody());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnNotFound_whenMessageNotCreated() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.empty());
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(NOT_FOUND, response.getStatusCode());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void markMessageRead_shouldCallServiceAndReturnOk() {
+        // Given
+        String chatId = "chat123";
+        String messageId = "msg1";
+        MarkMessageReadResource resource = new MarkMessageReadResource("user1", LocalDateTime.now());
+        MarkMessageReadCommand command = mock(MarkMessageReadCommand.class);
+        mockStatic(MarkMessageReadCommandFromResourceAssembler.class);
+
+        when(MarkMessageReadCommandFromResourceAssembler.toCommand(messageId, resource)).thenReturn(command);
+
+        // When
+        ResponseEntity<Void> response = controller.markMessageRead(chatId, messageId, resource);
+
+        // Then
+        verify(chatCommandService).handle(chatId, command);
+        assertEquals(OK, response.getStatusCode());
+
+        clearAllCaches();
+    }
+}
+
+```
+El test givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue verifica el comportamiento del método createIncentive del IncentiveController cuando se recibe un recurso válido. Utilizando el enfoque Given-When-Then, el test simula que el servicio IncentiveCommandService devuelve exitosamente una entidad Incentive al procesar el comando generado desde el recurso. Luego, invoca el método del controlador y comprueba que el resultado sea true, lo cual indica que el incentivo fue creado correctamente. Finalmente, se asegura que el método handle() del servicio haya sido invocado exactamente una vez, validando así la interacción esperada entre el controlador y su capa de servicio.
+
+```JAVA 
+class IncentiveControllerTest {
+
+    private IncentiveCommandService incentiveCommandService;
+    private IncentiveController incentiveController;
+
+    @BeforeEach
+    void setUp() {
+        incentiveCommandService = mock(IncentiveCommandService.class);
+        incentiveController = new IncentiveController(incentiveCommandService);
+    }
+
+    @Test
+    void givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue() {
+        // Given
+        CreateIncentiveResource resource = new CreateIncentiveResource("user123", "BONUS_CREDITS");
+        Incentive fakeIncentive = mock(Incentive.class);
+        given(incentiveCommandService.handle(any())).willReturn(Optional.of(fakeIncentive));
+
+        // When
+        boolean result = incentiveController.createIncentive(resource);
+
+        // Then
+        assertTrue(result);
+        verify(incentiveCommandService, times(1)).handle(any());
+    }
+}
+ ```
+
+ Este conjunto de pruebas unitarias para el InfractionController valida el comportamiento de sus tres endpoints principales utilizando el enfoque Given-When-Then. La primera prueba verifica que, al recibir un recurso válido, el método increaseInfractionTracker invoque correctamente el servicio correspondiente y retorne true si se creó o actualizó el contador de infracciones. La segunda prueba asegura que el método resetInfractionTracker también funcione correctamente al reiniciar dicho contador. Finalmente, la tercera prueba comprueba que el endpoint getAllPenaltiesByUserId devuelva una lista de penalidades asociadas a un usuario. Para ello, se mockea un objeto Penalty con todos los campos requeridos (id, userId, type, status, y description) para evitar errores de validación en el ensamblaje del recurso. Estas pruebas aseguran que el controlador se comporte correctamente y que las dependencias sean invocadas con los datos esperados.
+
+ ```JAVA 
+class InfractionControllerTest {
+
+    private InfractionTrackerCommandService infractionTrackerCommandService;
+    private PenaltyQueryService penaltyQueryService;
+    private InfractionController infractionController;
+
+    @BeforeEach
+    void setUp() {
+        infractionTrackerCommandService = mock(InfractionTrackerCommandService.class);
+        penaltyQueryService = mock(PenaltyQueryService.class);
+        infractionController = new InfractionController(infractionTrackerCommandService, penaltyQueryService);
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenIncreaseInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handle(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.increaseInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handle(any());
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenResetInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handleReset(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.resetInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handleReset(any());
+    }
+
+    @Test
+    void givenExistingUserId_whenGetAllPenaltiesByUserId_thenReturnsPenaltyResources() {
+        // Given
+        String userId = "user123";
+
+        Penalty mockPenalty = mock(Penalty.class);
+        when(mockPenalty.getId()).thenReturn("penalty-1");
+        when(mockPenalty.getUserId()).thenReturn(userId);
+        when(mockPenalty.getType()).thenReturn(PenaltyType.WARNING);
+        when(mockPenalty.getStatus()).thenReturn(PenaltyStatus.ACTIVE);
+        when(mockPenalty.getDescription()).thenReturn("Late cancellation");
+
+        given(penaltyQueryService.handle(any())).willReturn(List.of(mockPenalty));
+
+        // When
+        ResponseEntity<Collection<PenaltyResource>> response = infractionController.getAllPenaltiesByUserId(userId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(1, response.getBody().size());
+        verify(penaltyQueryService).handle(any());
+    }
+
+}
+ ```
+El test StudentMetricControllerTest verifica que el método getStudentRatingMetrics del controlador StudentMetricController funcione correctamente. Para ello, simula la lógica del servicio StudentRatingMetricQueryService mediante Mockito y asegura que, al proporcionar un userId, el controlador devuelva una respuesta HTTP 200 junto con los datos esperados en el cuerpo. Además, comprueba que los valores de userId, averageRating y totalReviewsCount coincidan con los generados por el ensamblador de recursos, y que el servicio se invoque exactamente una vez. Esto garantiza que el controlador responde correctamente ante una consulta válida.
+
+```JAVA 
+
+class StudentMetricControllerTest {
+
+    @Mock
+    private StudentRatingMetricQueryService studentRatingMetricQueryService;
+
+    @InjectMocks
+    private StudentMetricController studentMetricController;
+
+    private final String userId = "user-123";
+
+    private StudentRatingMetric metric;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+        metric = new StudentRatingMetric();
+        metric.setUserId(userId);
+        metric.setTotalRatings(10.0);
+        metric.setTotalReviewsCount(2);
+        metric.setAverageRating(5.0);
+    }
+
+    @Test
+    void getStudentRatingMetrics_ShouldReturnMetrics() {
+        when(studentRatingMetricQueryService.handle(new GetStudentRatingMetricQuery(userId)))
+                .thenReturn(Optional.of(metric));
+
+        StudentRatingMetricResource expectedResource = StudentRatingMetricResourceFromEntityAssembler.toResourceFromEntity(metric);
+
+        ResponseEntity<StudentRatingMetricResource> response = studentMetricController.getStudentRatingMetrics(userId);
+
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(expectedResource.userId(), response.getBody().userId());
+        assertEquals(expectedResource.averageRating(), response.getBody().averageRating());
+        assertEquals(expectedResource.totalReviewsCount(), response.getBody().totalReviewsCount());
+
+        verify(studentRatingMetricQueryService, times(1)).handle(any(GetStudentRatingMetricQuery.class));
+    }
+}
+
+```
+ 
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se logro las siguientes ejecuciones de los siguientes microservicios.
+
+<div style="text-align: center; font-weight: bolder">
+        <p>In Trip Commmunication Service</p>
+</div>
+
+<img src="assets/software deployment/in trip communication.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Reputation and Incentives Service</p>
+</div>
+
+<img src="assets/software deployment/reputation and incentives.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Analytics Service</p>
+</div>
+
+<img src="assets/software deployment/analytics.png">
+
+**App Movil en Flutter**
+
+<img src="assets/software deployment/appflutter1.png">
+
+<img src="assets/software deployment/appflutter2.png" width="200px">
+
+<img src="assets/software deployment/appflutter3.png" width="200px">
+
+<img src="assets/software deployment/appflutter4.png" width="200px">
+
+<img src="assets/software deployment/appflutter5.png" >
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+**In Trip Communication Service**
+
+El microservicio In-Trip Communication Service gestiona los chats entre pasajeros y conductores durante un viaje compartido, permitiendo crear, consultar, enviar mensajes, cerrar chats y consultar mensajes no leídos. Está construido con Java y Spring Boot, siguiendo principios de diseño orientado al dominio (DDD).
+
+**ChatController**
+
+| Método | Endpoint                                             | Descripción                                                                 |
+|--------|------------------------------------------------------|-----------------------------------------------------------------------------|
+| POST   | `/chats`                                             | Crea un nuevo chat entre pasajero y conductor                              |
+| GET    | `/chats/passenger/{passengerId}/ride/{carpoolId}`   | Obtiene el chat del pasajero en un viaje específico                        |
+| GET    | `/chats/driver/{driverId}`                           | Lista todos los chats abiertos de un conductor                             |
+| POST   | `/chats/{chatId}/close`                              | Cierra el chat especificado                                                 |
+| GET    | `/chats/{chatId}/unread-count`      | Obtiene la cantidad de mensajes no leídos por un usuario en el chat dado   |
+
+**ChatMessageController**
+
+| Método | Endpoint                                                         | Descripción                                                                 |
+|--------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| GET    | `/chats/{chatId}/messages`                                       | Lista todos los mensajes del chat especificado                             |
+| POST   | `/chats/{chatId}/messages`                                       | Envía un nuevo mensaje en el chat                                          |
+| POST   | `/chats/{chatId}/messages/{messageId}/read`                      | Marca el mensaje especificado como leído en el chat                        |
+
+**Reputation and Incentives Service** 
+
+Este microservicio gestiona el sistema de reputación e incentivos dentro de la plataforma, permitiendo crear, consultar y actualizar incentivos para usuarios, rastrear infracciones y aplicar penalidades. Utiliza Java con Spring Boot y JPA, y sigue principios de diseño orientado a dominios (DDD). Los incentivos pueden tener distintos tipos de recompensa y una lógica de expiración según su naturaleza.
+
+**IncentiveController**
+
+| Método | Endpoint                                     | Descripción                      |
+|--------|----------------------------------------------|----------------------------------|
+| POST   | `/reputation-incentives/incentives`          | Crea un nuevo incentivo para un usuario |
+
+**InfractionController**
+
+| Método | Endpoint                                               | Descripción                                              |
+|--------|--------------------------------------------------------|----------------------------------------------------------|
+| POST   | `/reputation-incentives/infractions/increase`         | Aumenta o crea el contador de infracciones para un usuario |
+| POST   | `/reputation-incentives/infractions/reset`            | Reinicia el contador de infracciones para un usuario     |
+| GET    | `/reputation-incentives/infractions/{userId}`         | Recupera las penalidades asociadas a un usuario          |
+
+**ValorationController**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/reputation-incentives/valorations`                  | Crea una nueva valoración                             |
+| GET    | `/reputation-incentives/valorations/{userId}`         | Obtiene todas las valoraciones asociadas a un usuario |
+
+**Analytics Service**
+Este microservicio se encarga de registrar y actualizar métricas de calificación de los usuarios (principalmente estudiantes), como el promedio de valoraciones, cantidad total de reseñas y suma de puntuaciones. Cada vez que se registra una valoración, se actualizan estas métricas para reflejar el desempeño del usuario en la plataforma. Está desarrollado en Java con Spring Boot, empleando una arquitectura orientada a dominios (DDD) y almacenamiento con JPA.
+
+
+**StudentMetricController**
+| Método | Endpoint                                  | Descripción                                                       |
+|--------|-------------------------------------------|-------------------------------------------------------------------|
+| GET    | `/analytics/student-metrics/{userId}`     | Recupera las métricas de calificación de un estudiante por su ID |
+
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+Para esta seccion se realizo un despliege de la app en firebase siguiendo la base.
+
+![](/assets/sprint-2/1.png)
+
+En esta imagen se observa la creacion del projecto en el firebase.
+
+![](/assets/sprint-2/2.png)
+
+En esta imagen se observa la finalizacion de la subida del apk para enviarlo al desarrolladores que revisaran las funcionalidades.
+
+
+![](/assets/sprint-2/3.png)
+
+En esta imagen se observa el envio del apk a los que inspeccion de la aplicacion.
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+Se mostrara la colaboracion del equipo en el desarrollo del sprint 2.
+* __UniRide_Driver__
+
+![](/assets/sprint-2/cola-flutter.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Brayan, seguido por Carlos y ultimo Mateo
+
+* __UniRide_Passenger__
+
+![](/assets/sprint-2/cola-android.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Jhosemir, seguido por Elmer y ultimo Eric
+
+![](/assets/sprint-2/android-cola.png)
+
+Grafico de linea de tiempo mostrando los committs realizados a lo largo del desarrollo de android.
+### 6.3. Validation Interviews
+
+#### 6.3.1. Diseño de Entrevistas
+
+
+**Preguntas generales:**
+
+1. ¿Podría decirme su nombre completo, por favor?
+
+2. ¿Cuál es su edad y en qué distrito reside actualmente?
+
+3. ¿A qué se dedica actualmente (ocupación o rol profesional)?
+
+
+**PASAJERO **
+
+1. ¿Qué impresión le genera el diseño visual de la aplicación (colores, distribución, tipografía, etc.)?
+
+2. ¿Le parece que la aplicación es intuitiva y fácil de usar? ¿Por qué?
+
+3. ¿Cómo evalúa la experiencia de navegación dentro de la app? ¿Le resulta sencillo moverse entre las diferentes pantallas?
+
+4. ¿El proceso de creación de una nueva cuenta le resultó claro y comprensible?
+
+5. ¿Las pantallas disponibles permiten cubrir todas las acciones necesarias para solicitar unirse a un carpool?
+
+6. Desde su perspectiva, ¿cuál considera que es el punto más fuerte o destacado de la aplicación?
+
+7. ¿Qué beneficios cree que esta plataforma puede aportar a su empresa o actividad diaria?
+
+8. ¿Ha podido acceder fácilmente a la información que buscaba mediante los distintos botones y secciones? ¿Hubo algo confuso?
+
+#### 6.3.2. Registro de Entrevistas
+
+* __Entrevista__
+
+![](/assets/sprint-2/entrevista%201.png)
+
+Entrevista con Yadira Quispe Garfias, una estudiante de relaciones internacionales de 21 años residente en Chorrillos.Destaca que le gusta el diseño visual de la aplicación, en especial el modo oscuro por el descanso visual que ofrece, aunque señala como inconveniente la imposibilidad de aumentar el tamaño de la tipografía, un problema para su visión. Considera que la aplicación es intuitiva y fácil de usar, similar a otras aplicaciones de movilidad, y aprecia su buena organización.
+
+***Segmento Pasajeros:***
+
+![Entrevista Mateo](assets/validation-interviews/image.png) 
+[Entrevista Mateo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EVJSLxc-xltJtcXIezP-xFkBtaN0Rxx4A7clEQCRHFG04g?e=fRlsnC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Mateo Alejandro Vílchez Ríos, un estudiante universitario de 20 años que reside en Monterrico, Surco, fue entrevistado como parte del segmento objetivo “pasajero” para una aplicación de carpool entre estudiantes. En cuanto al diseño visual, mencionó que le gusta y lo asocia con aplicaciones como Uber por su uso de colores simples como blanco y azul, aunque considera que no es muy dinámico. Sobre la usabilidad, opina que la aplicación tiene muchas pantallas, lo que podría hacerla confusa para algunos usuarios. Aunque la navegación es continua, le parece que las pantallas contienen demasiada información, lo cual puede resultar abrumador.
+
+El entrevistado consideró positivo que el proceso de creación de cuenta incluya una verificación institucional mediante correo universitario, ya que garantiza que los usuarios sean efectivamente estudiantes, lo cual considera un buen filtro. En relación con las funcionalidades para solicitar carpool, comprendió que el flujo implica ingresar los horarios de clases y luego seleccionar el campus al que desea ir. Sin embargo, expresó que este método no es de su agrado, ya que no siempre sigue un horario fijo. Preferiría una dinámica más parecida a la de Uber, donde se puede hacer una solicitud al instante y ser emparejado con un conductor si hay disponibilidad, sin tener que depender de un horario previamente ingresado.
+
+Respecto a los puntos fuertes de la aplicación, valoró que el sistema esté centrado en los campus universitarios, permitiendo seleccionar directamente la sede como punto de partida sin tener que ingresar direcciones adicionales. Cree que esta solución puede facilitar la movilidad diaria, sobre todo porque muchas personas que viven cerca podrían compartir ruta y horario, pero actualmente no existe una herramienta que lo permita de forma eficiente.
+
+En cuanto a la interfaz, encontró confuso el uso de algunos términos como “Mi tiempo” o “Ubicaciones pasadas” y consideró innecesario un apartado exclusivo para notificaciones, que bien podría integrarse en la configuración general. También sugirió que al ingresar direcciones se permita etiquetarlas con nombres personalizados para facilitar su uso. Finalmente, mencionó que algunas secciones no le resultaron intuitivas por el lenguaje utilizado, como el caso de “Mis carpool”, que no le quedó claro inicialmente.
+
+
+![Entrevista Grecia](assets/validation-interviews/sole.png)
+[Entrevista Grecia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211212_upc_edu_pe/EUebI4rwDkRDuRPeOkV2e1oBOvvb1sT4MUImF70bAdUO0w?e=HtAjKT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Grecia Aldrete Cuba, estudiante universitaria de 20 años residente en Santiago de Surco, participó en la entrevista como parte del segmento “pasajero” para validar una aplicación de carpool entre estudiantes. Al evaluar el diseño visual, destacó que le gusta el color por ser neutral y transmitir seriedad, así como la tipografía, la cual también percibe como profesional. Considera que el diseño es útil y facilita la concentración del usuario en la aplicación.
+
+En cuanto a la facilidad de uso, mencionó que le parece intuitiva, práctica y similar a otras apps que ha utilizado. Valora especialmente la opción de ingresar los horarios “horario por horario”, lo cual considera muy beneficioso para los estudiantes, ya que permite organizar mejor sus viajes. En relación con la navegación, la considera fluida y práctica; resaltó positivamente que la aplicación tenga diversas funciones accesibles mediante una secuencia lógica.
+
+Grecia consideró que el proceso de creación de cuenta es claro y práctico, pues basta con ingresar los datos y vincular un correo institucional. En términos de funcionalidades para el carpool, señaló que la app cubre todo lo necesario: ver el mapa, rastrear el recorrido del vehículo, conocer la cantidad de pasajeros y los puntos de parada. Esto, en su opinión, genera una sensación de seguridad y control sobre la experiencia de viaje.
+
+Sobre los beneficios en su rutina diaria, afirmó que la aplicación podría ayudarla a llegar más temprano a clases, evitando los problemas de tráfico y la inseguridad de los buses públicos, donde se viaja incómoda y expuesta a robos. También considera que representa una opción más económica que un taxi tradicional, promoviendo un apoyo mutuo entre estudiantes, tanto para quienes ofrecen como para quienes solicitan transporte.
+
+Finalmente, al hablar sobre la estructura y claridad de los botones e interfaz, indicó que todo le pareció coherente y comprensible. Apreció que el flujo de uso se dé paso a paso, en un orden lógico, desde el inicio de sesión hasta la visualización de rutas. En conclusión, expresó una percepción muy positiva de la aplicación, considerándola beneficiosa, clara y muy adecuada para estudiantes.
+#### 6.3.3. Evaluaciones según heurísticas
+
+**Problema #1:** Tamaño de tipografía fijo que no permite ajustes para usuarios con dificultades visuales.
+
+**Severidad:** 3 
+
+**Heurística violada:** Estética y diseño minimalista.
+
+**Problema:** Yadira menciona que tiene dificultades de visión y que le gustaría poder aumentar el tamaño de la tipografía en la aplicación. La falta de esta opción de personalización limita la accesibilidad y la usabilidad para usuarios con necesidades visuales específicas. Esto va en contra de la flexibilidad para adaptarse a las preferencias y capacidades individuales de los usuarios.
+
+**Recomendación:** Implementar una opción dentro de la configuración de la aplicación que permita al usuario ajustar el tamaño de la fuente. Esto mejoraría significativamente la accesibilidad y la usabilidad para personas con diferentes problemas visuales, haciendo la aplicación más inclusiva.
+
+
 # Conclusiones
 
 Validación de Supuestos y Resultados: La validación de las hipótesis iniciales, como la preferencia por una app móvil fácil de usar, se confirmó en gran medida. Sin embargo, aspectos como la seguridad en el proceso de asignación y la transparencia del sistema de pagos requirieron ajustes para mejorar la confianza del usuario.
 
-Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.
+Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.[link](https://upcedupe-my.sharepoint.com/personal/u20211f984_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211f984%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D20%2021%2D47%2D33%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1b661232%2D30e9%2D4d70%2Da85d%2D4d3751ee05a2&isDarkMode=false)
 
 # Bibliografía
 
