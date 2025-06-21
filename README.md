@@ -83,6 +83,10 @@ Jhosepmyr realizó 32 commits, Elmer 25, Brayan 16, Carlos 15, Eric 13 y Mateo 1
 Jhosepmyr realizó 34 commits, Carlos 30, Elmer 29, Mateo 27, Brayan 18, y Eric 15, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
 ![commitsTP.png](assets/insights/commitsTP.png)
 
+**TB2**
+Jhosepmyr realizó 37 commits, Elmer 29, Carlos 37, Brayan 24, Mateo 32 y Eric 18, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
+![img.png](img.png)
+
 
 Ante lo observado, las métricas confirman que **todos** los miembros contribuyeron activamente: redacción de secciones, creación de diagramas, revisiones de contenido y coordinación de entregas. Se recomienda mantener la práctica de PRs y revisiones cruzadas en las siguientes iteraciones para asegurar calidad y trazabilidad.
 
