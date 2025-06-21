@@ -4212,20 +4212,6 @@ En este sprint se logro las siguientes ejecuciones de los siguientes microservic
 
 <img src="assets/software deployment/analytics.png">
 
-**App Movil Flutter**
-
-A continuación se muestra el avance de la aplicación hecha en flutter
-
-<img src="assets/software deployment/appflutter1.png">
-
-<img src="assets/software deployment/appflutter2.png" width="200px">
-
-<img src="assets/software deployment/appflutter3.png" width="200px">
-
-<img src="assets/software deployment/appflutter4.png" width="200px">
-
-<img src="assets/software deployment/appflutter5.png">
-
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
 **In Trip Communication Service**
@@ -4287,6 +4273,22 @@ Este microservicio se encarga de registrar y actualizar métricas de calificaci�
 
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
+Para esta seccion se realizo un despliege de la app en firebase siguiendo la base.
+
+![](/assets/sprint-2/1.png)
+
+En esta imagen se observa la creacion del projecto en el firebase.
+
+![](/assets/sprint-2/2.png)
+
+En esta imagen se observa la finalizacion de la subida del apk para enviarlo al desarrolladores que revisaran las funcionalidades.
+
+
+![](/assets/sprint-2/3.png)
+
+En esta imagen se observa el envio del apk a los que inspeccion de la aplicacion.
+
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 Se mostrara la colaboracion del equipo en el desarrollo del sprint 2.
 * __UniRide_Driver__
