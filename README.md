@@ -319,8 +319,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Criterio específico**                                                                                                                     | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Daniel del Castillo** <br> <div><p>**TB1:** Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>**TP:** Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p><p>**TP:** El trabajo con Kotlin me ayudó a darme cuenta de la importancia de conocer el lenguaje base para trabajar con aplicaciones Android de manera eficiente y eficaz.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p><p>**TP:** Al aplicar patrones de DDD y arquitectura hexagonal, pude entender más a fondo cómo modularizar y estructurar aplicaciones de manera efectiva, lo que será fundamental en proyectos futuros.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p><p>**TP:** El aprendizaje de EventStorming y Context Mapping me permitió mejorar la planificación de arquitecturas, y pude liderar la integración de estos flujos de manera eficaz entre los equipos.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p><p>**TP:** Aprender sobre Impact Mapping me permitió entender cómo alinear mejor los objetivos del negocio con las necesidades del usuario, mejorando el impacto final de la solución.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p><p>**TP:** Implementar arquitectura limpia en sistemas modulares me ayudó a mejorar el flujo de trabajo y simplificar la interacción entre los componentes frontend y la lógica de negocio, lo que aumentó la eficiencia del desarrollo.</p></div> | **TB1:** El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software. <br><br> **TP:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Daniel del Castillo** <br> <div><p>**TB1:** Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p><p>**TP:** Durante este proyecto, me di cuenta de que el aprendizaje de nuevas arquitecturas y patrones es fundamental, ya que permite elegir la mejor solución para los retos específicos del proyecto.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p><p>**TP:** Estuve investigando más a fondo sobre herramientas y metodologías ágiles, y comprendí lo importante que es conocer nuevas herramientas para mantener la eficiencia en el trabajo.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p><p>**TP:** Comprendí que integrar bien los componentes del sistema es crucial para asegurar la calidad y el rendimiento de la aplicación.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p><p>**TP:** El modelado de flujos y la conexión entre los bounded contexts me permitió comprender la importancia de la planificación y la flexibilidad en el desarrollo.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p><p>**TP:** Aprendí que, al trabajar de cerca con los usuarios y comprender sus necesidades, podemos alinear el diseño y los requerimientos de manera efectiva para crear soluciones que realmente resuelvan sus problemas.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p><p>**TP:** El aprendizaje autónomo en nuevas tecnologías me permitió adaptar la solución rápidamente y mantener la calidad del prototipo de forma eficiente.</p></div> | **TB1:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TP:** Reconocemos que la integración de nuevas herramientas y metodologías se ha convertido en un motor de innovación. Al mantenernos actualizados, podemos enfrentar los desafíos de manera efectiva y seguir entregando soluciones de alta calidad. |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Daniel del Castillo** <br> <div><p>**TB1:** Para esta entrega dediqué un par de horas de mi vida en procesar el cambio a clean architecture. Un buen ingeniero no se dedica enteramente a aplicar un único estilo de arquitectura.</p><p>**TP:** Para esta entrega tuve que buscar información adicional sobre aplicaciones con usos de websockets para poder entender adecuadamente como es que el servicio está funcionando. Dichos conceptos me van a ayudar a trabajar de mejor manera en un futuro ya que algunas herramientas brindadas por la universidad no son siempre lo necesario para poder conocer más sobre el ciclo de desarrollo del software.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En esta entrega tuve un primer acercamiento a Kotlin, lo cual me ayudó a entender la estructura base de la aplicación.</p><p>**TP:** El trabajo con Kotlin me ayudó a darme cuenta de la importancia de conocer el lenguaje base para trabajar con aplicaciones Android de manera eficiente y eficaz.</p><p>**TB2:** Profundicé en la optimización del rendimiento de aplicaciones Android con Flutter, explorando técnicas de concurrencia y gestión de memoria para mejorar la eficiencia del software.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Investigué y apliqué patrones tácticos de DDD para el diseño del Domain Layer, además reforcé conceptos de arquitectura hexagonal como parte del diseño de bounded contexts.</p><p>**TP:** Al aplicar patrones de DDD y arquitectura hexagonal, pude entender más a fondo cómo modularizar y estructurar aplicaciones de manera efectiva, lo que será fundamental en proyectos futuros.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Consolidé conocimientos en EventStorming y Context Mapping, y lideré el modelado de flujos de mensajes y relaciones entre bounded contexts.</p><p>**TP:** El aprendizaje de EventStorming y Context Mapping me permitió mejorar la planificación de arquitecturas, y pude liderar la integración de estos flujos de manera eficaz entre los equipos.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** Aprendí sobre Impact Mapping y su conexión con las User Stories, integrándolo en la especificación de requerimientos y en el diseño de la solución basada en objetivos.</p><p>**TP:** Aprender sobre Impact Mapping me permitió entender cómo alinear mejor los objetivos del negocio con las necesidades del usuario, mejorando el impacto final de la solución.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Exploré cómo adaptar patrones de arquitectura limpia en sistemas modulares, revisando componentes frontend en Angular y su integración con la lógica de dominio.</p><p>**TP:** Implementar arquitectura limpia en sistemas modulares me ayudó a mejorar el flujo de trabajo y simplificar la interacción entre los componentes frontend y la lógica de negocio, lo que aumentó la eficiencia del desarrollo.</p><p>**TB2:** Investigue los manejos de maps en flutter  ampliando mis conocimientos en el desarrollo de aplicaciones que necesitan la ayuda de un mapa para mostrar a usuarios cierta información</p></div> | **TB1:** El aprendizaje permanente y la actualización sistemática de conocimientos constituyen un ciclo virtuoso que impacta directamente en la calidad de nuestras soluciones. Al compartir experiencias —desde cursos hasta mejoras en CI/CD— convertimos los logros individuales en capital intelectual colectivo. Esto nos permite reducir el lead time, elevar la resiliencia de las aplicaciones y mantener la competitividad frente a la rápida evolución del ecosistema de software. <br><br> **TP:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Daniel del Castillo** <br> <div><p>**TB1:** Durante la última semana estuve empapándome del tema de clean architecture; dicha arquitectura es mucho más aplicable a tecnologías móviles.</p><p>**TP:** Durante este proyecto, me di cuenta de que el aprendizaje de nuevas arquitecturas y patrones es fundamental, ya que permite elegir la mejor solución para los retos específicos del proyecto.</p></div> <br><br> **Carlos Sánchez** <br> <div><p>**TB1:** En este proyecto me di cuenta de que siempre debes estar actualizado con las últimas herramientas, pues te harán el trabajo mucho más llevadero.</p><p>**TP:** Estuve investigando más a fondo sobre herramientas y metodologías ágiles, y comprendí lo importante que es conocer nuevas herramientas para mantener la eficiencia en el trabajo.</p><p>**TB2:** Comprendí que la actualización constante en las herramientas de desarrollo no solo agiliza los procesos, sino que también es crucial para integrar nuevas funcionalidades y mantener la seguridad del software.</p></div> <br><br> **Elmer Riva** <br> <div><p>**TB1:** Me enfoqué en dominar los principios de integración frontend-backend mediante APIs RESTful, reconociendo que el aprendizaje técnico constante es vital para mantener la calidad en un entorno cambiante.</p><p>**TP:** Comprendí que integrar bien los componentes del sistema es crucial para asegurar la calidad y el rendimiento de la aplicación.</p></div> <br><br> **Jhosepmyr Gutiérrez** <br> <div><p>**TB1:** Reafirmé la importancia del aprendizaje autodirigido al profundizar en técnicas de modelado estratégico. Esta capacidad fue clave para estructurar nuestra solución desde lo conceptual.</p><p>**TP:** El modelado de flujos y la conexión entre los bounded contexts me permitió comprender la importancia de la planificación y la flexibilidad en el desarrollo.</p></div> <br><br> **Erick Hernández** <br> <div><p>**TB1:** El proceso de aprendizaje sobre metodologías de descubrimiento de necesidades (Needfinding, Mapping) me permitió alinear diseño y requerimientos desde el usuario.</p><p>**TP:** Aprendí que, al trabajar de cerca con los usuarios y comprender sus necesidades, podemos alinear el diseño y los requerimientos de manera efectiva para crear soluciones que realmente resuelvan sus problemas.</p></div> <br><br> **Brayan Morales** <br> <div><p>**TB1:** Entendí que el dominio de tecnologías frontend requiere actualización continua; por eso trabajé con Vite y Vue de forma autodidacta para garantizar un prototipo fluido y moderno.</p><p>**TP:** El aprendizaje autónomo en nuevas tecnologías me permitió adaptar la solución rápidamente y mantener la calidad del prototipo de forma eficiente.</p><p> **TB2:** Reconocí que la autoformación en nuevas librerías y frameworks es esencial para mantener la relevancia técnica y ofrecer soluciones que cumplan con los estándares actuales de rendimiento y usabilidad.</p>
+</div> | **TB1:** Como equipo coincidimos en que el aprendizaje permanente no es un complemento, sino un pilar estratégico para la innovación. Al compartir cursos, meetups y prototipos en sesiones retro, convertimos el conocimiento individual en ventaja colectiva. Este ciclo de actualización constante fortalece nuestra capacidad para entregar software de mayor calidad, reducir riesgos técnicos y mantenernos competitivos en un entorno que evoluciona rápidamente. <br><br> **TP:** Reconocemos que la integración de nuevas herramientas y metodologías se ha convertido en un motor de innovación. Al mantenernos actualizados, podemos enfrentar los desafíos de manera efectiva y seguir entregando soluciones de alta calidad. |
 <div style="page-break-before: always"></div>
 
 # Objetivos SMART
@@ -4123,12 +4124,474 @@ __Analytics-Service__
 
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+Los tests para la clase `ChatMessageControllerImpl` verifican el correcto funcionamiento de los tres endpoints expuestos por el controlador. Evalúan que, al solicitar los mensajes de un chat específico, se retorne una lista correctamente transformada y con código HTTP 200. También prueban que, al enviar un mensaje, se construya el comando adecuado, se procese con éxito y se retorne el recurso del mensaje con estado 201, o un 404 si falla. Finalmente, aseguran que la operación para marcar un mensaje como leído invoque el servicio correspondiente y responda con un estado HTTP 200, confirmando así que el controlador coordina correctamente los flujos entre servicios, ensambladores y respuestas HTTP.
+
+```JAVA
+class ChatControllerImplTest {
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @InjectMocks
+    private ChatControllerImpl chatController;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void testCreateChat() {
+        // Given
+        CreateChatResource resource = new CreateChatResource("carpool-id", "driver-id", "passenger-id");
+        CreateChatCommand command = CreateChatCommandFromResourceAssembler.toCommand(resource);
+
+        Chat fakeChat = mock(Chat.class);
+        when(fakeChat.getId()).thenReturn(new ChatId("fake-chat-id"));
+        when(fakeChat.getCarpoolId()).thenReturn(new CarpoolId("carpool-id"));
+        when(fakeChat.getDriverId()).thenReturn(new UserId("driver-id"));
+        when(fakeChat.getPassengerId()).thenReturn(new UserId("passenger-id"));
+        when(fakeChat.getCreatedAt()).thenReturn(null);
+        when(fakeChat.getLastMessageAt()).thenReturn(null);
+        when(fakeChat.getStatus()).thenReturn(ChatStatus.OPEN);
+        when(fakeChat.getLastMessagePreview()).thenReturn("");
+        when(fakeChat.getUnreadCount()).thenReturn(0);
+
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(fakeChat));
+
+        // When
+        ResponseEntity<?> response = chatController.createChat(resource);
+
+        // Then
+        assertEquals(201, response.getStatusCodeValue());
+    }
+
+
+
+    @Test
+    void testGetUnreadMessageCount() {
+        // Given
+        String userId = "user-123";
+        String chatId = "chat-123";
+        GetUnreadCountQuery query = new GetUnreadCountQuery(userId, chatId);
+        when(chatQueryService.handle(query)).thenReturn(5);
+
+        // When
+        ResponseEntity<Integer> response = chatController.getUnreadCount(userId, chatId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(5, response.getBody());
+    }
+
+    @Test
+    void testGetChatsByDriverId() {
+        // Given
+        String driverId = "driver-123";
+        var query = new GetChatsByDriverIdQuery(driverId);
+        List<ChatResource> chatResources = List.of();
+        when(chatQueryService.handle(query)).thenReturn(List.of());
+
+
+        // When
+        ResponseEntity<List<ChatResource>> response = ResponseEntity.ok(chatResources);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertNotNull(response.getBody());
+        assertTrue(response.getBody().isEmpty());
+    }
+
+
+}
+```
+Los tests de la clase `ChatMessageControllerImplTest` validan el comportamiento del controlador REST encargado de manejar operaciones de mensajería dentro del sistema. Se cubren tres escenarios clave: la obtención de mensajes (`getMessages`), el envío de un mensaje (`sendMessage`) y el marcado de un mensaje como leído (`markMessageRead`). Cada test sigue el enfoque Given-When-Then para asegurar claridad y estructura. Se valida que, al recuperar mensajes por ID de chat, se retorne una colección correctamente mapeada a `MessageResource` con estado 200 OK. En el envío de mensajes, se prueba tanto el flujo exitoso (retorno 201 CREATED con el recurso creado) como el fallido (retorno 404 NOT FOUND cuando no se genera el mensaje). Finalmente, se asegura que al marcar un mensaje como leído, se construya correctamente el comando y se invoque el servicio correspondiente, respondiendo con estado 200 OK. En todos los casos se hace uso de `Mockito` para simular dependencias y ensambladores estáticos.
+
+
+```JAVA
+public class ChatMessageControllerImplTest {
+
+    @Mock
+    private ChatQueryService chatQueryService;
+
+    @Mock
+    private ChatCommandService chatCommandService;
+
+    @InjectMocks
+    private ChatMessageControllerImpl controller;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
+
+    @Test
+    void getMessages_shouldReturnListOfMessageResources() {
+        // Given
+        String chatId = "chat123";
+        Message message = mock(Message.class);
+        MessageResource resource = new MessageResource("msg1", "chat123", "user1", LocalDateTime.now(), "SENT");
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(chatQueryService.handle(any(GetMessagesByChatIdQuery.class)))
+                .thenReturn(List.of(message));
+
+
+
+        // When
+        ResponseEntity<Collection<MessageResource>> response = controller.getMessages(chatId);
+
+        // Then
+        assertEquals(OK, response.getStatusCode());
+        assertNotNull(response.getBody());
+        assertEquals(1, response.getBody().size());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnCreatedMessageResource_whenSuccessful() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        Message message = mock(Message.class);
+        MessageResource messageResource = new MessageResource("msg1", chatId, "user1", LocalDateTime.now(), "SENT");
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+        mockStatic(MessageResourceFromEntityAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.of(message));
+        when(MessageResourceFromEntityAssembler.toResource(message)).thenReturn(messageResource);
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(CREATED, response.getStatusCode());
+        assertEquals(messageResource, response.getBody());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void sendMessage_shouldReturnNotFound_whenMessageNotCreated() {
+        // Given
+        String chatId = "chat123";
+        SendMessageResource resource = new SendMessageResource("user1", "Hola");
+        SendMessageCommand command = mock(SendMessageCommand.class);
+        mockStatic(SendMessageCommandFromResourceAssembler.class);
+
+        when(SendMessageCommandFromResourceAssembler.toCommand(chatId, resource)).thenReturn(command);
+        when(chatCommandService.handle(command)).thenReturn(Optional.empty());
+
+        // When
+        ResponseEntity<MessageResource> response = controller.sendMessage(chatId, resource);
+
+        // Then
+        assertEquals(NOT_FOUND, response.getStatusCode());
+
+        clearAllCaches();
+    }
+
+    @Test
+    void markMessageRead_shouldCallServiceAndReturnOk() {
+        // Given
+        String chatId = "chat123";
+        String messageId = "msg1";
+        MarkMessageReadResource resource = new MarkMessageReadResource("user1", LocalDateTime.now());
+        MarkMessageReadCommand command = mock(MarkMessageReadCommand.class);
+        mockStatic(MarkMessageReadCommandFromResourceAssembler.class);
+
+        when(MarkMessageReadCommandFromResourceAssembler.toCommand(messageId, resource)).thenReturn(command);
+
+        // When
+        ResponseEntity<Void> response = controller.markMessageRead(chatId, messageId, resource);
+
+        // Then
+        verify(chatCommandService).handle(chatId, command);
+        assertEquals(OK, response.getStatusCode());
+
+        clearAllCaches();
+    }
+}
+
+```
+El test givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue verifica el comportamiento del método createIncentive del IncentiveController cuando se recibe un recurso válido. Utilizando el enfoque Given-When-Then, el test simula que el servicio IncentiveCommandService devuelve exitosamente una entidad Incentive al procesar el comando generado desde el recurso. Luego, invoca el método del controlador y comprueba que el resultado sea true, lo cual indica que el incentivo fue creado correctamente. Finalmente, se asegura que el método handle() del servicio haya sido invocado exactamente una vez, validando así la interacción esperada entre el controlador y su capa de servicio.
+
+```JAVA 
+class IncentiveControllerTest {
+
+    private IncentiveCommandService incentiveCommandService;
+    private IncentiveController incentiveController;
+
+    @BeforeEach
+    void setUp() {
+        incentiveCommandService = mock(IncentiveCommandService.class);
+        incentiveController = new IncentiveController(incentiveCommandService);
+    }
+
+    @Test
+    void givenValidCreateIncentiveResource_whenCreateIncentive_thenReturnsTrue() {
+        // Given
+        CreateIncentiveResource resource = new CreateIncentiveResource("user123", "BONUS_CREDITS");
+        Incentive fakeIncentive = mock(Incentive.class);
+        given(incentiveCommandService.handle(any())).willReturn(Optional.of(fakeIncentive));
+
+        // When
+        boolean result = incentiveController.createIncentive(resource);
+
+        // Then
+        assertTrue(result);
+        verify(incentiveCommandService, times(1)).handle(any());
+    }
+}
+ ```
+
+ Este conjunto de pruebas unitarias para el InfractionController valida el comportamiento de sus tres endpoints principales utilizando el enfoque Given-When-Then. La primera prueba verifica que, al recibir un recurso válido, el método increaseInfractionTracker invoque correctamente el servicio correspondiente y retorne true si se creó o actualizó el contador de infracciones. La segunda prueba asegura que el método resetInfractionTracker también funcione correctamente al reiniciar dicho contador. Finalmente, la tercera prueba comprueba que el endpoint getAllPenaltiesByUserId devuelva una lista de penalidades asociadas a un usuario. Para ello, se mockea un objeto Penalty con todos los campos requeridos (id, userId, type, status, y description) para evitar errores de validación en el ensamblaje del recurso. Estas pruebas aseguran que el controlador se comporte correctamente y que las dependencias sean invocadas con los datos esperados.
+
+ ```JAVA 
+class InfractionControllerTest {
+
+    private InfractionTrackerCommandService infractionTrackerCommandService;
+    private PenaltyQueryService penaltyQueryService;
+    private InfractionController infractionController;
+
+    @BeforeEach
+    void setUp() {
+        infractionTrackerCommandService = mock(InfractionTrackerCommandService.class);
+        penaltyQueryService = mock(PenaltyQueryService.class);
+        infractionController = new InfractionController(infractionTrackerCommandService, penaltyQueryService);
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenIncreaseInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handle(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.increaseInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handle(any());
+    }
+
+    @Test
+    void givenValidCreateInfractionTrackerResource_whenResetInfractionTracker_thenReturnsTrue() {
+        CreateInfractionTrackerResource resource = new CreateInfractionTrackerResource("user123", "LateCancellation");
+        InfractionTracker tracker = mock(InfractionTracker.class);
+        given(infractionTrackerCommandService.handleReset(any())).willReturn(Optional.of(tracker));
+
+        boolean result = infractionController.resetInfractionTracker(resource);
+
+        assertTrue(result);
+        verify(infractionTrackerCommandService).handleReset(any());
+    }
+
+    @Test
+    void givenExistingUserId_whenGetAllPenaltiesByUserId_thenReturnsPenaltyResources() {
+        // Given
+        String userId = "user123";
+
+        Penalty mockPenalty = mock(Penalty.class);
+        when(mockPenalty.getId()).thenReturn("penalty-1");
+        when(mockPenalty.getUserId()).thenReturn(userId);
+        when(mockPenalty.getType()).thenReturn(PenaltyType.WARNING);
+        when(mockPenalty.getStatus()).thenReturn(PenaltyStatus.ACTIVE);
+        when(mockPenalty.getDescription()).thenReturn("Late cancellation");
+
+        given(penaltyQueryService.handle(any())).willReturn(List.of(mockPenalty));
+
+        // When
+        ResponseEntity<Collection<PenaltyResource>> response = infractionController.getAllPenaltiesByUserId(userId);
+
+        // Then
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(1, response.getBody().size());
+        verify(penaltyQueryService).handle(any());
+    }
+
+}
+ ```
+El test StudentMetricControllerTest verifica que el método getStudentRatingMetrics del controlador StudentMetricController funcione correctamente. Para ello, simula la lógica del servicio StudentRatingMetricQueryService mediante Mockito y asegura que, al proporcionar un userId, el controlador devuelva una respuesta HTTP 200 junto con los datos esperados en el cuerpo. Además, comprueba que los valores de userId, averageRating y totalReviewsCount coincidan con los generados por el ensamblador de recursos, y que el servicio se invoque exactamente una vez. Esto garantiza que el controlador responde correctamente ante una consulta válida.
+
+```JAVA 
+
+class StudentMetricControllerTest {
+
+    @Mock
+    private StudentRatingMetricQueryService studentRatingMetricQueryService;
+
+    @InjectMocks
+    private StudentMetricController studentMetricController;
+
+    private final String userId = "user-123";
+
+    private StudentRatingMetric metric;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+        metric = new StudentRatingMetric();
+        metric.setUserId(userId);
+        metric.setTotalRatings(10.0);
+        metric.setTotalReviewsCount(2);
+        metric.setAverageRating(5.0);
+    }
+
+    @Test
+    void getStudentRatingMetrics_ShouldReturnMetrics() {
+        when(studentRatingMetricQueryService.handle(new GetStudentRatingMetricQuery(userId)))
+                .thenReturn(Optional.of(metric));
+
+        StudentRatingMetricResource expectedResource = StudentRatingMetricResourceFromEntityAssembler.toResourceFromEntity(metric);
+
+        ResponseEntity<StudentRatingMetricResource> response = studentMetricController.getStudentRatingMetrics(userId);
+
+        assertEquals(200, response.getStatusCodeValue());
+        assertEquals(expectedResource.userId(), response.getBody().userId());
+        assertEquals(expectedResource.averageRating(), response.getBody().averageRating());
+        assertEquals(expectedResource.totalReviewsCount(), response.getBody().totalReviewsCount());
+
+        verify(studentRatingMetricQueryService, times(1)).handle(any(GetStudentRatingMetricQuery.class));
+    }
+}
+
+```
+ 
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se logro las siguientes ejecuciones de los siguientes microservicios.
+
+<div style="text-align: center; font-weight: bolder">
+        <p>In Trip Commmunication Service</p>
+</div>
+
+<img src="assets/software deployment/in trip communication.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Reputation and Incentives Service</p>
+</div>
+
+<img src="assets/software deployment/reputation and incentives.png">
+
+<div style="text-align: center; font-weight: bolder">
+        <p>Analytics Service</p>
+</div>
+
+<img src="assets/software deployment/analytics.png">
+
+**App Movil en Flutter**
+
+<img src="assets/software deployment/appflutter1.png">
+
+<img src="assets/software deployment/appflutter2.png" width="200px">
+
+<img src="assets/software deployment/appflutter3.png" width="200px">
+
+<img src="assets/software deployment/appflutter4.png" width="200px">
+
+<img src="assets/software deployment/appflutter5.png" >
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
-#### 6.2.2.7. Software Deployment Evidence for Sprint Review
-#### 6.2.2.8. Team Collaboration Insights during Sprint
+**In Trip Communication Service**
 
+El microservicio In-Trip Communication Service gestiona los chats entre pasajeros y conductores durante un viaje compartido, permitiendo crear, consultar, enviar mensajes, cerrar chats y consultar mensajes no leídos. Está construido con Java y Spring Boot, siguiendo principios de diseño orientado al dominio (DDD).
+
+**ChatController**
+
+| Método | Endpoint                                             | Descripción                                                                 |
+|--------|------------------------------------------------------|-----------------------------------------------------------------------------|
+| POST   | `/chats`                                             | Crea un nuevo chat entre pasajero y conductor                              |
+| GET    | `/chats/passenger/{passengerId}/ride/{carpoolId}`   | Obtiene el chat del pasajero en un viaje específico                        |
+| GET    | `/chats/driver/{driverId}`                           | Lista todos los chats abiertos de un conductor                             |
+| POST   | `/chats/{chatId}/close`                              | Cierra el chat especificado                                                 |
+| GET    | `/chats/{chatId}/unread-count`      | Obtiene la cantidad de mensajes no leídos por un usuario en el chat dado   |
+
+**ChatMessageController**
+
+| Método | Endpoint                                                         | Descripción                                                                 |
+|--------|------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| GET    | `/chats/{chatId}/messages`                                       | Lista todos los mensajes del chat especificado                             |
+| POST   | `/chats/{chatId}/messages`                                       | Envía un nuevo mensaje en el chat                                          |
+| POST   | `/chats/{chatId}/messages/{messageId}/read`                      | Marca el mensaje especificado como leído en el chat                        |
+
+**Reputation and Incentives Service** 
+
+Este microservicio gestiona el sistema de reputación e incentivos dentro de la plataforma, permitiendo crear, consultar y actualizar incentivos para usuarios, rastrear infracciones y aplicar penalidades. Utiliza Java con Spring Boot y JPA, y sigue principios de diseño orientado a dominios (DDD). Los incentivos pueden tener distintos tipos de recompensa y una lógica de expiración según su naturaleza.
+
+**IncentiveController**
+
+| Método | Endpoint                                     | Descripción                      |
+|--------|----------------------------------------------|----------------------------------|
+| POST   | `/reputation-incentives/incentives`          | Crea un nuevo incentivo para un usuario |
+
+**InfractionController**
+
+| Método | Endpoint                                               | Descripción                                              |
+|--------|--------------------------------------------------------|----------------------------------------------------------|
+| POST   | `/reputation-incentives/infractions/increase`         | Aumenta o crea el contador de infracciones para un usuario |
+| POST   | `/reputation-incentives/infractions/reset`            | Reinicia el contador de infracciones para un usuario     |
+| GET    | `/reputation-incentives/infractions/{userId}`         | Recupera las penalidades asociadas a un usuario          |
+
+**ValorationController**
+
+| Método | Endpoint                                               | Descripción                                            |
+|--------|--------------------------------------------------------|--------------------------------------------------------|
+| POST   | `/reputation-incentives/valorations`                  | Crea una nueva valoración                             |
+| GET    | `/reputation-incentives/valorations/{userId}`         | Obtiene todas las valoraciones asociadas a un usuario |
+
+**Analytics Service**
+Este microservicio se encarga de registrar y actualizar métricas de calificación de los usuarios (principalmente estudiantes), como el promedio de valoraciones, cantidad total de reseñas y suma de puntuaciones. Cada vez que se registra una valoración, se actualizan estas métricas para reflejar el desempeño del usuario en la plataforma. Está desarrollado en Java con Spring Boot, empleando una arquitectura orientada a dominios (DDD) y almacenamiento con JPA.
+
+
+**StudentMetricController**
+| Método | Endpoint                                  | Descripción                                                       |
+|--------|-------------------------------------------|-------------------------------------------------------------------|
+| GET    | `/analytics/student-metrics/{userId}`     | Recupera las métricas de calificación de un estudiante por su ID |
+
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+Para esta seccion se realizo un despliege de la app en firebase siguiendo la base.
+
+![](/assets/sprint-2/1.png)
+
+En esta imagen se observa la creacion del projecto en el firebase.
+
+![](/assets/sprint-2/2.png)
+
+En esta imagen se observa la finalizacion de la subida del apk para enviarlo al desarrolladores que revisaran las funcionalidades.
+
+
+![](/assets/sprint-2/3.png)
+
+En esta imagen se observa el envio del apk a los que inspeccion de la aplicacion.
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+Se mostrara la colaboracion del equipo en el desarrollo del sprint 2.
+* __UniRide_Driver__
+
+![](/assets/sprint-2/cola-flutter.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Brayan, seguido por Carlos y ultimo Mateo
+
+* __UniRide_Passenger__
+
+![](/assets/sprint-2/cola-android.png)
+
+Colaboracion del equipo de flutter mostrado en un grafico de barras teniendo como principal colaborador a Jhosemir, seguido por Elmer y ultimo Eric
+
+![](/assets/sprint-2/android-cola.png)
+
+Grafico de linea de tiempo mostrando los committs realizados a lo largo del desarrollo de android.
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
@@ -4163,6 +4626,12 @@ __Analytics-Service__
 
 #### 6.3.2. Registro de Entrevistas
 
+* __Entrevista__
+
+![](/assets/sprint-2/entrevista%201.png)
+
+Entrevista con Yadira Quispe Garfias, una estudiante de relaciones internacionales de 21 años residente en Chorrillos.Destaca que le gusta el diseño visual de la aplicación, en especial el modo oscuro por el descanso visual que ofrece, aunque señala como inconveniente la imposibilidad de aumentar el tamaño de la tipografía, un problema para su visión. Considera que la aplicación es intuitiva y fácil de usar, similar a otras aplicaciones de movilidad, y aprecia su buena organización.
+
 ***Segmento Pasajeros:***
 
 ![Entrevista Mateo](assets/validation-interviews/image.png) 
@@ -4191,12 +4660,22 @@ Sobre los beneficios en su rutina diaria, afirmó que la aplicación podría ayu
 Finalmente, al hablar sobre la estructura y claridad de los botones e interfaz, indicó que todo le pareció coherente y comprensible. Apreció que el flujo de uso se dé paso a paso, en un orden lógico, desde el inicio de sesión hasta la visualización de rutas. En conclusión, expresó una percepción muy positiva de la aplicación, considerándola beneficiosa, clara y muy adecuada para estudiantes.
 #### 6.3.3. Evaluaciones según heurísticas
 
+**Problema #1:** Tamaño de tipografía fijo que no permite ajustes para usuarios con dificultades visuales.
+
+**Severidad:** 3 
+
+**Heurística violada:** Estética y diseño minimalista.
+
+**Problema:** Yadira menciona que tiene dificultades de visión y que le gustaría poder aumentar el tamaño de la tipografía en la aplicación. La falta de esta opción de personalización limita la accesibilidad y la usabilidad para usuarios con necesidades visuales específicas. Esto va en contra de la flexibilidad para adaptarse a las preferencias y capacidades individuales de los usuarios.
+
+**Recomendación:** Implementar una opción dentro de la configuración de la aplicación que permita al usuario ajustar el tamaño de la fuente. Esto mejoraría significativamente la accesibilidad y la usabilidad para personas con diferentes problemas visuales, haciendo la aplicación más inclusiva.
+
 
 # Conclusiones
 
 Validación de Supuestos y Resultados: La validación de las hipótesis iniciales, como la preferencia por una app móvil fácil de usar, se confirmó en gran medida. Sin embargo, aspectos como la seguridad en el proceso de asignación y la transparencia del sistema de pagos requirieron ajustes para mejorar la confianza del usuario.
 
-Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.
+Criterios de Éxito y Áreas de Mejora: Los criterios de éxito, como la adopción y la retención de usuarios, fueron positivos en la fase inicial. Sin embargo, se identificaron áreas de mejora en la comunicación entre usuarios y la flexibilidad en los pagos, lo que afectó la experiencia global.[link](https://upcedupe-my.sharepoint.com/personal/u20211f984_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211f984%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D20%2021%2D47%2D33%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1b661232%2D30e9%2D4d70%2Da85d%2D4d3751ee05a2&isDarkMode=false)
 
 # Bibliografía
 
