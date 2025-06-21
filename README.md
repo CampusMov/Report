@@ -47,20 +47,20 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                       |
-|---------|------------|----------------------------|----------------------------------------------------------------------------------------------------------|
-| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                   |
-| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                        |
+| Versión | Fecha      | Autor(es)                  | Contenido cubierto                                                                                        |
+|---------|------------|----------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1.0.0   | 2025-03-01 | Jhosepmyr Orlando          | Inicio del informe: índice, portada, estructura general del documento.                                    |
+| 1.1.0   | 2025-03-02 | Todo el equipo             | Inclusión de los Objetivos SMART individuales de cada integrante.                                         |
 | 1.2.0   | 2025-04-03 | Jhosepmyr Orlando, Eric    | Capítulo I completo: Descripción de la Startup y Perfiles del equipo (1.1), Problemática y Lean UX (1.2). |
-| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                      |
-| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                |
-| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                            |
-| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                |
-| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                        |
-| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                              |
-| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                   |
-| 2.1.0   | 2025-05-14 | Daniel, Carlos, Brayan     | Informe completo hasta el Capítulo V: Mobile Applications User Flow Diagram.                             |
-| 2.2.0   | 2025-05-15 | Todo el equipo             | Informe completo hasta el Capítulo VI: Sprint 1.                                                         |
+| 1.3.0   | 2025-04-06 | Jhosepmyr Orlando          | Sección 1.3 completa: Lean UX Assumptions, Hypotheses, Canvas y Segmentos objetivo.                       |
+| 1.4.0   | 2025-04-09 | Elmer Riva, Brayan Morales | Capítulo II completo: Análisis competitivo (2.1), Entrevistas (2.2), y Needfinding (2.3).                 |
+| 1.5.0   | 2025-04-10 | Carlos, Daniel             | Final de Cap. II: Empathy Mapping, As-Is Mapping y Ubiquitous Language (2.4).                             |
+| 1.6.0   | 2025-04-24 | Jhosepmyr, Carlos, Eric    | Capítulo III completo: To-Be Mapping, User Stories, Impact Map y Backlog.                                 |
+| 1.6.1   | 2025-04-24 | Elmer Riva                 | Reversión temporal de requirements-specification.                                                         |
+| 1.7.0   | 2025-04-24 | Todo el equipo             | Inicio del Capítulo IV: EventStorming, Context Mapping, evidencia ABET S07.                               |
+| 2.0.0   | 2025-04-24 | Todo el equipo             | Informe completo hasta el Capítulo IV: Diseño de Software finalizado con tácticas DDD.                    |
+| 2.1.0   | 2025-05-14 | Daniel, Carlos, Brayan     | Informe completo hasta el Capítulo V: Mobile Applications User Flow Diagram.                              |
+| 2.2.0   | 2025-05-15 | Todo el equipo             | Informe completo hasta el Capítulo VI: Sprint 1.                                                          |
 
 <div style="page-break-before: always"></div>
 
@@ -80,7 +80,7 @@ Jhosepmyr realizó 32 commits, Elmer 25, Brayan 16, Carlos 15, Eric 13 y Mateo 1
 ![commits.png](assets/insights/commits.png)
 
 **TP*
-Jhosepmyr realizó 33 commits, Carlos 30, Elmer 29, Mateo 27, Brayan 18, y Eric 15, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
+Jhosepmyr realizó 34 commits, Carlos 30, Elmer 29, Mateo 27, Brayan 18, y Eric 15, lo cual refleja una distribución equilibrada de la redacción y revisión del documento.
 ![commitsTP.png](assets/insights/commitsTP.png)
 
 
@@ -140,6 +140,26 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
       * [Tácticas:](#tácticas-4)
   * [2.2. Entrevistas](#22-entrevistas)
     * [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  * [Entrevista a Pasajeros](#entrevista-a-pasajeros)
+    * [Contexto Inicial](#contexto-inicial)
+    * [Sentimientos y Frustraciones](#sentimientos-y-frustraciones)
+    * [Motivaciones y Deseos](#motivaciones-y-deseos)
+    * [Presentación de la Solución – Grupos Preformados y Calendario Compartido](#presentación-de-la-solución--grupos-preformados-y-calendario-compartido)
+    * [Búsqueda Individual y Viaje en Curso](#búsqueda-individual-y-viaje-en-curso)
+    * [Validación, Chat Previo y Reputación](#validación-chat-previo-y-reputación)
+    * [Sistema de Recompensas](#sistema-de-recompensas)
+    * [Cierre y Visión Futura](#cierre-y-visión-futura)
+  * [Entrevista a Conductores](#entrevista-a-conductores)
+    * [Contexto Inicial – Perfil y Motivaciones](#contexto-inicial--perfil-y-motivaciones)
+    * [Problemas Actuales](#problemas-actuales)
+    * [Motivaciones y Deseos](#motivaciones-y-deseos-1)
+    * [Presentación de la Idea – Grupos Preformados y Calendario Compartido](#presentación-de-la-idea--grupos-preformados-y-calendario-compartido)
+    * [Sugerencias de Pasajeros y Viaje en Curso](#sugerencias-de-pasajeros-y-viaje-en-curso)
+    * [Reputación de Pasajeros y Puntualidad](#reputación-de-pasajeros-y-puntualidad)
+    * [Sistema de Recompensas](#sistema-de-recompensas-1)
+    * [Panel de Ahorro y Cobro Integrado](#panel-de-ahorro-y-cobro-integrado)
+    * [Chat Previo y Notificaciones](#chat-previo-y-notificaciones)
+    * [Cierre y Visión Futura](#cierre-y-visión-futura-1)
     * [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     * [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   * [Segmento Objetivo 1 (Estudiante Conductor):](#segmento-objetivo-1-estudiante-conductor)
@@ -268,7 +288,7 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
       * [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
       * [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
       * [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
-* [Capitulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)   
+* [Capitulo VI: Product Implementation, Validation & Deployment](#capitulo-vi-product-implementation-validation--deployment)
   * [6.1. Software Configuration Management](#61-software-configuration-management)
     * [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
     * [6.1.2. Source Code Management](#612-source-code-management)
@@ -276,30 +296,6 @@ Ante lo observado, las métricas confirman que **todos** los miembros contribuye
     * [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   * [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
     * [6.2.1. Sprint 1](#621-sprint-1)
-    * [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    * [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-    * [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-    * [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-    * [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-    * [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-    * [ 6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-    * [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-    * [6.2.2. Sprint 2](#622-sprint-2)
-    * [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
-    * [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
-    * [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
-    * [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
-    * [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
-    * [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
-    * [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
-    * [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
-  * [6.3. Validation Interviews](#63-validation-interviews)
-    * [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-    * [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-    * [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  * [6.4. Video About-the-Product](#64-video-about-the-product)
-
-
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -1156,7 +1152,7 @@ Acelerar la adopción en campus piloto mediante campañas de activación intensi
         <br></br>Sobre la idea de formar parte de un grupo fijo de estudiantes para movilizarse toda la semana, Irving opina que sería una opción muy beneficiosa. Le parece importante contar con un medio de transporte estable, coordinado y confiable, especialmente en un entorno donde la inseguridad es un problema constante. Asimismo, considera que tener un calendario compartido con conductores y otros pasajeros sería muy útil para planificar sus viajes con anticipación.
         <br></br>Finalmente, también valora positivamente la posibilidad de ver conductores cercanos en tiempo real y unirse a un viaje espontáneamente. Aunque reconoce que nunca había considerado esta opción, le parece una idea interesante que puede aportar aún más flexibilidad al sistema. En general, Irving muestra una actitud receptiva hacia la propuesta y considera que podría facilitar considerablemente la movilidad estudiantil.
     </td>
-    <td><img src="./assets/interviews/IrvingAllca"></td>
+    <td><img src="./assets/interviews/IrvingAllca.png"></td>
     </tr>
 </table>
 
@@ -1284,10 +1280,12 @@ Finalmente, se identifica un aspecto emocional muy potente: la necesidad de prot
 ### 2.3.1. User Personas
 
  * Estudiante Pasajero
- ![UserPersonPajaero](/assets/needfinding/user-person-pasajero.png)
+
+<img src="/assets/needfinding/user-person-pasajero.png" alt="UserPersonPasajero" width="500"/>
 
  * Estudiante Conductor
- ![UserPersonConductor](/assets/needfinding/user-persona-conductor.png)
+
+<img src="/assets/needfinding/user-persona-conductor.png" alt="UserPersonConductor" width="500"/>
 
 ### 2.3.2. User Task Matrix
 
