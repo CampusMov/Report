@@ -4212,6 +4212,20 @@ En este sprint se logro las siguientes ejecuciones de los siguientes microservic
 
 <img src="assets/software deployment/analytics.png">
 
+**App Movil Flutter**
+
+A continuación se muestra el avance de la aplicación hecha en flutter
+
+<img src="assets/software deployment/appflutter1.png">
+
+<img src="assets/software deployment/appflutter2.png" width="200px">
+
+<img src="assets/software deployment/appflutter3.png" width="200px">
+
+<img src="assets/software deployment/appflutter4.png" width="200px">
+
+<img src="assets/software deployment/appflutter5.png">
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
 **In Trip Communication Service**
